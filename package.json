@@ -1,0 +1,24 @@
+{
+	"name": "mrkrdb",
+	"title": "MariKore DataBase",
+	"version": "1.0.0",
+	"author": {
+		"name": "MegazalRock"
+	},
+	"homepage": "http://mrkrdb.mgzl.jp/",
+	"licenses": ["MIT"],
+	"engines": {
+		"node": ">= 0.8.0"
+	},
+	"devDependencies": {
+		"grunt-contrib-uglify": "~0.4.0",
+		"grunt-contrib-watch": "~0.6.0",
+		"grunt-contrib-cssmin": "~0.9.0",
+		"grunt-contrib-less": "~0.11.0",
+		"grunt-contrib-compress": "~0.7.0",
+		"grunt": "~0.4.1"
+	},
+	"scripts": {
+		"test": "./node_modules/.bin/karma start --single-run --browsers PhantomJS"
+	}
+}

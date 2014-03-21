@@ -1,4 +1,4 @@
-(function(window, $, undefined){
+(function(window, $, angular, undefined){
 	var noSelectText = '選択解除';
 	var mrkrdbApp = angular.module('mrkrdbApp',['angularLocalStorage']);
 	mrkrdbApp.controller('SearchCtrl', function($scope, $http, $q, storage){
@@ -319,4 +319,4 @@
 		}
 	});
 	
-})(this, jQuery);
+})(this, jQuery, angular);
