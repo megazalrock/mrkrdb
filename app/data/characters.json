@@ -1,0 +1,5902 @@
+[
+    {
+        "imageUrl": "",
+        "name": "RIM姉貴",
+        "hp": "100",
+        "atk": "100",
+        "def": "100",
+        "mnt": "100",
+        "cost": "60",
+        "types": [
+            "巫女"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "博麗結界",
+        "skillDescription": "40%の確率で相手からのダメージを0にして、自分だけ逃れようとする。",
+        "appearanceList": [
+            {
+                "placeName": "博麗神社境内2",
+                "canDrop": false
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "71",
+                "max": "100"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "UDK姉貴",
+        "hp": "85",
+        "atk": "135",
+        "def": "90",
+        "mnt": "90",
+        "cost": "60",
+        "types": [
+            "屑",
+            "魔法使い"
+        ],
+        "reach": "精神",
+        "target": "単体",
+        "skillName": "マスタースパーク",
+        "skillDescription": "HP最大時の時、与えるダメージが3倍になる。少しでもダメージを受けると忘れてしまう。",
+        "appearanceList": [
+            {
+                "placeName": "博麗神社境内2",
+                "canDrop": false
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "71",
+                "max": "100"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "ALC姉貴",
+        "hp": "100",
+        "atk": "60",
+        "def": "120",
+        "mnt": "120",
+        "cost": "60",
+        "types": [
+            "鑑",
+            "魔法使い"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "ブラウニー",
+        "skillDescription": "攻撃後にALC姉貴のしっとりしていてベタつかないブラウニーを誰かに食べさせて味方のHPを回復",
+        "appearanceList": [
+            {
+                "placeName": "博麗神社境内2",
+                "canDrop": false
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "71",
+                "max": "100"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "大妖精",
+        "hp": "85",
+        "atk": "70",
+        "def": "115",
+        "mnt": "115",
+        "cost": "40",
+        "types": [
+            "妖精"
+        ],
+        "reach": "精神",
+        "target": "単体",
+        "skillName": " ",
+        "skillDescription": " ",
+        "appearanceList": [
+            {
+                "placeName": "妖怪の森",
+                "canDrop": true
+            },
+            {
+                "placeName": "氷の湖",
+                "canDrop": true
+            },
+            {
+                "placeName": "紅魔館前広場",
+                "canDrop": true
+            },
+            {
+                "placeName": "紅魔館図書館",
+                "canDrop": true
+            },
+            {
+                "placeName": "異界の扉",
+                "canDrop": true
+            },
+            {
+                "placeName": "水無川",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "0",
+                "max": "1"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "RMA姉貴",
+        "hp": "105",
+        "atk": "70",
+        "def": "105",
+        "mnt": "105",
+        "cost": "50",
+        "types": [
+            "妖怪",
+            "棒読み"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": " ",
+        "skillDescription": "棒読み気味な妖精と一緒にいると何かが起きる可能性が微粒子レベルで存在している・・・？",
+        "appearanceList": [
+            {
+                "placeName": "妖怪の森",
+                "canDrop": true
+            },
+            {
+                "placeName": "氷の湖",
+                "canDrop": true
+            },
+            {
+                "placeName": "紅魔館前広場",
+                "canDrop": true
+            },
+            {
+                "placeName": "紅魔館図書館",
+                "canDrop": true
+            },
+            {
+                "placeName": "異界の扉",
+                "canDrop": true
+            },
+            {
+                "placeName": "クッキーレストラン",
+                "canDrop": true
+            },
+            {
+                "placeName": "紅魔館地下室",
+                "canDrop": true
+            },
+            {
+                "placeName": "霧雨屋",
+                "canDrop": true
+            },
+            {
+                "placeName": "人間の里2",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "0",
+                "max": "1"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "CRNちゃん",
+        "hp": "100",
+        "atk": "100",
+        "def": "100",
+        "mnt": "120",
+        "cost": "60",
+        "types": [
+            "妖精",
+            "棒読み"
+        ],
+        "reach": "精神",
+        "target": "単体",
+        "skillName": " ",
+        "skillDescription": "棒読み気味な妖怪と一緒にいると何かが起きる可能性が微粒子レベルで存在している・・・？",
+        "appearanceList": [
+            {
+                "placeName": "氷の湖",
+                "canDrop": true
+            },
+            {
+                "placeName": "紅魔館前広場",
+                "canDrop": true
+            },
+            {
+                "placeName": "紅魔館主の間",
+                "canDrop": true
+            },
+            {
+                "placeName": "異界の扉",
+                "canDrop": true
+            },
+            {
+                "placeName": "工事現場",
+                "canDrop": true
+            },
+            {
+                "placeName": "クッキーレストラン",
+                "canDrop": true
+            },
+            {
+                "placeName": "2014年初詣",
+                "canDrop": true
+            },
+            {
+                "placeName": "紅魔館地下室",
+                "canDrop": true
+            },
+            {
+                "placeName": "博麗神社",
+                "canDrop": true
+            },
+            {
+                "placeName": "霧雨屋",
+                "canDrop": true
+            },
+            {
+                "placeName": "博麗神社境内",
+                "canDrop": true
+            },
+            {
+                "placeName": "人間の里2",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "0",
+                "max": "1"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "SIK姉貴",
+        "hp": "80",
+        "atk": "120",
+        "def": "105",
+        "mnt": "95",
+        "cost": "60",
+        "types": [
+            "鬼",
+            "鑑"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "恋の媚薬まぜまぜ",
+        "skillDescription": "攻撃した相手を昏睡状態にする。（昏睡状態のユニットはしばらく行動できない）",
+        "appearanceList": [
+            {
+                "placeName": "氷の湖",
+                "canDrop": true
+            },
+            {
+                "placeName": "紅魔館前広場",
+                "canDrop": true
+            },
+            {
+                "placeName": "紅魔館図書館",
+                "canDrop": true
+            },
+            {
+                "placeName": "紅魔館主の間",
+                "canDrop": true
+            },
+            {
+                "placeName": "紅魔館地下室",
+                "canDrop": true
+            },
+            {
+                "placeName": "異界の扉",
+                "canDrop": true
+            },
+            {
+                "placeName": "水無川",
+                "canDrop": true
+            },
+            {
+                "placeName": "地霊殿",
+                "canDrop": true
+            },
+            {
+                "placeName": "白玉楼",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "0",
+                "max": "1"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "MSTA姉貴",
+        "hp": "95",
+        "atk": "105",
+        "def": "90",
+        "mnt": "90",
+        "cost": "55",
+        "types": [
+            "鳥",
+            "妖怪"
+        ],
+        "reach": "精神",
+        "target": "単体",
+        "skillName": "24歳、楽聖です",
+        "skillDescription": "夜雀特有の歌声で仲間全員の精神攻撃力が上昇する。",
+        "appearanceList": [
+            {
+                "placeName": "氷の湖",
+                "canDrop": true
+            },
+            {
+                "placeName": "紅魔館前広場",
+                "canDrop": true
+            },
+            {
+                "placeName": "紅魔館図書館",
+                "canDrop": true
+            },
+            {
+                "placeName": "異界の扉",
+                "canDrop": true
+            },
+            {
+                "placeName": "スキマワールド",
+                "canDrop": true
+            },
+            {
+                "placeName": "工事現場",
+                "canDrop": true
+            },
+            {
+                "placeName": "紅魔館地下室",
+                "canDrop": true
+            },
+            {
+                "placeName": "下北沢裁判所",
+                "canDrop": false
+            },
+            {
+                "placeName": "博麗神社",
+                "canDrop": true
+            },
+            {
+                "placeName": "博麗神社境内",
+                "canDrop": true
+            },
+            {
+                "placeName": "太陽の畑",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "新規雇用（クォクォア0～1）",
+                "max": "新規雇用（クォクォア0～1）"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "UTH",
+        "hp": "90",
+        "atk": "110",
+        "def": "100",
+        "mnt": "100",
+        "cost": "60",
+        "types": [
+            "鳥"
+        ],
+        "reach": "精神",
+        "target": "単体",
+        "skillName": "メガフレア",
+        "skillDescription": "3ターン目に精神的全体攻撃",
+        "appearanceList": [
+            {
+                "placeName": "紅魔館前広場",
+                "canDrop": true
+            },
+            {
+                "placeName": "紅魔館図書館",
+                "canDrop": true
+            },
+            {
+                "placeName": "紅魔館主の間",
+                "canDrop": true
+            },
+            {
+                "placeName": "紅魔館地下室",
+                "canDrop": true
+            },
+            {
+                "placeName": "地霊殿",
+                "canDrop": true
+            },
+            {
+                "placeName": "下北沢裁判所",
+                "canDrop": false
+            },
+            {
+                "placeName": "博麗神社",
+                "canDrop": true
+            },
+            {
+                "placeName": "霧雨屋",
+                "canDrop": true
+            },
+            {
+                "placeName": "アリスの家",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "0",
+                "max": "1"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "MIRN姉貴",
+        "hp": "90",
+        "atk": "130",
+        "def": "120",
+        "mnt": "85",
+        "cost": "65",
+        "types": [
+            "妖怪"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "カウンター",
+        "skillDescription": "物理攻撃を受けると反撃する",
+        "appearanceList": [
+            {
+                "placeName": "紅魔館前広場",
+                "canDrop": true
+            },
+            {
+                "placeName": "紅魔館図書館",
+                "canDrop": true
+            },
+            {
+                "placeName": "紅魔館主の間",
+                "canDrop": true
+            },
+            {
+                "placeName": "紅魔館",
+                "canDrop": true
+            },
+            {
+                "placeName": "異界の扉",
+                "canDrop": true
+            },
+            {
+                "placeName": "水無川",
+                "canDrop": true
+            },
+            {
+                "placeName": "日本ペイント",
+                "canDrop": true
+            },
+            {
+                "placeName": "クッキーレストラン",
+                "canDrop": true
+            },
+            {
+                "placeName": "紅魔館地下室",
+                "canDrop": true
+            },
+            {
+                "placeName": "2014年初詣",
+                "canDrop": true
+            },
+            {
+                "placeName": "博麗神社",
+                "canDrop": true
+            },
+            {
+                "placeName": "霧雨屋",
+                "canDrop": true
+            },
+            {
+                "placeName": "アリスの家",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "新規雇用（クォクォア1）",
+                "max": "新規雇用（クォクォア1）"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "KSDB姉貴",
+        "hp": "120",
+        "atk": "100",
+        "def": "170",
+        "mnt": "110",
+        "cost": "70",
+        "types": [
+            "悪魔",
+            "デブ"
+        ],
+        "reach": "精神",
+        "target": "単体",
+        "skillName": "私を巻き込まないで下さい！",
+        "skillDescription": "全体攻撃によるダメージを自分だけ大幅に減らす。次の攻撃でどすこいしながら全体攻撃する。",
+        "appearanceList": [
+            {
+                "placeName": "紅魔館図書館",
+                "canDrop": true
+            },
+            {
+                "placeName": "紅魔館主の間",
+                "canDrop": true
+            },
+            {
+                "placeName": "紅魔館",
+                "canDrop": true
+            },
+            {
+                "placeName": "異界の扉",
+                "canDrop": true
+            },
+            {
+                "placeName": "水無川",
+                "canDrop": true
+            },
+            {
+                "placeName": "紅魔館地下室",
+                "canDrop": true
+            },
+            {
+                "placeName": "2014年初詣",
+                "canDrop": true
+            },
+            {
+                "placeName": "博麗神社",
+                "canDrop": true
+            },
+            {
+                "placeName": "人間の里2",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "0",
+                "max": "1"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "PCLY姉貴",
+        "hp": "100",
+        "atk": "120",
+        "def": "115",
+        "mnt": "130",
+        "cost": "80",
+        "types": [
+            "魔法使い"
+        ],
+        "reach": "精神",
+        "target": "全体",
+        "skillName": " ",
+        "skillDescription": " ",
+        "appearanceList": [
+            {
+                "placeName": "紅魔館図書館",
+                "canDrop": true
+            },
+            {
+                "placeName": "紅魔館主の間",
+                "canDrop": true
+            },
+            {
+                "placeName": "紅魔館",
+                "canDrop": true
+            },
+            {
+                "placeName": "異界の扉",
+                "canDrop": true
+            },
+            {
+                "placeName": "日本ペイント",
+                "canDrop": true
+            },
+            {
+                "placeName": "スキマワールド",
+                "canDrop": true
+            },
+            {
+                "placeName": "工事現場",
+                "canDrop": true
+            },
+            {
+                "placeName": "紅魔館地下室",
+                "canDrop": true
+            },
+            {
+                "placeName": "2014年初詣",
+                "canDrop": true
+            },
+            {
+                "placeName": "白玉楼",
+                "canDrop": true
+            },
+            {
+                "placeName": "地霊殿",
+                "canDrop": true
+            },
+            {
+                "placeName": "博麗神社",
+                "canDrop": true
+            },
+            {
+                "placeName": "アリスの家",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "新規雇用（クォクォア1）",
+                "max": "新規雇用（クォクォア1）"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "YUK姉貴",
+        "hp": "140",
+        "atk": "175",
+        "def": "155",
+        "mnt": "130",
+        "cost": "80",
+        "types": [
+            "妖怪",
+            "調教"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "お返しスパーク",
+        "skillDescription": "技名が出るような攻撃を受けると、その技を使って反撃する。",
+        "appearanceList": [
+            {
+                "placeName": "紅魔館主の間",
+                "canDrop": true
+            },
+            {
+                "placeName": "紅魔館",
+                "canDrop": true
+            },
+            {
+                "placeName": "異界の扉",
+                "canDrop": true
+            },
+            {
+                "placeName": "水無川",
+                "canDrop": true
+            },
+            {
+                "placeName": "スキマワールド",
+                "canDrop": true
+            },
+            {
+                "placeName": "工事現場",
+                "canDrop": true
+            },
+            {
+                "placeName": "紅魔館地下室",
+                "canDrop": true
+            },
+            {
+                "placeName": "下北沢裁判所",
+                "canDrop": false
+            },
+            {
+                "placeName": "アリスの家",
+                "canDrop": true
+            },
+            {
+                "placeName": "太陽の畑",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "0",
+                "max": "1"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "SKY姉貴",
+        "hp": "90",
+        "atk": "115",
+        "def": "90",
+        "mnt": "105",
+        "cost": "60",
+        "types": [
+            "メイド",
+            "鑑",
+            "武器"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "時を止める程度の能力",
+        "skillDescription": "攻撃した相手は少し行動が遅くなる",
+        "appearanceList": [
+            {
+                "placeName": "紅魔館主の間",
+                "canDrop": true
+            },
+            {
+                "placeName": "紅魔館",
+                "canDrop": true
+            },
+            {
+                "placeName": "異界の扉",
+                "canDrop": true
+            },
+            {
+                "placeName": "王者の聖域",
+                "canDrop": true
+            },
+            {
+                "placeName": "紅魔館地下室",
+                "canDrop": true
+            },
+            {
+                "placeName": "2014年初詣",
+                "canDrop": true
+            },
+            {
+                "placeName": "白玉楼",
+                "canDrop": true
+            },
+            {
+                "placeName": "地霊殿",
+                "canDrop": true
+            },
+            {
+                "placeName": "霧雨屋",
+                "canDrop": true
+            },
+            {
+                "placeName": "アリスの家",
+                "canDrop": true
+            },
+            {
+                "placeName": "紅魔館調理室",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "新規雇用（クォクォア1）",
+                "max": "新規雇用（クォクォア1）"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "RMLA姉貴",
+        "hp": "75",
+        "atk": "120",
+        "def": "100",
+        "mnt": "100",
+        "cost": "50",
+        "types": [
+            "吸血鬼",
+            "武器"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "スピアザグングニル",
+        "skillDescription": "与えたダメージ分、自分のHPを回復。",
+        "appearanceList": [
+            {
+                "placeName": "紅魔館",
+                "canDrop": true
+            },
+            {
+                "placeName": "2014年初詣",
+                "canDrop": true
+            },
+            {
+                "placeName": "霧雨屋",
+                "canDrop": true
+            },
+            {
+                "placeName": "アリスの家",
+                "canDrop": true
+            },
+            {
+                "placeName": "紅魔館調理室",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "新規雇用（クォクォア1）",
+                "max": "新規雇用（クォクォア1）"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "FLNちゃん",
+        "hp": "60",
+        "atk": "175",
+        "def": "60",
+        "mnt": "100",
+        "cost": "50",
+        "types": [
+            "吸血鬼",
+            "武器"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "レーヴァテイン",
+        "skillDescription": "攻撃した相手の守備力を下げる。",
+        "appearanceList": [
+            {
+                "placeName": "紅魔館地下室",
+                "canDrop": true
+            },
+            {
+                "placeName": "アリスの家",
+                "canDrop": true
+            },
+            {
+                "placeName": "博麗神社境内",
+                "canDrop": true
+            },
+            {
+                "placeName": "紅魔館調理室",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "野獣先輩",
+        "hp": "125",
+        "atk": "100",
+        "def": "120",
+        "mnt": "110",
+        "cost": "70",
+        "types": [
+            "ホモ",
+            "屑",
+            "空手"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "ホモの紅茶",
+        "skillDescription": "攻撃した相手を昏睡状態にする。（昏睡状態のユニットはしばらく行動出来ない）昏睡状態の相手にはダメージ2倍。",
+        "appearanceList": [
+            {
+                "placeName": "異界の扉",
+                "canDrop": false
+            },
+            {
+                "placeName": "邪神の塔",
+                "canDrop": true
+            },
+            {
+                "placeName": "水無川",
+                "canDrop": true
+            },
+            {
+                "placeName": "日本ペイント",
+                "canDrop": true
+            },
+            {
+                "placeName": "聖バビロン大学病院",
+                "canDrop": true
+            },
+            {
+                "placeName": "新日暮里",
+                "canDrop": true
+            },
+            {
+                "placeName": "王者の聖域",
+                "canDrop": true
+            },
+            {
+                "placeName": "工事現場",
+                "canDrop": true
+            },
+            {
+                "placeName": "2014年初詣",
+                "canDrop": true
+            },
+            {
+                "placeName": "白玉楼",
+                "canDrop": true
+            },
+            {
+                "placeName": "地霊殿",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "2",
+                "max": "10"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "遠野",
+        "hp": "95",
+        "atk": "100",
+        "def": "100",
+        "mnt": "140",
+        "cost": "60",
+        "types": [
+            "鑑",
+            "ホモ",
+            "水泳"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": " ",
+        "skillDescription": " ",
+        "appearanceList": [
+            {
+                "placeName": "異界の扉",
+                "canDrop": false
+            },
+            {
+                "placeName": "人間の里",
+                "canDrop": true
+            },
+            {
+                "placeName": "新宿調教センター",
+                "canDrop": true
+            },
+            {
+                "placeName": "OK牧場",
+                "canDrop": true
+            },
+            {
+                "placeName": "迫真空手道場",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "2",
+                "max": "20"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "KMR",
+        "hp": "95",
+        "atk": "100",
+        "def": "140",
+        "mnt": "100",
+        "cost": "60",
+        "types": [
+            "糞",
+            "ホモ",
+            "空手"
+        ],
+        "reach": "精神",
+        "target": "単体",
+        "skillName": " ",
+        "skillDescription": " ",
+        "appearanceList": [
+            {
+                "placeName": "異界の扉",
+                "canDrop": false
+            },
+            {
+                "placeName": "人間の里",
+                "canDrop": true
+            },
+            {
+                "placeName": "SMバーひらの",
+                "canDrop": true
+            },
+            {
+                "placeName": "迫真空手道場",
+                "canDrop": true
+            },
+            {
+                "placeName": "邪神の塔",
+                "canDrop": true
+            },
+            {
+                "placeName": "日本ペイント",
+                "canDrop": true
+            },
+            {
+                "placeName": "聖バビロン大学病院",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "2",
+                "max": "20"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "MUR大先輩",
+        "hp": "190",
+        "atk": "120",
+        "def": "95",
+        "mnt": "95",
+        "cost": "250",
+        "types": [
+            "ホモ",
+            "屑",
+            "空手"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "便乗",
+        "skillDescription": "味方の誰かが攻撃すると便乗して追撃する。（攻撃後に追加効果の無いユニットの攻撃にのみ反応する。MURが複数居ても1人だけ。）",
+        "appearanceList": [
+            {
+                "placeName": "異界の扉",
+                "canDrop": false
+            },
+            {
+                "placeName": "新宿調教センター",
+                "canDrop": true
+            },
+            {
+                "placeName": "SMバーひらの",
+                "canDrop": true
+            },
+            {
+                "placeName": "迫真空手道場",
+                "canDrop": true
+            },
+            {
+                "placeName": "ヒゲクマの館",
+                "canDrop": true
+            },
+            {
+                "placeName": "邪神の塔",
+                "canDrop": true
+            },
+            {
+                "placeName": "水無川",
+                "canDrop": true
+            },
+            {
+                "placeName": "日本ペイント",
+                "canDrop": true
+            },
+            {
+                "placeName": "新日暮里",
+                "canDrop": true
+            },
+            {
+                "placeName": "王者の聖域",
+                "canDrop": true
+            },
+            {
+                "placeName": "スキマワールド",
+                "canDrop": true
+            },
+            {
+                "placeName": "2014年初詣",
+                "canDrop": true
+            },
+            {
+                "placeName": "地霊殿",
+                "canDrop": true
+            },
+            {
+                "placeName": "人間の里2",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "21",
+                "max": "50"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "ひで",
+        "hp": "140",
+        "atk": "140",
+        "def": "160",
+        "mnt": "160",
+        "cost": "80",
+        "types": [
+            "ホモ",
+            "屑"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "マジギレ",
+        "skillDescription": "3回攻撃されるとキレて攻撃力が2倍になる",
+        "appearanceList": [
+            {
+                "placeName": "人間の里",
+                "canDrop": true
+            },
+            {
+                "placeName": "新宿調教センター",
+                "canDrop": true
+            },
+            {
+                "placeName": "OK牧場",
+                "canDrop": true
+            },
+            {
+                "placeName": "SMバーひらの",
+                "canDrop": true
+            },
+            {
+                "placeName": "邪神の塔",
+                "canDrop": true
+            },
+            {
+                "placeName": "水無川",
+                "canDrop": true
+            },
+            {
+                "placeName": "聖バビロン大学病院",
+                "canDrop": true
+            },
+            {
+                "placeName": "王者の聖域",
+                "canDrop": true
+            },
+            {
+                "placeName": "ひで祭り会場",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "2",
+                "max": "100"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "関西チャラ男",
+        "hp": "170",
+        "atk": "170",
+        "def": "160",
+        "mnt": "160",
+        "cost": "80",
+        "types": [
+            "ホモ",
+            "鑑"
+        ],
+        "reach": "精神",
+        "target": "単体",
+        "skillName": " ",
+        "skillDescription": " ",
+        "appearanceList": [
+            {
+                "placeName": "人間の里",
+                "canDrop": true
+            },
+            {
+                "placeName": "新宿調教センター",
+                "canDrop": true
+            },
+            {
+                "placeName": "OK牧場",
+                "canDrop": true
+            },
+            {
+                "placeName": "ヒゲクマの館",
+                "canDrop": true
+            },
+            {
+                "placeName": "邪神の塔",
+                "canDrop": true
+            },
+            {
+                "placeName": "日本ペイント",
+                "canDrop": true
+            },
+            {
+                "placeName": "岡山城",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "2",
+                "max": "30"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "SNJ",
+        "hp": "100",
+        "atk": "100",
+        "def": "100",
+        "mnt": "100",
+        "cost": "60",
+        "types": [
+            "ホモ",
+            "屑"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "腹パン",
+        "skillDescription": "相手のスキルや上昇分の防御力を無視して攻撃する。",
+        "appearanceList": [
+            {
+                "placeName": "人間の里",
+                "canDrop": true
+            },
+            {
+                "placeName": "新宿調教センター",
+                "canDrop": true
+            },
+            {
+                "placeName": "OK牧場",
+                "canDrop": true
+            },
+            {
+                "placeName": "SMバーひらの",
+                "canDrop": true
+            },
+            {
+                "placeName": "迫真空手道場",
+                "canDrop": true
+            },
+            {
+                "placeName": "日本ペイント",
+                "canDrop": true
+            },
+            {
+                "placeName": "聖バビロン大学病院",
+                "canDrop": true
+            },
+            {
+                "placeName": "王者の聖域",
+                "canDrop": true
+            },
+            {
+                "placeName": "古代都市キモティカ",
+                "canDrop": true
+            },
+            {
+                "placeName": "2014年初詣",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "2",
+                "max": "20"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "医師TRN",
+        "hp": "130",
+        "atk": "90",
+        "def": "125",
+        "mnt": "125",
+        "cost": "70",
+        "types": [
+            "鑑",
+            "医者"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "バビロン療法",
+        "skillDescription": "攻撃後に誰かのHPを回復",
+        "appearanceList": [
+            {
+                "placeName": "人間の里",
+                "canDrop": true
+            },
+            {
+                "placeName": "新宿調教センター",
+                "canDrop": true
+            },
+            {
+                "placeName": "OK牧場",
+                "canDrop": true
+            },
+            {
+                "placeName": "SMバーひらの",
+                "canDrop": true
+            },
+            {
+                "placeName": "邪神の塔",
+                "canDrop": true
+            },
+            {
+                "placeName": "水無川",
+                "canDrop": true
+            },
+            {
+                "placeName": "聖バビロン大学病院",
+                "canDrop": true
+            },
+            {
+                "placeName": "新日暮里",
+                "canDrop": true
+            },
+            {
+                "placeName": "スキマワールド",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "2",
+                "max": "50"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "ONDISK",
+        "hp": "140",
+        "atk": "100",
+        "def": "130",
+        "mnt": "130",
+        "cost": "70",
+        "types": [
+            "鑑",
+            "調教"
+        ],
+        "reach": "精神",
+        "target": "単体",
+        "skillName": "スパンキング",
+        "skillDescription": "恐怖状態の相手を攻撃するとHPが回復し、精神攻撃力と防御力も少し上昇する。",
+        "appearanceList": [
+            {
+                "placeName": "人間の里",
+                "canDrop": true
+            },
+            {
+                "placeName": "新宿調教センター",
+                "canDrop": true
+            },
+            {
+                "placeName": "OK牧場",
+                "canDrop": true
+            },
+            {
+                "placeName": "SMバーひらの",
+                "canDrop": true
+            },
+            {
+                "placeName": "日本ペイント",
+                "canDrop": true
+            },
+            {
+                "placeName": "スキマワールド",
+                "canDrop": true
+            },
+            {
+                "placeName": "工事現場",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "2",
+                "max": "20"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "TNOK",
+        "hp": "140",
+        "atk": "140",
+        "def": "140",
+        "mnt": "80",
+        "cost": "80",
+        "types": [
+            "ホモ",
+            "893"
+        ],
+        "reach": "精神",
+        "target": "単体",
+        "skillName": "せっかち",
+        "skillDescription": "仲間にいるだけでCOST80以上のユニットは最初だけ早く動ける",
+        "appearanceList": [
+            {
+                "placeName": "人間の里",
+                "canDrop": true
+            },
+            {
+                "placeName": "邪神の塔",
+                "canDrop": true
+            },
+            {
+                "placeName": "スキマワールド",
+                "canDrop": true
+            },
+            {
+                "placeName": "工事現場",
+                "canDrop": true
+            },
+            {
+                "placeName": "地霊殿",
+                "canDrop": true
+            },
+            {
+                "placeName": "岡山城",
+                "canDrop": true
+            },
+            {
+                "placeName": "紅魔館調理室",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "2",
+                "max": "10"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "KBSトリオ「K」",
+        "hp": "100",
+        "atk": "100",
+        "def": "100",
+        "mnt": "100",
+        "cost": "60",
+        "types": [
+            "ホモ",
+            "屑"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": " ",
+        "skillDescription": "KBSトリオが3人そろうと何かが起きる可能性が微粒子レベルで存在している…？",
+        "appearanceList": [
+            {
+                "placeName": "新宿調教センター",
+                "canDrop": true
+            },
+            {
+                "placeName": "OK牧場",
+                "canDrop": true
+            },
+            {
+                "placeName": "迫真空手道場",
+                "canDrop": true
+            },
+            {
+                "placeName": "水無川",
+                "canDrop": true
+            },
+            {
+                "placeName": "スキマワールド",
+                "canDrop": true
+            },
+            {
+                "placeName": "地霊殿",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "2",
+                "max": "30"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "KBSトリオ「B」",
+        "hp": "125",
+        "atk": "125",
+        "def": "125",
+        "mnt": "125",
+        "cost": "70",
+        "types": [
+            "ホモ",
+            "屑"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": " ",
+        "skillDescription": "KBSトリオが3人そろうと何かが起きる可能性が微粒子レベルで存在している…？",
+        "appearanceList": [
+            {
+                "placeName": "SMバーひらの",
+                "canDrop": true
+            },
+            {
+                "placeName": "水無川",
+                "canDrop": true
+            },
+            {
+                "placeName": "スキマワールド",
+                "canDrop": true
+            },
+            {
+                "placeName": "地霊殿",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "2",
+                "max": "30"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "KBSトリオ「S」",
+        "hp": "150",
+        "atk": "150",
+        "def": "150",
+        "mnt": "150",
+        "cost": "80",
+        "types": [
+            "ホモ",
+            "屑"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": " ",
+        "skillDescription": "KBSトリオが3人そろうと何かが起きる可能性が微粒子レベルで存在している…？",
+        "appearanceList": [
+            {
+                "placeName": "迫真空手道場",
+                "canDrop": true
+            },
+            {
+                "placeName": "ヒゲクマの館",
+                "canDrop": true
+            },
+            {
+                "placeName": "水無川",
+                "canDrop": true
+            },
+            {
+                "placeName": "スキマワールド",
+                "canDrop": true
+            },
+            {
+                "placeName": "地霊殿",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "2",
+                "max": "30"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "KBTIT",
+        "hp": "110",
+        "atk": "110",
+        "def": "70",
+        "mnt": "110",
+        "cost": "60",
+        "types": [
+            "調教",
+            "ホモ",
+            "鑑"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "二撃決殺",
+        "skillDescription": "敵にトドメを刺すと攻撃力がアップし、追加攻撃する。",
+        "appearanceList": [
+            {
+                "placeName": "新宿調教センター",
+                "canDrop": true
+            },
+            {
+                "placeName": "OK牧場",
+                "canDrop": true
+            },
+            {
+                "placeName": "SMバーひらの",
+                "canDrop": true
+            },
+            {
+                "placeName": "邪神の塔",
+                "canDrop": true
+            },
+            {
+                "placeName": "水無川",
+                "canDrop": true
+            },
+            {
+                "placeName": "工事現場",
+                "canDrop": true
+            },
+            {
+                "placeName": "立教帝国",
+                "canDrop": true
+            },
+            {
+                "placeName": "古代都市キモティカ",
+                "canDrop": true
+            },
+            {
+                "placeName": "下北沢裁判所",
+                "canDrop": false
+            },
+            {
+                "placeName": "2014年初詣",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "2",
+                "max": "10"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "くまさん",
+        "hp": "100",
+        "atk": "160",
+        "def": "160",
+        "mnt": "160",
+        "cost": "90",
+        "types": [
+            "デブ"
+        ],
+        "reach": "精神",
+        "target": "単体",
+        "skillName": "肉壁",
+        "skillDescription": "自分よりコストが低いユニットからの物理ダメージを減らす",
+        "appearanceList": [
+            {
+                "placeName": "SMバーひらの",
+                "canDrop": true
+            },
+            {
+                "placeName": "迫真空手道場",
+                "canDrop": true
+            },
+            {
+                "placeName": "ヒゲクマの館",
+                "canDrop": true
+            },
+            {
+                "placeName": "邪神の塔",
+                "canDrop": true
+            },
+            {
+                "placeName": "新日暮里",
+                "canDrop": true
+            },
+            {
+                "placeName": "王者の聖域",
+                "canDrop": true
+            },
+            {
+                "placeName": "工事現場",
+                "canDrop": true
+            },
+            {
+                "placeName": "下北沢裁判所",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "虐待おじさん",
+        "hp": "70",
+        "atk": "170",
+        "def": "60",
+        "mnt": "60",
+        "cost": "45",
+        "types": [
+            "調教",
+            "武器"
+        ],
+        "reach": "物理",
+        "target": "2回",
+        "skillName": " ",
+        "skillDescription": " ",
+        "appearanceList": [
+            {
+                "placeName": "OK牧場",
+                "canDrop": true
+            },
+            {
+                "placeName": "SMバーひらの",
+                "canDrop": true
+            },
+            {
+                "placeName": "邪神の塔",
+                "canDrop": true
+            },
+            {
+                "placeName": "日本ペイント",
+                "canDrop": true
+            },
+            {
+                "placeName": "聖バビロン大学病院",
+                "canDrop": true
+            },
+            {
+                "placeName": "新日暮里",
+                "canDrop": true
+            },
+            {
+                "placeName": "王者の聖域",
+                "canDrop": true
+            },
+            {
+                "placeName": "古代都市キモティカ",
+                "canDrop": true
+            },
+            {
+                "placeName": "岡山城",
+                "canDrop": true
+            },
+            {
+                "placeName": "地霊殿",
+                "canDrop": true
+            },
+            {
+                "placeName": "白玉楼",
+                "canDrop": true
+            },
+            {
+                "placeName": "太陽の畑",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "11",
+                "max": "50"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "NSOK",
+        "hp": "100",
+        "atk": "100",
+        "def": "100",
+        "mnt": "100",
+        "cost": "60",
+        "types": [
+            "棒読み"
+        ],
+        "reach": "精神",
+        "target": "単体",
+        "skillName": "棒読みの2章",
+        "skillDescription": "棒読みしながらの攻撃なので、相手はやる気を無くして精神攻撃力と防御力が下がってしまう。",
+        "appearanceList": [
+            {
+                "placeName": "SMバーひらの",
+                "canDrop": true
+            },
+            {
+                "placeName": "邪神の塔",
+                "canDrop": true
+            },
+            {
+                "placeName": "水無川",
+                "canDrop": true
+            },
+            {
+                "placeName": "王者の聖域",
+                "canDrop": true
+            },
+            {
+                "placeName": "立教帝国",
+                "canDrop": true
+            },
+            {
+                "placeName": "2014年初詣",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "2",
+                "max": "50"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "平野源五郎",
+        "hp": "120",
+        "atk": "100",
+        "def": "100",
+        "mnt": "100",
+        "cost": "65",
+        "types": [
+            "調教",
+            "ホモ"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "ムチ攻め",
+        "skillDescription": "攻撃した相手を恐怖状態にする。恐怖状態のユニットから受けるダメージは1になる。",
+        "appearanceList": [
+            {
+                "placeName": "SMバーひらの",
+                "canDrop": true
+            },
+            {
+                "placeName": "邪神の塔",
+                "canDrop": true
+            },
+            {
+                "placeName": "日本ペイント",
+                "canDrop": true
+            },
+            {
+                "placeName": "聖バビロン大学病院",
+                "canDrop": true
+            },
+            {
+                "placeName": "新日暮里",
+                "canDrop": true
+            },
+            {
+                "placeName": "王者の聖域",
+                "canDrop": true
+            },
+            {
+                "placeName": "スキマワールド",
+                "canDrop": true
+            },
+            {
+                "placeName": "古代都市キモティカ",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "11",
+                "max": "20"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "SGW急便",
+        "hp": "90",
+        "atk": "115",
+        "def": "90",
+        "mnt": "90",
+        "cost": "50",
+        "types": [
+            "鑑"
+        ],
+        "reach": "精神",
+        "target": "単体",
+        "skillName": "何でもしますから！",
+        "skillDescription": "謝りながら攻撃するので、攻撃された相手は少し行動が遅くなる",
+        "appearanceList": [
+            {
+                "placeName": "メガデス秘密基地",
+                "canDrop": true
+            },
+            {
+                "placeName": "迫真空手道場",
+                "canDrop": true
+            },
+            {
+                "placeName": "ヒゲクマの館",
+                "canDrop": true
+            },
+            {
+                "placeName": "邪神の塔",
+                "canDrop": true
+            },
+            {
+                "placeName": "聖バビロン大学病院",
+                "canDrop": true
+            },
+            {
+                "placeName": "王者の聖域",
+                "canDrop": true
+            },
+            {
+                "placeName": "白玉楼",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "メガデス戦闘員",
+        "hp": "100",
+        "atk": "100",
+        "def": "100",
+        "mnt": "100",
+        "cost": "60",
+        "types": [
+            "ホモ",
+            "メガデス"
+        ],
+        "reach": "精神",
+        "target": "単体",
+        "skillName": "メガデスの結託",
+        "skillDescription": "敵の内、誰か一人でも混乱してるとダメージが3倍になる。",
+        "appearanceList": [
+            {
+                "placeName": "メガデス秘密基地",
+                "canDrop": true
+            },
+            {
+                "placeName": "聖バビロン大学病院",
+                "canDrop": true
+            },
+            {
+                "placeName": "クッキーレストラン",
+                "canDrop": true
+            },
+            {
+                "placeName": "メガデス秘密基地2",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "メガデス怪人",
+        "hp": "120",
+        "atk": "110",
+        "def": "130",
+        "mnt": "80",
+        "cost": "80",
+        "types": [
+            "ホモ",
+            "メガデス"
+        ],
+        "reach": "精神",
+        "target": "単体",
+        "skillName": "ホモビーム",
+        "skillDescription": "攻撃された相手は混乱し、味方を攻撃してしまうことがある。",
+        "appearanceList": [
+            {
+                "placeName": "メガデス秘密基地",
+                "canDrop": true
+            },
+            {
+                "placeName": "王者の聖域",
+                "canDrop": true
+            },
+            {
+                "placeName": "新日暮里",
+                "canDrop": true
+            },
+            {
+                "placeName": "メガデス秘密基地2",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "超人サイバーZ 1号",
+        "hp": "120",
+        "atk": "130",
+        "def": "130",
+        "mnt": "120",
+        "cost": "70",
+        "types": [
+            "正義"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "正義の力",
+        "skillDescription": "ヒーロー特有の火事場の馬鹿力でHPが少ないほど攻撃力が上昇する。他に超人がいると何かが起きる可能性が微レ存・・・？",
+        "appearanceList": [
+            {
+                "placeName": "メガデス秘密基地",
+                "canDrop": false
+            },
+            {
+                "placeName": "邪神の塔",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "11",
+                "max": "50"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "超人サイバーZ 2号",
+        "hp": "120",
+        "atk": "130",
+        "def": "120",
+        "mnt": "130",
+        "cost": "70",
+        "types": [
+            "悪"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "Zパンチ",
+        "skillDescription": "与えたダメージの半分を相手に刻み込み、相手は攻撃される度に刻まれたダメージを追加で受け、回復量も1になる。",
+        "appearanceList": [
+            {
+                "placeName": "メガデス秘密基地2",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "HND△",
+        "hp": "110",
+        "atk": "110",
+        "def": "110",
+        "mnt": "70",
+        "cost": "60",
+        "types": [
+            "ホモ",
+            "屑"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "ミラン本田",
+        "skillDescription": "金目の物として行動ゲージを少し持って行ってしまう。",
+        "appearanceList": [
+            {
+                "placeName": "迫真空手道場",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "2",
+                "max": "20"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "ホモコップ",
+        "hp": "100",
+        "atk": "100",
+        "def": "100",
+        "mnt": "100",
+        "cost": "60",
+        "types": [
+            "屑",
+            "ホモ"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "押収（ねっとり）",
+        "skillDescription": "証拠物件として攻撃相手の上昇した能力値を全て奪う。",
+        "appearanceList": [
+            {
+                "placeName": "迫真空手道場",
+                "canDrop": true
+            },
+            {
+                "placeName": "古代都市キモティカ",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "2",
+                "max": "20"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "イニ義893",
+        "hp": "95",
+        "atk": "130",
+        "def": "175",
+        "mnt": "175",
+        "cost": "80",
+        "types": [
+            "893",
+            "ホモ"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "痛みわけや！",
+        "skillDescription": "攻撃対象の方が残りHPが高い場合、互いのHPを平均化する。",
+        "appearanceList": [
+            {
+                "placeName": "迫真空手道場",
+                "canDrop": false
+            },
+            {
+                "placeName": "ヒゲクマの館",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "AKYS",
+        "hp": "160",
+        "atk": "120",
+        "def": "110",
+        "mnt": "110",
+        "cost": "70",
+        "types": [
+            "空手",
+            "ホモ",
+            "屑"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "エンジン全開",
+        "skillDescription": "30%の確率で敵の物理攻撃を無効化し、反撃する。",
+        "appearanceList": [
+            {
+                "placeName": "迫真空手道場",
+                "canDrop": true
+            },
+            {
+                "placeName": "邪神の塔",
+                "canDrop": true
+            },
+            {
+                "placeName": "水無川",
+                "canDrop": true
+            },
+            {
+                "placeName": "日本ペイント",
+                "canDrop": true
+            },
+            {
+                "placeName": "スキマワールド",
+                "canDrop": true
+            },
+            {
+                "placeName": "立教帝国",
+                "canDrop": true
+            },
+            {
+                "placeName": "2014年初詣",
+                "canDrop": true
+            },
+            {
+                "placeName": "地霊殿",
+                "canDrop": true
+            },
+            {
+                "placeName": "人間の里2",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "21",
+                "max": "50"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "山崎まさゆき",
+        "hp": "100",
+        "atk": "100",
+        "def": "100",
+        "mnt": "100",
+        "cost": "70",
+        "types": [
+            "鑑"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "千本桜",
+        "skillDescription": "歌声で味方の鼓舞し、物理攻撃力を上げる",
+        "appearanceList": [
+            {
+                "placeName": "ヒゲクマの館",
+                "canDrop": true
+            },
+            {
+                "placeName": "王者の聖域",
+                "canDrop": true
+            },
+            {
+                "placeName": "立教帝国",
+                "canDrop": true
+            },
+            {
+                "placeName": "古代都市キモティカ",
+                "canDrop": true
+            },
+            {
+                "placeName": "白玉楼",
+                "canDrop": true
+            },
+            {
+                "placeName": "下北沢裁判所",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "11",
+                "max": "50"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "中野くん",
+        "hp": "185",
+        "atk": "130",
+        "def": "150",
+        "mnt": "85",
+        "cost": "100",
+        "types": [
+            "鑑"
+        ],
+        "reach": "精神",
+        "target": "単体",
+        "skillName": "安物ステーキ",
+        "skillDescription": "攻撃後にパーティ全員のHPを回復する",
+        "appearanceList": [
+            {
+                "placeName": "ヒゲクマの館",
+                "canDrop": true
+            },
+            {
+                "placeName": "邪神の塔",
+                "canDrop": true
+            },
+            {
+                "placeName": "新日暮里",
+                "canDrop": true
+            },
+            {
+                "placeName": "古代都市キモティカ",
+                "canDrop": true
+            },
+            {
+                "placeName": "岡山城",
+                "canDrop": true
+            },
+            {
+                "placeName": "白玉楼",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "11",
+                "max": "50"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "ドラゴン田中",
+        "hp": "110",
+        "atk": "80",
+        "def": "145",
+        "mnt": "80",
+        "cost": "75",
+        "types": [
+            "ホモ",
+            "ドラゴン"
+        ],
+        "reach": "精神",
+        "target": "単体",
+        "skillName": "種壷野郎",
+        "skillDescription": "攻撃した相手を毒状態にする。（毒状態のユニットは攻撃後にダメージを受ける）",
+        "appearanceList": [
+            {
+                "placeName": "ヒゲクマの館",
+                "canDrop": true
+            },
+            {
+                "placeName": "新日暮里",
+                "canDrop": true
+            },
+            {
+                "placeName": "王者の聖域",
+                "canDrop": true
+            },
+            {
+                "placeName": "立教帝国",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "11",
+                "max": "50"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "KYN",
+        "hp": "110",
+        "atk": "100",
+        "def": "130",
+        "mnt": "80",
+        "cost": "65",
+        "types": [
+            "ホモ",
+            "ゲス"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "ゲス",
+        "skillDescription": "ゲスいので攻撃対象のタイプの数分だけ攻撃力がアップする。",
+        "appearanceList": [
+            {
+                "placeName": "ヒゲクマの館",
+                "canDrop": true
+            },
+            {
+                "placeName": "邪神の塔",
+                "canDrop": true
+            },
+            {
+                "placeName": "下北沢裁判所",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "2",
+                "max": "20"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "課長",
+        "hp": "90",
+        "atk": "135",
+        "def": "120",
+        "mnt": "90",
+        "cost": "70",
+        "types": [
+            "鑑",
+            "ホモ",
+            "デブ"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "こわれる",
+        "skillDescription": "最初は課長特有の高性能を発揮するが、5回行動したり攻撃されると壊れて弱体化する。",
+        "appearanceList": [
+            {
+                "placeName": "邪神の塔",
+                "canDrop": true
+            },
+            {
+                "placeName": "王者の聖域",
+                "canDrop": true
+            },
+            {
+                "placeName": "2014年初詣",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "31",
+                "max": "50"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "ヒゲクマ調教師",
+        "hp": "140",
+        "atk": "100",
+        "def": "160",
+        "mnt": "180",
+        "cost": "80",
+        "types": [
+            "調教",
+            "デブ"
+        ],
+        "reach": "精神",
+        "target": "2回",
+        "skillName": " ",
+        "skillDescription": " ",
+        "appearanceList": [
+            {
+                "placeName": "ヒゲクマの館",
+                "canDrop": true
+            },
+            {
+                "placeName": "邪神の塔",
+                "canDrop": true
+            },
+            {
+                "placeName": "新日暮里",
+                "canDrop": true
+            },
+            {
+                "placeName": "岡山城",
+                "canDrop": true
+            },
+            {
+                "placeName": "白玉楼",
+                "canDrop": true
+            },
+            {
+                "placeName": "下北沢裁判所",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "21",
+                "max": "50"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "GO",
+        "hp": "240",
+        "atk": "135",
+        "def": "155",
+        "mnt": "155",
+        "cost": "80",
+        "types": [
+            "神",
+            "屑"
+        ],
+        "reach": "精神",
+        "target": "全体",
+        "skillName": "神の裁き",
+        "skillDescription": "屑なので攻撃に味方を巻き込む（神に状態異常攻撃は無効となる）",
+        "appearanceList": [
+            {
+                "placeName": "邪神の塔",
+                "canDrop": false
+            },
+            {
+                "placeName": "王者の聖域",
+                "canDrop": true
+            },
+            {
+                "placeName": "スキマワールド",
+                "canDrop": true
+            },
+            {
+                "placeName": "白玉楼",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "31",
+                "max": "100"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "邪神GO(ボス)",
+        "hp": "3800",
+        "atk": "120",
+        "def": "400",
+        "mnt": "400",
+        "cost": "150",
+        "types": [
+            "屑",
+            "神"
+        ],
+        "reach": "精神",
+        "target": "全体",
+        "skillName": "GO is GOD",
+        "skillDescription": "5ターン目に8回連続攻撃。通常攻撃後はコスト半分で攻撃可能。(神に状態異常攻撃は無効となる)",
+        "appearanceList": [
+            {
+                "placeName": "邪神の塔",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "セミ兄貴",
+        "hp": "40",
+        "atk": "100",
+        "def": "150",
+        "mnt": "150",
+        "cost": "60",
+        "types": [
+            "虫",
+            "鑑"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "下北沢の名脇役",
+        "skillDescription": "下北沢にしか生息しない珍しいセミなので攻撃する者は無意識に手を緩めてしまい、受けるダメージが70%になる。",
+        "appearanceList": [
+            {
+                "placeName": "セミ兄貴の森",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "メタルセミ兄貴",
+        "hp": "-2",
+        "atk": "150",
+        "def": "1",
+        "mnt": "1",
+        "cost": "45",
+        "types": [
+            "虫",
+            "鑑",
+            "メタル"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "メタリックな彼",
+        "skillDescription": "下北沢にしか生息しない珍しいセミなので攻撃する者は無意識に手を緩めてしまい、受けるダメージが1になる。",
+        "appearanceList": [
+            {
+                "placeName": "セミ兄貴の森",
+                "canDrop": false
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "逝かせ隊",
+        "hp": "120",
+        "atk": "80",
+        "def": "120",
+        "mnt": "120",
+        "cost": "65",
+        "types": [
+            "ホモ"
+        ],
+        "reach": "精神",
+        "target": "単体",
+        "skillName": "畏怖の象徴",
+        "skillDescription": "攻撃対象を恐怖状態にする。恐怖状態の敵相手にはダメージが2倍になる。",
+        "appearanceList": [
+            {
+                "placeName": "水無川",
+                "canDrop": true
+            },
+            {
+                "placeName": "日本ペイント",
+                "canDrop": true
+            },
+            {
+                "placeName": "新日暮里",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "11",
+                "max": "50"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "根流し漁師",
+        "hp": "135",
+        "atk": "85",
+        "def": "110",
+        "mnt": "150",
+        "cost": "90",
+        "types": [
+            "屑",
+            "風評被害"
+        ],
+        "reach": "精神",
+        "target": "全体",
+        "skillName": "根流し",
+        "skillDescription": "攻撃時に根をばらまく。相手は毒状態になってしまう。",
+        "appearanceList": [
+            {
+                "placeName": "水無川",
+                "canDrop": true
+            },
+            {
+                "placeName": "王者の聖域",
+                "canDrop": true
+            },
+            {
+                "placeName": "地霊殿",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "51",
+                "max": "100"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "一般通過爺",
+        "hp": "160",
+        "atk": "70",
+        "def": "135",
+        "mnt": "185",
+        "cost": "80",
+        "types": [
+            "鑑",
+            "風評被害"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "優しき心",
+        "skillDescription": "老人特有の労わりの心により、仲間にいるだけでスキルのないユニットは受けるダメージが30%ダウン。",
+        "appearanceList": [
+            {
+                "placeName": "水無川",
+                "canDrop": true
+            },
+            {
+                "placeName": "日本ペイント",
+                "canDrop": true
+            },
+            {
+                "placeName": "新日暮里",
+                "canDrop": true
+            },
+            {
+                "placeName": "王者の聖域",
+                "canDrop": true
+            },
+            {
+                "placeName": "工事現場",
+                "canDrop": true
+            },
+            {
+                "placeName": "岡山城",
+                "canDrop": true
+            },
+            {
+                "placeName": "白玉楼",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "TKNUC",
+        "hp": "120",
+        "atk": "80",
+        "def": "80",
+        "mnt": "120",
+        "cost": "60",
+        "types": [
+            "屑",
+            "ホモ"
+        ],
+        "reach": "精神",
+        "target": "単体",
+        "skillName": "キャンセル",
+        "skillDescription": "敵味方問わず攻撃後の追加行動をすべてキャンセルする。",
+        "appearanceList": [
+            {
+                "placeName": "水無川",
+                "canDrop": true
+            },
+            {
+                "placeName": "日本ペイント",
+                "canDrop": true
+            },
+            {
+                "placeName": "聖バビロン大学病院",
+                "canDrop": true
+            },
+            {
+                "placeName": "王者の聖域",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "イワナ僧侶",
+        "hp": "100",
+        "atk": "100",
+        "def": "70",
+        "mnt": "130",
+        "cost": "60",
+        "types": [
+            "鑑",
+            "風評被害"
+        ],
+        "reach": "精神",
+        "target": "単体",
+        "skillName": "イワナの怪",
+        "skillDescription": "トドメをさされると、攻撃してきた相手を問答無用で道連れにする。",
+        "appearanceList": [
+            {
+                "placeName": "水無川",
+                "canDrop": true
+            },
+            {
+                "placeName": "立教帝国",
+                "canDrop": true
+            },
+            {
+                "placeName": "地霊殿",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "51",
+                "max": "300"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "軍畑先輩",
+        "hp": "130",
+        "atk": "120",
+        "def": "130",
+        "mnt": "120",
+        "cost": "100",
+        "types": [
+            "ホモ",
+            "屑"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "暴虐中毒",
+        "skillDescription": "仲間にいるだけで[空手]ユニットは行動コストが20軽減される",
+        "appearanceList": [
+            {
+                "placeName": "日本ペイント",
+                "canDrop": true
+            },
+            {
+                "placeName": "スキマワールド",
+                "canDrop": true
+            },
+            {
+                "placeName": "地霊殿",
+                "canDrop": true
+            },
+            {
+                "placeName": "人間の里2",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "51",
+                "max": "100"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "関西クレーマー",
+        "hp": "130",
+        "atk": "85",
+        "def": "80",
+        "mnt": "120",
+        "cost": "65",
+        "types": [
+            "ホモ",
+            "屑"
+        ],
+        "reach": "精神",
+        "target": "単体",
+        "skillName": "ウィルスみたいな存在",
+        "skillDescription": "精神攻撃を受けると文句を言いながら反撃する。",
+        "appearanceList": [
+            {
+                "placeName": "日本ペイント",
+                "canDrop": true
+            },
+            {
+                "placeName": "聖バビロン大学病院",
+                "canDrop": true
+            },
+            {
+                "placeName": "新日暮里",
+                "canDrop": true
+            },
+            {
+                "placeName": "クッキーレストラン",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "新規雇用（クォクォア51～100）",
+                "max": "新規雇用（クォクォア51～100）"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "ポイテーロ",
+        "hp": "115",
+        "atk": "115",
+        "def": "100",
+        "mnt": "130",
+        "cost": "70",
+        "types": [
+            "鑑"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "鋼の意思",
+        "skillDescription": "仲間全員がダメージを受けてもHP1で耐えるようになる",
+        "appearanceList": [
+            {
+                "placeName": "日本ペイント",
+                "canDrop": true
+            },
+            {
+                "placeName": "聖バビロン大学病院",
+                "canDrop": true
+            },
+            {
+                "placeName": "新日暮里",
+                "canDrop": true
+            },
+            {
+                "placeName": "工事現場",
+                "canDrop": true
+            },
+            {
+                "placeName": "立教帝国",
+                "canDrop": true
+            },
+            {
+                "placeName": "古代都市キモティカ",
+                "canDrop": true
+            },
+            {
+                "placeName": "白玉楼",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "51",
+                "max": "100"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "MMR部長",
+        "hp": "85",
+        "atk": "95",
+        "def": "80",
+        "mnt": "100",
+        "cost": "60",
+        "types": [
+            "鑑"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "最強の盾",
+        "skillDescription": "仲間にいるだけでパーティ全員の最初に一回だけ受けるダメージが0になる。",
+        "appearanceList": [
+            {
+                "placeName": "日本ペイント",
+                "canDrop": true
+            },
+            {
+                "placeName": "クッキーレストラン",
+                "canDrop": true
+            },
+            {
+                "placeName": "岡山城",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "51",
+                "max": "300"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "金泰均",
+        "hp": "120",
+        "atk": "90",
+        "def": "120",
+        "mnt": "120",
+        "cost": "70",
+        "types": [
+            "ホモ",
+            "鑑"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "ちかえし",
+        "skillDescription": "攻撃されると敵全体を威圧して行動ゲージをダウンさせる。",
+        "appearanceList": [
+            {
+                "placeName": "聖バビロン大学病院",
+                "canDrop": true
+            },
+            {
+                "placeName": "新日暮里",
+                "canDrop": true
+            },
+            {
+                "placeName": "白玉楼",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "51",
+                "max": "100"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "殺人鬼MNR",
+        "hp": "60",
+        "atk": "165",
+        "def": "80",
+        "mnt": "80",
+        "cost": "50",
+        "types": [
+            "ホモ"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "シリアルキラー",
+        "skillDescription": "自分よりコストが高い相手に攻撃するとダメージがアップする。自分よりコストが低い相手に与えるダメージは少なくなる。",
+        "appearanceList": [
+            {
+                "placeName": "聖バビロン大学病院",
+                "canDrop": true
+            },
+            {
+                "placeName": "工事現場",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "51",
+                "max": "100"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "変態糞親父",
+        "hp": "85",
+        "atk": "100",
+        "def": "85",
+        "mnt": "130",
+        "cost": "70",
+        "types": [
+            "糞",
+            "ホモ",
+            "鑑"
+        ],
+        "reach": "精神",
+        "target": "全体",
+        "skillName": "やったぜ",
+        "skillDescription": "味方を巻き込む全体攻撃だが、味方の[糞]ユニットは逆にHPが回復する。",
+        "appearanceList": [
+            {
+                "placeName": "聖バビロン大学病院",
+                "canDrop": true
+            },
+            {
+                "placeName": "クッキーレストラン",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "51",
+                "max": "300"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "ピンキー姉貴",
+        "hp": "250",
+        "atk": "1",
+        "def": "250",
+        "mnt": "250",
+        "cost": "360",
+        "types": [
+            "医者",
+            "屑"
+        ],
+        "reach": "精神",
+        "target": "単体",
+        "skillName": "心肺停止",
+        "skillDescription": "行動したら最後、その恐怖の笑顔で相手は全滅する。",
+        "appearanceList": [
+            {
+                "placeName": "聖バビロン大学病院",
+                "canDrop": true
+            },
+            {
+                "placeName": "スキマワールド",
+                "canDrop": true
+            },
+            {
+                "placeName": "立教帝国",
+                "canDrop": true
+            },
+            {
+                "placeName": "白玉楼",
+                "canDrop": true
+            },
+            {
+                "placeName": "地霊殿",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "51",
+                "max": "100"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "鬼畜教師KN",
+        "hp": "100",
+        "atk": "130",
+        "def": "120",
+        "mnt": "150",
+        "cost": "70",
+        "types": [
+            "ホモ",
+            "屑"
+        ],
+        "reach": "精神",
+        "target": "単体",
+        "skillName": "鬼畜眼鏡",
+        "skillDescription": "攻撃されると敵全体をどう喝して恐怖状態にする。自分は恐怖状態のユニット1人につき行動コストが5ダウン。",
+        "appearanceList": [
+            {
+                "placeName": "新日暮里",
+                "canDrop": true
+            },
+            {
+                "placeName": "王者の聖域",
+                "canDrop": true
+            },
+            {
+                "placeName": "スキマワールド",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "71",
+                "max": "100"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "木吉カズヤ",
+        "hp": "100",
+        "atk": "120",
+        "def": "100",
+        "mnt": "80",
+        "cost": "70",
+        "types": [
+            "妖精",
+            "レスリング"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "カズヤダンス",
+        "skillDescription": "刹那の舞により攻撃後に仲間の精神防御力が上昇する。",
+        "appearanceList": [
+            {
+                "placeName": "新日暮里",
+                "canDrop": true
+            },
+            {
+                "placeName": "スキマワールド",
+                "canDrop": true
+            },
+            {
+                "placeName": "白玉楼",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "101",
+                "max": "300"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "TDNコスギ",
+        "hp": "130",
+        "atk": "150",
+        "def": "120",
+        "mnt": "140",
+        "cost": "80",
+        "types": [
+            "悪",
+            "レスリング"
+        ],
+        "reach": "精神",
+        "target": "単体",
+        "skillName": "TDNアーマー",
+        "skillDescription": "仲間にいるだけで[レスリング]ユニットを攻撃した相手は少しダメージを受ける",
+        "appearanceList": [
+            {
+                "placeName": "新日暮里",
+                "canDrop": true
+            },
+            {
+                "placeName": "クッキーレストラン",
+                "canDrop": true
+            },
+            {
+                "placeName": "白玉楼",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "101",
+                "max": "300"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "いかりやビオランテ",
+        "hp": "150",
+        "atk": "120",
+        "def": "165",
+        "mnt": "165",
+        "cost": "85",
+        "types": [
+            "妖精",
+            "レスリング"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "フェアリーエクスプレス",
+        "skillDescription": "仲間にいるだけで[妖精]ユニットは攻撃力が30%アップ。代わりに反動でダメージを受ける。",
+        "appearanceList": [
+            {
+                "placeName": "新日暮里",
+                "canDrop": true
+            },
+            {
+                "placeName": "白玉楼",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "101",
+                "max": "300"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "ビリー兄貴",
+        "hp": "150",
+        "atk": "140",
+        "def": "140",
+        "mnt": "120",
+        "cost": "90",
+        "types": [
+            "妖精",
+            "レスリング",
+            "鑑"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "フェアリーアサルト",
+        "skillDescription": "仲間にいるだけで[妖精]ユニットは先制攻撃に成功するとダメージが3倍になる。",
+        "appearanceList": [
+            {
+                "placeName": "新日暮里",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "須藤さん",
+        "hp": "150",
+        "atk": "175",
+        "def": "175",
+        "mnt": "100",
+        "cost": "80",
+        "types": [
+            "妖精",
+            "レスリング",
+            "悪"
+        ],
+        "reach": "精神",
+        "target": "単体",
+        "skillName": "フェアリー裏ナイトメア",
+        "skillDescription": "自分のナウい息子を攻撃相手の後頭部に擦りつけて精神防御力をダウンさせる",
+        "appearanceList": [
+            {
+                "placeName": "クッキーレストラン",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "201",
+                "max": "300"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "井上カブレラ",
+        "hp": "240",
+        "atk": "120",
+        "def": "120",
+        "mnt": "120",
+        "cost": "80",
+        "types": [
+            "妖精",
+            "レスリング",
+            "騎士"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "ワークアウト",
+        "skillDescription": "攻撃はせず、黙々とトレーニングを続けて己の能力を上げる。トレーニングを邪魔した者には容赦なく反撃する。",
+        "appearanceList": [
+            {
+                "placeName": "クッキーレストラン",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "201",
+                "max": "300"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "鎌田吾作",
+        "hp": "90",
+        "atk": "135",
+        "def": "105",
+        "mnt": "70",
+        "cost": "60",
+        "types": [
+            "妖精",
+            "レスリング"
+        ],
+        "reach": "精神",
+        "target": "単体",
+        "skillName": "蟹になりたい",
+        "skillDescription": "戦闘開始時に奇怪なポーズで相手1人を混乱させる",
+        "appearanceList": [
+            {
+                "placeName": "白玉楼",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "101",
+                "max": "300"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "ホリ・トオル",
+        "hp": "130",
+        "atk": "160",
+        "def": "160",
+        "mnt": "130",
+        "cost": "80",
+        "types": [
+            "鑑",
+            "空手"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "慢心野郎",
+        "skillDescription": "味方が倒れると攻撃力と行動スピードがアップ。最後の1人になった場合、攻撃タイプが全体攻撃になる。",
+        "appearanceList": [
+            {
+                "placeName": "王者の聖域",
+                "canDrop": true
+            },
+            {
+                "placeName": "スキマワールド",
+                "canDrop": true
+            },
+            {
+                "placeName": "白玉楼",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "51",
+                "max": "100"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "HTN",
+        "hp": "100",
+        "atk": "100",
+        "def": "130",
+        "mnt": "130",
+        "cost": "70",
+        "types": [
+            "立教",
+            "ホモ",
+            "屑"
+        ],
+        "reach": "精神",
+        "target": "単体",
+        "skillName": "神風",
+        "skillDescription": "敵味方のステータス変化を全て元に戻す。",
+        "appearanceList": [
+            {
+                "placeName": "王者の聖域",
+                "canDrop": true
+            },
+            {
+                "placeName": "立教帝国",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "71",
+                "max": "100"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "CNT姉貴",
+        "hp": "100",
+        "atk": "100",
+        "def": "100",
+        "mnt": "100",
+        "cost": "60",
+        "types": [
+            "風評被害",
+            "屑"
+        ],
+        "reach": "精神",
+        "target": "単体",
+        "skillName": "野獣の眼光",
+        "skillDescription": "戦闘開始時にするどい眼光で相手一体を昏睡状態にする。ファンの皆様ごめんなさい。",
+        "appearanceList": [
+            {
+                "placeName": "王者の聖域",
+                "canDrop": true
+            },
+            {
+                "placeName": "白玉楼",
+                "canDrop": true
+            },
+            {
+                "placeName": "下北沢裁判所",
+                "canDrop": true
+            },
+            {
+                "placeName": "地霊殿",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "71",
+                "max": "100"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "KNN姉貴",
+        "hp": "100",
+        "atk": "140",
+        "def": "120",
+        "mnt": "140",
+        "cost": "70",
+        "types": [
+            "巫女",
+            "屑"
+        ],
+        "reach": "精神",
+        "target": "単体",
+        "skillName": "生き返るわぁ～",
+        "skillDescription": "戦闘不能になっても湯船に浸かり、1ターン後にHP半分で復活する。",
+        "appearanceList": [
+            {
+                "placeName": "王者の聖域",
+                "canDrop": true
+            },
+            {
+                "placeName": "スキマワールド",
+                "canDrop": true
+            },
+            {
+                "placeName": "博麗神社境内",
+                "canDrop": true
+            },
+            {
+                "placeName": "紅魔館調理室",
+                "canDrop": true
+            },
+            {
+                "placeName": "博麗神社境内2",
+                "canDrop": true
+            },
+            {
+                "placeName": "ババアポカリプス",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "71",
+                "max": "100"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "ラヴォイル校長",
+        "hp": "140",
+        "atk": "80",
+        "def": "170",
+        "mnt": "110",
+        "cost": "75",
+        "types": [
+            "鑑"
+        ],
+        "reach": "精神",
+        "target": "単体",
+        "skillName": "ラヴォイル",
+        "skillDescription": "体に良い薬を仲間に振舞う事により、まだ攻撃していない仲間は受けるダメージが30%ダウン。",
+        "appearanceList": [
+            {
+                "placeName": "王者の聖域",
+                "canDrop": true
+            },
+            {
+                "placeName": "スキマワールド",
+                "canDrop": true
+            },
+            {
+                "placeName": "立教帝国",
+                "canDrop": true
+            },
+            {
+                "placeName": "白玉楼",
+                "canDrop": true
+            },
+            {
+                "placeName": "下北沢裁判所",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "71",
+                "max": "100"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "観葉植物くん",
+        "hp": "180",
+        "atk": "100",
+        "def": "180",
+        "mnt": "100",
+        "cost": "80",
+        "types": [
+            "鑑"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "サンセベリア",
+        "skillDescription": "観葉植物なので攻撃できないが、リラクゼーション効果により仲間全員のHPが回復する[イラスト　古霧さん]",
+        "appearanceList": [
+            {
+                "placeName": "王者の聖域",
+                "canDrop": true
+            },
+            {
+                "placeName": "スキマワールド",
+                "canDrop": true
+            },
+            {
+                "placeName": "立教帝国",
+                "canDrop": true
+            },
+            {
+                "placeName": "クッキーレストラン",
+                "canDrop": true
+            },
+            {
+                "placeName": "白玉楼",
+                "canDrop": true
+            },
+            {
+                "placeName": "下北沢裁判所",
+                "canDrop": true
+            },
+            {
+                "placeName": "ひで祭り会場",
+                "canDrop": true
+            },
+            {
+                "placeName": "紅魔館調理室",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "71",
+                "max": "100"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "淫夢くんUC(ボス)",
+        "hp": "1000",
+        "atk": "200",
+        "def": "200",
+        "mnt": "200",
+        "cost": "70",
+        "types": [
+            "聖獣",
+            "鑑",
+            "神"
+        ],
+        "reach": "精神",
+        "target": "全体",
+        "skillName": "王者の右手",
+        "skillDescription": "誰が解析していいっつったオラァ！",
+        "appearanceList": [
+            {
+                "placeName": "王者の聖域",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "スローロリスくん",
+        "hp": "100",
+        "atk": "100",
+        "def": "100",
+        "mnt": "100",
+        "cost": "60",
+        "types": [
+            "聖獣",
+            "鑑"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": " ",
+        "skillDescription": "スローロリスくん同士力を合わせると強くなりそう",
+        "appearanceList": [
+            {
+                "placeName": "王者の聖域",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "我那覇くん",
+        "hp": "100",
+        "atk": "100",
+        "def": "100",
+        "mnt": "100",
+        "cost": "70",
+        "types": [
+            "風評被害"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "shiny smiLe",
+        "skillDescription": "攻撃後に何故か踊りだすが、おかげで仲間全員の物理守備力がアップ",
+        "appearanceList": [
+            {
+                "placeName": "スキマワールド",
+                "canDrop": true
+            },
+            {
+                "placeName": "下北沢裁判所",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "51",
+                "max": "100"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "ロマン爺",
+        "hp": "160",
+        "atk": "70",
+        "def": "185",
+        "mnt": "135",
+        "cost": "80",
+        "types": [
+            "鑑",
+            "ホモ"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "気高き心",
+        "skillDescription": "老いてなお元気な姿勢にスキル無しユニットは感化され、2回攻撃が可能になる。（単体タイプのみ）",
+        "appearanceList": [
+            {
+                "placeName": "スキマワールド",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "101",
+                "max": "300"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "YKR姉貴",
+        "hp": "140",
+        "atk": "175",
+        "def": "130",
+        "mnt": "130",
+        "cost": "95",
+        "types": [
+            "妖怪"
+        ],
+        "reach": "精神",
+        "target": "単体",
+        "skillName": "スキマ空間",
+        "skillDescription": "攻撃されるとスキマ空間に逃げ込む。ターンが回ってくると全体攻撃しながらまた出現する。[イラスト：古霧さん]",
+        "appearanceList": [
+            {
+                "placeName": "スキマワールド",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "シャブラサレータ",
+        "hp": "100",
+        "atk": "100",
+        "def": "140",
+        "mnt": "140",
+        "cost": "65",
+        "types": [
+            "風評被害"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "一転攻勢（シャブラサレータ）",
+        "skillDescription": "仲間にいるだけで状態異常攻撃を全て相手に跳ね返す",
+        "appearanceList": [
+            {
+                "placeName": "工事現場",
+                "canDrop": true
+            },
+            {
+                "placeName": "クッキーレストラン",
+                "canDrop": true
+            },
+            {
+                "placeName": "岡山城",
+                "canDrop": true
+            },
+            {
+                "placeName": "下北沢裁判所",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "101",
+                "max": "300"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "貴乃信",
+        "hp": "130",
+        "atk": "10",
+        "def": "130",
+        "mnt": "130",
+        "cost": "80",
+        "types": [
+            "ホモ",
+            "武器"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "天翔龍閃",
+        "skillDescription": "斬られた事に相手は気づかないのでダメージは1になる。斬られた敵に攻撃されたらカウンターし、HPを1にする。",
+        "appearanceList": [
+            {
+                "placeName": "工事現場",
+                "canDrop": true
+            },
+            {
+                "placeName": "クッキーレストラン",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "101",
+                "max": "300"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "篤太郎",
+        "hp": "150",
+        "atk": "120",
+        "def": "165",
+        "mnt": "165",
+        "cost": "100",
+        "types": [
+            "ホモ",
+            "武器"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "剣聖",
+        "skillDescription": "仲間にいるだけで[武器]ユニットは50％の確率で1ターンに2回行動できるようになる。2回行動は疲れるので攻撃力は少し下がる。",
+        "appearanceList": [
+            {
+                "placeName": "岡山城",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "現場監督",
+        "hp": "120",
+        "atk": "100",
+        "def": "220",
+        "mnt": "140",
+        "cost": "80",
+        "types": [
+            "ホモ",
+            "デブ"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "肉弾戦",
+        "skillDescription": "仲間にいるだけで全てのユニットの通常攻撃が単体タイプになる。仲間の素の単体攻撃タイプユニットは攻撃力がアップ。",
+        "appearanceList": [
+            {
+                "placeName": "工事現場",
+                "canDrop": true
+            },
+            {
+                "placeName": "古代都市キモティカ",
+                "canDrop": true
+            },
+            {
+                "placeName": "岡山城",
+                "canDrop": true
+            },
+            {
+                "placeName": "ひで祭り会場",
+                "canDrop": true
+            },
+            {
+                "placeName": "紅魔館調理室",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "101",
+                "max": "300"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "AOK",
+        "hp": "90",
+        "atk": "170",
+        "def": "170",
+        "mnt": "170",
+        "cost": "50",
+        "types": [
+            "ホモ"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "ああああああああ！",
+        "skillDescription": "情緒不安定なので勝手に混乱する。",
+        "appearanceList": [
+            {
+                "placeName": "立教帝国",
+                "canDrop": true
+            },
+            {
+                "placeName": "クッキーレストラン",
+                "canDrop": true
+            },
+            {
+                "placeName": "岡山城",
+                "canDrop": true
+            },
+            {
+                "placeName": "下北沢裁判所",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "101",
+                "max": "300"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "TDN",
+        "hp": "100",
+        "atk": "100",
+        "def": "100",
+        "mnt": "100",
+        "cost": "60",
+        "types": [
+            "ホモ",
+            "立教"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "超スローボール",
+        "skillDescription": "戦闘開始時にクッソ汚いフォームで投球する。プロの球に当たった相手は即死するが、スローボールなので3ターン後に降ってくる。",
+        "appearanceList": [
+            {
+                "placeName": "立教帝国",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "101",
+                "max": "300"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "NRK姉貴",
+        "hp": "110",
+        "atk": "130",
+        "def": "120",
+        "mnt": "140",
+        "cost": "75",
+        "types": [
+            "糞",
+            "鑑"
+        ],
+        "reach": "精神",
+        "target": "単体",
+        "skillName": "風王結界",
+        "skillDescription": "戦闘開始時に味方のCost70未満のユニットは全ステータスが上昇。仲間にいるだけで味方のCost70未満のユニットは行動が遅くなる。",
+        "appearanceList": [
+            {
+                "placeName": "クッキーレストラン",
+                "canDrop": true
+            },
+            {
+                "placeName": "古代都市キモティカ",
+                "canDrop": true
+            },
+            {
+                "placeName": "下北沢裁判所",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "201",
+                "max": "300"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "DB",
+        "hp": "150",
+        "atk": "150",
+        "def": "150",
+        "mnt": "150",
+        "cost": "80",
+        "types": [
+            "ホモ",
+            "立教"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": " ",
+        "skillDescription": "立教3人組が揃って窮地に陥ると何かが起こる可能性が微粒子レベルで存在している・・・？",
+        "appearanceList": [
+            {
+                "placeName": "立教帝国",
+                "canDrop": true
+            },
+            {
+                "placeName": "岡山城",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "101",
+                "max": "300"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "我修院",
+        "hp": "150",
+        "atk": "100",
+        "def": "100",
+        "mnt": "100",
+        "cost": "65",
+        "types": [
+            "糞",
+            "鑑"
+        ],
+        "reach": "精神",
+        "target": "単体",
+        "skillName": "食通",
+        "skillDescription": "仲間にいるだけで味方のHP回復量が2倍になる。",
+        "appearanceList": [
+            {
+                "placeName": "クッキーレストラン",
+                "canDrop": true
+            },
+            {
+                "placeName": "古代都市キモティカ",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "201",
+                "max": "300"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "KBTIT（詐欺師）",
+        "hp": "150",
+        "atk": "80",
+        "def": "120",
+        "mnt": "150",
+        "cost": "70",
+        "types": [
+            "屑",
+            "風評被害",
+            "KBTIT"
+        ],
+        "reach": "精神",
+        "target": "単体",
+        "skillName": "ゴーストライター",
+        "skillDescription": "詐欺師なので仲間にいるだけで全員の能力変化スキルの効果が逆になる。",
+        "appearanceList": [
+            {
+                "placeName": "古代都市キモティカ",
+                "canDrop": true
+            },
+            {
+                "placeName": "ひで祭り会場",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "KBTIT（調査兵団）",
+        "hp": "170",
+        "atk": "170",
+        "def": "90",
+        "mnt": "170",
+        "cost": "60",
+        "types": [
+            "風評被害",
+            "KBTIT"
+        ],
+        "reach": "精神",
+        "target": "単体",
+        "skillName": "紅蓮の弓矢",
+        "skillDescription": "年が年なので行動する度に自分の全能力が下がる。",
+        "appearanceList": [
+            {
+                "placeName": "古代都市キモティカ",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "KBTIT（漫画家）",
+        "hp": "180",
+        "atk": "90",
+        "def": "165",
+        "mnt": "165",
+        "cost": "100",
+        "types": [
+            "風評被害",
+            "KBTIT",
+            "鑑"
+        ],
+        "reach": "精神",
+        "target": "単体",
+        "skillName": "オサレポエム",
+        "skillDescription": "ポエムの効果により仲間にいるだけでATKが100の味方ユニットの単体攻撃は全体攻撃になる。恥ずかしいので攻撃力は落ちる。",
+        "appearanceList": [
+            {
+                "placeName": "古代都市キモティカ",
+                "canDrop": true
+            },
+            {
+                "placeName": "下北沢裁判所",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "TITニング",
+        "hp": "150",
+        "atk": "100",
+        "def": "180",
+        "mnt": "90",
+        "cost": "80",
+        "types": [
+            "風評被害",
+            "KBTIT",
+            "武器"
+        ],
+        "reach": "物理",
+        "target": "2回",
+        "skillName": "ゲシュタルトドライブ",
+        "skillDescription": "重力を自在に操る事により味方の総コストが敵のコストより多いとき、仲間にいるだけで相手の行動が遅くなる。",
+        "appearanceList": [],
+        "cocoaList": [],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "メ・バヂス・バ",
+        "hp": "100",
+        "atk": "130",
+        "def": "90",
+        "mnt": "100",
+        "cost": "40",
+        "types": [
+            "風評被害",
+            "KBTIT",
+            "虫"
+        ],
+        "reach": "物理",
+        "target": "2回",
+        "skillName": "ゲゲル",
+        "skillDescription": "攻撃はせずに上空へと飛翔する。次のターンに毒針を撃って戻ってくる。攻撃された相手は毒状態になる。飛翔中は攻撃や効果の対象にならない。",
+        "appearanceList": [
+            {
+                "placeName": "古代都市キモティカ",
+                "canDrop": true
+            },
+            {
+                "placeName": "下北沢裁判所",
+                "canDrop": true
+            },
+            {
+                "placeName": "ひで祭り会場",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "SNE姉貴",
+        "hp": "100",
+        "atk": "100",
+        "def": "100",
+        "mnt": "100",
+        "cost": "60",
+        "types": [
+            "巫女",
+            "神"
+        ],
+        "reach": "精神",
+        "target": "単体",
+        "skillName": "奇跡を起こす程度の能力",
+        "skillDescription": "仲間にいるだけで確率で発動するスキルがよく発動するようになる。",
+        "appearanceList": [
+            {
+                "placeName": "2014年初詣",
+                "canDrop": true
+            },
+            {
+                "placeName": "博麗神社",
+                "canDrop": true
+            },
+            {
+                "placeName": "博麗神社境内",
+                "canDrop": true
+            },
+            {
+                "placeName": "ひで祭り会場",
+                "canDrop": true
+            },
+            {
+                "placeName": "人間の里2",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "71",
+                "max": "100"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "風神KNK",
+        "hp": "170",
+        "atk": "140",
+        "def": "170",
+        "mnt": "170",
+        "cost": "100",
+        "types": [
+            "神"
+        ],
+        "reach": "物理",
+        "target": "全体",
+        "skillName": "乾を創造する程度の能力",
+        "skillDescription": "天を作り替える事により15%の確率で攻撃相手の行動ゲージを少し減らす。",
+        "appearanceList": [
+            {
+                "placeName": "2014年初詣",
+                "canDrop": true
+            },
+            {
+                "placeName": "博麗神社",
+                "canDrop": true
+            },
+            {
+                "placeName": "博麗神社境内",
+                "canDrop": true
+            },
+            {
+                "placeName": "博麗神社境内2",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "71",
+                "max": "100"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "土着神SWK",
+        "hp": "100",
+        "atk": "100",
+        "def": "100",
+        "mnt": "100",
+        "cost": "60",
+        "types": [
+            "神"
+        ],
+        "reach": "精神",
+        "target": "単体",
+        "skillName": "坤を創造する程度の能力",
+        "skillDescription": "地面を作り替える事により30%の確率で攻撃相手の行動ゲージを0にする。",
+        "appearanceList": [
+            {
+                "placeName": "2014年初詣",
+                "canDrop": true
+            },
+            {
+                "placeName": "博麗神社",
+                "canDrop": true
+            },
+            {
+                "placeName": "博麗神社境内",
+                "canDrop": true
+            },
+            {
+                "placeName": "太陽の畑",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "71",
+                "max": "100"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "RNK姉貴",
+        "hp": "130",
+        "atk": "60",
+        "def": "125",
+        "mnt": "125",
+        "cost": "80",
+        "types": [
+            "風評被害",
+            "鑑"
+        ],
+        "reach": "精神",
+        "target": "単体",
+        "skillName": "便乗",
+        "skillDescription": "味方の誰かが攻撃すると便乗して追撃する。（攻撃後に追加効果の無いユニットの攻撃にのみ反応する）[イラスト：古霧さん]",
+        "appearanceList": [
+            {
+                "placeName": "白玉楼",
+                "canDrop": true
+            },
+            {
+                "placeName": "地霊殿",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "51",
+                "max": "100"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "STR姉貴",
+        "hp": "115",
+        "atk": "85",
+        "def": "100",
+        "mnt": "180",
+        "cost": "70",
+        "types": [
+            "妖怪",
+            "さとり",
+            "鑑"
+        ],
+        "reach": "精神",
+        "target": "単体",
+        "skillName": "心を読む程度の能力",
+        "skillDescription": "読心能力により相手の「仲間にいるだけで～」系のスキルを全て無効にする。[イラスト：あずみはるひとさん]",
+        "appearanceList": [
+            {
+                "placeName": "地霊殿",
+                "canDrop": true
+            },
+            {
+                "placeName": "霧雨屋",
+                "canDrop": true
+            },
+            {
+                "placeName": "博麗神社境内",
+                "canDrop": true
+            },
+            {
+                "placeName": "太陽の畑",
+                "canDrop": true
+            },
+            {
+                "placeName": "博麗神社境内2",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "251",
+                "max": "300"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "KISちゃん",
+        "hp": "70",
+        "atk": "175",
+        "def": "70",
+        "mnt": "70",
+        "cost": "45",
+        "types": [
+            "妖怪",
+            "さとり",
+            "鑑"
+        ],
+        "reach": "精神",
+        "target": "単体",
+        "skillName": "無意識",
+        "skillDescription": "最後の1人になるまで攻撃や補助の対象にならない。カウンターもされない。[イラスト：あずみはるひとさん]",
+        "appearanceList": [
+            {
+                "placeName": "地霊殿",
+                "canDrop": true
+            },
+            {
+                "placeName": "霧雨屋",
+                "canDrop": true
+            },
+            {
+                "placeName": "博麗神社境内",
+                "canDrop": true
+            },
+            {
+                "placeName": "博麗神社境内2",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "251",
+                "max": "300"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "YUMちゃん",
+        "hp": "70",
+        "atk": "145",
+        "def": "110",
+        "mnt": "70",
+        "cost": "55",
+        "types": [
+            "亡霊",
+            "武器",
+            "鑑"
+        ],
+        "reach": "物理",
+        "target": "2回",
+        "skillName": "後の先",
+        "skillDescription": "精神攻撃を30%の確率で無効化し、反撃する。[イラスト　あずみはるひとさん]",
+        "appearanceList": [
+            {
+                "placeName": "白玉楼",
+                "canDrop": true
+            },
+            {
+                "placeName": "アリスの家",
+                "canDrop": true
+            },
+            {
+                "placeName": "博麗神社境内",
+                "canDrop": true
+            },
+            {
+                "placeName": "紅魔館調理室",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "251",
+                "max": "300"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "YYK姉貴",
+        "hp": "160",
+        "atk": "185",
+        "def": "120",
+        "mnt": "180",
+        "cost": "110",
+        "types": [
+            "亡霊",
+            "鑑"
+        ],
+        "reach": "精神",
+        "target": "全体",
+        "skillName": "ポルターガイストくん",
+        "skillDescription": "亡霊なので戦闘不能の状態でも攻撃できる。[イラスト　あずみはるひとさん]",
+        "appearanceList": [
+            {
+                "placeName": "白玉楼",
+                "canDrop": true
+            },
+            {
+                "placeName": "アリスの家",
+                "canDrop": true
+            },
+            {
+                "placeName": "博麗神社境内",
+                "canDrop": true
+            },
+            {
+                "placeName": "博麗神社境内2",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "251",
+                "max": "300"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "ハガー市長",
+        "hp": "170",
+        "atk": "190",
+        "def": "180",
+        "mnt": "180",
+        "cost": "250",
+        "types": [
+            "レスリング",
+            "鑑"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "ストリートファイト",
+        "skillDescription": "愛する市民を守るため、味方の[デブ]ユニットが攻撃されると反撃する。",
+        "appearanceList": [
+            {
+                "placeName": "下北沢裁判所",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "OZW",
+        "hp": "110",
+        "atk": "150",
+        "def": "90",
+        "mnt": "80",
+        "cost": "45",
+        "types": [
+            "ホモ",
+            "屑"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "野獣転生",
+        "skillDescription": "攻撃した相手を昏睡状態にする。攻撃後、味方1人も昏睡状態にさせてしまう。",
+        "appearanceList": [
+            {
+                "placeName": "下北沢裁判所",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "DRVS",
+        "hp": "120",
+        "atk": "100",
+        "def": "90",
+        "mnt": "90",
+        "cost": "60",
+        "types": [
+            "棒読み"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "黒いの",
+        "skillDescription": "棒読みしながらの攻撃なので、相手はやる気を無くして物理攻撃力と防御力が下がってしまう。",
+        "appearanceList": [
+            {
+                "placeName": "下北沢裁判所",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "植木鉢くん",
+        "hp": "100",
+        "atk": "100",
+        "def": "100",
+        "mnt": "100",
+        "cost": "60",
+        "types": [
+            "鑑"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "無残な姿",
+        "skillDescription": "破壊されると仲間ユニットは怒り狂い攻撃力がアップする。行動ゲージも少し追加。[イラスト：古霧さん]",
+        "appearanceList": [
+            {
+                "placeName": "下北沢裁判所",
+                "canDrop": true
+            },
+            {
+                "placeName": "ひで祭り会場",
+                "canDrop": true
+            },
+            {
+                "placeName": "博麗神社境内2",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "KMC姉貴",
+        "hp": "170",
+        "atk": "170",
+        "def": "130",
+        "mnt": "130",
+        "cost": "55",
+        "types": [
+            "死神",
+            "屑",
+            "武器"
+        ],
+        "reach": "物理",
+        "target": "2回",
+        "skillName": "居眠り",
+        "skillDescription": "怠け癖が染み付いているので2ターンに一回の頻度で居眠りする。寝るとHPが回復[イラスト：あずみはるひとさん]",
+        "appearanceList": [
+            {
+                "placeName": "下北沢裁判所",
+                "canDrop": true
+            },
+            {
+                "placeName": "太陽の畑",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "EIK姉貴",
+        "hp": "100",
+        "atk": "140",
+        "def": "100",
+        "mnt": "160",
+        "cost": "70",
+        "types": [
+            "神",
+            "鑑"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "訴訟確定",
+        "skillDescription": "相手が戦闘不能になると罰としてその敵は味方を攻撃し続ける羽目になる。[イラスト：あずみはるひとさん]",
+        "appearanceList": [
+            {
+                "placeName": "下北沢裁判所",
+                "canDrop": true
+            },
+            {
+                "placeName": "博麗神社境内2",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "バレンタインRIM",
+        "hp": "120",
+        "atk": "130",
+        "def": "110",
+        "mnt": "140",
+        "cost": "70",
+        "types": [
+            "巫女"
+        ],
+        "reach": "精神",
+        "target": "単体",
+        "skillName": "博麗結界",
+        "skillDescription": "仲間にいるだけで仲間全員の受けるダメージが20％の確率で0になる。[イラスト：あずみはるひとさん]",
+        "appearanceList": [
+            {
+                "placeName": "博麗神社",
+                "canDrop": true
+            },
+            {
+                "placeName": "博麗神社境内",
+                "canDrop": false
+            },
+            {
+                "placeName": "ひで祭り会場",
+                "canDrop": true
+            },
+            {
+                "placeName": "人間の里2",
+                "canDrop": true
+            },
+            {
+                "placeName": "博麗神社境内2",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "バレンタインUDK",
+        "hp": "110",
+        "atk": "170",
+        "def": "100",
+        "mnt": "120",
+        "cost": "70",
+        "types": [
+            "魔法使い",
+            "屑"
+        ],
+        "reach": "精神",
+        "target": "単体",
+        "skillName": "マスタースパーク",
+        "skillDescription": "仲間の[魔法使い]ユニットのHPが最大の時、与えるダメージが3倍＋相手のダメージ軽減スキルも無視する。[イラスト：あずみはるひとさん]",
+        "appearanceList": [
+            {
+                "placeName": "霧雨屋",
+                "canDrop": true
+            },
+            {
+                "placeName": "博麗神社境内",
+                "canDrop": false
+            },
+            {
+                "placeName": "ひで祭り会場",
+                "canDrop": true
+            },
+            {
+                "placeName": "太陽の畑",
+                "canDrop": true
+            },
+            {
+                "placeName": "博麗神社境内2",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "バレンタインALC",
+        "hp": "160",
+        "atk": "60",
+        "def": "140",
+        "mnt": "140",
+        "cost": "70",
+        "types": [
+            "魔法使い",
+            "鑑"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "ブラウニー",
+        "skillDescription": "攻撃後の仲間全員のHPを少し回復。状態異常や減った能力も元に戻る。[イラスト：あずみはるひとさん]",
+        "appearanceList": [
+            {
+                "placeName": "アリスの家",
+                "canDrop": true
+            },
+            {
+                "placeName": "博麗神社境内",
+                "canDrop": false
+            },
+            {
+                "placeName": "ひで祭り会場",
+                "canDrop": true
+            },
+            {
+                "placeName": "紅魔館調理室",
+                "canDrop": true
+            },
+            {
+                "placeName": "博麗神社境内2",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "HTNこころ",
+        "hp": "160",
+        "atk": "120",
+        "def": "160",
+        "mnt": "160",
+        "cost": "80",
+        "types": [
+            "妖怪"
+        ],
+        "reach": "精神",
+        "target": "単体",
+        "skillName": "こころのルーレット",
+        "skillDescription": "戦闘開始時と攻撃終了時に感情がランダムで変化する。感情によって行動パターンが変わる。[イラスト：古霧さん]",
+        "appearanceList": [
+            {
+                "placeName": "博麗神社境内",
+                "canDrop": true
+            },
+            {
+                "placeName": "博麗神社境内2",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "花嫁と化した先輩",
+        "hp": "135",
+        "atk": "110",
+        "def": "130",
+        "mnt": "120",
+        "cost": "80",
+        "types": [
+            "ホモ",
+            "屑",
+            "空手"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "大胆な告白",
+        "skillDescription": "戦闘開始時に相手全体に大胆な告白をし、Cost70未満のユニットを昏睡させる。[イラスト：たけのこLv9さん]",
+        "appearanceList": [
+            {
+                "placeName": "人間の里2",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "チョコレート先輩",
+        "hp": "95",
+        "atk": "95",
+        "def": "95",
+        "mnt": "95",
+        "cost": "45",
+        "types": [
+            "汚物"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": " ",
+        "skillDescription": "廃 棄 処 分 確 定 [イラスト：古霧さん]",
+        "appearanceList": [
+            {
+                "placeName": "",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "201",
+                "max": "300"
+            }
+        ],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "KBTIT（花嫁）",
+        "hp": "135",
+        "atk": "135",
+        "def": "95",
+        "mnt": "135",
+        "cost": "70",
+        "types": [
+            "調教",
+            "ホモ",
+            "鑑"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "優しい暴力",
+        "skillDescription": "敵をHP半分まで追い詰めると全体攻撃で追い打ちする。（トドメはさせない）[イラスト：たけのこLv9さん]",
+        "appearanceList": [
+            {
+                "placeName": "太陽の畑",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "花嫁ピンキー",
+        "hp": "200",
+        "atk": "10",
+        "def": "200",
+        "mnt": "200",
+        "cost": "120",
+        "types": [
+            "屑",
+            "妖怪"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "心肺停止",
+        "skillDescription": "行動したら最後、その恐怖の笑顔で相手1人を絶命させる。他のピンキーがいると行動が遅くなる。",
+        "appearanceList": [
+            {
+                "placeName": "紅魔館調理室",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "TIS姉貴",
+        "hp": "110",
+        "atk": "130",
+        "def": "125",
+        "mnt": "140",
+        "cost": "90",
+        "types": [
+            "魔法使い",
+            "屑",
+            "ゲス"
+        ],
+        "reach": "精神",
+        "target": "全体",
+        "skillName": "よっちゃんイカ",
+        "skillDescription": "仲間に[魔法使い]ユニットがいる間は受けるダメージが0になる。その後味方に八つ当たりする。",
+        "appearanceList": [
+            {
+                "placeName": "博麗神社境内2",
+                "canDrop": true
+            },
+            {
+                "placeName": "ババアポカリプス",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "ZUN",
+        "hp": "80",
+        "atk": "140",
+        "def": "80",
+        "mnt": "80",
+        "cost": "45",
+        "types": [
+            "神"
+        ],
+        "reach": "???",
+        "skillName": "酒呑み",
+        "skillDescription": "神主なので仲間のCost60以下かつ幻想郷出身の女の子ユニットのスキルは全部使える。[イラスト：babaraさん]",
+        "appearanceList": [
+            {
+                "placeName": "博麗神社境内2",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "ホワイトチョコ先輩",
+        "hp": "90",
+        "atk": "100",
+        "def": "95",
+        "mnt": "95",
+        "cost": "45",
+        "types": [
+            "汚物"
+        ],
+        "reach": "精神",
+        "target": "単体",
+        "skillName": " ",
+        "skillDescription": "汚すぎる、訴訟[イラスト：古霧さん]",
+        "appearanceList": [
+            {
+                "placeName": "",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "YYKBBA",
+        "hp": "190",
+        "atk": "110",
+        "def": "175",
+        "mnt": "175",
+        "cost": "110",
+        "types": [
+            "亡霊"
+        ],
+        "reach": "精神",
+        "target": "全体",
+        "skillName": " ",
+        "skillDescription": "合成するとアポカリプスが発生し、ベースユニットのHPがアップ。[イラスト:古霧さん]",
+        "appearanceList": [
+            {
+                "placeName": "ババアポカリプス",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "KNKBBA",
+        "hp": "115",
+        "atk": "130",
+        "def": "120",
+        "mnt": "100",
+        "cost": "80",
+        "types": [
+            "神"
+        ],
+        "reach": "物理",
+        "target": "全体",
+        "skillName": " ",
+        "skillDescription": "合成するとアポカリプスが発生し、ベースユニットの攻撃力がアップ。[イラスト:古霧さん]",
+        "appearanceList": [
+            {
+                "placeName": "ババアポカリプス",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "EIRNBBA",
+        "hp": "140",
+        "atk": "100",
+        "def": "190",
+        "mnt": "140",
+        "cost": "90",
+        "types": [
+            "月の民"
+        ],
+        "reach": "物理",
+        "target": "全体",
+        "skillName": " ",
+        "skillDescription": "合成するとアポカリプスが発生し、ベースユニットの物理防御力がアップ。[イラスト:古霧さん]",
+        "appearanceList": [
+            {
+                "placeName": "ババアポカリプス",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "デビルひで",
+        "hp": "85",
+        "atk": "170",
+        "def": "80",
+        "mnt": "170",
+        "cost": "65",
+        "types": [
+            "悪魔",
+            "屑"
+        ],
+        "reach": "物理",
+        "target": "全体",
+        "skillName": "逃れられるカルマ",
+        "skillDescription": "自分の能力を抑えきれないので攻撃後に自分もダメージを受ける",
+        "appearanceList": [
+            {
+                "placeName": "邪神の塔",
+                "canDrop": false
+            },
+            {
+                "placeName": "クッキーレストラン",
+                "canDrop": true
+            },
+            {
+                "placeName": "ひで祭り会場",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "HZRBBA",
+        "hp": "95",
+        "atk": "90",
+        "def": "90",
+        "mnt": "110",
+        "cost": "60",
+        "types": [
+            "魔法使い"
+        ],
+        "reach": "精神",
+        "target": "2回",
+        "skillName": " ",
+        "skillDescription": "合成するとアポカリプスが発生し、ベースユニットの精神防御力がアップ。[イラスト:古霧さん]",
+        "appearanceList": [
+            {
+                "placeName": "ババアポカリプス",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "多脚ひで",
+        "hp": "100",
+        "atk": "130",
+        "def": "120",
+        "mnt": "100",
+        "cost": "55",
+        "types": [
+            "ホモ",
+            "屑",
+            "汚物"
+        ],
+        "reach": "物理",
+        "target": "全体",
+        "skillName": "ひでしね",
+        "skillDescription": "見てるだけでイライラするので、攻撃後に敵全体の攻撃力が上がってしまう。",
+        "appearanceList": [
+            {
+                "placeName": "ひで祭り会場",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "タナトスひで",
+        "hp": "70",
+        "atk": "200",
+        "def": "130",
+        "mnt": "100",
+        "cost": "90",
+        "types": [
+            "死神",
+            "屑"
+        ],
+        "reach": "精神",
+        "target": "単体",
+        "skillName": "メギドラオン",
+        "skillDescription": "仲間が状態異常になると発狂してダメージ軽減効果無視の全体攻撃を放つ。スピードもアップ。",
+        "appearanceList": [
+            {
+                "placeName": "ひで祭り会場",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "ウルトラマンタクヤ",
+        "hp": "100",
+        "atk": "150",
+        "def": "75",
+        "mnt": "75",
+        "cost": "60",
+        "types": [
+            "マゾ",
+            "正義"
+        ],
+        "reach": "精神",
+        "target": "単体",
+        "skillName": "ヒーロー拷問",
+        "skillDescription": "ウルトラマンだって死にそうなときゎ、自爆して全員に大ダメージを与えるんだよ",
+        "appearanceList": [
+            {
+                "placeName": "日本ペイント",
+                "canDrop": true
+            },
+            {
+                "placeName": "聖バビロン大学病院",
+                "canDrop": true
+            },
+            {
+                "placeName": "王者の聖域",
+                "canDrop": true
+            },
+            {
+                "placeName": "2014年初詣",
+                "canDrop": true
+            },
+            {
+                "placeName": "白玉楼",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "破面KBTIT",
+        "hp": "150",
+        "atk": "100",
+        "def": "75",
+        "mnt": "75",
+        "cost": "60",
+        "types": [
+            "マゾ",
+            "筋肉"
+        ],
+        "reach": "精神",
+        "target": "単体",
+        "skillName": "変態マゾ筋肉",
+        "skillDescription": "攻撃を受けると30%の確率でよがり狂い、受けるダメージ分HPが回復する。",
+        "appearanceList": [
+            {
+                "placeName": "王者の聖域",
+                "canDrop": true
+            },
+            {
+                "placeName": "2014年初詣",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "創造神KMR",
+        "hp": "270",
+        "atk": "65",
+        "def": "120",
+        "mnt": "120",
+        "cost": "130",
+        "types": [
+            "糞",
+            "ホモ",
+            "神"
+        ],
+        "reach": "物理",
+        "target": "全体",
+        "skillName": "創造です",
+        "skillDescription": "戦闘不能になった仲間を一回だけ復帰させる。",
+        "appearanceList": [
+            {
+                "placeName": "スキマワールド",
+                "canDrop": false
+            },
+            {
+                "placeName": "立教帝国",
+                "canDrop": false
+            },
+            {
+                "placeName": "クッキーレストラン",
+                "canDrop": false
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "超覚醒KMR",
+        "hp": "140",
+        "atk": "140",
+        "def": "150",
+        "mnt": "150",
+        "cost": "80",
+        "types": [
+            "調教",
+            "ホモ",
+            "糞"
+        ],
+        "reach": "精神",
+        "target": "2回",
+        "skillName": "超覚醒",
+        "skillDescription": "攻撃相手を恐怖状態にする。仲間にいるだけで[調教]ユニットが恐怖状態の相手から攻撃されると行動ゲージが上昇する。",
+        "appearanceList": [
+            {
+                "placeName": "スキマワールド",
+                "canDrop": false
+            },
+            {
+                "placeName": "太陽の畑",
+                "canDrop": false
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "淫夢くんUC",
+        "hp": "120",
+        "atk": "150",
+        "def": "115",
+        "mnt": "115",
+        "cost": "70",
+        "types": [
+            "聖獣",
+            "鑑"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "王者の右手",
+        "skillDescription": "仲間にいるだけで相手COST60未満の敵ユニットは行動が遅くなる[イラスト　古霧さん]",
+        "appearanceList": [
+            {
+                "placeName": "",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "世界のトオノ",
+        "hp": "170",
+        "atk": "155",
+        "def": "155",
+        "mnt": "120",
+        "cost": "80",
+        "types": [
+            "水泳",
+            "ホモ",
+            "鑑"
+        ],
+        "reach": "精神",
+        "target": "単体",
+        "skillName": "世界の歌声",
+        "skillDescription": "仲間にいるだけで味方の「攻撃後に仲間の能力を上昇させる」系スキルを持つユニットは戦闘開始時にそのスキルを発動できる。",
+        "appearanceList": [
+            {
+                "placeName": "スキマワールド",
+                "canDrop": false
+            },
+            {
+                "placeName": "立教帝国",
+                "canDrop": false
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "変態糞娘",
+        "hp": "100",
+        "atk": "85",
+        "def": "130",
+        "mnt": "85",
+        "cost": "70",
+        "types": [
+            "糞",
+            "ホモ",
+            "鑑"
+        ],
+        "reach": "物理",
+        "target": "全体",
+        "skillName": "やったわ",
+        "skillDescription": "味方を巻き込む全体攻撃だが、味方の[糞]ユニットは逆に攻撃力がアップする。[イラスト：古霧さん]",
+        "appearanceList": [
+            {
+                "placeName": "",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "サイクロップス先輩",
+        "hp": "-1",
+        "atk": "180",
+        "def": "1",
+        "mnt": "1",
+        "cost": "55",
+        "types": [
+            "メタル"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "メタリックな彼",
+        "skillDescription": "どんな攻撃も1ダメージしか受けない",
+        "appearanceList": [
+            {
+                "placeName": "邪神の塔",
+                "canDrop": true
+            },
+            {
+                "placeName": "立教帝国",
+                "canDrop": true
+            },
+            {
+                "placeName": "2014年初詣",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "暗黒神ラプソーン",
+        "hp": "190",
+        "atk": "150",
+        "def": "165",
+        "mnt": "165",
+        "cost": "125",
+        "types": [
+            "神",
+            "悪",
+            "デブ"
+        ],
+        "reach": "精神",
+        "target": "全体",
+        "skillName": "サイコキャノン",
+        "skillDescription": "15%の確率で相手を昏睡させてしまう。",
+        "appearanceList": [
+            {
+                "placeName": "スキマワールド",
+                "canDrop": false
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "ダークドレアム先輩",
+        "hp": "130",
+        "atk": "120",
+        "def": "160",
+        "mnt": "160",
+        "cost": "90",
+        "types": [
+            "神",
+            "空手"
+        ],
+        "reach": "物理",
+        "target": "2回",
+        "skillName": "マダンテ",
+        "skillDescription": "3ターン目に仲間の行動ゲージを全部使って全体攻撃を放つ。",
+        "appearanceList": [
+            {
+                "placeName": "",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "釣りキチおばさん",
+        "hp": "85",
+        "atk": "100",
+        "def": "130",
+        "mnt": "85",
+        "cost": "60",
+        "types": [
+            "メイド",
+            "鑑"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "原発姉貴",
+        "skillDescription": "攻撃相手が釣りキチ化する。釣りキチ状態になると攻撃時の追加効果は無効になる。",
+        "appearanceList": [
+            {
+                "placeName": "ババアポカリプス",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "MUR肉",
+        "hp": "110",
+        "atk": "170",
+        "def": "110",
+        "mnt": "110",
+        "cost": "60",
+        "types": [
+            "ホモ",
+            "屑",
+            "空手"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "ブルグミュラー",
+        "skillDescription": "戦闘不能になると敵に美味しく頂かれてしまい、HPが回復してしまう。",
+        "appearanceList": [
+            {
+                "placeName": "",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "かんなフェニックス",
+        "hp": "90",
+        "atk": "250",
+        "def": "100",
+        "mnt": "100",
+        "cost": "100",
+        "types": [
+            "巫女",
+            "屑",
+            "鳥"
+        ],
+        "reach": "精神",
+        "target": "単体",
+        "skillName": "生き返るわぁ～",
+        "skillDescription": "戦闘不能になっても1ターン後に全体攻撃をまき散らしながら復活する。1回だけ味方の[鳥]ユニットも復活する。",
+        "appearanceList": [
+            {
+                "placeName": "下北沢裁判所",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "関西ナース",
+        "hp": "100",
+        "atk": "120",
+        "def": "100",
+        "mnt": "100",
+        "cost": "80",
+        "types": [
+            "巫女",
+            "医者",
+            "屑"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "生き返るわぁ～",
+        "skillDescription": "戦闘不能になっても1ターン後に復活する。復活ついでに味方のスキル無しユニットも復活する。",
+        "appearanceList": [
+            {
+                "placeName": "",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "邪神GO",
+        "hp": "300",
+        "atk": "130",
+        "def": "220",
+        "mnt": "220",
+        "cost": "80",
+        "types": [
+            "神",
+            "屑"
+        ],
+        "reach": "精神",
+        "target": "全体",
+        "skillName": "GO is GOD.",
+        "skillDescription": "戦闘開始時に味方に即死級のダメージを与える屑。こんなものを崇めてはいけない（戒め）",
+        "appearanceList": [
+            {
+                "placeName": "",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "神々の頂点SWK",
+        "hp": "170",
+        "atk": "140",
+        "def": "170",
+        "mnt": "170",
+        "cost": "90",
+        "types": [
+            "神"
+        ],
+        "reach": "精神",
+        "target": "全体",
+        "skillName": "カエルならやる！",
+        "skillDescription": "戦闘中に使う回復アイテムが全部カエルの肉になってしまい、回復をダメージにしてしまう。",
+        "appearanceList": [
+            {
+                "placeName": "博麗神社境内2",
+                "canDrop": false
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "ど麺罪木",
+        "hp": "90",
+        "atk": "100",
+        "def": "90",
+        "mnt": "100",
+        "cost": "60",
+        "types": [
+            "風評被害"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "クッソ！ファック！",
+        "skillDescription": "1-4回ランダムにバカバカ連呼しながら攻撃する。http://www.nicovideo.jp/watch/sm22763702",
+        "appearanceList": [
+            {
+                "placeName": "",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "UDNG姉貴",
+        "hp": "115",
+        "atk": "100",
+        "def": "125",
+        "mnt": "150",
+        "cost": "70",
+        "types": [
+            "妖怪",
+            "鑑"
+        ],
+        "reach": "精神",
+        "target": "単体",
+        "skillName": "狂気の眼光",
+        "skillDescription": "攻撃されるとカウンターし、相手を混乱状態にする。[イラスト：古霧さん]",
+        "appearanceList": [
+            {
+                "placeName": "人間の里2",
+                "canDrop": true
+            },
+            {
+                "placeName": "博麗神社境内2",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "AY姉貴",
+        "hp": "75",
+        "atk": "120",
+        "def": "80",
+        "mnt": "80",
+        "cost": "45",
+        "types": [
+            "妖怪",
+            "鳥"
+        ],
+        "reach": "精神",
+        "target": "2回",
+        "skillName": "風評少女",
+        "skillDescription": "攻撃後にAY姉貴以外の味方の[妖怪]or[鳥]ユニットの行動ゲージを上昇させる。[イラスト：古霧さん]",
+        "appearanceList": [
+            {
+                "placeName": "太陽の畑",
+                "canDrop": true
+            },
+            {
+                "placeName": "博麗神社境内2",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": []
+    },
+    {
+        "imageUrl": "",
+        "name": "HZR姉貴",
+        "hp": "165",
+        "atk": "145",
+        "def": "115",
+        "mnt": "235",
+        "cost": "120",
+        "types": [
+            "魔法使い",
+            "鑑"
+        ],
+        "reach": "精神",
+        "target": "全体",
+        "skillName": "ガンガン僧侶",
+        "skillDescription": "HPが最大の時、仲間にいるだけで[魔法使い]ユニットはCOSTが20ダウンする。[イラスト：古霧さん]",
+        "appearanceList": [
+            {
+                "placeName": "博麗神社境内2",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": []
+    }
+]

@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html ng-app="mrkrdbApp">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>まりこれDB</title>
+	<!-- <link rel="stylesheet" href="css/bootstrap.min.css" media="all">
+	<link rel="stylesheet" href="css/bootstrap-theme.min.css" media="all"> -->
+	<link rel="stylesheet" href="css/style.css" media="all">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.14/angular.js"></script>
+	<script type="text/javascript" src="app/libs/angular-cookies.min.js"></script>
+	<script type="text/javascript" src="app/libs/angularLocalStorage.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+	<script type="text/javascript" src="bootstrap/dist/js/bootstrap.js"></script>
+	<script type="text/javascript" src="app/controller.js"></script>
+</head>
+<body>
+	<div class="container" ng-controller="SearchCtrl">
+		<div class="page-header">
+			<h1>まりこれデータベース</h1>
+		</div>
+		<div class="searchBox row">
+			<div id="searchCondition" class="col-xs-12 col-sm-4">
+				<h2>検索条件</h2>
+				<ul class="list-group">
+					<li class="searchSortBox list-group-item">
+						<h3 class="list-group-item-heading">ソート</h3>
+						<div class="list-group-item-text">
+							<div class="sortOrder row">
+								<div class="col-xs-12 col-sm-5"><h4>並び順</h4></div>
+								<div class="col-xs-12 col-sm-7">
+									<div class="btn-group btn-group-sm btn-group-justified">
+										<label class="btn btn-default" ng-class="{'active btn-primary': sortOrder === 'ASC'}">
+											<input type="radio" value="ASC" ng-change="sortResult(sortKey, sortOrder, true)" ng-model="sortOrder">
+											<span class="glyphicon glyphicon-sort-by-attributes"></span>
+											昇順
+										</label>
+										<label class="btn btn-default" ng-class="{'active btn-primary': sortOrder === 'DESC'}">
+											<input type="radio" value="DESC" ng-change="sortResult(sortKey, sortOrder, true)" ng-model="sortOrder">
+											<span class="glyphicon glyphicon-sort-by-attributes-alt"></span>
+											降順
+										</label>
+									</div>
+								</div>
+								
+							</div>
+							<div class="sortKey row">
+								<div class="col-xs-12 col-sm-5"><h4>ソートするキー</h4></div>
+								<div class="col-xs-12 col-sm-7">
+									<select class="form-control" ng-change="sortResult(sortKey, sortOrder, true)" ng-model="sortKey">
+										<option value="">適当</option>
+										<option value="hp">HP</option>
+										<option value="atk">ATK</option>
+										<option value="def">DEF</option>
+										<option value="mnt">MNT</option>
+										<option value="cost">COST</option>
+									</select>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="searchFavoritedBox list-group-item" ng-if="favoritedList.length" ng-class="{'list-group-item-success': searchMode === 'favorite'}">
+						<span ng-click="showFavorite()" class="btn btn-default">お気に入りを表示 <span class="label label-default">{{favoritedList.length}}匹登録中</span></span>
+					</li>
+					<li class="searchNumBox list-group-item" ng-class="{'list-group-item-success': searchMode === 'num'}">
+						<h3 class="list-group-item-heading" ng-click="numSearch(true)">数値検索</h3>
+						<div class="list-group-item-text form-inline">
+							<select class="numSearchKey form-control" ng-model="searchCondition.numSearch.key" ng-focus="numSearch(true)" ng-change="numSearch(true)" >
+								<option value="hp">HP</option>
+								<option value="atk">ATK</option>
+								<option value="def">DEF</option>
+								<option value="mnt">MNT</option>
+								<option value="cost">COST</option>
+							</select><input class="numSearchMin form-control" placeholder="MIN" type="number" val="0" ng-change="numSearch(true)" ng-focus="numSearch(true)" ng-model="searchCondition.numSearch.min"><input class="numSearchMax form-control" placeholder="MAX" type="number" val="0" ng-change="numSearch(true)" ng-focus="numSearch(true)" ng-model="searchCondition.numSearch.max">
+						</div>
+					</li>
+					<li class="searchReachBox list-group-item" ng-class="{'list-group-item-success': searchMode === 'reach'}">
+						<h3 class="list-group-item-heading" ng-click="searchReach(true)">リーチ検索</h3>
+						<div class="list-group-item-text">
+							<div class="reachType row">
+								<div class="col-xs-12 col-sm-5"><h4>リーチ</h4></div>
+								<div class="col-xs-12 col-sm-7">
+									<div class="btn-group btn-group-sm btn-group-justified">
+										<label class="btn btn-default" ng-class="{'active btn-primary': searchCondition.reach === '物理'}"><input type="radio" value="物理" ng-change="searchReach(true)" ng-focus="searchReach(true)" ng-model="searchCondition.reach">物理</label>
+										<label class="btn btn-default" ng-class="{'active btn-primary': searchCondition.reach === '精神'}"><input type="radio" value="精神" ng-change="searchReach(true)" ng-focus="searchReach(true)" ng-model="searchCondition.reach">精神</label>
+									</div>
+								</div>
+							</div>
+							<div class="targetType row">
+								<div class="col-xs-12 col-sm-5"><h4>対象</h4></div>
+								<div class="col-xs-12 col-sm-7">
+									<div class="btn-group btn-group-sm btn-group-justified">
+										<label class="btn btn-default" ng-class="{'active btn-primary': searchCondition.target === '単体'}"><input type="radio" value="単体" ng-change="searchReach(true)" ng-focus="searchReach(true)" ng-model="searchCondition.target">単体</label>
+										<label class="btn btn-default" ng-class="{'active btn-primary': searchCondition.target === '全体'}"><input type="radio" value="全体" ng-change="searchReach(true)" ng-focus="searchReach(true)" ng-model="searchCondition.target">全体</label>
+										<label class="btn btn-default" ng-class="{'active btn-primary': searchCondition.target === '2回'}"><input type="radio" value="2回" ng-change="searchReach(true)" ng-focus="searchReach(true)" ng-model="searchCondition.target">2回</label>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="list-group-item" ng-class="{'list-group-item-success': searchMode === 'name'}">
+						<h3 class="list-group-item-heading" ng-click="nameSearch(true)">名前検索</h3>
+						<div class="searchCompositionSelectBox list-group-item-text">
+							<input class="form-control" type="text" ng-change="nameSearch(true)" ng-focus="nameSearch(true)" ng-model="searchCondition.name" placeholder="キャラ名を入力" value="">
+						</div>
+					</li>
+					<li class="list-group-item" ng-class="{'list-group-item-success': searchMode === 'skill'}">
+						<h3 class="list-group-item-heading" ng-click="skillTextSearch(true)">スキルテキスト検索</h3>
+						<div class="searchCompositionSelectBox list-group-item-text">
+							<input class="form-control" type="text" ng-change="skillTextSearch(true)" ng-focus="skillTextSearch(true)" ng-model="searchCondition.skill" placeholder="スキルのテキストを適当に入力" value="">
+						</div>
+					</li>
+					<li class="list-group-item searchTypeBox" ng-class="{'list-group-item-success': searchMode === 'type'}">
+						<h3 class="list-group-item-heading" ng-click="typeSearch(true)">TYPE</h3>
+						<div class="searchTypeModeBox list-group-item-text">
+							<h4>検索モード</h4>
+							<div class="btn-group btn-group-sm">
+								<label class="btn btn-sm btn-default" for="searchModeCheckboxAnd" ng-class="{'active btn-primary': searchCondition.mode === 'and'}">
+									<input 
+									type="radio" 
+									name="searchMode" 
+									id="searchModeCheckboxAnd" 
+									ng-checked="searchCondition.mode === 'and'" 
+									ng-model="searchCondition.mode" 
+									ng-change="typeSearch(true)" 
+									ng-focus="typeSearch(true)" 
+									value="and"
+								> AND
+								</label>
+								<label class="btn btn-sm btn-default" for="searchModeCheckboxOr" ng-class="{'active btn-primary': searchCondition.mode === 'or'}">
+									<input 
+									type="radio" 
+									name="searchMode" 
+									id="searchModeCheckboxOr" 
+									ng-checked="searchCondition.mode === 'or'" 
+									ng-model="searchCondition.mode" 
+									ng-change="typeSearch(true)"
+									ng-focus="typeSearch(true)" 
+									value="or"
+								> OR
+							</div>
+							</label>
+						</div>
+						<div class="searchTypeCheckboxBox  list-group-item-text">
+							<h4>タイプ</h4>
+							<div class="checkboxBox">
+								<label 
+									class="btn btn-sm btn-default" 
+									for="typeCheckBox{{gamedata.typeList.indexOf(type)}}" 
+									ng-class="{'active btn-primary': searchCondition.selectedTypeList.indexOf(type) > -1}" 
+									ng-repeat="type in gamedata.typeList"
+								>
+									<input
+										id="typeCheckBox{{gamedata.typeList.indexOf(type)}}"
+										name="selectedTypeList[]" 
+										type="checkbox" 
+										value="{{type}}" 
+										ng-checked="searchCondition.selectedTypeList.indexOf(type) > -1" 
+										ng-change="toggleTypeCheckbox(type)" 
+										ng-focus="toggleTypeCheckbox(type)" 
+										ng-model="searchCondition.selectedTypes[type]"
+									> {{type}}
+								</label>
+								<!-- <div class="col-xs-4 col-sm-3 col-sm-md-3" ng-repeat="type in gamedata.typeList">
+									<label 
+										class="btn" 
+										for="typeCheckBox{{gamedata.typeList.indexOf(type)}}" 
+										ng-class="{'btn-primary': searchCondition.selectedTypeList.indexOf(type) > -1, 'btn-default': !(searchCondition.selectedTypeList.indexOf(type) > -1)}"
+									>
+										<input
+											id="typeCheckBox{{gamedata.typeList.indexOf(type)}}"
+											name="selectedTypeList[]" 
+											type="checkbox" 
+											value="{{type}}" 
+											ng-checked="searchCondition.selectedTypeList.indexOf(type) > -1" 
+											ng-change="toggleTypeCheckbox(type)" 
+											ng-model="searchCondition.selectedTypes[type]"
+										> {{type}}
+									</label>
+								</div> -->
+							</div>
+						</div>
+					</li>
+					<!-- <li class="list-group-item">
+						<h3 class="list-group-item-heading">合成</h3>
+						<div class="searchCompositionSelectBox list-group-item-text">
+							<select ng-change="compositionSearch(true)" name="type" id="searchWithComposition" ng-model="searchCondition.composition">
+								<option value="選択解除" selected="selected">選択解除</option>
+								<option value="チョコレート先輩">チョコレート先輩</option>
+								<option value="{{item.name}}" ng-repeat="item in characters" ng-if="item.compositionList.length">{{item.name}}</option>
+							</select>
+						</div>
+					</li> -->
+				</ul>
+			</div>
+			<div id="searchResult" class="col-xs-12 col-sm-8" ng-class="{tinyMode: isTinyMode}">
+				<h2 class="searchResultHeader row">
+					<div class="title col-xs-8 col-sm-10">検索結果 <span class="label label-primary">{{searchResult.length}}匹</span></div>
+					<div class="tinyMode col-xs-4 col-sm-2">
+						<div class="tinyModeBtn btn-default btn btn-sm text-right" ng-click="toggleTinyMode()" ng-class="{active: !isTinyMode}">詳細モード</div>
+					</div>
+				</h2>
+				 
+				<div class="item panel panel-default" ng-repeat="item in searchResult">
+					<div class="itemHeader panel-heading">
+						<h3 class="name">{{item.name}} <a class="wikiLink" href="{{wikiUrl}}{{item.name}}" target="_blank"><span class="glyphicon glyphicon-new-window"></span></a></h3>
+						<div class="btns btn-group">
+							<div class="toFav btn btn-sm btn-default favorited" ng-if="isFavorited(item.name)" ng-click="toggleItemFavorite(item.name)"><span class="glyphicon glyphicon-star"></span> <span>お気に入りから削除</span></div>
+							<div class="toFav btn btn-sm btn-default" ng-if="!isFavorited(item.name)" ng-click="toggleItemFavorite(item.name)"><span class="glyphicon glyphicon-star-empty"></span> <span>お気に入りに登録</span></div>
+							<!-- <div class="toStac btn-sm btn btn-default">スタックに登録</div> -->
+						</div>
+					</div>
+					<div class="itemMain row panel-body">
+						<div class="textBox col-xs-12" ng-class="{'col-sm-8': !isTinyMode, 'col-sm-12': isTinyMode}">
+							<div class="statusBox box">
+								<h4><span class="glyphicon glyphicon-stats"></span>ステータス</h4>
+								<div class="table-responsive">
+									<table class="status table">
+										<tr class="colBorder">
+											<th>HP</th>
+											<th>ATK</th>
+											<th>DEF</th>
+											<th>MNT</th>
+											<th>COST</th>
+										</tr>
+										<tr class="colBorder">
+											<td>{{item.hp}}</td>
+											<td>{{item.atk}}</td>
+											<td>{{item.def}}</td>
+											<td>{{item.mnt}}</td>
+											<td>{{item.cost}}</td>
+										</tr>
+										<tr>
+											<th>TYPE</th>
+											<td class="tableCellType" colspan="2">{{item.types.join(', ')}}</td>
+											<th>REACH</th>
+											<td>{{item.reach}}・{{item.target}}</td>
+										</tr>
+										<tr class="tableRowSkill">
+											<th>SKILL</th>
+											<td colspan="4"><div class="skillName">{{item.skillName}}</div><div class="skillDescription">{{item.skillDescription}}</div></td>
+										</tr>
+									</table>
+								</div>
+							</div>
+						</div>
+						<div class="appearanceBox box col-xs-12 col-sm-4">
+							<h4><span class="glyphicon glyphicon-map-marker"></span>出現クエスト</h4>
+							<ul class="appearance list-group">
+								<li class="list-group-item" ng-repeat="place in item.appearanceList" ng-class="{isFinished: isEventFinished(place.placeName), cantDrop: !place.canDrop}">
+									<span class="placeName" >{{place.placeName}}<a class="wikiLink" href="{{wikiUrl}}{{place.placeName}}" target="_blank"><span class="glyphicon glyphicon-new-window"></span></a></span>
+									<div>
+										<span ng-if="!place.canDrop" class="cantDropLabel label label-default">ドロップなし</span>
+										<span ng-if="isEventFinished(place.placeName)" class="isFinishedLabel label label-default">配信終了</span>
+									</div>
+								</li>
+								<li class="list-group-item" ng-if="item.appearanceList.length <= 0">
+									なし
+								</li>
+							</ul>
+						</div>
+						<!-- <div class="compositionBox box col-xs-12 col-sm-8">
+							<h4><span class="glyphicon glyphicon-random"></span>合成</h4>
+							<ul class="composition list-group">
+								<li class="list-group-item" ng-repeat="comp in item.compositionList">
+									<span class="base">{{comp.base}}</span><span ng-repeat="withUnit in comp.with"><span class="plus"><span class="glyphicon glyphicon-plus"></span></span><span class="material">{{withUnit}}</span></span><span class="arrow"><span class="glyphicon glyphicon-arrow-right"></span></span><span class="target">{{comp.to}}</span>
+								</li>
+								<li class="list-group-item" ng-if="item.compositionList.length <= 0">
+									なし
+								</li>
+							</ul>
+						</div> -->
+						<div class="cocoaBox box col-xs-12 col-sm-4 col-sm-offset-8">
+							<h4><span class="glyphicon glyphicon-certificate"></span>必要クォクォア</h4>
+							<ul class="cocoaList list-group">
+								<li class="list-group-item" ng-repeat="cocoa in item.cocoaList">{{cocoa.min}}〜{{cocoa.max}}</li>
+								<li class="list-group-item" ng-if="item.cocoaList.length <= 0">新規採用不可</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>

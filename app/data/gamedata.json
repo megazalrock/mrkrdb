@@ -1,0 +1,177 @@
+{
+	"typeList": [
+		"ホモ",
+		"鑑",
+		"屑",
+		"風評被害",
+		"妖怪",
+		"調教",
+		"空手",
+		"糞",
+		"神",
+		"妖精",
+		"レスリング",
+		"武器",
+		"魔法使い",
+		"893",
+		"正義",
+		"悪",
+		"悪魔",
+		"鳥",
+		"巫女",
+		"KBTIT",
+		"医者",
+		"さとり",
+		"吸血鬼",
+		"マゾ",
+		"メガデス",
+		"聖獣",
+		"亡霊",
+		"メイド",
+		"デブ",
+		"棒読み",
+		"ゲス",
+		"鬼",
+		"水泳",
+		"虫",
+		"メタル",
+		"筋肉",
+		"ドラゴン",
+		"立教",
+		"騎士",
+		"汚物",
+		"死神",
+		"月の民"
+	],
+	"eventList": {
+		"妖怪の森": {
+			"isFinished": false
+		},
+		"氷の湖": {
+			"isFinished": false
+		},
+		"紅魔館前広場": {
+			"isFinished": false
+		},
+		"紅魔館図書館": {
+			"isFinished": false
+		},
+		"紅魔館主の間": {
+			"isFinished": false
+		},
+		"紅魔館": {
+			"isFinished": false
+		},
+		"異界の扉": {
+			"isFinished": false
+		},
+		"人間の里": {
+			"isFinished": false
+		},
+		"新宿調教センター": {
+			"isFinished": false
+		},
+		"OK牧場": {
+			"isFinished": false
+		},
+		"SMバーひらの": {
+			"isFinished": false
+		},
+		"メガデス秘密基地": {
+			"isFinished": false
+		},
+		"迫真空手道場": {
+			"isFinished": false
+		},
+		"ヒゲクマの館": {
+			"isFinished": false
+		},
+		"邪神の塔": {
+			"isFinished": false
+		},
+		"水無川": {
+			"isFinished": false
+		},
+		"日本ペイント": {
+			"isFinished": false
+		},
+		"聖バビロン大学病院": {
+			"isFinished": false
+		},
+		"新日暮里": {
+			"isFinished": false
+		},
+		"王者の聖域": {
+			"isFinished": false
+		},
+		"スキマワールド": {
+			"isFinished": false
+		},
+		"工事現場": {
+			"isFinished": false
+		},
+		"立教帝国": {
+			"isFinished": false
+		},
+		"クッキーレストラン": {
+			"isFinished": false
+		},
+		"古代都市キモティカ": {
+			"isFinished": false
+		},
+		"紅魔館地下室": {
+			"isFinished": false
+		},
+		"メガデス秘密基地2": {
+			"isFinished": false
+		},
+		"セミ兄貴の森": {
+			"isFinished": false
+		},
+		"岡山城": {
+			"isFinished": false
+		},
+		"白玉楼": {
+			"isFinished": false
+		},
+		"下北沢裁判所": {
+			"isFinished": false
+		},
+		"ババアポカリプス": {
+			"isFinished": false
+		},
+		"2014年初詣": {
+			"isFinished": true
+		},
+		"地霊殿": {
+			"isFinished": true
+		},
+		"博麗神社": {
+			"isFinished": true
+		},
+		"霧雨屋": {
+			"isFinished": true
+		},
+		"アリスの家": {
+			"isFinished": true
+		},
+		"博麗神社境内": {
+			"isFinished": true
+		},
+		"ひで祭り会場": {
+			"isFinished": true
+		},
+		"人間の里2": {
+			"isFinished": true
+		},
+		"太陽の畑": {
+			"isFinished": true
+		},
+		"紅魔館調理室": {
+			"isFinished": true
+		},
+		"博麗神社境内2": {
+			"isFinished": true
+		}
+	}
+}
