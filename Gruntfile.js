@@ -39,38 +39,6 @@ module.exports = function(grunt) {
         dest: 'css/style.min.css'
       }
     },
-    compress: {
-      css: {
-        options: {
-          mode: 'gzip'
-        },
-        files: {
-          expand: true,
-          src: 'css/style.min.css',
-          dest: 'css/style.min.css.gz'
-        }
-      },
-      js: {
-        options: {
-          mode: 'gzip'
-        },
-        files: {
-          expand: true,
-          src: 'app/controller.min.js',
-          dest: 'app/controller.min.js.gz'
-        }
-      },
-      html: {
-        options: {
-          mode: 'gzip'
-        },
-        files: {
-          expand: true,
-          src: 'index.html',
-          dest: 'index.html.gz'
-        }
-      }
-    },
     jshint: {
       options: {
         curly: true,
@@ -106,7 +74,7 @@ module.exports = function(grunt) {
         tasks: ['uglify']
       },
       less:{
-        files: ['css/*.less', 'app/**/*.less'],
+        files: ['css/*.less', 'bootstrap/**/*.less'],
         tasks: ['less', 'cssmin']
       }
     }
