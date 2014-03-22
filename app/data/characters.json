@@ -26,7 +26,8 @@
                 "max": "100"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -56,7 +57,8 @@
                 "max": "100"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -86,7 +88,8 @@
                 "max": "100"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -135,7 +138,10 @@
                 "max": "1"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "メ・バヂス・バと並び、現時点で最速のユニット。"
+        ]
     },
     {
         "imageUrl": "",
@@ -197,7 +203,10 @@
                 "max": "1"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "CRNちゃんと同時に出すと、全体物理攻撃の上に相手の全能力をダウンさせる「神の棒読み」が発動する。"
+        ]
     },
     {
         "imageUrl": "",
@@ -271,7 +280,11 @@
                 "max": "1"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "RMA姉貴",
+            "と同時に出すと、"
+        ]
     },
     {
         "imageUrl": "",
@@ -333,7 +346,10 @@
                 "max": "1"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "ver1.56でスキル修正。"
+        ]
     },
     {
         "imageUrl": "",
@@ -399,11 +415,14 @@
         ],
         "cocoaList": [
             {
-                "min": "新規雇用（クォクォア0～1）",
-                "max": "新規雇用（クォクォア0～1）"
+                "min": "0",
+                "max": "1"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "ver1.26にてスキル追加。"
+        ]
     },
     {
         "imageUrl": "",
@@ -464,7 +483,8 @@
                 "max": "1"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -537,11 +557,12 @@
         ],
         "cocoaList": [
             {
-                "min": "新規雇用（クォクォア1）",
-                "max": "新規雇用（クォクォア1）"
+                "min": "1",
+                "max": "1"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -603,7 +624,10 @@
                 "max": "1"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "全体攻撃を受けると行動ゲージが一瞬で最大まで溜まり、カウンターの様に攻撃する。"
+        ]
     },
     {
         "imageUrl": "",
@@ -676,11 +700,12 @@
         ],
         "cocoaList": [
             {
-                "min": "新規雇用（クォクォア1）",
-                "max": "新規雇用（クォクォア1）"
+                "min": "1",
+                "max": "1"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -746,7 +771,10 @@
                 "max": "1"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "ver1.5にてスキル追加。"
+        ]
     },
     {
         "imageUrl": "",
@@ -813,11 +841,14 @@
         ],
         "cocoaList": [
             {
-                "min": "新規雇用（クォクォア1）",
-                "max": "新規雇用（クォクォア1）"
+                "min": "1",
+                "max": "1"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "攻撃と同時に攻撃相手の行動ゲージを現在の1/3に減少させる。"
+        ]
     },
     {
         "imageUrl": "",
@@ -859,11 +890,14 @@
         ],
         "cocoaList": [
             {
-                "min": "新規雇用（クォクォア1）",
-                "max": "新規雇用（クォクォア1）"
+                "min": "1",
+                "max": "1"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "ver1.58でスキル強化（告知・説明文変更はver1.62更新時）。"
+        ]
     },
     {
         "imageUrl": "",
@@ -900,7 +934,10 @@
             }
         ],
         "cocoaList": [],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "攻撃時に下げられるのは物理守備力のみ。"
+        ]
     },
     {
         "imageUrl": "",
@@ -971,7 +1008,11 @@
                 "max": "10"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "昏睡効果は偶数ターンのみ発動する。",
+            "逝かせ隊と合成することでサイクロップス先輩に変化する。"
+        ]
     },
     {
         "imageUrl": "",
@@ -1018,7 +1059,10 @@
                 "max": "20"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "「山崎まさゆき」と合成すると「世界のトオノ」に変化する。"
+        ]
     },
     {
         "imageUrl": "",
@@ -1073,7 +1117,11 @@
                 "max": "20"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "GOと合成すると創造神KMRに変化する。",
+            "虐待おじさんと合成すると超覚醒KMRに変化する。"
+        ]
     },
     {
         "imageUrl": "",
@@ -1156,7 +1204,10 @@
                 "max": "50"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "中野くんと合成することでMUR肉に変化する。"
+        ]
     },
     {
         "imageUrl": "",
@@ -1218,7 +1269,8 @@
                 "max": "100"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -1272,7 +1324,8 @@
                 "max": "30"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -1338,7 +1391,11 @@
                 "max": "20"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "イワナ僧侶",
+            "、YYK姉貴、サイクロップス先輩、メタルセミ兄貴、ポイテーロ、MMR部長、鬼畜教師KN、AKYS、TDNコスギ、MIRN姉貴等のスキルを無視できるので便利。"
+        ]
     },
     {
         "imageUrl": "",
@@ -1400,7 +1457,8 @@
                 "max": "50"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -1454,7 +1512,10 @@
                 "max": "20"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "Ver1.50よりスキル追加。それに伴い攻撃力が大幅に弱体化。(175→100)"
+        ]
     },
     {
         "imageUrl": "",
@@ -1508,7 +1569,10 @@
                 "max": "10"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "COST80以上のユニットは初回行動時のみCOSTが40溜まった状態で始まる"
+        ]
     },
     {
         "imageUrl": "",
@@ -1558,7 +1622,11 @@
                 "max": "30"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "KBSトリオ「B」",
+            "、KBSトリオ「S」と組ませると、最初の行動時に"
+        ]
     },
     {
         "imageUrl": "",
@@ -1600,7 +1668,11 @@
                 "max": "30"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "KBSトリオ「K」",
+            "、KBSトリオ「S」と組ませると、最初の行動時に"
+        ]
     },
     {
         "imageUrl": "",
@@ -1646,7 +1718,11 @@
                 "max": "30"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "KBSトリオ「K」",
+            "、KBSトリオ「B」と組ませると、最初の行動時に"
+        ]
     },
     {
         "imageUrl": "",
@@ -1713,7 +1789,10 @@
                 "max": "10"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "追加攻撃でトドメを刺しても、再度スキルが発動する。"
+        ]
     },
     {
         "imageUrl": "",
@@ -1765,7 +1844,10 @@
             }
         ],
         "cocoaList": [],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "デビルひでと合成すると暗黒神ラプソーンに変化する。"
+        ]
     },
     {
         "imageUrl": "",
@@ -1839,7 +1921,10 @@
                 "max": "50"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "KMRと合成すると超覚醒KMRに変化する。"
+        ]
     },
     {
         "imageUrl": "",
@@ -1888,7 +1973,10 @@
                 "max": "50"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "｢防御力｣と書いてあるが、実際に下がるのは「精神攻撃力」と「精神防御力」の2つ。"
+        ]
     },
     {
         "imageUrl": "",
@@ -1946,7 +2034,8 @@
                 "max": "20"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -1994,7 +2083,10 @@
             }
         ],
         "cocoaList": [],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "攻撃と同時に攻撃相手の行動ゲージを現在の1/5に減少させる。"
+        ]
     },
     {
         "imageUrl": "",
@@ -2031,7 +2123,10 @@
             }
         ],
         "cocoaList": [],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "ver1.25にてスキル追加"
+        ]
     },
     {
         "imageUrl": "",
@@ -2068,7 +2163,8 @@
             }
         ],
         "cocoaList": [],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -2101,7 +2197,10 @@
                 "max": "50"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "パーティに超人サイバーZ 2号が居ると、1号の攻撃後、2号がランダムな敵に追撃する。"
+        ]
     },
     {
         "imageUrl": "",
@@ -2125,7 +2224,10 @@
             }
         ],
         "cocoaList": [],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "パーティに超人サイバーZ 1号が居ると、2号の攻撃後、1号がランダムな敵に追撃する。"
+        ]
     },
     {
         "imageUrl": "",
@@ -2155,7 +2257,10 @@
                 "max": "20"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "ver1.26にてスキル追加。"
+        ]
     },
     {
         "imageUrl": "",
@@ -2189,7 +2294,10 @@
                 "max": "20"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "ver1.26にてスキル追加。"
+        ]
     },
     {
         "imageUrl": "",
@@ -2218,7 +2326,8 @@
             }
         ],
         "cocoaList": [],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -2281,7 +2390,8 @@
                 "max": "50"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -2330,7 +2440,10 @@
                 "max": "50"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "「遠野」と合成すると「世界のトオノ」に変化する。"
+        ]
     },
     {
         "imageUrl": "",
@@ -2379,7 +2492,10 @@
                 "max": "50"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "全体回復持ち。観葉植物くんと比べると回復量とコストで劣るが、こちらは攻撃もできる。"
+        ]
     },
     {
         "imageUrl": "",
@@ -2421,7 +2537,8 @@
                 "max": "50"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -2459,7 +2576,10 @@
                 "max": "20"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "ver1.26にてスキル追加。"
+        ]
     },
     {
         "imageUrl": "",
@@ -2498,7 +2618,8 @@
                 "max": "50"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -2548,7 +2669,8 @@
                 "max": "50"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -2590,7 +2712,10 @@
                 "max": "100"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "合成で創造神KMRを作る際の素材となる"
+        ]
     },
     {
         "imageUrl": "",
@@ -2615,7 +2740,10 @@
             }
         ],
         "cocoaList": [],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "現時点では仲間にならない模様。"
+        ]
     },
     {
         "imageUrl": "",
@@ -2640,7 +2768,8 @@
             }
         ],
         "cocoaList": [],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -2666,7 +2795,10 @@
             }
         ],
         "cocoaList": [],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "現時点では仲間にならない模様。HPは30で固定。"
+        ]
     },
     {
         "imageUrl": "",
@@ -2703,7 +2835,10 @@
                 "max": "50"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "野獣先輩と合成するとサイクロップス先輩に変化する。"
+        ]
     },
     {
         "imageUrl": "",
@@ -2741,7 +2876,10 @@
                 "max": "100"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "ver1.56でスキル修正。"
+        ]
     },
     {
         "imageUrl": "",
@@ -2790,7 +2928,8 @@
             }
         ],
         "cocoaList": [],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -2827,7 +2966,11 @@
             }
         ],
         "cocoaList": [],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "KNN姉貴",
+            "の能力も無効化できる。"
+        ]
     },
     {
         "imageUrl": "",
@@ -2865,7 +3008,10 @@
                 "max": "300"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "最後に生き残ったイワナ僧侶が倒された場合、「イワナの怪」は発動しない。"
+        ]
     },
     {
         "imageUrl": "",
@@ -2907,7 +3053,8 @@
                 "max": "100"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -2945,11 +3092,12 @@
         ],
         "cocoaList": [
             {
-                "min": "新規雇用（クォクォア51～100）",
-                "max": "新規雇用（クォクォア51～100）"
+                "min": "51",
+                "max": "100"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -3002,7 +3150,10 @@
                 "max": "100"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "HP1で耐えられるのは各キャラ1回までである。HPを回復させても再度耐えることはできないので注意。"
+        ]
     },
     {
         "imageUrl": "",
@@ -3039,7 +3190,8 @@
                 "max": "300"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -3077,7 +3229,8 @@
                 "max": "100"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -3110,7 +3263,10 @@
                 "max": "100"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "スキルによるダメージは、攻撃相手のCOSTによって補正がかかる。補正の倍率は、COST50毎に約1.0ずつ上がっていくと思われる。"
+        ]
     },
     {
         "imageUrl": "",
@@ -3145,7 +3301,10 @@
                 "max": "300"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "チョコレート先輩と合成すると変態糞娘に変化する。"
+        ]
     },
     {
         "imageUrl": "",
@@ -3191,7 +3350,11 @@
                 "max": "100"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "KISちゃん",
+            "や混乱状態で能力を防げる。"
+        ]
     },
     {
         "imageUrl": "",
@@ -3229,7 +3392,8 @@
                 "max": "100"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -3267,7 +3431,8 @@
                 "max": "300"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -3305,7 +3470,8 @@
                 "max": "300"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -3339,7 +3505,8 @@
                 "max": "300"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -3365,7 +3532,8 @@
             }
         ],
         "cocoaList": [],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -3396,7 +3564,11 @@
                 "max": "300"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "FLNちゃん",
+            "と同じような能力だが、こちらは精神防御力が対象。"
+        ]
     },
     {
         "imageUrl": "",
@@ -3427,7 +3599,8 @@
                 "max": "300"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -3457,7 +3630,10 @@
                 "max": "300"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "ひでと合成すると多脚ひでに変化する。"
+        ]
     },
     {
         "imageUrl": "",
@@ -3495,7 +3671,10 @@
                 "max": "100"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "最初からホリ・トオル一人だけの場合でも、スキルが発動する。"
+        ]
     },
     {
         "imageUrl": "",
@@ -3530,7 +3709,10 @@
                 "max": "100"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "ver1.48にて、スキル発動時のエフェクトが追加された。"
+        ]
     },
     {
         "imageUrl": "",
@@ -3572,7 +3754,8 @@
                 "max": "100"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -3622,7 +3805,11 @@
                 "max": "100"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "中野くんと合成するとかんなフェニックスに変化する。",
+            "ピンキー姉貴と合成すると関西ナースに変化する。"
+        ]
     },
     {
         "imageUrl": "",
@@ -3667,7 +3854,8 @@
                 "max": "100"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -3724,7 +3912,10 @@
                 "max": "100"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "「観葉植物くん×4」のパーティはランダムマッチングに登録されない(パスワード指定対戦は可能)。"
+        ]
     },
     {
         "imageUrl": "",
@@ -3750,7 +3941,10 @@
             }
         ],
         "cocoaList": [],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "COST60未満の敵ユニットの行動を遅くする。"
+        ]
     },
     {
         "imageUrl": "",
@@ -3775,7 +3969,10 @@
             }
         ],
         "cocoaList": [],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "スローロリスくん2体（ベースユニットは黒枠）を合成すると"
+        ]
     },
     {
         "imageUrl": "",
@@ -3808,7 +4005,8 @@
                 "max": "100"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -3838,7 +4036,10 @@
                 "max": "300"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "「口マン爺」ではなく「ロマン爺」である。"
+        ]
     },
     {
         "imageUrl": "",
@@ -3862,7 +4063,11 @@
             }
         ],
         "cocoaList": [],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "スキマ空間にいる間はダメージ無効だが、2度攻撃を食らうと強制的に空間から引き摺り出される。",
+            "複数のYKR姉貴がおり一体がスキマ空間にいる場合、他の姉貴はスキマ空間に逃げ込めない。"
+        ]
     },
     {
         "imageUrl": "",
@@ -3903,7 +4108,8 @@
                 "max": "300"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -3937,7 +4143,11 @@
                 "max": "300"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "ver1.56でスキル修正。",
+            "攻撃を与えた相手から攻撃される時、受けるダメージを半減?してカウンターする。"
+        ]
     },
     {
         "imageUrl": "",
@@ -3962,7 +4172,8 @@
             }
         ],
         "cocoaList": [],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -4008,7 +4219,10 @@
                 "max": "300"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "「仲間の素の単体攻撃タイプユニットは攻撃力がアップ」の増加は1.2倍。"
+        ]
     },
     {
         "imageUrl": "",
@@ -4049,7 +4263,8 @@
                 "max": "300"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -4079,7 +4294,8 @@
                 "max": "300"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -4117,7 +4333,8 @@
                 "max": "300"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -4151,7 +4368,10 @@
                 "max": "300"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "パーティ内にTDN,DB,HTNがいる時、そのうち一人でもHPが半分以下になると「元祖一転攻勢」（パーティ全員のHP回復＋攻撃力UP＋物理防御力UP＋精神防御力UP）が発動する。"
+        ]
     },
     {
         "imageUrl": "",
@@ -4185,7 +4405,8 @@
                 "max": "300"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -4215,7 +4436,8 @@
             }
         ],
         "cocoaList": [],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -4240,7 +4462,8 @@
             }
         ],
         "cocoaList": [],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -4270,7 +4493,10 @@
             }
         ],
         "cocoaList": [],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "全体攻撃化するユニットは攻撃力が60%に減少。現場監督がいると全体攻撃にはならず、攻撃力の減少もない。"
+        ]
     },
     {
         "imageUrl": "",
@@ -4291,7 +4517,10 @@
         "skillDescription": "重力を自在に操る事により味方の総コストが敵のコストより多いとき、仲間にいるだけで相手の行動が遅くなる。",
         "appearanceList": [],
         "cocoaList": [],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "味方の総コストが敵の総コストより多いとき、仲間にいるだけで敵ユニットの行動ゲージの増加速度が元の増加速度の3割減になる。"
+        ]
     },
     {
         "imageUrl": "",
@@ -4325,7 +4554,11 @@
             }
         ],
         "cocoaList": [],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "大妖精",
+            "と並び、現時点で最速のユニット。"
+        ]
     },
     {
         "imageUrl": "",
@@ -4371,7 +4604,8 @@
                 "max": "100"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -4412,7 +4646,8 @@
                 "max": "100"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -4453,7 +4688,11 @@
                 "max": "100"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "多脚ひで",
+            "と合成すると神々の頂点SWKへと変化する。"
+        ]
     },
     {
         "imageUrl": "",
@@ -4470,7 +4709,7 @@
         "reach": "精神",
         "target": "単体",
         "skillName": "便乗",
-        "skillDescription": "味方の誰かが攻撃すると便乗して追撃する。（攻撃後に追加効果の無いユニットの攻撃にのみ反応する）[イラスト：古霧さん]",
+        "skillDescription": "味方の誰かが攻撃すると便乗して追撃する。（攻撃後に追加効果の無いユニットの攻撃にのみ反応する）　[イラスト：古霧さん]",
         "appearanceList": [
             {
                 "placeName": "白玉楼",
@@ -4487,7 +4726,8 @@
                 "max": "100"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -4534,7 +4774,8 @@
                 "max": "300"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -4577,7 +4818,8 @@
                 "max": "300"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -4620,7 +4862,8 @@
                 "max": "300"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -4662,7 +4905,8 @@
                 "max": "300"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -4687,7 +4931,8 @@
             }
         ],
         "cocoaList": [],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -4712,7 +4957,8 @@
             }
         ],
         "cocoaList": [],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -4736,7 +4982,10 @@
             }
         ],
         "cocoaList": [],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "下がるのは「物理攻撃力」と「物理防御力」の2つ。"
+        ]
     },
     {
         "imageUrl": "",
@@ -4768,7 +5017,8 @@
             }
         ],
         "cocoaList": [],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -4798,7 +5048,11 @@
             }
         ],
         "cocoaList": [],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "死「神」ということで神に状態異常攻撃は無効となる。",
+            "デビルひでと合成するとタナトスひでに変化する。"
+        ]
     },
     {
         "imageUrl": "",
@@ -4827,7 +5081,8 @@
             }
         ],
         "cocoaList": [],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -4867,7 +5122,8 @@
             }
         ],
         "cocoaList": [],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -4908,7 +5164,8 @@
             }
         ],
         "cocoaList": [],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -4949,7 +5206,8 @@
             }
         ],
         "cocoaList": [],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -4977,7 +5235,10 @@
             }
         ],
         "cocoaList": [],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "能力の詳細についてはこちらを参照"
+        ]
     },
     {
         "imageUrl": "",
@@ -5003,7 +5264,8 @@
             }
         ],
         "cocoaList": [],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -5032,7 +5294,10 @@
                 "max": "300"
             }
         ],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "初期メンバー3人と合成するとバレンタイン化する。"
+        ]
     },
     {
         "imageUrl": "",
@@ -5058,7 +5323,8 @@
             }
         ],
         "cocoaList": [],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -5083,7 +5349,8 @@
             }
         ],
         "cocoaList": [],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -5113,7 +5380,8 @@
             }
         ],
         "cocoaList": [],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -5136,7 +5404,10 @@
             }
         ],
         "cocoaList": [],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "能力の詳細はこ↑こ↓"
+        ]
     },
     {
         "imageUrl": "",
@@ -5160,7 +5431,10 @@
             }
         ],
         "cocoaList": [],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "何らかのベースユニットと合成すると、ベースユニットが個体値MAX（黒枠化）になる。"
+        ]
     },
     {
         "imageUrl": "",
@@ -5184,7 +5458,10 @@
             }
         ],
         "cocoaList": [],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "合成したユニットの背景は緑に染まり、HPが強化される。"
+        ]
     },
     {
         "imageUrl": "",
@@ -5208,7 +5485,10 @@
             }
         ],
         "cocoaList": [],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "合成したユニットの背景は赤く染まり、ATKが強化される。"
+        ]
     },
     {
         "imageUrl": "",
@@ -5232,7 +5512,10 @@
             }
         ],
         "cocoaList": [],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "合成したユニットの背景は黄色く染まり、DEFが強化される。"
+        ]
     },
     {
         "imageUrl": "",
@@ -5265,7 +5548,11 @@
             }
         ],
         "cocoaList": [],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "くまさんと合成することで暗黒神ラプソーンに変化する。",
+            "KMC姉貴と合成することでタナトスひでに変化する。"
+        ]
     },
     {
         "imageUrl": "",
@@ -5289,7 +5576,10 @@
             }
         ],
         "cocoaList": [],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "合成したユニットの背景は青く染まり、MNTが強化される。"
+        ]
     },
     {
         "imageUrl": "",
@@ -5315,7 +5605,11 @@
             }
         ],
         "cocoaList": [],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "世界のトオノ",
+            "の効果の対象となる。"
+        ]
     },
     {
         "imageUrl": "",
@@ -5340,7 +5634,8 @@
             }
         ],
         "cocoaList": [],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -5381,7 +5676,8 @@
             }
         ],
         "cocoaList": [],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -5410,7 +5706,8 @@
             }
         ],
         "cocoaList": [],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -5444,7 +5741,8 @@
             }
         ],
         "cocoaList": [],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -5474,7 +5772,8 @@
             }
         ],
         "cocoaList": [],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -5499,7 +5798,10 @@
             }
         ],
         "cocoaList": [],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "仲間にいるだけで相手COST60未満の敵ユニットは行動ゲージの増加速度が元の増加速度の6割減になる。"
+        ]
     },
     {
         "imageUrl": "",
@@ -5529,7 +5831,8 @@
             }
         ],
         "cocoaList": [],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -5555,7 +5858,8 @@
             }
         ],
         "cocoaList": [],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -5587,7 +5891,13 @@
             }
         ],
         "cocoaList": [],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "HPは5で固定。なお、スキル効果はカウンターには無効。",
+            "YYKBBAと合成することでHPを8にすることが可能。",
+            "暗黒神ラプソーンと合成することでダークドレアム先輩に変化する。",
+            "「0ダメージ＋効果を与える攻撃」でも1ダメージ受ける。鎌田吾作、CNT姉貴、TDN、UDNG姉貴、OZW等が該当する。"
+        ]
     },
     {
         "imageUrl": "",
@@ -5613,7 +5923,11 @@
             }
         ],
         "cocoaList": [],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "サイクロップス先輩",
+            "と合成することでダークドレアム先輩に変化する。"
+        ]
     },
     {
         "imageUrl": "",
@@ -5638,7 +5952,8 @@
             }
         ],
         "cocoaList": [],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -5663,7 +5978,8 @@
             }
         ],
         "cocoaList": [],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -5689,7 +6005,8 @@
             }
         ],
         "cocoaList": [],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -5715,7 +6032,8 @@
             }
         ],
         "cocoaList": [],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -5741,7 +6059,8 @@
             }
         ],
         "cocoaList": [],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -5766,7 +6085,10 @@
             }
         ],
         "cocoaList": [],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "5回目の行動時に「神の裁き」が発動する。威力半分の単体攻撃を8回ランダムに与える。"
+        ]
     },
     {
         "imageUrl": "",
@@ -5790,7 +6112,8 @@
             }
         ],
         "cocoaList": [],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -5814,7 +6137,11 @@
             }
         ],
         "cocoaList": [],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "現場監督",
+            "がいても複数回攻撃ができ、攻撃力上昇も効く。"
+        ]
     },
     {
         "imageUrl": "",
@@ -5843,7 +6170,8 @@
             }
         ],
         "cocoaList": [],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -5872,7 +6200,8 @@
             }
         ],
         "cocoaList": [],
-        "compositionList": []
+        "compositionList": [],
+        "notes": []
     },
     {
         "imageUrl": "",
@@ -5897,6 +6226,40 @@
             }
         ],
         "cocoaList": [],
-        "compositionList": []
+        "compositionList": [],
+        "notes": [
+            "パーティに複数のHZR姉貴がいても、COSTダウン効果は重複しない。"
+        ]
+    },
+    {
+        "imageUrl": "",
+        "name": "ルンバおばさん",
+        "hp": "-3",
+        "atk": "120",
+        "def": "1",
+        "mnt": "1",
+        "cost": "60",
+        "types": [
+            "巫女",
+            "屑",
+            "メタル"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "一人で片付け",
+        "skillDescription": "機械なので1ダメージしか受けないが、2ターンすると充電が切れて戦闘不能になる。1ターン後にまた充電されて復活する。",
+        "appearanceList": [
+            {
+                "placeName": "ババアポカリプス",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": [],
+        "notes": [
+            "HPは3で固定。なお、スキル効果はカウンターには無効。",
+            "YYKBBAと合成することでHPを5にすることが可能。",
+            "復活時の攻撃は単体攻撃。また、KNN姉貴と同じように、TKNUCで復活をキャンセルできる。"
+        ]
     }
 ]
