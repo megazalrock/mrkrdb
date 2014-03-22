@@ -329,37 +329,4 @@
 			
 		}
 	});
-
-	/*var mrkrdb = {
-		searchBoxToggle: function(){
-			$('#searchCondition > ul >li')
-				.each(function(){
-					var $self = $(this);
-					var $header = $(this).find('h3 .toggleIcon');
-					var $body = $(this).children('.list-group-item-text');
-
-					$header
-						.click(function(){
-							if($self.hasClass('close')){
-								$body
-									.stop(true, false)
-									.slideDown(200);
-								$self
-									.removeClass('close');
-							}else{
-								$body
-									.stop(true, false)
-									.slideUp(200);
-								$self
-									.addClass('close');
-							}
-						});
-
-				});
-		}
-	};
-
-	$(function(){
-		mrkrdb.searchBoxToggle();
-	});*/
 })(this, jQuery, angular);
