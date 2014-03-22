@@ -4,6 +4,13 @@
 	mrkrdbApp.controller('SearchCtrl', function($scope, $http, $q, storage){
 		storage.bind($scope, 'favoritedListString', $scope.favoritedListString);
 		storage.bind($scope, 'isTinyMode', $scope.isTinyMode);
+		storage.bind($scope, 'isSearchSortBoxShow', $scope.isSearchSortBoxShow);
+		//storage.bind($scope, 'isSearchFavoritedBoxShow', $scope.isSearchFavoritedBoxShow);
+		storage.bind($scope, 'isSearchNumBoxShow', $scope.isSearchNumBoxShow);
+		storage.bind($scope, 'isSearchReachBoxShow', $scope.isSearchReachBoxShow);
+		storage.bind($scope, 'isSearchNameBoxShow', $scope.isSearchNameBoxShow);
+		storage.bind($scope, 'isSearchSkillBoxShow', $scope.isSearchSkillBoxShow);
+		storage.bind($scope, 'isSearchTypeBoxShow', $scope.isSearchTypeBoxShow);
 
 		$scope.searchResult = [];
 		$scope.searchCondition = {
@@ -305,6 +312,10 @@
 			}
 		};
 
+		$scope.toggleSearchBox = function(valueName){
+			$scope[valueName] = !$scope[valueName];
+		};
+
 		function uniqueItemList(itemList){
 			var results = [];
 			var nameList = [];
@@ -318,5 +329,37 @@
 			
 		}
 	});
-	
+
+	/*var mrkrdb = {
+		searchBoxToggle: function(){
+			$('#searchCondition > ul >li')
+				.each(function(){
+					var $self = $(this);
+					var $header = $(this).find('h3 .toggleIcon');
+					var $body = $(this).children('.list-group-item-text');
+
+					$header
+						.click(function(){
+							if($self.hasClass('close')){
+								$body
+									.stop(true, false)
+									.slideDown(200);
+								$self
+									.removeClass('close');
+							}else{
+								$body
+									.stop(true, false)
+									.slideUp(200);
+								$self
+									.addClass('close');
+							}
+						});
+
+				});
+		}
+	};
+
+	$(function(){
+		mrkrdb.searchBoxToggle();
+	});*/
 })(this, jQuery, angular);

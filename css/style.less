@@ -30,7 +30,7 @@
 //@import "../bootstrap/less/pagination.less";
 //@import "../bootstrap/less/pager.less";
 @import "../bootstrap/less/labels.less";
-//@import "../bootstrap/less/badges.less";
+@import "../bootstrap/less/badges.less";
 //@import "../bootstrap/less/jumbotron.less";
 //@import "../bootstrap/less/thumbnails.less";
 //@import "../bootstrap/less/alerts.less";
@@ -72,15 +72,27 @@ html, body{
 		.fontSize(20px);
 	}
 	#searchCondition{
+		.fontSize(12px);
 		h3{
-			.fontSize(16px);
+			.fontSize(14px);
 			font-weight: bold;
 			padding:0 0 0.5em 0;
-			margin:0 0 0.5em 0;
-			cursor: pointer;
+			margin: 0;
+			.toggleIcon{
+				.fontSize(12px);
+				float: right;
+				cursor: pointer;
+				color:@gray-light;
+				&:hover{
+					color:@gray;
+				}
+			}
+		}
+		.close h3{
+			padding-bottom: 0;
 		}
 		h4{
-			.fontSize(14px);
+			.fontSize(12px);
 			margin-right:1em;
 		}
 		.searchSortBox{
@@ -98,11 +110,16 @@ html, body{
 			}
 		}
 		.searchFavoritedBox{
-			.btn{
-				width:100%;
-				.favoriteNum{
-					float: right;
-				}
+			cursor: pointer;
+			h3{
+				display: inline-block;
+			}
+			&:hover{
+ 				background-color: @list-group-hover-bg;
+			}
+
+			.favoriteNum{
+				float: right;
 			}
 		}
 		.searchNumBox{

@@ -26,9 +26,17 @@
 			<div id="searchCondition" class="col-xs-12 col-sm-4">
 				<h2>検索条件</h2>
 				<ul class="list-group">
-					<li class="searchSortBox list-group-item">
-						<h3 class="list-group-item-heading">ソート</h3>
-						<div class="list-group-item-text">
+					<li class="searchFavoritedBox list-group-item" ng-click="showFavorite()" ng-if="favoritedList.length" ng-class="{'list-group-item-success': searchMode === 'favorite'}">
+						<h3>お気に入りを表示</h3><span class="badge">{{favoritedList.length}}匹登録中</span>
+					</li>
+					<li class="searchSortBox list-group-item" ng-class="{'close': !isSearchSortBoxShow}">
+						<h3 class="list-group-item-heading">
+							ソート
+							<div class="toggleIcon" ng-click="toggleSearchBox('isSearchSortBoxShow')">
+								<span class="glyphicon" ng-class="{'glyphicon-plus': isSearchSortBoxShow, 'glyphicon-minus': !isSearchSortBoxShow}"></span>
+							</div>
+						</h3>
+						<div class="list-group-item-text" ng-class="{'show': isSearchSortBoxShow, 'hidden': !isSearchSortBoxShow}">
 							<div class="sortOrder row">
 								<div class="col-xs-12 col-sm-5"><h4>並び順</h4></div>
 								<div class="col-xs-12 col-sm-7">
@@ -45,7 +53,6 @@
 										</label>
 									</div>
 								</div>
-								
 							</div>
 							<div class="sortKey row">
 								<div class="col-xs-12 col-sm-5"><h4>ソートするキー</h4></div>
@@ -62,12 +69,14 @@
 							</div>
 						</div>
 					</li>
-					<li class="searchFavoritedBox list-group-item" ng-if="favoritedList.length" ng-class="{'list-group-item-success': searchMode === 'favorite'}">
-						<span ng-click="showFavorite()" class="btn btn-default">お気に入りを表示 <span class="label label-default">{{favoritedList.length}}匹登録中</span></span>
-					</li>
-					<li class="searchNumBox list-group-item" ng-class="{'list-group-item-success': searchMode === 'num'}">
-						<h3 class="list-group-item-heading" ng-click="numSearch(true)">数値検索</h3>
-						<div class="list-group-item-text form-inline">
+					<li class="searchNumBox list-group-item" ng-class="{'list-group-item-success': searchMode === 'num', 'close': !isSearchNumBoxShow}">
+						<h3 class="list-group-item-heading">
+							数値検索
+							<div class="toggleIcon" ng-click="toggleSearchBox('isSearchNumBoxShow')">
+								<span class="glyphicon glyphicon-plus" ng-class="{'glyphicon-plus': isSearchNumBoxShow, 'glyphicon-minus': !isSearchNumBoxShow}"></span>
+							</div>
+						</h3>
+						<div class="list-group-item-text form-inline" ng-class="{'show': isSearchNumBoxShow, 'hidden': !isSearchNumBoxShow}">
 							<select class="numSearchKey form-control" ng-model="searchCondition.numSearch.key" ng-focus="numSearch(true)" ng-change="numSearch(true)" >
 								<option value="hp">HP</option>
 								<option value="atk">ATK</option>
@@ -77,9 +86,14 @@
 							</select><input class="numSearchMin form-control" placeholder="MIN" type="number" val="0" ng-change="numSearch(true)" ng-focus="numSearch(true)" ng-model="searchCondition.numSearch.min"><input class="numSearchMax form-control" placeholder="MAX" type="number" val="0" ng-change="numSearch(true)" ng-focus="numSearch(true)" ng-model="searchCondition.numSearch.max">
 						</div>
 					</li>
-					<li class="searchReachBox list-group-item" ng-class="{'list-group-item-success': searchMode === 'reach'}">
-						<h3 class="list-group-item-heading" ng-click="searchReach(true)">リーチ検索</h3>
-						<div class="list-group-item-text">
+					<li class="searchReachBox list-group-item" ng-class="{'list-group-item-success': searchMode === 'reach', 'close': !isSearchReachBoxShow}">
+						<h3 class="list-group-item-heading">
+							リーチ検索
+							<div class="toggleIcon" ng-click="toggleSearchBox('isSearchReachBoxShow')">
+								<span class="glyphicon glyphicon-plus" ng-class="{'glyphicon-plus': isSearchReachBoxShow, 'glyphicon-minus': !isSearchReachBoxShow}"></span>
+							</div>
+						</h3>
+						<div class="list-group-item-text" ng-class="{'show': isSearchReachBoxShow, 'hidden': !isSearchReachBoxShow}">
 							<div class="reachType row">
 								<div class="col-xs-12 col-sm-5"><h4>リーチ</h4></div>
 								<div class="col-xs-12 col-sm-7">
@@ -101,21 +115,36 @@
 							</div>
 						</div>
 					</li>
-					<li class="list-group-item" ng-class="{'list-group-item-success': searchMode === 'name'}">
-						<h3 class="list-group-item-heading" ng-click="nameSearch(true)">名前検索</h3>
-						<div class="searchCompositionSelectBox list-group-item-text">
+					<li class="searchNameBox list-group-item" ng-class="{'list-group-item-success': searchMode === 'name', 'close': !isSearchNameBoxShow}">
+						<h3 class="list-group-item-heading">
+							名前検索
+							<div class="toggleIcon" ng-click="toggleSearchBox('isSearchNameBoxShow')">
+								<span class="glyphicon glyphicon-plus" ng-class="{'glyphicon-plus': isSearchNameBoxShow, 'glyphicon-minus': !isSearchNameBoxShow}"></span>
+							</div>
+						</h3>
+						<div class="searchCompositionSelectBox list-group-item-text" ng-class="{'show': isSearchNameBoxShow, 'hidden': !isSearchNameBoxShow}">
 							<input class="form-control" type="text" ng-change="nameSearch(true)" ng-focus="nameSearch(true)" ng-model="searchCondition.name" placeholder="キャラ名を入力" value="">
 						</div>
 					</li>
-					<li class="list-group-item" ng-class="{'list-group-item-success': searchMode === 'skill'}">
-						<h3 class="list-group-item-heading" ng-click="skillTextSearch(true)">スキルテキスト検索</h3>
-						<div class="searchCompositionSelectBox list-group-item-text">
+					<li class="searchSkillBox list-group-item" ng-class="{'list-group-item-success': searchMode === 'skill', 'close': !isSearchSkillBoxShow}">
+						<h3 class="list-group-item-heading">
+							スキルテキスト検索
+							<div class="toggleIcon" ng-click="toggleSearchBox('isSearchSkillBoxShow')">
+								<span class="glyphicon glyphicon-plus" ng-class="{'glyphicon-plus': isSearchSkillBoxShow, 'glyphicon-minus': !isSearchSkillBoxShow}"></span>
+							</div>
+						</h3>
+						<div class="searchCompositionSelectBox list-group-item-text" ng-class="{'show': isSearchSkillBoxShow, 'hidden': !isSearchSkillBoxShow}">
 							<input class="form-control" type="text" ng-change="skillTextSearch(true)" ng-focus="skillTextSearch(true)" ng-model="searchCondition.skill" placeholder="スキルのテキストを適当に入力" value="">
 						</div>
 					</li>
-					<li class="list-group-item searchTypeBox" ng-class="{'list-group-item-success': searchMode === 'type'}">
-						<h3 class="list-group-item-heading" ng-click="typeSearch(true)">TYPE</h3>
-						<div class="searchTypeModeBox list-group-item-text">
+					<li class="searchTypeBox list-group-item" ng-class="{'list-group-item-success': searchMode === 'type', 'close': !isSearchTypeBoxShow}">
+						<h3 class="list-group-item-heading">
+							TYPE検索
+							<div class="toggleIcon" ng-click="toggleSearchBox('isSearchTypeBoxShow')">
+								<span class="glyphicon glyphicon-plus" ng-class="{'glyphicon-plus': isSearchTypeBoxShow, 'glyphicon-minus': !isSearchTypeBoxShow}"></span>
+							</div>
+						</h3>
+						<div class="searchTypeModeBox list-group-item-text" ng-class="{'show': isSearchTypeBoxShow, 'hidden': !isSearchTypeBoxShow}">
 							<h4>検索モード</h4>
 							<div class="btn-group btn-group-sm">
 								<label class="btn btn-sm btn-default" for="searchModeCheckboxAnd" ng-class="{'active btn-primary': searchCondition.mode === 'and'}">
@@ -144,7 +173,7 @@
 							</div>
 							</label>
 						</div>
-						<div class="searchTypeCheckboxBox  list-group-item-text">
+						<div class="searchTypeCheckboxBox  list-group-item-text" ng-class="{'show': isSearchTypeBoxShow, 'hidden': !isSearchTypeBoxShow}">
 							<h4>タイプ</h4>
 							<div class="checkboxBox">
 								<label 
