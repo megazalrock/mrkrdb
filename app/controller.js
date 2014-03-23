@@ -29,7 +29,7 @@
 			reach: '物理'
 		};
 		$scope.sortOrder = 'ASC';
-		$scope.sortKey = '';
+		$scope.sortKey = 'tekito';
 
 		if($scope.favoritedListString !== ''){
 			$scope.favoritedList = $.parseJSON($scope.favoritedListString);
@@ -59,7 +59,7 @@
 			}else{
 				$scope.searchCondition.selectedTypeList.push(type);
 			}
-			$scope.searchResult = $scope.typeSearch();
+			$scope.typeSearch(true);
 		};
 
 		$scope.typeSearch = function(showAsResult){
@@ -91,6 +91,9 @@
 					searchBaffer = uniqueItemList(result);
 				}
 			}
+
+			searchBaffer = $scope.sortResult(false, searchBaffer);
+
 			if(showAsResult){
 				$scope.searchMode = 'type';
 				$scope.searchResult = searchBaffer;
@@ -120,6 +123,9 @@
 					}
 				});
 			}
+
+			searchBaffer = $scope.sortResult(false, searchBaffer);
+
 			if(showAsResult){
 				$scope.searchMode = 'composition';
 				$scope.searchResult = searchBaffer;
@@ -129,17 +135,14 @@
 			}
 		};
 
-		$scope.nameSearch = function(str, showAsResult){
+		$scope.nameSearch = function(showAsResult){
 			var searchBaffer = $scope.characters;
 			var searchRegexp;
-			if(!angular.isString(str)){
-				showAsResult = str;
-				str = $scope.searchCondition.name;
-			}
+			var str = $scope.searchCondition.name;
 			if(showAsResult !== true){
 				showAsResult = false;
 			}
-			if(str !== ''){
+			if(angular.isString(str) && str !== ''){
 				searchRegexp = new RegExp(str.toLowerCase(), 'i');
 				searchBaffer = searchBaffer.filter(function(item, index){
 					if(searchRegexp.test(item.name)){
@@ -147,6 +150,9 @@
 					}
 				});
 			}
+
+			searchBaffer = $scope.sortResult(false, searchBaffer);
+
 			if(showAsResult){
 				$scope.searchMode = 'name';
 				$scope.searchResult = searchBaffer;
@@ -156,16 +162,14 @@
 			}
 		};
 
-		$scope.skillTextSearch = function(str, showAsResult){
+		$scope.skillTextSearch = function(showAsResult){
 			var searchBaffer = $scope.characters;
-			if(!angular.isString(str)){
-				showAsResult = str;
-				str = $scope.searchCondition.skill;
-			}
+			var searchRegexp;
+			var str = $scope.searchCondition.skill;
 			if(showAsResult !== true){
 				showAsResult = false;
 			}
-			if(str !== ''){
+			if(angular.isString(str) && str !== ''){
 				searchRegexp = new RegExp(str.toLowerCase(), 'i');
 				searchBaffer = searchBaffer.filter(function(item, index){
 					if(searchRegexp.test(item.skillDescription) || searchRegexp.test(item.skillName)){
@@ -173,6 +177,9 @@
 					}
 				});
 			}
+
+			searchBaffer = $scope.sortResult(false, searchBaffer);
+
 			if(showAsResult){
 				$scope.searchMode = 'skill';
 				$scope.searchResult = searchBaffer;
@@ -205,9 +212,12 @@
 				}
 			});
 
+			searchBaffer = $scope.sortResult(false, searchBaffer);
+
 			if(showAsResult){
 				$scope.searchMode = 'num';
 				$scope.searchResult = searchBaffer;
+
 				return searchBaffer;
 			}else{
 				return searchBaffer;
@@ -228,6 +238,8 @@
 				}
 			});
 
+			searchBaffer = $scope.sortResult(false, searchBaffer);
+
 			if(showAsResult){
 				$scope.searchMode = 'reach';
 				$scope.searchResult = searchBaffer;
@@ -237,27 +249,21 @@
 			}
 		};
 
-		$scope.sortResult = function(key, order, showAsResult){
-			var searchBaffer = $scope.searchResult;
+		$scope.sortResult = function(showAsResult, itemList){
+			var searchBaffer = itemList || $scope.searchResult;
+			var key = $scope.sortKey;
+			var order = $scope.sortOrder;
+			var pow = (order === 'DESC') ? -1 : 1;
+			var result = 0;
 			if(showAsResult !== true){
 				showAsResult = false;
 			}
 
-			searchBaffer = searchBaffer.sort(function(a, b){
-				var result = 0;
-				if(Number(a[key]) > Number(b[key])){
-					result = 1;
-				}else if(Number(a[key]) < Number(b[key])){
-					result = -1;
-				}
-
-				if(order === 'DESC'){
-					result = result * -1;
-				}else if(order === 'ASC'){
-					result = result;
-				}
-				return result;
-			});
+			if(key !== 'tekito' && searchBaffer.length){
+				searchBaffer = searchBaffer.sort(function(a, b){
+					return (parseFloat(a[key]) > parseFloat(b[key]) ? 1 : parseFloat(a[key]) < parseFloat(b[key]) ? -1 : 0) * pow;
+				});
+			}
 
 			if(showAsResult){
 				$scope.searchResult = searchBaffer;
