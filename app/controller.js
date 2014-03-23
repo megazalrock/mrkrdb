@@ -11,6 +11,8 @@
 		storage.bind($scope, 'isSearchNameBoxShow', $scope.isSearchNameBoxShow);
 		storage.bind($scope, 'isSearchSkillBoxShow', $scope.isSearchSkillBoxShow);
 		storage.bind($scope, 'isSearchTypeBoxShow', $scope.isSearchTypeBoxShow);
+		storage.bind($scope, 'sortOrder', $scope.sortOrder);
+		storage.bind($scope, 'sortKey', $scope.sortKey);
 
 		$scope.searchResult = [];
 		$scope.searchCondition = {
@@ -28,8 +30,8 @@
 			target: '単体',
 			reach: '物理'
 		};
-		$scope.sortOrder = 'ASC';
-		$scope.sortKey = 'tekito';
+		$scope.sortOrder = $scope.sortOrder || 'ASC';
+		$scope.sortKey = $scope.sortKey || 'tekito';
 
 		if($scope.favoritedListString !== ''){
 			$scope.favoritedList = $.parseJSON($scope.favoritedListString);
@@ -299,6 +301,7 @@
 			});
 			$scope.searchMode = 'favorite';
 			searchBaffer = uniqueItemList(searchBaffer);
+			searchBaffer = $scope.sortResult(false, searchBaffer);
 			$scope.searchResult = searchBaffer;
 		};
 
