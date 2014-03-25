@@ -27,7 +27,7 @@
             }
         ],
         "compositionList": [],
-        "notes": []
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -58,7 +58,7 @@
             }
         ],
         "compositionList": [],
-        "notes": []
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -89,7 +89,7 @@
             }
         ],
         "compositionList": [],
-        "notes": []
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -139,9 +139,7 @@
             }
         ],
         "compositionList": [],
-        "notes": [
-            "メ・バヂス・バと並び、現時点で最速のユニット。"
-        ]
+        "notes": "メ・バヂス・バ\nと並び、現時点で最速のユニット。"
     },
     {
         "imageUrl": "",
@@ -204,9 +202,7 @@
             }
         ],
         "compositionList": [],
-        "notes": [
-            "CRNちゃんと同時に出すと、全体物理攻撃の上に相手の全能力をダウンさせる「神の棒読み」が発動する。"
-        ]
+        "notes": "CRNちゃん\nと同時に出すと、\n全体物理攻撃の上に相手の全能力をダウンさせる「神の棒読み」が発動する。"
     },
     {
         "imageUrl": "",
@@ -281,10 +277,7 @@
             }
         ],
         "compositionList": [],
-        "notes": [
-            "RMA姉貴",
-            "と同時に出すと、"
-        ]
+        "notes": "RMA姉貴\nと同時に出すと、\n全体物理攻撃の上に相手の全能力をダウンさせる「神の棒読み」が発動する。"
     },
     {
         "imageUrl": "",
@@ -347,9 +340,7 @@
             }
         ],
         "compositionList": [],
-        "notes": [
-            "ver1.56でスキル修正。"
-        ]
+        "notes": "ver1.56でスキル修正。"
     },
     {
         "imageUrl": "",
@@ -420,9 +411,7 @@
             }
         ],
         "compositionList": [],
-        "notes": [
-            "ver1.26にてスキル追加。"
-        ]
+        "notes": "ver1.26にてスキル追加。"
     },
     {
         "imageUrl": "",
@@ -484,7 +473,7 @@
             }
         ],
         "compositionList": [],
-        "notes": []
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -562,7 +551,7 @@
             }
         ],
         "compositionList": [],
-        "notes": []
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -625,9 +614,7 @@
             }
         ],
         "compositionList": [],
-        "notes": [
-            "全体攻撃を受けると行動ゲージが一瞬で最大まで溜まり、カウンターの様に攻撃する。"
-        ]
+        "notes": "全体攻撃を受けると行動ゲージが一瞬で最大まで溜まり、カウンターの様に攻撃する。\nまた、ひでと合成するとデビルひでに変化する。"
     },
     {
         "imageUrl": "",
@@ -674,6 +661,10 @@
                 "canDrop": true
             },
             {
+                "placeName": "山下公園",
+                "canDrop": true
+            },
+            {
                 "placeName": "紅魔館地下室",
                 "canDrop": true
             },
@@ -705,7 +696,7 @@
             }
         ],
         "compositionList": [],
-        "notes": []
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -772,9 +763,7 @@
             }
         ],
         "compositionList": [],
-        "notes": [
-            "ver1.5にてスキル追加。"
-        ]
+        "notes": "ver1.5にてスキル追加。"
     },
     {
         "imageUrl": "",
@@ -846,9 +835,7 @@
             }
         ],
         "compositionList": [],
-        "notes": [
-            "攻撃と同時に攻撃相手の行動ゲージを現在の1/3に減少させる。"
-        ]
+        "notes": "攻撃と同時に攻撃相手の行動ゲージを現在の1/3に減少させる。\nまた、イワナ僧侶と合成すると釣りキチおばさんに変化する。"
     },
     {
         "imageUrl": "",
@@ -895,9 +882,7 @@
             }
         ],
         "compositionList": [],
-        "notes": [
-            "ver1.58でスキル強化（告知・説明文変更はver1.62更新時）。"
-        ]
+        "notes": "ver1.58でスキル強化（告知・説明文変更はver1.62更新時）。"
     },
     {
         "imageUrl": "",
@@ -935,9 +920,7 @@
         ],
         "cocoaList": [],
         "compositionList": [],
-        "notes": [
-            "攻撃時に下げられるのは物理守備力のみ。"
-        ]
+        "notes": "攻撃時に下げられるのは物理守備力のみ。"
     },
     {
         "imageUrl": "",
@@ -990,6 +973,10 @@
                 "canDrop": true
             },
             {
+                "placeName": "山下公園",
+                "canDrop": true
+            },
+            {
                 "placeName": "2014年初詣",
                 "canDrop": true
             },
@@ -1009,10 +996,7 @@
             }
         ],
         "compositionList": [],
-        "notes": [
-            "昏睡効果は偶数ターンのみ発動する。",
-            "逝かせ隊と合成することでサイクロップス先輩に変化する。"
-        ]
+        "notes": "\n昏睡効果は偶数ターンのみ発動する。\n逝かせ隊\nと合成することでサイクロップス先輩に変化する。\n"
     },
     {
         "imageUrl": "",
@@ -1060,9 +1044,7 @@
             }
         ],
         "compositionList": [],
-        "notes": [
-            "「山崎まさゆき」と合成すると「世界のトオノ」に変化する。"
-        ]
+        "notes": "\n「山崎まさゆき」と合成すると「世界のトオノ」に変化する。\n"
     },
     {
         "imageUrl": "",
@@ -1118,10 +1100,7 @@
             }
         ],
         "compositionList": [],
-        "notes": [
-            "GOと合成すると創造神KMRに変化する。",
-            "虐待おじさんと合成すると超覚醒KMRに変化する。"
-        ]
+        "notes": "GO\nと合成すると創造神KMRに変化する。\n虐待おじさん\nと合成すると超覚醒KMRに変化する。\n"
     },
     {
         "imageUrl": "",
@@ -1205,9 +1184,7 @@
             }
         ],
         "compositionList": [],
-        "notes": [
-            "中野くんと合成することでMUR肉に変化する。"
-        ]
+        "notes": "中野くん\nと合成することでMUR肉に変化する。\n"
     },
     {
         "imageUrl": "",
@@ -1259,6 +1236,10 @@
                 "canDrop": true
             },
             {
+                "placeName": "山下公園",
+                "canDrop": true
+            },
+            {
                 "placeName": "ひで祭り会場",
                 "canDrop": true
             }
@@ -1270,7 +1251,7 @@
             }
         ],
         "compositionList": [],
-        "notes": []
+        "notes": "KSDB姉貴\nと合成するとデビルひで、吾作と合成すると多脚ひでに変化する。\n"
     },
     {
         "imageUrl": "",
@@ -1325,7 +1306,7 @@
             }
         ],
         "compositionList": [],
-        "notes": []
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -1392,10 +1373,7 @@
             }
         ],
         "compositionList": [],
-        "notes": [
-            "イワナ僧侶",
-            "、YYK姉貴、サイクロップス先輩、メタルセミ兄貴、ポイテーロ、MMR部長、鬼畜教師KN、AKYS、TDNコスギ、MIRN姉貴等のスキルを無視できるので便利。"
-        ]
+        "notes": "イワナ僧侶\n、YYK姉貴、サイクロップス先輩、メタルセミ兄貴、ポイテーロ、MMR部長、鬼畜教師KN、AKYS、TDNコスギ、MIRN姉貴等のスキルを無視できるので便利。\nなおKNN姉貴は無効化できない。\nまた、ひでのカウントを増やさない効果もある。しかし課長はカウントする。"
     },
     {
         "imageUrl": "",
@@ -1458,7 +1436,7 @@
             }
         ],
         "compositionList": [],
-        "notes": []
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -1513,9 +1491,7 @@
             }
         ],
         "compositionList": [],
-        "notes": [
-            "Ver1.50よりスキル追加。それに伴い攻撃力が大幅に弱体化。(175→100)"
-        ]
+        "notes": "Ver1.50よりスキル追加。それに伴い攻撃力が大幅に弱体化。(175→100)"
     },
     {
         "imageUrl": "",
@@ -1551,6 +1527,10 @@
                 "canDrop": true
             },
             {
+                "placeName": "山下公園",
+                "canDrop": true
+            },
+            {
                 "placeName": "地霊殿",
                 "canDrop": true
             },
@@ -1570,9 +1550,7 @@
             }
         ],
         "compositionList": [],
-        "notes": [
-            "COST80以上のユニットは初回行動時のみCOSTが40溜まった状態で始まる"
-        ]
+        "notes": "\nCOST80以上のユニットは初回行動時のみCOSTが40溜まった状態で始まる\nCOST80以上のユニット\nPCLY姉貴\nHZR姉貴\nYYK姉貴\nYKR姉貴\n風神KNK\n神々の頂点SWK\nHTNこころ\nかんなフェニックス\n関西ナース\nRNK姉貴\n一般通過爺\n根流し漁師\nTDNコスギ\n須藤さん\n井上カブレラ\nいかりやビオランテ\nハガー市長\nホリ・トオル\n観葉植物くん\n関西チャラ男\n中野くん\nMUR大先輩\nピンキー姉貴\nヒゲクマ調教師\n軍畑先輩\n貴乃信\n篤太郎\nKBSトリオ「S」\nイニ義893\nメガデス怪人\nロマン爺\n現場監督\nDB\nTNOK\n世界のトオノ\n超覚醒KMR\n創造神KMR\nGO\nひで\nタナトスひで\nくまさん\n暗黒神ラプソーン\nダークドレアム先輩\nKBTIT（漫画家）\nTITニング\n"
     },
     {
         "imageUrl": "",
@@ -1623,10 +1601,7 @@
             }
         ],
         "compositionList": [],
-        "notes": [
-            "KBSトリオ「B」",
-            "、KBSトリオ「S」と組ませると、最初の行動時に"
-        ]
+        "notes": "KBSトリオ「B」\n、KBSトリオ「S」と組ませると、最初の行動時に\n｢其為右手｣（全体攻撃）が発動する。"
     },
     {
         "imageUrl": "",
@@ -1669,10 +1644,7 @@
             }
         ],
         "compositionList": [],
-        "notes": [
-            "KBSトリオ「K」",
-            "、KBSトリオ「S」と組ませると、最初の行動時に"
-        ]
+        "notes": "KBSトリオ「K」\n、KBSトリオ「S」と組ませると、最初の行動時に\n｢其為右手｣（全体攻撃）が発動する。"
     },
     {
         "imageUrl": "",
@@ -1719,10 +1691,7 @@
             }
         ],
         "compositionList": [],
-        "notes": [
-            "KBSトリオ「K」",
-            "、KBSトリオ「B」と組ませると、最初の行動時に"
-        ]
+        "notes": "KBSトリオ「K」\n、KBSトリオ「B」と組ませると、最初の行動時に\n｢其為右手｣（全体攻撃）が発動する。"
     },
     {
         "imageUrl": "",
@@ -1790,64 +1759,7 @@
             }
         ],
         "compositionList": [],
-        "notes": [
-            "追加攻撃でトドメを刺しても、再度スキルが発動する。"
-        ]
-    },
-    {
-        "imageUrl": "",
-        "name": "くまさん",
-        "hp": "100",
-        "atk": "160",
-        "def": "160",
-        "mnt": "160",
-        "cost": "90",
-        "types": [
-            "デブ"
-        ],
-        "reach": "精神",
-        "target": "単体",
-        "skillName": "肉壁",
-        "skillDescription": "自分よりコストが低いユニットからの物理ダメージを減らす",
-        "appearanceList": [
-            {
-                "placeName": "SMバーひらの",
-                "canDrop": true
-            },
-            {
-                "placeName": "迫真空手道場",
-                "canDrop": true
-            },
-            {
-                "placeName": "ヒゲクマの館",
-                "canDrop": true
-            },
-            {
-                "placeName": "邪神の塔",
-                "canDrop": true
-            },
-            {
-                "placeName": "新日暮里",
-                "canDrop": true
-            },
-            {
-                "placeName": "王者の聖域",
-                "canDrop": true
-            },
-            {
-                "placeName": "工事現場",
-                "canDrop": true
-            },
-            {
-                "placeName": "下北沢裁判所",
-                "canDrop": true
-            }
-        ],
-        "cocoaList": [],
-        "compositionList": [],
-        "notes": [
-            "デビルひでと合成すると暗黒神ラプソーンに変化する。"
-        ]
+        "notes": "追加攻撃でトドメを刺しても、再度スキルが発動する。\n攻撃時の音声はKBTITが机にビールを置いた時の「バァン！」という音。\n合成関連はKBTIT（漫画家）でも代用できる。"
     },
     {
         "imageUrl": "",
@@ -1899,6 +1811,10 @@
                 "canDrop": true
             },
             {
+                "placeName": "山下公園",
+                "canDrop": true
+            },
+            {
                 "placeName": "岡山城",
                 "canDrop": true
             },
@@ -1922,9 +1838,64 @@
             }
         ],
         "compositionList": [],
-        "notes": [
-            "KMRと合成すると超覚醒KMRに変化する。"
-        ]
+        "notes": "KMR\nと合成すると超覚醒KMRに変化する。\n"
+    },
+    {
+        "imageUrl": "",
+        "name": "くまさん",
+        "hp": "100",
+        "atk": "160",
+        "def": "160",
+        "mnt": "160",
+        "cost": "90",
+        "types": [
+            "デブ"
+        ],
+        "reach": "精神",
+        "target": "単体",
+        "skillName": "肉壁",
+        "skillDescription": "自分よりコストが低いユニットからの物理ダメージを減らす",
+        "appearanceList": [
+            {
+                "placeName": "SMバーひらの",
+                "canDrop": true
+            },
+            {
+                "placeName": "迫真空手道場",
+                "canDrop": true
+            },
+            {
+                "placeName": "ヒゲクマの館",
+                "canDrop": true
+            },
+            {
+                "placeName": "邪神の塔",
+                "canDrop": true
+            },
+            {
+                "placeName": "新日暮里",
+                "canDrop": true
+            },
+            {
+                "placeName": "王者の聖域",
+                "canDrop": true
+            },
+            {
+                "placeName": "工事現場",
+                "canDrop": true
+            },
+            {
+                "placeName": "山下公園",
+                "canDrop": true
+            },
+            {
+                "placeName": "下北沢裁判所",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": [],
+        "notes": "デビルひで\nと合成すると暗黒神ラプソーンに変化する。\n"
     },
     {
         "imageUrl": "",
@@ -1974,9 +1945,7 @@
             }
         ],
         "compositionList": [],
-        "notes": [
-            "｢防御力｣と書いてあるが、実際に下がるのは「精神攻撃力」と「精神防御力」の2つ。"
-        ]
+        "notes": "｢防御力｣と書いてあるが、実際に下がるのは「精神攻撃力」と「精神防御力」の2つ。"
     },
     {
         "imageUrl": "",
@@ -2035,7 +2004,7 @@
             }
         ],
         "compositionList": [],
-        "notes": []
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -2084,9 +2053,7 @@
         ],
         "cocoaList": [],
         "compositionList": [],
-        "notes": [
-            "攻撃と同時に攻撃相手の行動ゲージを現在の1/5に減少させる。"
-        ]
+        "notes": "攻撃と同時に攻撃相手の行動ゲージを現在の1/5に減少させる。"
     },
     {
         "imageUrl": "",
@@ -2124,9 +2091,7 @@
         ],
         "cocoaList": [],
         "compositionList": [],
-        "notes": [
-            "ver1.25にてスキル追加"
-        ]
+        "notes": "ver1.25にてスキル追加"
     },
     {
         "imageUrl": "",
@@ -2164,7 +2129,7 @@
         ],
         "cocoaList": [],
         "compositionList": [],
-        "notes": []
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -2198,9 +2163,7 @@
             }
         ],
         "compositionList": [],
-        "notes": [
-            "パーティに超人サイバーZ 2号が居ると、1号の攻撃後、2号がランダムな敵に追撃する。"
-        ]
+        "notes": "パーティに超人サイバーZ 2号が居ると、1号の攻撃後、2号がランダムな敵に追撃する。\nまた、KBTITと合成することでウルトラマンタクヤに変化する。"
     },
     {
         "imageUrl": "",
@@ -2225,9 +2188,7 @@
         ],
         "cocoaList": [],
         "compositionList": [],
-        "notes": [
-            "パーティに超人サイバーZ 1号が居ると、2号の攻撃後、1号がランダムな敵に追撃する。"
-        ]
+        "notes": "パーティに超人サイバーZ 1号が居ると、2号の攻撃後、1号がランダムな敵に追撃する。\nまた、KBTITと合成することで破面KBTITに変化する。"
     },
     {
         "imageUrl": "",
@@ -2258,9 +2219,7 @@
             }
         ],
         "compositionList": [],
-        "notes": [
-            "ver1.26にてスキル追加。"
-        ]
+        "notes": "ver1.26にてスキル追加。\n攻撃と同時に攻撃相手の行動ゲージを最大で20奪う。"
     },
     {
         "imageUrl": "",
@@ -2295,9 +2254,7 @@
             }
         ],
         "compositionList": [],
-        "notes": [
-            "ver1.26にてスキル追加。"
-        ]
+        "notes": "ver1.26にてスキル追加。"
     },
     {
         "imageUrl": "",
@@ -2327,7 +2284,7 @@
         ],
         "cocoaList": [],
         "compositionList": [],
-        "notes": []
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -2372,6 +2329,10 @@
                 "canDrop": true
             },
             {
+                "placeName": "山下公園",
+                "canDrop": true
+            },
+            {
                 "placeName": "2014年初詣",
                 "canDrop": true
             },
@@ -2391,7 +2352,7 @@
             }
         ],
         "compositionList": [],
-        "notes": []
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -2441,9 +2402,7 @@
             }
         ],
         "compositionList": [],
-        "notes": [
-            "「遠野」と合成すると「世界のトオノ」に変化する。"
-        ]
+        "notes": "「遠野」と合成すると「世界のトオノ」に変化する。"
     },
     {
         "imageUrl": "",
@@ -2478,6 +2437,10 @@
                 "canDrop": true
             },
             {
+                "placeName": "山下公園",
+                "canDrop": true
+            },
+            {
                 "placeName": "岡山城",
                 "canDrop": true
             },
@@ -2493,9 +2456,7 @@
             }
         ],
         "compositionList": [],
-        "notes": [
-            "全体回復持ち。観葉植物くんと比べると回復量とコストで劣るが、こちらは攻撃もできる。"
-        ]
+        "notes": "全体回復持ち。観葉植物くんと比べると回復量とコストで劣るが、こちらは攻撃もできる。\n回復量は精神攻撃力依存で、MSTA姉貴のスキルで上昇する。山崎まさゆきは物理攻撃力上昇なので不可。\nまた、KNN姉貴と合成することでかんなフェニックスに、MUR大先輩と合成することでMUR肉に変化する。"
     },
     {
         "imageUrl": "",
@@ -2538,7 +2499,7 @@
             }
         ],
         "compositionList": [],
-        "notes": []
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -2577,49 +2538,7 @@
             }
         ],
         "compositionList": [],
-        "notes": [
-            "ver1.26にてスキル追加。"
-        ]
-    },
-    {
-        "imageUrl": "",
-        "name": "課長",
-        "hp": "90",
-        "atk": "135",
-        "def": "120",
-        "mnt": "90",
-        "cost": "70",
-        "types": [
-            "鑑",
-            "ホモ",
-            "デブ"
-        ],
-        "reach": "物理",
-        "target": "単体",
-        "skillName": "こわれる",
-        "skillDescription": "最初は課長特有の高性能を発揮するが、5回行動したり攻撃されると壊れて弱体化する。",
-        "appearanceList": [
-            {
-                "placeName": "邪神の塔",
-                "canDrop": true
-            },
-            {
-                "placeName": "王者の聖域",
-                "canDrop": true
-            },
-            {
-                "placeName": "2014年初詣",
-                "canDrop": true
-            }
-        ],
-        "cocoaList": [
-            {
-                "min": "31",
-                "max": "50"
-            }
-        ],
-        "compositionList": [],
-        "notes": []
+        "notes": "ver1.26にてスキル追加。"
     },
     {
         "imageUrl": "",
@@ -2670,7 +2589,51 @@
             }
         ],
         "compositionList": [],
-        "notes": []
+        "notes": ""
+    },
+    {
+        "imageUrl": "",
+        "name": "課長",
+        "hp": "90",
+        "atk": "135",
+        "def": "120",
+        "mnt": "90",
+        "cost": "70",
+        "types": [
+            "鑑",
+            "ホモ",
+            "デブ"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "こわれる",
+        "skillDescription": "最初は課長特有の高性能を発揮するが、5回行動したり攻撃されると壊れて弱体化する。",
+        "appearanceList": [
+            {
+                "placeName": "邪神の塔",
+                "canDrop": true
+            },
+            {
+                "placeName": "王者の聖域",
+                "canDrop": true
+            },
+            {
+                "placeName": "2014年初詣",
+                "canDrop": true
+            },
+            {
+                "placeName": "山下公園",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "31",
+                "max": "50"
+            }
+        ],
+        "compositionList": [],
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -2702,6 +2665,10 @@
                 "canDrop": true
             },
             {
+                "placeName": "山下公園",
+                "canDrop": true
+            },
+            {
                 "placeName": "白玉楼",
                 "canDrop": true
             }
@@ -2713,9 +2680,7 @@
             }
         ],
         "compositionList": [],
-        "notes": [
-            "合成で創造神KMRを作る際の素材となる"
-        ]
+        "notes": "\n合成で創造神KMRを作る際の素材となる\n"
     },
     {
         "imageUrl": "",
@@ -2741,9 +2706,7 @@
         ],
         "cocoaList": [],
         "compositionList": [],
-        "notes": [
-            "現時点では仲間にならない模様。"
-        ]
+        "notes": "現時点では仲間にならない模様。\nコストは約160、通常攻撃は精神全体攻撃。1度だけ8回攻撃のスキル「神の裁き」を使用。\n最初のターンだけコスト30程度で行動でき、通常攻撃後は行動ゲージが半分から始まる。\nスキル「神の裁き」はGO回目の攻撃時に発動する。ただしスキル発動後は行動ゲージを全て消費する上、\n一撃あたりのダメージは通常攻撃より小さい。"
     },
     {
         "imageUrl": "",
@@ -2769,7 +2732,7 @@
         ],
         "cocoaList": [],
         "compositionList": [],
-        "notes": []
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -2796,9 +2759,7 @@
         ],
         "cocoaList": [],
         "compositionList": [],
-        "notes": [
-            "現時点では仲間にならない模様。HPは30で固定。"
-        ]
+        "notes": "現時点では仲間にならない模様。HPは30で固定。"
     },
     {
         "imageUrl": "",
@@ -2836,9 +2797,7 @@
             }
         ],
         "compositionList": [],
-        "notes": [
-            "野獣先輩と合成するとサイクロップス先輩に変化する。"
-        ]
+        "notes": "野獣先輩\nと合成するとサイクロップス先輩に変化する。\n"
     },
     {
         "imageUrl": "",
@@ -2877,9 +2836,7 @@
             }
         ],
         "compositionList": [],
-        "notes": [
-            "ver1.56でスキル修正。"
-        ]
+        "notes": "ver1.56でスキル修正。"
     },
     {
         "imageUrl": "",
@@ -2929,7 +2886,7 @@
         ],
         "cocoaList": [],
         "compositionList": [],
-        "notes": []
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -2963,14 +2920,15 @@
             {
                 "placeName": "王者の聖域",
                 "canDrop": true
+            },
+            {
+                "placeName": "山下公園",
+                "canDrop": true
             }
         ],
         "cocoaList": [],
         "compositionList": [],
-        "notes": [
-            "KNN姉貴",
-            "の能力も無効化できる。"
-        ]
+        "notes": "KNN姉貴\nの能力も無効化できる。"
     },
     {
         "imageUrl": "",
@@ -3009,9 +2967,7 @@
             }
         ],
         "compositionList": [],
-        "notes": [
-            "最後に生き残ったイワナ僧侶が倒された場合、「イワナの怪」は発動しない。"
-        ]
+        "notes": "最後に生き残ったイワナ僧侶が倒された場合、「イワナの怪」は発動しない。"
     },
     {
         "imageUrl": "",
@@ -3039,6 +2995,10 @@
                 "canDrop": true
             },
             {
+                "placeName": "山下公園",
+                "canDrop": true
+            },
+            {
                 "placeName": "地霊殿",
                 "canDrop": true
             },
@@ -3054,7 +3014,7 @@
             }
         ],
         "compositionList": [],
-        "notes": []
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -3097,7 +3057,7 @@
             }
         ],
         "compositionList": [],
-        "notes": []
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -3151,9 +3111,7 @@
             }
         ],
         "compositionList": [],
-        "notes": [
-            "HP1で耐えられるのは各キャラ1回までである。HPを回復させても再度耐えることはできないので注意。"
-        ]
+        "notes": "HP1で耐えられるのは各キャラ1回までである。HPを回復させても再度耐えることはできないので注意。\nまた、既に1回耐えたポイテーロがまだ耐えてないキャラと同時に全体攻撃で致死ダメージを受けた場合、ポイテーロより上にいるキャラだけが助かる。必ず最後尾に置いておこう。"
     },
     {
         "imageUrl": "",
@@ -3191,7 +3149,7 @@
             }
         ],
         "compositionList": [],
-        "notes": []
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -3230,7 +3188,7 @@
             }
         ],
         "compositionList": [],
-        "notes": []
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -3264,9 +3222,7 @@
             }
         ],
         "compositionList": [],
-        "notes": [
-            "スキルによるダメージは、攻撃相手のCOSTによって補正がかかる。補正の倍率は、COST50毎に約1.0ずつ上がっていくと思われる。"
-        ]
+        "notes": "スキルによるダメージは、攻撃相手のCOSTによって補正がかかる。補正の倍率は、COST50毎に約1.0ずつ上がっていくと思われる。\nCOST40～50\n　1.0倍のダメージ。（通常のダメージと同じ）\nCOST51～100\n　2.0倍のダメージ。\nCOST101～150\n　3.0倍のダメージ。\nCOST151～200\n　4.0倍のダメージ。\nCOST201～250（MUR大先輩、ハガー市長）\n　5.0倍のダメージ。\nCOST251～300\n　6.0倍のダメージ。\nCOST301～350\n　7.0倍のダメージ。\nCOST351～400（ピンキー姉貴）\n　8.0倍のダメージ。"
     },
     {
         "imageUrl": "",
@@ -3302,9 +3258,7 @@
             }
         ],
         "compositionList": [],
-        "notes": [
-            "チョコレート先輩と合成すると変態糞娘に変化する。"
-        ]
+        "notes": "チョコレート先輩\nと合成すると変態糞娘に変化する。\n"
     },
     {
         "imageUrl": "",
@@ -3351,10 +3305,7 @@
             }
         ],
         "compositionList": [],
-        "notes": [
-            "KISちゃん",
-            "や混乱状態で能力を防げる。"
-        ]
+        "notes": "KISちゃん\nや混乱状態で能力を防げる。\n表示される画像はバケモノ。本気で怖いのでピンキーのターンが迫ってきたら画面を隠そう。\nまた、KNN姉貴と合成すると、関西ナースへと変化する。"
     },
     {
         "imageUrl": "",
@@ -3393,7 +3344,7 @@
             }
         ],
         "compositionList": [],
-        "notes": []
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -3432,7 +3383,7 @@
             }
         ],
         "compositionList": [],
-        "notes": []
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -3471,7 +3422,7 @@
             }
         ],
         "compositionList": [],
-        "notes": []
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -3506,7 +3457,7 @@
             }
         ],
         "compositionList": [],
-        "notes": []
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -3533,7 +3484,7 @@
         ],
         "cocoaList": [],
         "compositionList": [],
-        "notes": []
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -3565,10 +3516,7 @@
             }
         ],
         "compositionList": [],
-        "notes": [
-            "FLNちゃん",
-            "と同じような能力だが、こちらは精神防御力が対象。"
-        ]
+        "notes": "FLNちゃん\nと同じような能力だが、こちらは精神防御力が対象。\nまた、スキル効果の下がり幅が極めて大きい。"
     },
     {
         "imageUrl": "",
@@ -3600,7 +3548,7 @@
             }
         ],
         "compositionList": [],
-        "notes": []
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -3631,9 +3579,7 @@
             }
         ],
         "compositionList": [],
-        "notes": [
-            "ひでと合成すると多脚ひでに変化する。"
-        ]
+        "notes": "ひで\nと合成すると多脚ひでに変化する。\n"
     },
     {
         "imageUrl": "",
@@ -3672,9 +3618,7 @@
             }
         ],
         "compositionList": [],
-        "notes": [
-            "最初からホリ・トオル一人だけの場合でも、スキルが発動する。"
-        ]
+        "notes": "最初からホリ・トオル一人だけの場合でも、スキルが発動する。"
     },
     {
         "imageUrl": "",
@@ -3710,9 +3654,7 @@
             }
         ],
         "compositionList": [],
-        "notes": [
-            "ver1.48にて、スキル発動時のエフェクトが追加された。"
-        ]
+        "notes": "\nver1.48にて、スキル発動時のエフェクトが追加された。\n課長\nのステータスはリセットできない。こわれる前に神風が発動しても課長は強く、こわれた後は弱いまま。\nスキルが発動するとカウンター系のスキルが発動しない。井上カブレラ、イワナ僧侶、UDNG姉貴、植木鉢くん等。YUMちゃんは0ダメージ化するが反撃はしてこない。また、EIK姉貴のスキルも発動しない。\n"
     },
     {
         "imageUrl": "",
@@ -3755,7 +3697,7 @@
             }
         ],
         "compositionList": [],
-        "notes": []
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -3806,10 +3748,7 @@
             }
         ],
         "compositionList": [],
-        "notes": [
-            "中野くんと合成するとかんなフェニックスに変化する。",
-            "ピンキー姉貴と合成すると関西ナースに変化する。"
-        ]
+        "notes": "中野くん\nと合成するとかんなフェニックスに変化する。\nピンキー姉貴\nと合成すると関西ナースに変化する。\n"
     },
     {
         "imageUrl": "",
@@ -3855,7 +3794,7 @@
             }
         ],
         "compositionList": [],
-        "notes": []
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -3890,6 +3829,10 @@
                 "canDrop": true
             },
             {
+                "placeName": "山下公園",
+                "canDrop": true
+            },
+            {
                 "placeName": "白玉楼",
                 "canDrop": true
             },
@@ -3913,9 +3856,33 @@
             }
         ],
         "compositionList": [],
-        "notes": [
-            "「観葉植物くん×4」のパーティはランダムマッチングに登録されない(パスワード指定対戦は可能)。"
-        ]
+        "notes": "「観葉植物くん×4」のパーティはランダムマッチングに登録されない(パスワード指定対戦は可能)。\n自パーティに観葉植物くん以外のキャラが居ないとき行動ゲージが満タンになると爆発する。"
+    },
+    {
+        "imageUrl": "",
+        "name": "スローロリスくん",
+        "hp": "100",
+        "atk": "100",
+        "def": "100",
+        "mnt": "100",
+        "cost": "60",
+        "types": [
+            "聖獣",
+            "鑑"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": " ",
+        "skillDescription": "スローロリスくん同士力を合わせると強くなりそう",
+        "appearanceList": [
+            {
+                "placeName": "王者の聖域",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": [],
+        "notes": "スローロリスくん2体（ベースユニットは黒枠）を合成すると\n淫夢くんUC\nへと変化する。"
     },
     {
         "imageUrl": "",
@@ -3942,37 +3909,7 @@
         ],
         "cocoaList": [],
         "compositionList": [],
-        "notes": [
-            "COST60未満の敵ユニットの行動を遅くする。"
-        ]
-    },
-    {
-        "imageUrl": "",
-        "name": "スローロリスくん",
-        "hp": "100",
-        "atk": "100",
-        "def": "100",
-        "mnt": "100",
-        "cost": "60",
-        "types": [
-            "聖獣",
-            "鑑"
-        ],
-        "reach": "物理",
-        "target": "単体",
-        "skillName": " ",
-        "skillDescription": "スローロリスくん同士力を合わせると強くなりそう",
-        "appearanceList": [
-            {
-                "placeName": "王者の聖域",
-                "canDrop": true
-            }
-        ],
-        "cocoaList": [],
-        "compositionList": [],
-        "notes": [
-            "スローロリスくん2体（ベースユニットは黒枠）を合成すると"
-        ]
+        "notes": "COST60未満の敵ユニットの行動を遅くする。\n4ターン目に8回連続攻撃。"
     },
     {
         "imageUrl": "",
@@ -4006,7 +3943,7 @@
             }
         ],
         "compositionList": [],
-        "notes": []
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -4037,9 +3974,7 @@
             }
         ],
         "compositionList": [],
-        "notes": [
-            "「口マン爺」ではなく「ロマン爺」である。"
-        ]
+        "notes": "「口マン爺」ではなく「ロマン爺」である。"
     },
     {
         "imageUrl": "",
@@ -4064,10 +3999,7 @@
         ],
         "cocoaList": [],
         "compositionList": [],
-        "notes": [
-            "スキマ空間にいる間はダメージ無効だが、2度攻撃を食らうと強制的に空間から引き摺り出される。",
-            "複数のYKR姉貴がおり一体がスキマ空間にいる場合、他の姉貴はスキマ空間に逃げ込めない。"
-        ]
+        "notes": "\nスキマ空間にいる間はダメージ無効だが、2度攻撃を食らうと強制的に空間から引き摺り出される。\n複数のYKR姉貴がおり一体がスキマ空間にいる場合、他の姉貴はスキマ空間に逃げ込めない。\n"
     },
     {
         "imageUrl": "",
@@ -4109,7 +4041,7 @@
             }
         ],
         "compositionList": [],
-        "notes": []
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -4144,10 +4076,7 @@
             }
         ],
         "compositionList": [],
-        "notes": [
-            "ver1.56でスキル修正。",
-            "攻撃を与えた相手から攻撃される時、受けるダメージを半減?してカウンターする。"
-        ]
+        "notes": "\nver1.56でスキル修正。\n攻撃を与えた相手から攻撃される時、受けるダメージを半減?してカウンターする。メタル系ユニットには無効。\n"
     },
     {
         "imageUrl": "",
@@ -4173,7 +4102,7 @@
         ],
         "cocoaList": [],
         "compositionList": [],
-        "notes": []
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -4201,6 +4130,10 @@
                 "canDrop": true
             },
             {
+                "placeName": "山下公園",
+                "canDrop": true
+            },
+            {
                 "placeName": "岡山城",
                 "canDrop": true
             },
@@ -4216,13 +4149,11 @@
         "cocoaList": [
             {
                 "min": "101",
-                "max": "300"
+                "max": "400"
             }
         ],
         "compositionList": [],
-        "notes": [
-            "「仲間の素の単体攻撃タイプユニットは攻撃力がアップ」の増加は1.2倍。"
-        ]
+        "notes": "「仲間の素の単体攻撃タイプユニットは攻撃力がアップ」の増加は1.2倍。"
     },
     {
         "imageUrl": "",
@@ -4264,7 +4195,7 @@
             }
         ],
         "compositionList": [],
-        "notes": []
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -4291,11 +4222,46 @@
         "cocoaList": [
             {
                 "min": "101",
+                "max": "400"
+            }
+        ],
+        "compositionList": [],
+        "notes": ""
+    },
+    {
+        "imageUrl": "",
+        "name": "DB",
+        "hp": "150",
+        "atk": "150",
+        "def": "150",
+        "mnt": "150",
+        "cost": "80",
+        "types": [
+            "ホモ",
+            "立教"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": " ",
+        "skillDescription": "立教3人組が揃って窮地に陥ると何かが起こる可能性が微粒子レベルで存在している・・・？",
+        "appearanceList": [
+            {
+                "placeName": "立教帝国",
+                "canDrop": true
+            },
+            {
+                "placeName": "岡山城",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "101",
                 "max": "300"
             }
         ],
         "compositionList": [],
-        "notes": []
+        "notes": "パーティ内にTDN,DB,HTNがいる時、そのうち一人でもHPが半分以下になると「元祖一転攻勢」（パーティ全員のHP回復＋攻撃力UP＋物理防御力UP＋精神防御力UP）が発動する。"
     },
     {
         "imageUrl": "",
@@ -4334,44 +4300,7 @@
             }
         ],
         "compositionList": [],
-        "notes": []
-    },
-    {
-        "imageUrl": "",
-        "name": "DB",
-        "hp": "150",
-        "atk": "150",
-        "def": "150",
-        "mnt": "150",
-        "cost": "80",
-        "types": [
-            "ホモ",
-            "立教"
-        ],
-        "reach": "物理",
-        "target": "単体",
-        "skillName": " ",
-        "skillDescription": "立教3人組が揃って窮地に陥ると何かが起こる可能性が微粒子レベルで存在している・・・？",
-        "appearanceList": [
-            {
-                "placeName": "立教帝国",
-                "canDrop": true
-            },
-            {
-                "placeName": "岡山城",
-                "canDrop": true
-            }
-        ],
-        "cocoaList": [
-            {
-                "min": "101",
-                "max": "300"
-            }
-        ],
-        "compositionList": [],
-        "notes": [
-            "パーティ内にTDN,DB,HTNがいる時、そのうち一人でもHPが半分以下になると「元祖一転攻勢」（パーティ全員のHP回復＋攻撃力UP＋物理防御力UP＋精神防御力UP）が発動する。"
-        ]
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -4406,7 +4335,7 @@
             }
         ],
         "compositionList": [],
-        "notes": []
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -4431,13 +4360,17 @@
                 "canDrop": true
             },
             {
+                "placeName": "山下公園",
+                "canDrop": true
+            },
+            {
                 "placeName": "ひで祭り会場",
                 "canDrop": true
             }
         ],
         "cocoaList": [],
         "compositionList": [],
-        "notes": []
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -4459,11 +4392,20 @@
             {
                 "placeName": "古代都市キモティカ",
                 "canDrop": true
+            },
+            {
+                "placeName": "山下公園",
+                "canDrop": true
             }
         ],
-        "cocoaList": [],
+        "cocoaList": [
+            {
+                "min": "301",
+                "max": "400"
+            }
+        ],
         "compositionList": [],
-        "notes": []
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -4492,11 +4434,14 @@
                 "canDrop": true
             }
         ],
-        "cocoaList": [],
+        "cocoaList": [
+            {
+                "min": "301",
+                "max": "400"
+            }
+        ],
         "compositionList": [],
-        "notes": [
-            "全体攻撃化するユニットは攻撃力が60%に減少。現場監督がいると全体攻撃にはならず、攻撃力の減少もない。"
-        ]
+        "notes": "全体攻撃化するユニットは攻撃力が60%に減少。現場監督がいると全体攻撃にはならず、攻撃力の減少もない。\nスキル対象になるユニット\n \nRIM姉貴\nCRNちゃん\nKSDB姉貴\n野獣先輩\n遠野\nKMR\nSNJ\nONDISK\nKBSトリオ「K」\nNSOK\nDRVS\n平野源五郎\nメガデス戦闘員\nホモコップ\n山崎まさゆき\nKYN\nセミ兄貴\nイワナ僧侶\nHTN\nCNT姉貴\nスローロリスくん\n我那覇くん\nシャブラサレータ\nTDN\n我修院\nSNE姉貴\n土着神SWK\n植木鉢くん\nホワイトチョコ先輩\n破面KBTIT\n釣りキチおばさん\nUDNG姉貴\n \n \n \nTDNの超スローボールは相手ユニット全体に効果が及ぶ。\n"
     },
     {
         "imageUrl": "",
@@ -4516,11 +4461,14 @@
         "skillName": "ゲシュタルトドライブ",
         "skillDescription": "重力を自在に操る事により味方の総コストが敵のコストより多いとき、仲間にいるだけで相手の行動が遅くなる。",
         "appearanceList": [],
-        "cocoaList": [],
+        "cocoaList": [
+            {
+                "min": "301",
+                "max": "400"
+            }
+        ],
         "compositionList": [],
-        "notes": [
-            "味方の総コストが敵の総コストより多いとき、仲間にいるだけで敵ユニットの行動ゲージの増加速度が元の増加速度の3割減になる。"
-        ]
+        "notes": "味方の総コストが敵の総コストより多いとき、仲間にいるだけで敵ユニットの行動ゲージの増加速度が元の増加速度の3割減になる。\n淫夢くんUC\nの効果と複合すると、元の増加速度の9割減になる。"
     },
     {
         "imageUrl": "",
@@ -4545,6 +4493,10 @@
                 "canDrop": true
             },
             {
+                "placeName": "山下公園",
+                "canDrop": true
+            },
+            {
                 "placeName": "下北沢裁判所",
                 "canDrop": true
             },
@@ -4553,12 +4505,187 @@
                 "canDrop": true
             }
         ],
+        "cocoaList": [
+            {
+                "min": "301",
+                "max": "400"
+            }
+        ],
+        "compositionList": [],
+        "notes": "大妖精\nと並び、現時点で最速のユニット。"
+    },
+    {
+        "imageUrl": "",
+        "name": "OGRSYN",
+        "hp": "110",
+        "atk": "160",
+        "def": "80",
+        "mnt": "120",
+        "cost": "70",
+        "types": [
+            "屑"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "24で～す",
+        "skillDescription": "自己紹介で異彩を放ち、戦闘開始時と攻撃終了時にOGRSYN以外のCost60以上のユニット一人の行動ゲージを少し加算する。",
+        "appearanceList": [
+            {
+                "placeName": "山下公園",
+                "canDrop": true
+            }
+        ],
         "cocoaList": [],
         "compositionList": [],
-        "notes": [
-            "大妖精",
-            "と並び、現時点で最速のユニット。"
-        ]
+        "notes": ""
+    },
+    {
+        "imageUrl": "",
+        "name": "OGMM",
+        "hp": "190",
+        "atk": "80",
+        "def": "175",
+        "mnt": "155",
+        "cost": "80",
+        "types": [
+            "鑑",
+            "ホモ"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "おやじ七変化",
+        "skillDescription": "スキル無しユニットの攻撃を七変化させ、ダメージ軽減効果を無視するようになる。威力も20%アップ。",
+        "appearanceList": [
+            {
+                "placeName": "山下公園",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": [],
+        "notes": ""
+    },
+    {
+        "imageUrl": "",
+        "name": "ITI",
+        "hp": "150",
+        "atk": "100",
+        "def": "190",
+        "mnt": "160",
+        "cost": "80",
+        "types": [
+            "ホモ",
+            "鑑"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "大自然クッキー",
+        "skillDescription": "大自然の力により、仲間にいるだけで全員の攻守が入れ替わる。素の攻撃力より素の守備力が高い味方は受けるダメージが少し減る。",
+        "appearanceList": [
+            {
+                "placeName": "山下公園",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": [],
+        "notes": ""
+    },
+    {
+        "imageUrl": "",
+        "name": "インパルスITKR",
+        "hp": "120",
+        "atk": "140",
+        "def": "150",
+        "mnt": "190",
+        "cost": "80",
+        "types": [
+            "ホモ",
+            "屑",
+            "ストーカー"
+        ],
+        "reach": "精神",
+        "target": "単体",
+        "skillName": " ",
+        "skillDescription": "ストーカーが3人集まると何か起きる可能性が微粒子レベルで存在する・・・？",
+        "appearanceList": [
+            {
+                "placeName": "",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "351",
+                "max": "400"
+            }
+        ],
+        "compositionList": [],
+        "notes": "変態郵便屋\n、セーター男・小森と組むと、必殺技「おきらくリンチ」が発動する。\n"
+    },
+    {
+        "imageUrl": "",
+        "name": "変態郵便屋",
+        "hp": "90",
+        "atk": "130",
+        "def": "90",
+        "mnt": "90",
+        "cost": "60",
+        "types": [
+            "ホモ",
+            "屑",
+            "ストーカー"
+        ],
+        "reach": "精神",
+        "target": "単体",
+        "skillName": " ",
+        "skillDescription": "ストーカーが3人集まると何か起きる可能性が微粒子レベルで存在する・・・？",
+        "appearanceList": [
+            {
+                "placeName": "",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "351",
+                "max": "400"
+            }
+        ],
+        "compositionList": [],
+        "notes": "セーター男・小森\n、インパルスITKRと組むと、必殺技「おきらくリンチ」が発動する。\n"
+    },
+    {
+        "imageUrl": "",
+        "name": "セーター男・小森",
+        "hp": "100",
+        "atk": "100",
+        "def": "100",
+        "mnt": "120",
+        "cost": "70",
+        "types": [
+            "ホモ",
+            "屑",
+            "ストーカー"
+        ],
+        "reach": "精神",
+        "target": "単体",
+        "skillName": "ゴミ漁りの達人",
+        "skillDescription": "攻撃はせず、何かの臭いをかいで自分の能力を上げる。誰かが攻撃すると便乗して追撃する。",
+        "appearanceList": [
+            {
+                "placeName": "",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [
+            {
+                "min": "351",
+                "max": "400"
+            }
+        ],
+        "compositionList": [],
+        "notes": "変態郵便屋\n、インパルスITKRと組むと、必殺技「おきらくリンチ」が発動する。\n他のストーカーより誰かが早く動けば、便乗で「おきらくリンチ」を発動する。\n　"
     },
     {
         "imageUrl": "",
@@ -4605,7 +4732,7 @@
             }
         ],
         "compositionList": [],
-        "notes": []
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -4647,7 +4774,7 @@
             }
         ],
         "compositionList": [],
-        "notes": []
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -4689,18 +4816,15 @@
             }
         ],
         "compositionList": [],
-        "notes": [
-            "多脚ひで",
-            "と合成すると神々の頂点SWKへと変化する。"
-        ]
+        "notes": "多脚ひで\nと合成すると神々の頂点SWKへと変化する。"
     },
     {
         "imageUrl": "",
         "name": "RNK姉貴",
         "hp": "130",
-        "atk": "60",
-        "def": "125",
-        "mnt": "125",
+        "atk": "120",
+        "def": "135",
+        "mnt": "135",
         "cost": "80",
         "types": [
             "風評被害",
@@ -4727,7 +4851,7 @@
             }
         ],
         "compositionList": [],
-        "notes": []
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -4775,7 +4899,7 @@
             }
         ],
         "compositionList": [],
-        "notes": []
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -4819,7 +4943,7 @@
             }
         ],
         "compositionList": [],
-        "notes": []
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -4859,17 +4983,17 @@
         "cocoaList": [
             {
                 "min": "251",
-                "max": "300"
+                "max": "350"
             }
         ],
         "compositionList": [],
-        "notes": []
+        "notes": ""
     },
     {
         "imageUrl": "",
         "name": "YYK姉貴",
         "hp": "160",
-        "atk": "185",
+        "atk": "180",
         "def": "120",
         "mnt": "180",
         "cost": "110",
@@ -4902,11 +5026,11 @@
         "cocoaList": [
             {
                 "min": "251",
-                "max": "300"
+                "max": "350"
             }
         ],
         "compositionList": [],
-        "notes": []
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -4928,11 +5052,20 @@
             {
                 "placeName": "下北沢裁判所",
                 "canDrop": true
+            },
+            {
+                "placeName": "山下公園",
+                "canDrop": true
             }
         ],
-        "cocoaList": [],
+        "cocoaList": [
+            {
+                "min": "301",
+                "max": "400"
+            }
+        ],
         "compositionList": [],
-        "notes": []
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -4956,9 +5089,14 @@
                 "canDrop": true
             }
         ],
-        "cocoaList": [],
+        "cocoaList": [
+            {
+                "min": "301",
+                "max": "400"
+            }
+        ],
         "compositionList": [],
-        "notes": []
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -4983,9 +5121,7 @@
         ],
         "cocoaList": [],
         "compositionList": [],
-        "notes": [
-            "下がるのは「物理攻撃力」と「物理防御力」の2つ。"
-        ]
+        "notes": "下がるのは「物理攻撃力」と「物理防御力」の2つ。"
     },
     {
         "imageUrl": "",
@@ -5014,11 +5150,20 @@
             {
                 "placeName": "博麗神社境内2",
                 "canDrop": true
+            },
+            {
+                "placeName": "山下公園",
+                "canDrop": true
             }
         ],
-        "cocoaList": [],
+        "cocoaList": [
+            {
+                "min": "301",
+                "max": "400"
+            }
+        ],
         "compositionList": [],
-        "notes": []
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -5049,10 +5194,7 @@
         ],
         "cocoaList": [],
         "compositionList": [],
-        "notes": [
-            "死「神」ということで神に状態異常攻撃は無効となる。",
-            "デビルひでと合成するとタナトスひでに変化する。"
-        ]
+        "notes": "\n死「神」ということで神に状態異常攻撃は無効となる。\nデビルひで\nと合成するとタナトスひでに変化する。\n"
     },
     {
         "imageUrl": "",
@@ -5082,7 +5224,7 @@
         ],
         "cocoaList": [],
         "compositionList": [],
-        "notes": []
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -5123,7 +5265,7 @@
         ],
         "cocoaList": [],
         "compositionList": [],
-        "notes": []
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -5165,7 +5307,7 @@
         ],
         "cocoaList": [],
         "compositionList": [],
-        "notes": []
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -5207,7 +5349,7 @@
         ],
         "cocoaList": [],
         "compositionList": [],
-        "notes": []
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -5234,38 +5376,14 @@
                 "canDrop": true
             }
         ],
-        "cocoaList": [],
-        "compositionList": [],
-        "notes": [
-            "能力の詳細についてはこちらを参照"
-        ]
-    },
-    {
-        "imageUrl": "",
-        "name": "花嫁と化した先輩",
-        "hp": "135",
-        "atk": "110",
-        "def": "130",
-        "mnt": "120",
-        "cost": "80",
-        "types": [
-            "ホモ",
-            "屑",
-            "空手"
-        ],
-        "reach": "物理",
-        "target": "単体",
-        "skillName": "大胆な告白",
-        "skillDescription": "戦闘開始時に相手全体に大胆な告白をし、Cost70未満のユニットを昏睡させる。[イラスト：たけのこLv9さん]",
-        "appearanceList": [
+        "cocoaList": [
             {
-                "placeName": "人間の里2",
-                "canDrop": true
+                "min": "351",
+                "max": "400"
             }
         ],
-        "cocoaList": [],
         "compositionList": [],
-        "notes": []
+        "notes": "能力の詳細についてはこちらを参照"
     },
     {
         "imageUrl": "",
@@ -5295,9 +5413,34 @@
             }
         ],
         "compositionList": [],
-        "notes": [
-            "初期メンバー3人と合成するとバレンタイン化する。"
-        ]
+        "notes": "初期メンバー3人と合成するとバレンタイン化する。\n経験値テーブルは30000と非常に高く、他ユニットと合成してレベル上げに使える。"
+    },
+    {
+        "imageUrl": "",
+        "name": "花嫁と化した先輩",
+        "hp": "135",
+        "atk": "110",
+        "def": "130",
+        "mnt": "120",
+        "cost": "80",
+        "types": [
+            "ホモ",
+            "屑",
+            "空手"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "大胆な告白",
+        "skillDescription": "戦闘開始時に相手全体に大胆な告白をし、Cost70未満のユニットを昏睡させる。[イラスト：たけのこLv9さん]",
+        "appearanceList": [
+            {
+                "placeName": "人間の里2",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": [],
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -5324,7 +5467,7 @@
         ],
         "cocoaList": [],
         "compositionList": [],
-        "notes": []
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -5350,7 +5493,7 @@
         ],
         "cocoaList": [],
         "compositionList": [],
-        "notes": []
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -5381,7 +5524,7 @@
         ],
         "cocoaList": [],
         "compositionList": [],
-        "notes": []
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -5405,9 +5548,7 @@
         ],
         "cocoaList": [],
         "compositionList": [],
-        "notes": [
-            "能力の詳細はこ↑こ↓"
-        ]
+        "notes": "能力の詳細はこ↑こ↓\nスキル対象になるユニット\n \nREACH\n行動効果\n追加効果\n攻撃反応\nRIM姉貴\n \n \n \nダメージ0(40%)\nUDK姉貴\n \nダメージ3倍(HPMAX)\n \n \nALC姉貴\n \n \n回復\n \nMSTA姉貴\n \n \n精神ATK上昇(味方)\n \nYUMちゃん\n2回攻撃\n \n \n精神反撃(30%)\nKMC姉貴\n2回攻撃\n自己回復(偶数ターン)\n \n \nAY姉貴\n2回攻撃\nゲージ上昇(味方鳥･妖怪)\n \n \nSKY姉貴\n \nゲージ減少\n \n \n土着神SWK\n \nゲージ0(30%)\n \n \nUTH\n \n全体攻撃(3ターン目)\n \n \nFLNちゃん\n \nDEF減少\n \n \nRMLA姉貴\n \nダメージ吸収\n \n \nSIK姉貴\n \n昏睡(状態異常)\n \n \n釣りキチおばさん\n \n釣りキチ(状態異常)\n \n \n"
     },
     {
         "imageUrl": "",
@@ -5430,11 +5571,14 @@
                 "canDrop": true
             }
         ],
-        "cocoaList": [],
+        "cocoaList": [
+            {
+                "min": "301",
+                "max": "350"
+            }
+        ],
         "compositionList": [],
-        "notes": [
-            "何らかのベースユニットと合成すると、ベースユニットが個体値MAX（黒枠化）になる。"
-        ]
+        "notes": "何らかのベースユニットと合成すると、ベースユニットが個体値MAX（黒枠化）になる。"
     },
     {
         "imageUrl": "",
@@ -5459,9 +5603,7 @@
         ],
         "cocoaList": [],
         "compositionList": [],
-        "notes": [
-            "合成したユニットの背景は緑に染まり、HPが強化される。"
-        ]
+        "notes": "合成したユニットの背景は緑に染まり、HPが強化される。\nATKを強化したい方はDEFを強化したい方はMNTを強化したい方は"
     },
     {
         "imageUrl": "",
@@ -5486,9 +5628,7 @@
         ],
         "cocoaList": [],
         "compositionList": [],
-        "notes": [
-            "合成したユニットの背景は赤く染まり、ATKが強化される。"
-        ]
+        "notes": "合成したユニットの背景は赤く染まり、ATKが強化される。\nHP を強化したい方はDEFを強化したい方はMNTを強化したい方は"
     },
     {
         "imageUrl": "",
@@ -5513,9 +5653,59 @@
         ],
         "cocoaList": [],
         "compositionList": [],
-        "notes": [
-            "合成したユニットの背景は黄色く染まり、DEFが強化される。"
-        ]
+        "notes": "合成したユニットの背景は黄色く染まり、DEFが強化される。\nHP を強化したい方はATKを強化したい方はMNTを強化したい方は"
+    },
+    {
+        "imageUrl": "",
+        "name": "HZRBBA",
+        "hp": "95",
+        "atk": "90",
+        "def": "90",
+        "mnt": "110",
+        "cost": "60",
+        "types": [
+            "魔法使い"
+        ],
+        "reach": "精神",
+        "target": "2回",
+        "skillName": " ",
+        "skillDescription": "合成するとアポカリプスが発生し、ベースユニットの精神防御力がアップ。[イラスト:古霧さん]",
+        "appearanceList": [
+            {
+                "placeName": "ババアポカリプス",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": [],
+        "notes": "合成したユニットの背景は青く染まり、MNTが強化される。\nHP を強化したい方はATKを強化したい方はDEFを強化したい方は"
+    },
+    {
+        "imageUrl": "",
+        "name": "ルンバおばさん",
+        "hp": "3",
+        "atk": "120",
+        "def": "1",
+        "mnt": "1",
+        "cost": "60",
+        "types": [
+            "巫女",
+            "屑",
+            "メタル"
+        ],
+        "reach": "物理",
+        "target": "単体",
+        "skillName": "一人で片付け",
+        "skillDescription": "機械なので1ダメージしか受けないが、2ターンすると充電が切れて戦闘不能になる。1ターン後にまた充電されて復活する。",
+        "appearanceList": [
+            {
+                "placeName": "ババアポカリプス",
+                "canDrop": true
+            }
+        ],
+        "cocoaList": [],
+        "compositionList": [],
+        "notes": "\nHPは3で固定。なお、スキル効果はカウンターには無効。\nYYKBBA\nと合成することでHPを5にすることが可能。\n復活時の攻撃は単体攻撃。また、KNN姉貴と同じように、TKNUCで復活をキャンセルできる。\n"
     },
     {
         "imageUrl": "",
@@ -5549,37 +5739,7 @@
         ],
         "cocoaList": [],
         "compositionList": [],
-        "notes": [
-            "くまさんと合成することで暗黒神ラプソーンに変化する。",
-            "KMC姉貴と合成することでタナトスひでに変化する。"
-        ]
-    },
-    {
-        "imageUrl": "",
-        "name": "HZRBBA",
-        "hp": "95",
-        "atk": "90",
-        "def": "90",
-        "mnt": "110",
-        "cost": "60",
-        "types": [
-            "魔法使い"
-        ],
-        "reach": "精神",
-        "target": "2回",
-        "skillName": " ",
-        "skillDescription": "合成するとアポカリプスが発生し、ベースユニットの精神防御力がアップ。[イラスト:古霧さん]",
-        "appearanceList": [
-            {
-                "placeName": "ババアポカリプス",
-                "canDrop": true
-            }
-        ],
-        "cocoaList": [],
-        "compositionList": [],
-        "notes": [
-            "合成したユニットの背景は青く染まり、MNTが強化される。"
-        ]
+        "notes": "くまさん\nと合成することで暗黒神ラプソーンに変化する。\nKMC姉貴\nと合成することでタナトスひでに変化する。\n"
     },
     {
         "imageUrl": "",
@@ -5602,14 +5762,15 @@
             {
                 "placeName": "ひで祭り会場",
                 "canDrop": true
+            },
+            {
+                "placeName": "山下公園",
+                "canDrop": true
             }
         ],
         "cocoaList": [],
         "compositionList": [],
-        "notes": [
-            "世界のトオノ",
-            "の効果の対象となる。"
-        ]
+        "notes": "世界のトオノ\nの効果の対象となる。\nまた、土着神SWKと合成すると神々の頂点SWKへと変化する。"
     },
     {
         "imageUrl": "",
@@ -5635,7 +5796,7 @@
         ],
         "cocoaList": [],
         "compositionList": [],
-        "notes": []
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -5677,7 +5838,7 @@
         ],
         "cocoaList": [],
         "compositionList": [],
-        "notes": []
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -5707,7 +5868,7 @@
         ],
         "cocoaList": [],
         "compositionList": [],
-        "notes": []
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -5742,7 +5903,7 @@
         ],
         "cocoaList": [],
         "compositionList": [],
-        "notes": []
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -5773,7 +5934,7 @@
         ],
         "cocoaList": [],
         "compositionList": [],
-        "notes": []
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -5799,9 +5960,7 @@
         ],
         "cocoaList": [],
         "compositionList": [],
-        "notes": [
-            "仲間にいるだけで相手COST60未満の敵ユニットは行動ゲージの増加速度が元の増加速度の6割減になる。"
-        ]
+        "notes": "仲間にいるだけで相手COST60未満の敵ユニットは行動ゲージの増加速度が元の増加速度の6割減になる。\nTITニング\nの効果と複合すると、元の増加速度の9割減になる。\nなお、王者の聖域に出てくるものは別ユニット扱いである。"
     },
     {
         "imageUrl": "",
@@ -5832,7 +5991,7 @@
         ],
         "cocoaList": [],
         "compositionList": [],
-        "notes": []
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -5859,7 +6018,7 @@
         ],
         "cocoaList": [],
         "compositionList": [],
-        "notes": []
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -5892,12 +6051,7 @@
         ],
         "cocoaList": [],
         "compositionList": [],
-        "notes": [
-            "HPは5で固定。なお、スキル効果はカウンターには無効。",
-            "YYKBBAと合成することでHPを8にすることが可能。",
-            "暗黒神ラプソーンと合成することでダークドレアム先輩に変化する。",
-            "「0ダメージ＋効果を与える攻撃」でも1ダメージ受ける。鎌田吾作、CNT姉貴、TDN、UDNG姉貴、OZW等が該当する。"
-        ]
+        "notes": "\nHPは5で固定。なお、スキル効果はカウンターには無効。\nYYKBBA\nと合成することでHPを8にすることが可能。\n暗黒神ラプソーン\nと合成することでダークドレアム先輩に変化する。\n「0ダメージ＋効果を与える攻撃」でも1ダメージ受ける。鎌田吾作、CNT姉貴、TDN、UDNG姉貴、OZW等が該当する。\n"
     },
     {
         "imageUrl": "",
@@ -5924,10 +6078,7 @@
         ],
         "cocoaList": [],
         "compositionList": [],
-        "notes": [
-            "サイクロップス先輩",
-            "と合成することでダークドレアム先輩に変化する。"
-        ]
+        "notes": "サイクロップス先輩\nと合成することでダークドレアム先輩に変化する。"
     },
     {
         "imageUrl": "",
@@ -5953,7 +6104,7 @@
         ],
         "cocoaList": [],
         "compositionList": [],
-        "notes": []
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -5979,7 +6130,7 @@
         ],
         "cocoaList": [],
         "compositionList": [],
-        "notes": []
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -6000,13 +6151,13 @@
         "skillDescription": "戦闘不能になると敵に美味しく頂かれてしまい、HPが回復してしまう。",
         "appearanceList": [
             {
-                "placeName": "",
+                "placeName": "山下公園",
                 "canDrop": true
             }
         ],
         "cocoaList": [],
         "compositionList": [],
-        "notes": []
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -6033,7 +6184,7 @@
         ],
         "cocoaList": [],
         "compositionList": [],
-        "notes": []
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -6060,7 +6211,7 @@
         ],
         "cocoaList": [],
         "compositionList": [],
-        "notes": []
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -6086,9 +6237,7 @@
         ],
         "cocoaList": [],
         "compositionList": [],
-        "notes": [
-            "5回目の行動時に「神の裁き」が発動する。威力半分の単体攻撃を8回ランダムに与える。"
-        ]
+        "notes": "5回目の行動時に「神の裁き」が発動する。威力半分の単体攻撃を8回ランダムに与える。\nMMR部長\n、ポイテーロ、ラヴォイル校長、サイクロップス先輩等のダメージを軽減するスキルで即死を回避できる。\nKSDB姉貴\nは不可。"
     },
     {
         "imageUrl": "",
@@ -6113,7 +6262,7 @@
         ],
         "cocoaList": [],
         "compositionList": [],
-        "notes": []
+        "notes": "\n回復を返した際の攻撃は、相手の防御力やサイクロップス先輩などのメタル系スキルを無視する。\n"
     },
     {
         "imageUrl": "",
@@ -6138,10 +6287,7 @@
         ],
         "cocoaList": [],
         "compositionList": [],
-        "notes": [
-            "現場監督",
-            "がいても複数回攻撃ができ、攻撃力上昇も効く。"
-        ]
+        "notes": "現場監督\nがいても複数回攻撃ができ、攻撃力上昇も効く。\nATKが100だがKBTIT（漫画家）の影響は受けない。\n仲間にSNE姉貴がいると攻撃回数の期待値がアップ。"
     },
     {
         "imageUrl": "",
@@ -6171,7 +6317,7 @@
         ],
         "cocoaList": [],
         "compositionList": [],
-        "notes": []
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -6201,7 +6347,7 @@
         ],
         "cocoaList": [],
         "compositionList": [],
-        "notes": []
+        "notes": ""
     },
     {
         "imageUrl": "",
@@ -6227,39 +6373,6 @@
         ],
         "cocoaList": [],
         "compositionList": [],
-        "notes": [
-            "パーティに複数のHZR姉貴がいても、COSTダウン効果は重複しない。"
-        ]
-    },
-    {
-        "imageUrl": "",
-        "name": "ルンバおばさん",
-        "hp": "3",
-        "atk": "120",
-        "def": "1",
-        "mnt": "1",
-        "cost": "60",
-        "types": [
-            "巫女",
-            "屑",
-            "メタル"
-        ],
-        "reach": "物理",
-        "target": "単体",
-        "skillName": "一人で片付け",
-        "skillDescription": "機械なので1ダメージしか受けないが、2ターンすると充電が切れて戦闘不能になる。1ターン後にまた充電されて復活する。",
-        "appearanceList": [
-            {
-                "placeName": "ババアポカリプス",
-                "canDrop": true
-            }
-        ],
-        "cocoaList": [],
-        "compositionList": [],
-        "notes": [
-            "HPは3で固定。なお、スキル効果はカウンターには無効。",
-            "YYKBBAと合成することでHPを5にすることが可能。",
-            "復活時の攻撃は単体攻撃。また、KNN姉貴と同じように、TKNUCで復活をキャンセルできる。"
-        ]
+        "notes": "パーティに複数のHZR姉貴がいても、COSTダウン効果は重複しない。"
     }
 ]

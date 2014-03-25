@@ -1,7 +1,8 @@
 (function(window, $, angular, undefined){
 	var noSelectText = '選択解除';
-	var mrkrdbApp = angular.module('mrkrdbApp',['angularLocalStorage']);
-	mrkrdbApp.controller('SearchCtrl', function($scope, $http, $q, storage){
+	angular
+	.module('mrkrdbApp',['angularLocalStorage'])
+	.controller('SearchCtrl', ['$scope', '$http', '$q', 'storage', '$sce', function($scope, $http, $q, storage, $sce){
 		storage.bind($scope, 'favoritedListString', $scope.favoritedListString);
 		storage.bind($scope, 'isTinyMode', $scope.isTinyMode);
 		storage.bind($scope, 'isSearchSortBoxShow', $scope.isSearchSortBoxShow);
@@ -337,5 +338,5 @@
 			return results;
 			
 		}
-	});
+	}]);
 })(this, jQuery, angular);

@@ -4184,6 +4184,9 @@ body {
 .tinyMode .item .itemMain .cocoaBox {
   display: none;
 }
+.tinyMode .item .itemMain .tableRowNote {
+  display: none;
+}
 .item .itemMain .statusBox .table {
   margin-bottom: 0;
 }
