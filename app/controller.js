@@ -1,5 +1,6 @@
 (function(window, $, angular, undefined){
 	var noSelectText = '選択解除';
+	var changeItemsPerPageTimer;
 	angular
 	.module('mrkrdbApp',['angularLocalStorage'])
 	.controller('SearchCtrl', ['$scope', '$http', '$q', 'storage', '$sce', function($scope, $http, $q, storage, $sce){
@@ -14,8 +15,17 @@
 		storage.bind($scope, 'isSearchTypeBoxShow', $scope.isSearchTypeBoxShow);
 		storage.bind($scope, 'sortOrder', $scope.sortOrder);
 		storage.bind($scope, 'sortKey', $scope.sortKey);
+		storage.bind($scope, 'itemsPerPage', $scope.itemsPerPage);
 
 		$scope.searchResult = [];
+		$scope.currentPageIndex = 0;
+		$scope.itemsPerPage = $scope.itemsPerPage || 114514;
+		$scope._itemsPerPage = $scope.itemsPerPage;
+		$scope.resultPageMinIndex = 0;
+		$scope.resultPageMaxIndex = $scope.resultPageMinIndex + $scope.itemsPerPage;
+		$scope.resultPages = [];
+
+		$scope.searchResultView = [];
 		$scope.searchCondition = {
 			selectedTypeList: [],
 			selectedTypes:{},
@@ -54,6 +64,75 @@
 				$scope.gamedata = res[1].data;
 				$scope.searchResult = $scope.characters;
 			});
+
+		//$scope.$watch('searchResult', showPagedView);
+
+		$scope.$watch('searchResult', getResultPageMaxIndex);
+		$scope.$watch('itemsPerPage', getResultPageMaxIndex);
+
+		$scope.$watch('resultPageMaxIndex', getResultPages);
+
+		$scope.$watch('itemsPerPage', getResultPages);
+
+		$scope.$watch('searchResult', showPagedView);
+		$scope.$watch('itemsPerPage', showPagedView);
+		$scope.$watch('currentPageIndex', showPagedView);
+
+		function showPagedView(){
+			console.log($scope.itemsPerPage);
+			if($scope.itemsPerPage > 1){
+				$scope.searchResultView = [];
+				//$scope.resultPageMaxIndex = Math.ceil($scope.searchResult.length / $scope.itemsPerPage);
+				var min = $scope.itemsPerPage * $scope.currentPageIndex;
+				var max = $scope.itemsPerPage * $scope.currentPageIndex + $scope.itemsPerPage;
+				if(min !== max){
+					if(max > $scope.searchResult.length){
+						max = $scope.searchResult.length;
+					}
+					$scope.searchResultView = $scope.searchResult.slice(min, max);
+				}
+			}else{
+				$scope.searchResultView = $scope.searchResult;
+			}
+		}
+
+		function getResultPages(){
+			var i = 0;
+			$scope.resultPages = [];
+			for(;i < $scope.resultPageMaxIndex; i += 1){
+				$scope.resultPages[i] = i + 1;
+			}
+		}
+
+		function getResultPageMaxIndex(){
+			$scope.resultPageMaxIndex = Math.ceil($scope.searchResult.length / $scope.itemsPerPage);
+		}
+
+		$scope.changeItemsPerPage = function(){
+			if($scope.itemsPerPage !== $scope._itemsPerPage){
+				$scope.itemsPerPage = parseInt($scope._itemsPerPage, 10) || 1;
+				$scope.currentPageIndex = 0;
+				console.log($scope.itemsPerPage);
+			}
+		};
+
+		$scope.changeResultPageTo = function(pageIndex){
+			$scope.currentPageIndex = pageIndex;
+		};
+
+		$scope.changeResultPageNext = function(){
+			var index = $scope.currentPageIndex + 1;
+			if(index < $scope.resultPageMaxIndex){
+				$scope.changeResultPageTo(index);
+			}
+		};
+
+		$scope.changeResultPagePrev = function(){
+			var index = $scope.currentPageIndex - 1;
+			if(index >= 0){
+				$scope.changeResultPageTo(index);
+			}
+		};
 
 		$scope.toggleTypeCheckbox = function(type){
 			var index = $scope.searchCondition.selectedTypeList.indexOf(type);
@@ -336,7 +415,6 @@
 				}
 			});
 			return results;
-			
 		}
 	}]);
 })(this, jQuery, angular);

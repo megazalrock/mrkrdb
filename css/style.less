@@ -27,7 +27,7 @@
 //@import "../bootstrap/less/navs.less";
 //@import "../bootstrap/less/navbar.less";
 //@import "../bootstrap/less/breadcrumbs.less";
-//@import "../bootstrap/less/pagination.less";
+@import "../bootstrap/less/pagination.less";
 //@import "../bootstrap/less/pager.less";
 @import "../bootstrap/less/labels.less";
 @import "../bootstrap/less/badges.less";
@@ -70,6 +70,14 @@ html, body{
 .searchBox{
 	h2{
 		.fontSize(20px);
+	}
+	.searchResultNav{
+		text-align: center;
+		ul{
+			li{
+				cursor: pointer;
+			}
+		}
 	}
 	#searchCondition{
 		.fontSize(12px);
@@ -160,19 +168,16 @@ html, body{
 			line-height: 1.5;
 			height: 1.5em;
 		}
-		.sortOrder,
-		.sortKey{
-			.fontSize(@baseFontSize);
-		}
-		.sortOrder,
 		.tinyMode{
 			text-align: right;
 		}
-
 	}
 }
 .item{
 	margin-bottom: @grid-gutter-width;
+	&:last-child{
+		margin-bottom: 0;
+	}
 	.wikiLink{
 		font-size: 80%;
 		margin-left: 5px;

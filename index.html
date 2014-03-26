@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 	<title>まりこれDB</title>
 	<!-- <link rel="stylesheet" href="css/bootstrap.min.css" media="all">
 	<link rel="stylesheet" href="css/bootstrap-theme.min.css" media="all"> -->
@@ -230,89 +230,118 @@
 			</div>
 			<div id="searchResult" class="col-xs-12 col-sm-8" ng-class="{tinyMode: isTinyMode}">
 				<h2 class="searchResultHeader row">
-					<div class="title col-xs-8 col-sm-10">検索結果 <span class="label label-primary">{{searchResult.length}}匹</span></div>
-					<div class="tinyMode col-xs-4 col-sm-2">
-						<div class="tinyModeBtn btn-default btn btn-sm text-right" ng-click="toggleTinyMode()" ng-class="{active: !isTinyMode}">詳細モード</div>
+					<div class="title col-xs-12 col-sm-6">検索結果 <span class="label label-primary">{{searchResult.length}}匹</span></div>
+					<div class="tinyMode col-xs-6 col-sm-3">
+						<span class="tinyModeBtn btn-default btn btn-sm text-right" ng-click="toggleTinyMode()" ng-class="{active: !isTinyMode}">詳細モード</span>
 					</div>
-				</h2>
-				 
-				<div class="item panel panel-default" ng-repeat="item in searchResult">
-					<div class="itemHeader panel-heading">
-						<h3 class="name">{{item.name}} <a class="wikiLink" href="{{wikiUrl}}{{item.name}}" target="_blank"><span class="glyphicon glyphicon-new-window"></span></a></h3>
-						<div class="btns btn-group">
-							<div class="toFav btn btn-sm btn-default favorited" ng-if="isFavorited(item.name)" ng-click="toggleItemFavorite(item.name)"><span class="glyphicon glyphicon-star"></span> <span>お気に入りから削除</span></div>
-							<div class="toFav btn btn-sm btn-default" ng-if="!isFavorited(item.name)" ng-click="toggleItemFavorite(item.name)"><span class="glyphicon glyphicon-star-empty"></span> <span>お気に入りに登録</span></div>
-							<!-- <div class="toStac btn-sm btn btn-default">スタックに登録</div> -->
-						</div>
-					</div>
-					<div class="itemMain row panel-body">
-						<div class="textBox col-xs-12" ng-class="{'col-sm-8': !isTinyMode, 'col-sm-12': isTinyMode}">
-							<div class="statusBox box">
-								<h4><span class="glyphicon glyphicon-stats"></span>ステータス</h4>
-								<div class="table-responsive">
-									<table class="status table">
-										<tr class="colBorder">
-											<th>HP</th>
-											<th>ATK</th>
-											<th>DEF</th>
-											<th>MNT</th>
-											<th>COST</th>
-										</tr>
-										<tr class="colBorder">
-											<td>{{item.hp}}</td>
-											<td>{{item.atk}}</td>
-											<td>{{item.def}}</td>
-											<td>{{item.mnt}}</td>
-											<td>{{item.cost}}</td>
-										</tr>
-										<tr>
-											<th>TYPE</th>
-											<td class="tableCellType" colspan="2">{{item.types.join(', ')}}</td>
-											<th>REACH</th>
-											<td>{{item.reach}}・{{item.target}}</td>
-										</tr>
-										<tr class="tableRowSkill">
-											<th>SKILL</th>
-											<td colspan="4"><div class="skillName">{{item.skillName}}</div><div class="skillDescription">{{item.skillDescription}}</div></td>
-										</tr>
-									</table>
-								</div>
+					<form ng-submit="changeItemsPerPage()">
+						<div class="itemsPerPage col-xs-6 col-sm-3">
+							<div class="itemsPerPageInner input-group">
+								<input type="number" class="form-control input-inline input-sm" ng-model="_itemsPerPage" value="{{_itemsPerPage}}">
+								<span class="input-group-btn">
+									<input type="submit" class="btn btn-default btn-sm" value="件表示">
+								</span>
 							</div>
 						</div>
-						<div class="appearanceBox box col-xs-12 col-sm-4">
-							<h4><span class="glyphicon glyphicon-map-marker"></span>出現クエスト</h4>
-							<ul class="appearance list-group">
-								<li class="list-group-item" ng-repeat="place in item.appearanceList" ng-class="{isFinished: isEventFinished(place.placeName), cantDrop: !place.canDrop}">
-									<span class="placeName" >{{place.placeName}}<a class="wikiLink" href="{{wikiUrl}}{{place.placeName}}" target="_blank"><span class="glyphicon glyphicon-new-window"></span></a></span>
-									<div>
-										<span ng-if="!place.canDrop" class="cantDropLabel label label-default">ドロップなし</span>
-										<span ng-if="isEventFinished(place.placeName)" class="isFinishedLabel label label-default">配信終了</span>
-									</div>
-								</li>
-								<li class="list-group-item" ng-if="item.appearanceList.length <= 0">
-									なし
-								</li>
-							</ul>
+					</form>
+				</h2>
+
+				<div class="searchResultNav" ng-if="resultPageMaxIndex !== 1">
+					<ul class="pagination pagination-sm">
+						<li ng-click="changeResultPagePrev()" ng-class="{disabled: currentPageIndex <= 0}"><span>&laquo; <span class="sr-only">&laquo;</span></span></li>
+						<li ng-repeat="pageNum in resultPages" ng-class="{active: pageNum === currentPageIndex + 1}" ng-click="changeResultPageTo(pageNum - 1)"><span>{{pageNum}} <span class="sr-only">{{pageNum}}</span></span></li>
+						<li ng-click="changeResultPageNext()" ng-class="{disabled: currentPageIndex >= resultPageMaxIndex - 1}"><span>&raquo; <span class="sr-only">&raquo;</span></span></li>
+					</ul>
+				</div>
+				
+				<div class="items">
+					<div class="item panel panel-default" ng-repeat="item in searchResultView">
+						<div class="itemHeader panel-heading">
+							<h3 class="name">{{item.name}} <a class="wikiLink" href="{{wikiUrl}}{{item.name}}" target="_blank"><span class="glyphicon glyphicon-new-window"></span></a></h3>
+							<div class="btns btn-group">
+								<div class="toFav btn btn-sm btn-default favorited" ng-if="isFavorited(item.name)" ng-click="toggleItemFavorite(item.name)"><span class="glyphicon glyphicon-star"></span> <span>お気に入りから削除</span></div>
+								<div class="toFav btn btn-sm btn-default" ng-if="!isFavorited(item.name)" ng-click="toggleItemFavorite(item.name)"><span class="glyphicon glyphicon-star-empty"></span> <span>お気に入りに登録</span></div>
+								<!-- <div class="toStac btn-sm btn btn-default">スタックに登録</div> -->
+							</div>
 						</div>
-						<!-- <div class="compositionBox box col-xs-12 col-sm-8">
-							<h4><span class="glyphicon glyphicon-random"></span>合成</h4>
-							<ul class="composition list-group">
-								<li class="list-group-item" ng-repeat="comp in item.compositionList">
-									<span class="base">{{comp.base}}</span><span ng-repeat="withUnit in comp.with"><span class="plus"><span class="glyphicon glyphicon-plus"></span></span><span class="material">{{withUnit}}</span></span><span class="arrow"><span class="glyphicon glyphicon-arrow-right"></span></span><span class="target">{{comp.to}}</span>
-								</li>
-								<li class="list-group-item" ng-if="item.compositionList.length <= 0">
-									なし
-								</li>
-							</ul>
-						</div> -->
-						<div class="cocoaBox box col-xs-12 col-sm-4 col-sm-offset-8">
-							<h4><span class="glyphicon glyphicon-certificate"></span>必要クォクォア</h4>
-							<ul class="cocoaList list-group">
-								<li class="list-group-item" ng-repeat="cocoa in item.cocoaList">{{cocoa.min}}〜{{cocoa.max}}</li>
-								<li class="list-group-item" ng-if="item.cocoaList.length <= 0">新規採用不可</li>
-							</ul>
+						<div class="itemMain row panel-body">
+							<div class="textBox col-xs-12" ng-class="{'col-sm-8': !isTinyMode, 'col-sm-12': isTinyMode}">
+								<div class="statusBox box">
+									<h4><span class="glyphicon glyphicon-stats"></span>ステータス</h4>
+									<div class="table-responsive">
+										<table class="status table">
+											<tr class="colBorder">
+												<th>HP</th>
+												<th>ATK</th>
+												<th>DEF</th>
+												<th>MNT</th>
+												<th>COST</th>
+											</tr>
+											<tr class="colBorder">
+												<td>{{item.hp}}</td>
+												<td>{{item.atk}}</td>
+												<td>{{item.def}}</td>
+												<td>{{item.mnt}}</td>
+												<td>{{item.cost}}</td>
+											</tr>
+											<tr>
+												<th>TYPE</th>
+												<td class="tableCellType" colspan="2">{{item.types.join(', ')}}</td>
+												<th>REACH</th>
+												<td>{{item.reach}}・{{item.target}}</td>
+											</tr>
+											<tr class="tableRowSkill">
+												<th>SKILL</th>
+												<td colspan="4"><div class="skillName">{{item.skillName}}</div><div class="skillDescription">{{item.skillDescription}}</div></td>
+											</tr>
+										</table>
+									</div>
+								</div>
+							</div>
+							<div class="appearanceBox box col-xs-12 col-sm-4">
+								<h4><span class="glyphicon glyphicon-map-marker"></span>出現クエスト</h4>
+								<ul class="appearance list-group">
+									<li class="list-group-item" ng-repeat="place in item.appearanceList" ng-class="{isFinished: isEventFinished(place.placeName), cantDrop: !place.canDrop}">
+										<span class="placeName" >{{place.placeName}}<a class="wikiLink" href="{{wikiUrl}}{{place.placeName}}" target="_blank"><span class="glyphicon glyphicon-new-window"></span></a></span>
+										<div>
+											<span ng-if="!place.canDrop" class="cantDropLabel label label-default">ドロップなし</span>
+											<span ng-if="isEventFinished(place.placeName)" class="isFinishedLabel label label-default">配信終了</span>
+										</div>
+									</li>
+									<li class="list-group-item" ng-if="item.appearanceList.length <= 0">
+										なし
+									</li>
+								</ul>
+							</div>
+							<!-- <div class="compositionBox box col-xs-12 col-sm-8">
+								<h4><span class="glyphicon glyphicon-random"></span>合成</h4>
+								<ul class="composition list-group">
+									<li class="list-group-item" ng-repeat="comp in item.compositionList">
+										<span class="base">{{comp.base}}</span><span ng-repeat="withUnit in comp.with"><span class="plus"><span class="glyphicon glyphicon-plus"></span></span><span class="material">{{withUnit}}</span></span><span class="arrow"><span class="glyphicon glyphicon-arrow-right"></span></span><span class="target">{{comp.to}}</span>
+									</li>
+									<li class="list-group-item" ng-if="item.compositionList.length <= 0">
+										なし
+									</li>
+								</ul>
+							</div> -->
+							<div class="cocoaBox box col-xs-12 col-sm-4 col-sm-offset-8">
+								<h4><span class="glyphicon glyphicon-certificate"></span>必要クォクォア</h4>
+								<ul class="cocoaList list-group">
+									<li class="list-group-item" ng-repeat="cocoa in item.cocoaList">{{cocoa.min}}〜{{cocoa.max}}</li>
+									<li class="list-group-item" ng-if="item.cocoaList.length <= 0">新規採用不可</li>
+								</ul>
+							</div>
 						</div>
 					</div>
+				</div>
+				
+
+				<div class="searchResultNav" ng-if="resultPageMaxIndex !== 1">
+					<ul class="pagination pagination-sm">
+						<li ng-click="changeResultPagePrev()" ng-class="{disabled: currentPageIndex <= 0}"><span>&laquo; <span class="sr-only">&laquo;</span></span></li>
+						<li ng-repeat="pageNum in resultPages" ng-class="{active: pageNum === currentPageIndex + 1}" ng-click="changeResultPageTo(pageNum - 1)"><span>{{pageNum}} <span class="sr-only">{{pageNum}}</span></span></li>
+						<li ng-click="changeResultPageNext()" ng-class="{disabled: currentPageIndex >= resultPageMaxIndex - 1}"><span>&raquo; <span class="sr-only">&raquo;</span></span></li>
+					</ul>
 				</div>
 			</div>
 		</div>
