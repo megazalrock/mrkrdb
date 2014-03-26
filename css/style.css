@@ -4129,9 +4129,25 @@ html,
 body {
   font-size: 14px;
 }
+.page-header h1 {
+  font-size: 26px;
+  font-size: 1.857rem;
+}
+@media (max-width: 767px) {
+  .page-header h1 {
+    font-size: 18px;
+    font-size: 1.286rem;
+  }
+}
 .searchBox h2 {
-  font-size: 20px;
-  font-size: 1.429rem;
+  font-size: 18px;
+  font-size: 1.286rem;
+}
+@media (max-width: 767px) {
+  .searchBox h2 {
+    font-size: 18px;
+    font-size: 1.286rem;
+  }
 }
 .searchBox .searchResultNav {
   text-align: center;
@@ -4140,19 +4156,19 @@ body {
   cursor: pointer;
 }
 .searchBox #searchCondition {
-  font-size: 12px;
-  font-size: 0.857rem;
-}
-.searchBox #searchCondition h3 {
   font-size: 14px;
   font-size: 1rem;
+}
+.searchBox #searchCondition h3 {
+  font-size: 16px;
+  font-size: 1.143rem;
   font-weight: bold;
   padding: 0 0 0.5em 0;
   margin: 0;
 }
 .searchBox #searchCondition h3 .toggleIcon {
-  font-size: 12px;
-  font-size: 0.857rem;
+  font-size: 14px;
+  font-size: 1rem;
   float: right;
   cursor: pointer;
   color: #999999;
@@ -4164,8 +4180,8 @@ body {
   padding-bottom: 0;
 }
 .searchBox #searchCondition h4 {
-  font-size: 12px;
-  font-size: 0.857rem;
+  font-size: 14px;
+  font-size: 1rem;
   margin-right: 1em;
 }
 .searchBox #searchCondition .searchSortBox h4 {
@@ -4187,13 +4203,15 @@ body {
 .searchBox #searchCondition .searchFavoritedBox:hover {
   background-color: #f5f5f5;
 }
-.searchBox #searchCondition .searchFavoritedBox .favoriteNum {
-  float: right;
+@media (max-width: 1199px) {
+  .searchBox #searchCondition .searchFavoritedBox .badge {
+    display: block;
+  }
 }
 .searchBox #searchCondition .searchNumBox .numSearchMax,
 .searchBox #searchCondition .searchNumBox .numSearchMin,
 .searchBox #searchCondition .searchNumBox .numSearchKey {
-  width: 33.3%;
+  width: 100%;
 }
 .searchBox #searchCondition .searchReachBox label input {
   display: none;
@@ -4205,8 +4223,8 @@ body {
   float: left;
 }
 .searchBox #searchCondition .searchTypeBox .searchTypeCheckboxBox {
-  font-size: 12px;
-  font-size: 0.857rem;
+  font-size: 14px;
+  font-size: 1rem;
 }
 .searchBox #searchCondition .searchTypeBox .searchTypeCheckboxBox label {
   margin: 0 0.5em 0.5em 0;
@@ -4217,6 +4235,14 @@ body {
 }
 .searchBox #searchResult .tinyMode {
   text-align: right;
+}
+@media (max-width: 1199px) {
+  .searchBox #searchResult .title {
+    margin-bottom: 20px;
+  }
+  .searchBox #searchResult .tinyMode .btn {
+    display: block;
+  }
 }
 .item {
   margin-bottom: 30px;
@@ -4245,8 +4271,8 @@ body {
   clear: both;
 }
 .item .itemHeader h3 {
-  font-size: 20px;
-  font-size: 1.429rem;
+  font-size: 18px;
+  font-size: 1.286rem;
 }
 .item .itemHeader .name {
   float: left;
@@ -4309,8 +4335,8 @@ body {
   color: #999999;
 }
 .item .itemMain .compositionBox .glyphicon {
-  font-size: 12px;
-  font-size: 0.857rem;
+  font-size: 14px;
+  font-size: 1rem;
   margin: -10px 0.4em 0 0.4em;
   color: #999999;
 }

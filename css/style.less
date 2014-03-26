@@ -53,6 +53,11 @@
 
 
 @baseFontSize: 14px;
+@fontSize1: 18px;
+@fontSize2: 16px;
+@fontSize3: @baseFontSize;
+
+
 .fontSize(@fontSize){
 	font-size: @fontSize;
 	font-size: unit(round(@fontSize / @baseFontSize,3),rem);
@@ -67,9 +72,21 @@ html, body{
 
 }
 
+.page-header{
+	h1{
+		.fontSize(26px);
+		@media (max-width: @screen-xs-max){
+			.fontSize(@fontSize1);
+		}
+	}
+}
+
 .searchBox{
 	h2{
-		.fontSize(20px);
+		.fontSize(@fontSize1);
+		@media (max-width: @screen-xs-max){
+			.fontSize(@fontSize1);
+		}
 	}
 	.searchResultNav{
 		text-align: center;
@@ -80,14 +97,14 @@ html, body{
 		}
 	}
 	#searchCondition{
-		.fontSize(12px);
+		.fontSize(@fontSize3);
 		h3{
-			.fontSize(14px);
+			.fontSize(@fontSize2);
 			font-weight: bold;
 			padding:0 0 0.5em 0;
 			margin: 0;
 			.toggleIcon{
-				.fontSize(12px);
+				.fontSize(@fontSize3);
 				float: right;
 				cursor: pointer;
 				color:@gray-light;
@@ -100,7 +117,7 @@ html, body{
 			padding-bottom: 0;
 		}
 		h4{
-			.fontSize(12px);
+			.fontSize(@fontSize3);
 			margin-right:1em;
 		}
 		.searchSortBox{
@@ -126,15 +143,18 @@ html, body{
  				background-color: @list-group-hover-bg;
 			}
 
-			.favoriteNum{
-				float: right;
+			@media (max-width: @screen-md-max){
+				.badge{
+					display: block;
+					//.fontSize(11px);
+				}
 			}
 		}
 		.searchNumBox{
 			.numSearchMax,
 			.numSearchMin,
 			.numSearchKey{
-				width:33.3%;
+				width: 100%;
 			}
 		}
 		.searchReachBox{
@@ -156,7 +176,7 @@ html, body{
 				}
 			}
 			.searchTypeCheckboxBox{
-				.fontSize(12px);
+				.fontSize(@fontSize3);
 				label{
 					margin:0 0.5em 0.5em 0;
 				}
@@ -170,6 +190,16 @@ html, body{
 		}
 		.tinyMode{
 			text-align: right;
+		}
+		@media (max-width: @screen-md-max) {
+			.title{
+				margin-bottom: 20px;
+			}
+			.tinyMode{
+				.btn{
+					display: block;
+				}
+			}
 		}
 	}
 }
@@ -185,7 +215,7 @@ html, body{
 	.itemHeader{
 		.clearfix;
 		h3{
-			.fontSize(20px);
+			.fontSize(@fontSize1);
 		}
 		.name{
 			float: left;
@@ -207,10 +237,10 @@ html, body{
 	.itemMain{
 		.box{
 			h4{
-				.fontSize(16px);
+				.fontSize(@fontSize2);
 				font-size: 12;
 				.glyphicon{
-					.fontSize(14px);
+					.fontSize(@fontSize3);
 					margin-right:0.5em;
 				}
 			}
@@ -266,7 +296,7 @@ html, body{
 		}
 		.compositionBox{
 				.glyphicon{
-					.fontSize(12px);
+					.fontSize(@fontSize3);
 					margin:-10px 0.4em 0 0.4em;
 					color: @gray-light;
 				}
