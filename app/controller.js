@@ -79,7 +79,6 @@
 		$scope.$watch('currentPageIndex', showPagedView);
 
 		function showPagedView(){
-			console.log($scope.itemsPerPage);
 			if($scope.itemsPerPage > 1){
 				$scope.searchResultView = [];
 				//$scope.resultPageMaxIndex = Math.ceil($scope.searchResult.length / $scope.itemsPerPage);
@@ -178,6 +177,7 @@
 
 			if(showAsResult){
 				$scope.searchMode = 'type';
+				$scope.currentPageIndex = 0;
 				$scope.searchResult = searchBaffer;
 				return searchBaffer;
 			}else{
@@ -210,6 +210,7 @@
 
 			if(showAsResult){
 				$scope.searchMode = 'composition';
+				$scope.currentPageIndex = 0;
 				$scope.searchResult = searchBaffer;
 				return searchBaffer;
 			}else{
@@ -237,6 +238,7 @@
 
 			if(showAsResult){
 				$scope.searchMode = 'name';
+				$scope.currentPageIndex = 0;
 				$scope.searchResult = searchBaffer;
 				return searchBaffer;
 			}else{
@@ -264,6 +266,7 @@
 
 			if(showAsResult){
 				$scope.searchMode = 'skill';
+				$scope.currentPageIndex = 0;
 				$scope.searchResult = searchBaffer;
 				return searchBaffer;
 			}else{
@@ -298,6 +301,7 @@
 
 			if(showAsResult){
 				$scope.searchMode = 'num';
+				$scope.currentPageIndex = 0;
 				$scope.searchResult = searchBaffer;
 
 				return searchBaffer;
@@ -324,6 +328,7 @@
 
 			if(showAsResult){
 				$scope.searchMode = 'reach';
+				$scope.currentPageIndex = 0;
 				$scope.searchResult = searchBaffer;
 				return searchBaffer;
 			}else{
@@ -348,6 +353,7 @@
 			}
 
 			if(showAsResult){
+				$scope.currentPageIndex = 0;
 				$scope.searchResult = searchBaffer;
 				return searchBaffer;
 			}else{
@@ -382,6 +388,7 @@
 			$scope.searchMode = 'favorite';
 			searchBaffer = uniqueItemList(searchBaffer);
 			searchBaffer = $scope.sortResult(false, searchBaffer);
+			$scope.currentPageIndex = 0;
 			$scope.searchResult = searchBaffer;
 		};
 
