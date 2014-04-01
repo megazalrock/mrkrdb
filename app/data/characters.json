@@ -27,7 +27,8 @@
             }
         ],
         "compositionList": [],
-        "notes": ""
+        "notes": "",
+        "isCookieOnly": true
     },
     {
         "imageUrl": "",
@@ -58,7 +59,8 @@
             }
         ],
         "compositionList": [],
-        "notes": ""
+        "notes": "",
+        "isCookieOnly": true
     },
     {
         "imageUrl": "",
@@ -89,7 +91,8 @@
             }
         ],
         "compositionList": [],
-        "notes": ""
+        "notes": "",
+        "isCookieOnly": true
     },
     {
         "imageUrl": "",
@@ -104,8 +107,8 @@
         ],
         "reach": "精神",
         "target": "単体",
-        "skillName": " ",
-        "skillDescription": " ",
+        "skillName": "",
+        "skillDescription": "",
         "appearanceList": [
             {
                 "placeName": "妖怪の森",
@@ -139,7 +142,8 @@
             }
         ],
         "compositionList": [],
-        "notes": "メ・バヂス・バ\nと並び、現時点で最速のユニット。"
+        "notes": "メ・バヂス・バ\nと並び、現時点で最速のユニット。",
+        "isCookieOnly": true
     },
     {
         "imageUrl": "",
@@ -155,7 +159,7 @@
         ],
         "reach": "物理",
         "target": "単体",
-        "skillName": " ",
+        "skillName": "",
         "skillDescription": "棒読み気味な妖精と一緒にいると何かが起きる可能性が微粒子レベルで存在している・・・？",
         "appearanceList": [
             {
@@ -202,7 +206,8 @@
             }
         ],
         "compositionList": [],
-        "notes": "CRNちゃん\nと同時に出すと、\n全体物理攻撃の上に相手の全能力をダウンさせる「神の棒読み」が発動する。"
+        "notes": "CRNちゃん\nと同時に出すと、\n全体物理攻撃の上に相手の全能力をダウンさせる「神の棒読み」が発動する。",
+        "isCookieOnly": true
     },
     {
         "imageUrl": "",
@@ -218,7 +223,7 @@
         ],
         "reach": "精神",
         "target": "単体",
-        "skillName": " ",
+        "skillName": "",
         "skillDescription": "棒読み気味な妖怪と一緒にいると何かが起きる可能性が微粒子レベルで存在している・・・？",
         "appearanceList": [
             {
@@ -277,7 +282,8 @@
             }
         ],
         "compositionList": [],
-        "notes": "RMA姉貴\nと同時に出すと、\n全体物理攻撃の上に相手の全能力をダウンさせる「神の棒読み」が発動する。"
+        "notes": "RMA姉貴\nと同時に出すと、\n全体物理攻撃の上に相手の全能力をダウンさせる「神の棒読み」が発動する。",
+        "isCookieOnly": true
     },
     {
         "imageUrl": "",
@@ -340,7 +346,8 @@
             }
         ],
         "compositionList": [],
-        "notes": "ver1.56でスキル修正。"
+        "notes": "ver1.56でスキル修正。",
+        "isCookieOnly": true
     },
     {
         "imageUrl": "",
@@ -411,7 +418,8 @@
             }
         ],
         "compositionList": [],
-        "notes": "ver1.26にてスキル追加。"
+        "notes": "ver1.26にてスキル追加。",
+        "isCookieOnly": true
     },
     {
         "imageUrl": "",
@@ -473,7 +481,8 @@
             }
         ],
         "compositionList": [],
-        "notes": ""
+        "notes": "",
+        "isCookieOnly": true
     },
     {
         "imageUrl": "",
@@ -551,7 +560,8 @@
             }
         ],
         "compositionList": [],
-        "notes": ""
+        "notes": "",
+        "isCookieOnly": true
     },
     {
         "imageUrl": "",
@@ -614,7 +624,8 @@
             }
         ],
         "compositionList": [],
-        "notes": "全体攻撃を受けると行動ゲージが一瞬で最大まで溜まり、カウンターの様に攻撃する。\nまた、ひでと合成するとデビルひでに変化する。"
+        "notes": "全体攻撃を受けると行動ゲージが一瞬で最大まで溜まり、カウンターの様に攻撃する。\nまた、ひでと合成するとデビルひでに変化する。",
+        "isCookieOnly": true
     },
     {
         "imageUrl": "",
@@ -629,8 +640,8 @@
         ],
         "reach": "精神",
         "target": "全体",
-        "skillName": " ",
-        "skillDescription": " ",
+        "skillName": "",
+        "skillDescription": "",
         "appearanceList": [
             {
                 "placeName": "紅魔館図書館",
@@ -696,7 +707,8 @@
             }
         ],
         "compositionList": [],
-        "notes": ""
+        "notes": "",
+        "isCookieOnly": true
     },
     {
         "imageUrl": "",
@@ -763,7 +775,8 @@
             }
         ],
         "compositionList": [],
-        "notes": "ver1.5にてスキル追加。"
+        "notes": "ver1.5にてスキル追加。",
+        "isCookieOnly": true
     },
     {
         "imageUrl": "",
@@ -835,7 +848,8 @@
             }
         ],
         "compositionList": [],
-        "notes": "攻撃と同時に攻撃相手の行動ゲージを現在の1/3に減少させる。\nまた、イワナ僧侶と合成すると釣りキチおばさんに変化する。"
+        "notes": "攻撃と同時に攻撃相手の行動ゲージを現在の1/3に減少させる。\nまた、イワナ僧侶と合成すると釣りキチおばさんに変化する。",
+        "isCookieOnly": true
     },
     {
         "imageUrl": "",
@@ -882,7 +896,8 @@
             }
         ],
         "compositionList": [],
-        "notes": "ver1.58でスキル強化（告知・説明文変更はver1.62更新時）。"
+        "notes": "ver1.58でスキル強化（告知・説明文変更はver1.62更新時）。",
+        "isCookieOnly": true
     },
     {
         "imageUrl": "",
@@ -920,7 +935,8 @@
         ],
         "cocoaList": [],
         "compositionList": [],
-        "notes": "攻撃時に下げられるのは物理守備力のみ。"
+        "notes": "攻撃時に下げられるのは物理守備力のみ。",
+        "isCookieOnly": true
     },
     {
         "imageUrl": "",
@@ -1013,8 +1029,8 @@
         ],
         "reach": "物理",
         "target": "単体",
-        "skillName": " ",
-        "skillDescription": " ",
+        "skillName": "",
+        "skillDescription": "",
         "appearanceList": [
             {
                 "placeName": "異界の扉",
@@ -1061,8 +1077,8 @@
         ],
         "reach": "精神",
         "target": "単体",
-        "skillName": " ",
-        "skillDescription": " ",
+        "skillName": "",
+        "skillDescription": "",
         "appearanceList": [
             {
                 "placeName": "異界の扉",
@@ -1267,8 +1283,8 @@
         ],
         "reach": "精神",
         "target": "単体",
-        "skillName": " ",
-        "skillDescription": " ",
+        "skillName": "",
+        "skillDescription": "",
         "appearanceList": [
             {
                 "placeName": "人間の里",
@@ -1566,7 +1582,7 @@
         ],
         "reach": "物理",
         "target": "単体",
-        "skillName": " ",
+        "skillName": "",
         "skillDescription": "KBSトリオが3人そろうと何かが起きる可能性が微粒子レベルで存在している…？",
         "appearanceList": [
             {
@@ -1617,7 +1633,7 @@
         ],
         "reach": "物理",
         "target": "単体",
-        "skillName": " ",
+        "skillName": "",
         "skillDescription": "KBSトリオが3人そろうと何かが起きる可能性が微粒子レベルで存在している…？",
         "appearanceList": [
             {
@@ -1660,7 +1676,7 @@
         ],
         "reach": "物理",
         "target": "単体",
-        "skillName": " ",
+        "skillName": "",
         "skillDescription": "KBSトリオが3人そろうと何かが起きる可能性が微粒子レベルで存在している…？",
         "appearanceList": [
             {
@@ -1775,8 +1791,8 @@
         ],
         "reach": "物理",
         "target": "2回",
-        "skillName": " ",
-        "skillDescription": " ",
+        "skillName": "",
+        "skillDescription": "",
         "appearanceList": [
             {
                 "placeName": "OK牧場",
@@ -2554,8 +2570,8 @@
         ],
         "reach": "精神",
         "target": "2回",
-        "skillName": " ",
-        "skillDescription": " ",
+        "skillName": "",
+        "skillDescription": "",
         "appearanceList": [
             {
                 "placeName": "ヒゲクマの館",
@@ -3748,7 +3764,8 @@
             }
         ],
         "compositionList": [],
-        "notes": "中野くん\nと合成するとかんなフェニックスに変化する。\nピンキー姉貴\nと合成すると関西ナースに変化する。\n"
+        "notes": "中野くん\nと合成するとかんなフェニックスに変化する。\nピンキー姉貴\nと合成すると関西ナースに変化する。\n",
+        "isCookieOnly": true
     },
     {
         "imageUrl": "",
@@ -3872,7 +3889,7 @@
         ],
         "reach": "物理",
         "target": "単体",
-        "skillName": " ",
+        "skillName": "",
         "skillDescription": "スローロリスくん同士力を合わせると強くなりそう",
         "appearanceList": [
             {
@@ -4242,7 +4259,7 @@
         ],
         "reach": "物理",
         "target": "単体",
-        "skillName": " ",
+        "skillName": "",
         "skillDescription": "立教3人組が揃って窮地に陥ると何かが起こる可能性が微粒子レベルで存在している・・・？",
         "appearanceList": [
             {
@@ -4606,7 +4623,7 @@
         ],
         "reach": "精神",
         "target": "単体",
-        "skillName": " ",
+        "skillName": "",
         "skillDescription": "ストーカーが3人集まると何か起きる可能性が微粒子レベルで存在する・・・？",
         "appearanceList": [
             {
@@ -4638,7 +4655,7 @@
         ],
         "reach": "精神",
         "target": "単体",
-        "skillName": " ",
+        "skillName": "",
         "skillDescription": "ストーカーが3人集まると何か起きる可能性が微粒子レベルで存在する・・・？",
         "appearanceList": [
             {
@@ -5194,7 +5211,8 @@
         ],
         "cocoaList": [],
         "compositionList": [],
-        "notes": "\n死「神」ということで神に状態異常攻撃は無効となる。\nデビルひで\nと合成するとタナトスひでに変化する。\n"
+        "notes": "\n死「神」ということで神に状態異常攻撃は無効となる。\nデビルひで\nと合成するとタナトスひでに変化する。\n",
+        "isCookieOnly": true
     },
     {
         "imageUrl": "",
@@ -5398,7 +5416,7 @@
         ],
         "reach": "物理",
         "target": "単体",
-        "skillName": " ",
+        "skillName": "",
         "skillDescription": "廃 棄 処 分 確 定 [イラスト：古霧さん]",
         "appearanceList": [
             {
@@ -5563,7 +5581,7 @@
         ],
         "reach": "精神",
         "target": "単体",
-        "skillName": " ",
+        "skillName": "",
         "skillDescription": "汚すぎる、訴訟[イラスト：古霧さん]",
         "appearanceList": [
             {
@@ -5593,7 +5611,7 @@
         ],
         "reach": "精神",
         "target": "全体",
-        "skillName": " ",
+        "skillName": "",
         "skillDescription": "合成するとアポカリプスが発生し、ベースユニットのHPがアップ。[イラスト:古霧さん]",
         "appearanceList": [
             {
@@ -5618,7 +5636,7 @@
         ],
         "reach": "物理",
         "target": "全体",
-        "skillName": " ",
+        "skillName": "",
         "skillDescription": "合成するとアポカリプスが発生し、ベースユニットの攻撃力がアップ。[イラスト:古霧さん]",
         "appearanceList": [
             {
@@ -5643,7 +5661,7 @@
         ],
         "reach": "物理",
         "target": "全体",
-        "skillName": " ",
+        "skillName": "",
         "skillDescription": "合成するとアポカリプスが発生し、ベースユニットの物理防御力がアップ。[イラスト:古霧さん]",
         "appearanceList": [
             {
@@ -5668,7 +5686,7 @@
         ],
         "reach": "精神",
         "target": "2回",
-        "skillName": " ",
+        "skillName": "",
         "skillDescription": "合成するとアポカリプスが発生し、ベースユニットの精神防御力がアップ。[イラスト:古霧さん]",
         "appearanceList": [
             {
@@ -6130,7 +6148,8 @@
         ],
         "cocoaList": [],
         "compositionList": [],
-        "notes": ""
+        "notes": "",
+        "isCookieOnly": true
     },
     {
         "imageUrl": "",
@@ -6317,7 +6336,8 @@
         ],
         "cocoaList": [],
         "compositionList": [],
-        "notes": ""
+        "notes": "",
+        "isCookieOnly": true
     },
     {
         "imageUrl": "",
@@ -6347,7 +6367,8 @@
         ],
         "cocoaList": [],
         "compositionList": [],
-        "notes": ""
+        "notes": "",
+        "isCookieOnly": true
     },
     {
         "imageUrl": "",

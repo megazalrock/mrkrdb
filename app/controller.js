@@ -13,6 +13,7 @@
 		storage.bind($scope, 'isSearchNameBoxShow', $scope.isSearchNameBoxShow);
 		storage.bind($scope, 'isSearchSkillBoxShow', $scope.isSearchSkillBoxShow);
 		storage.bind($scope, 'isSearchTypeBoxShow', $scope.isSearchTypeBoxShow);
+		storage.bind($scope, 'isSearchFilterBoxShow', $scope.isSearchFilterBoxShow);
 		storage.bind($scope, 'sortOrder', $scope.sortOrder);
 		storage.bind($scope, 'sortKey', $scope.sortKey);
 		storage.bind($scope, 'itemsPerPage', $scope.itemsPerPage);
@@ -43,6 +44,7 @@
 		};
 		$scope.sortOrder = $scope.sortOrder || 'ASC';
 		$scope.sortKey = $scope.sortKey || 'tekito';
+		$scope.filter = 'nofilter';
 
 		if($scope.favoritedListString !== ''){
 			$scope.favoritedList = $.parseJSON($scope.favoritedListString);
@@ -63,37 +65,34 @@
 				$scope.characters = res[0].data;
 				$scope.gamedata = res[1].data;
 				$scope.searchResult = $scope.characters;
+				$scope.showResult();
 			});
 
-		//$scope.$watch('searchResult', showPagedView);
+		$scope.$watch('searchResult', $scope.showResult);
+		$scope.$watch('itemsPerPage', $scope.showResult);
+		$scope.$watch('resultPageMaxIndex', $scope.showResult);
+		$scope.$watch('currentPageIndex', $scope.showResult);
 
-		$scope.$watch('searchResult', getResultPageMaxIndex);
-		$scope.$watch('itemsPerPage', getResultPageMaxIndex);
-
-		$scope.$watch('resultPageMaxIndex', getResultPages);
-
-		$scope.$watch('itemsPerPage', getResultPages);
-
-		$scope.$watch('searchResult', showPagedView);
-		$scope.$watch('itemsPerPage', showPagedView);
-		$scope.$watch('currentPageIndex', showPagedView);
-
-		function showPagedView(){
+		$scope.showResult = function(searchBaffer){
+			searchBaffer =  searchBaffer || $scope.searchResult;
+			getResultPages();
+			getResultPageMaxIndex();
+			searchBaffer = sortResult(filterRresult(searchBaffer));
+			$scope.searchResultLength = searchBaffer.length;
 			if($scope.itemsPerPage > 1){
 				$scope.searchResultView = [];
-				//$scope.resultPageMaxIndex = Math.ceil($scope.searchResult.length / $scope.itemsPerPage);
 				var min = $scope.itemsPerPage * $scope.currentPageIndex;
 				var max = $scope.itemsPerPage * $scope.currentPageIndex + $scope.itemsPerPage;
 				if(min !== max){
-					if(max > $scope.searchResult.length){
-						max = $scope.searchResult.length;
+					if(max > searchResult.length){
+						max = searchResult.length;
 					}
-					$scope.searchResultView = $scope.searchResult.slice(min, max);
+					$scope.searchResultView = searchBaffer.slice(min, max);
 				}
 			}else{
-				$scope.searchResultView = $scope.searchResult;
+				$scope.searchResultView = searchBaffer;
 			}
-		}
+		};
 
 		function getResultPages(){
 			var i = 0;
@@ -106,6 +105,86 @@
 		function getResultPageMaxIndex(){
 			$scope.resultPageMaxIndex = Math.ceil($scope.searchResult.length / $scope.itemsPerPage);
 		}
+
+		$scope.changeFilter = function(){
+			$scope.showResult();
+		};
+
+		function filterRresult(searchBaffer){
+			searchBaffer = searchBaffer || $scope.searchResult;
+			if($scope.filter === 'nofilter'){
+				return searchBaffer;
+			}else{
+				var filterFunction;
+				switch($scope.filter){
+					case 'favorite':
+						filterFunction = function(item){
+							return $scope.isFavorited(item.name);
+						};
+					break;
+					case 'cookieonly':
+						filterFunction = function(item){
+							return item.isCookieOnly;
+						};
+					break;
+					case 'zun':
+						filterFunction = function(item){
+							return item.isCookieOnly && parseFloat(item.cost) <= 60;
+						};
+					break;
+					case 'noskill':
+						filterFunction = function(item){
+							return !item.skillName;
+						};
+					break;
+					default :
+						filterFunction = function(){
+							return true;
+						};
+					break;
+				}
+				return searchBaffer.filter(filterFunction);
+			}
+		}
+
+		function sortResult(searchBaffer){
+			searchBaffer = searchBaffer || $scope.searchResult;
+			var key = $scope.sortKey;
+			var order = $scope.sortOrder;
+			var pow = (order === 'DESC') ? -1 : 1;
+			var result = 0;
+
+			if(key !== 'tekito' && searchBaffer.length){
+				searchBaffer = searchBaffer.sort(function(a, b){
+					return (parseFloat(a[key]) > parseFloat(b[key]) ? 1 : parseFloat(a[key]) < parseFloat(b[key]) ? -1 : 0) * pow;
+				});
+			}
+
+			return searchBaffer;
+		}
+
+		$scope.resetSearch = function(){
+			$scope.searchCondition = {
+				selectedTypeList: [],
+				selectedTypes:{},
+				composition: noSelectText,
+				mode: 'and',
+				name: '',
+				skill: '',
+				numSearch:{
+					min: null,
+					max: null,
+					key: 'cost'
+				},
+				target: '単体',
+				reach: '物理'
+			};
+			$scope.sortOrder = 'ASC';
+			$scope.sortKey = 'tekito';
+			$scope.filter = 'nofilter';
+			$scope.searchResult = $scope.characters;
+			$scope.showResult($scope.characters);
+		};
 
 		$scope.changeItemsPerPage = function(){
 			if($scope.itemsPerPage !== $scope._itemsPerPage){
@@ -173,16 +252,7 @@
 				}
 			}
 
-			searchBaffer = $scope.sortResult(false, searchBaffer);
-
-			if(showAsResult){
-				$scope.searchMode = 'type';
-				$scope.currentPageIndex = 0;
-				$scope.searchResult = searchBaffer;
-				return searchBaffer;
-			}else{
-				return searchBaffer;
-			}
+			finalizeSearchResult('type', searchBaffer, showAsResult);
 		};
 
 		$scope.compositionSearch = function(showAsResult){
@@ -206,16 +276,11 @@
 				});
 			}
 
-			searchBaffer = $scope.sortResult(false, searchBaffer);
+			finalizeSearchResult('composition', searchBaffer, showAsResult);
+		};
 
-			if(showAsResult){
-				$scope.searchMode = 'composition';
-				$scope.currentPageIndex = 0;
-				$scope.searchResult = searchBaffer;
-				return searchBaffer;
-			}else{
-				return searchBaffer;
-			}
+		$scope.search = function(searchMode){
+			$scope.searchMode = searchMode;
 		};
 
 		$scope.nameSearch = function(showAsResult){
@@ -234,16 +299,7 @@
 				});
 			}
 
-			searchBaffer = $scope.sortResult(false, searchBaffer);
-
-			if(showAsResult){
-				$scope.searchMode = 'name';
-				$scope.currentPageIndex = 0;
-				$scope.searchResult = searchBaffer;
-				return searchBaffer;
-			}else{
-				return searchBaffer;
-			}
+			finalizeSearchResult('name', searchBaffer, showAsResult);
 		};
 
 		$scope.skillTextSearch = function(showAsResult){
@@ -262,16 +318,7 @@
 				});
 			}
 
-			searchBaffer = $scope.sortResult(false, searchBaffer);
-
-			if(showAsResult){
-				$scope.searchMode = 'skill';
-				$scope.currentPageIndex = 0;
-				$scope.searchResult = searchBaffer;
-				return searchBaffer;
-			}else{
-				return searchBaffer;
-			}
+			finalizeSearchResult('skill', searchBaffer, showAsResult);
 		};
 
 		$scope.numSearch = function(showAsResult){
@@ -297,17 +344,7 @@
 				}
 			});
 
-			searchBaffer = $scope.sortResult(false, searchBaffer);
-
-			if(showAsResult){
-				$scope.searchMode = 'num';
-				$scope.currentPageIndex = 0;
-				$scope.searchResult = searchBaffer;
-
-				return searchBaffer;
-			}else{
-				return searchBaffer;
-			}
+			finalizeSearchResult('num', searchBaffer, showAsResult);
 		};
 
 		$scope.searchReach = function(showAsResult){
@@ -324,41 +361,7 @@
 				}
 			});
 
-			searchBaffer = $scope.sortResult(false, searchBaffer);
-
-			if(showAsResult){
-				$scope.searchMode = 'reach';
-				$scope.currentPageIndex = 0;
-				$scope.searchResult = searchBaffer;
-				return searchBaffer;
-			}else{
-				return searchBaffer;
-			}
-		};
-
-		$scope.sortResult = function(showAsResult, itemList){
-			var searchBaffer = itemList || $scope.searchResult;
-			var key = $scope.sortKey;
-			var order = $scope.sortOrder;
-			var pow = (order === 'DESC') ? -1 : 1;
-			var result = 0;
-			if(showAsResult !== true){
-				showAsResult = false;
-			}
-
-			if(key !== 'tekito' && searchBaffer.length){
-				searchBaffer = searchBaffer.sort(function(a, b){
-					return (parseFloat(a[key]) > parseFloat(b[key]) ? 1 : parseFloat(a[key]) < parseFloat(b[key]) ? -1 : 0) * pow;
-				});
-			}
-
-			if(showAsResult){
-				$scope.currentPageIndex = 0;
-				$scope.searchResult = searchBaffer;
-				return searchBaffer;
-			}else{
-				return searchBaffer;
-			}
+			finalizeSearchResult('reach', searchBaffer, showAsResult);
 		};
 
 		$scope.toggleItemFavorite = function(name){
@@ -377,19 +380,8 @@
 		};
 
 		$scope.showFavorite = function(){
-			var searchBaffer = [];
-			angular.forEach($scope.favoritedList, function(name){
-				searchBaffer = searchBaffer.concat($scope.characters.filter(function(item, index){
-					if(name === item.name){
-						return true;
-					}
-				}));
-			});
-			$scope.searchMode = 'favorite';
-			searchBaffer = uniqueItemList(searchBaffer);
-			searchBaffer = $scope.sortResult(false, searchBaffer);
-			$scope.currentPageIndex = 0;
-			$scope.searchResult = searchBaffer;
+			$scope.filter = 'favorite';
+			finalizeSearchResult('favorite', $scope.characters);
 		};
 
 		$scope.isEventFinished = function(placeName){
@@ -411,6 +403,20 @@
 		$scope.toggleSearchBox = function(valueName){
 			$scope[valueName] = !$scope[valueName];
 		};
+
+		function finalizeSearchResult(searchMode, searchBaffer, showAsResult){
+			showAsResult = showAsResult || true;
+			if(showAsResult){
+				$scope.searchMode = searchMode;
+				$scope.currentPageIndex = 0;
+				//$scope.showResult(searchBaffer);
+				$scope.searchResult = searchBaffer;
+				$scope.showResult();
+				return searchBaffer;
+			}else{
+				return searchBaffer;
+			}
+		}
 
 		function uniqueItemList(itemList){
 			var results = [];

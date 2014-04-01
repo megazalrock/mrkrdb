@@ -4229,6 +4229,17 @@ body {
 .searchBox #searchCondition .searchTypeBox .searchTypeCheckboxBox label {
   margin: 0 0.5em 0.5em 0;
 }
+.searchBox #searchCondition .searchFilterBox {
+  overflow: hidden;
+}
+.searchBox #searchCondition .searchFilterBox label {
+  float: left;
+  display: block;
+  margin: 0 0.5em 0.5em 0;
+}
+.searchBox #searchCondition .searchFilterBox label input {
+  display: none;
+}
 .searchBox #searchResult .title {
   line-height: 1.5;
   height: 1.5em;
