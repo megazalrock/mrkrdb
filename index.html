@@ -273,11 +273,11 @@
 			</div>
 			<div id="searchResult" class="col-xs-12 col-sm-8" ng-class="{tinyMode: isTinyMode}">
 				<h2 class="searchResultHeader row">
-					<div class="title col-xs-12 col-md-6">検索結果 <span class="label label-primary">{{searchResultLength}}匹</span></div>
+					<div class="title col-xs-12 col-md-9">検索結果 <span class="label label-primary">{{searchResultLength}}匹</span></div>
 					<div class="tinyMode col-xs-6 col-md-3">
 						<span class="tinyModeBtn btn-default btn btn-sm text-right" ng-click="toggleTinyMode()" ng-class="{active: !isTinyMode}">詳細モード</span>
 					</div>
-					<form ng-submit="changeItemsPerPage()">
+					<!-- <form ng-submit="changeItemsPerPage()">
 						<div class="itemsPerPage col-xs-6 col-md-3">
 							<div class="itemsPerPageInner input-group">
 								<input type="number" class="form-control input-inline input-sm" ng-model="_itemsPerPage" value="{{_itemsPerPage}}">
@@ -286,16 +286,16 @@
 								</span>
 							</div>
 						</div>
-					</form>
+					</form> -->
 				</h2>
 
-				<div class="searchResultNav" ng-if="resultPageMaxIndex !== 1">
+				<!-- <div class="searchResultNav" ng-if="resultPageMaxIndex !== 1">
 					<ul class="pagination pagination-sm">
 						<li ng-click="changeResultPagePrev()" ng-class="{disabled: currentPageIndex <= 0}"><span>&laquo; <span class="sr-only">&laquo;</span></span></li>
 						<li ng-repeat="pageNum in resultPages" ng-class="{active: pageNum === currentPageIndex + 1}" ng-click="changeResultPageTo(pageNum - 1)"><span>{{pageNum}} <span class="sr-only">{{pageNum}}</span></span></li>
 						<li ng-click="changeResultPageNext()" ng-class="{disabled: currentPageIndex >= resultPageMaxIndex - 1}"><span>&raquo; <span class="sr-only">&raquo;</span></span></li>
 					</ul>
-				</div>
+				</div> -->
 				
 				<div class="items">
 					<div class="item panel panel-default" ng-repeat="item in searchResultView">
@@ -379,13 +379,13 @@
 				</div>
 				
 
-				<div class="searchResultNav" ng-if="resultPageMaxIndex !== 1">
+				<!-- <div class="searchResultNav" ng-if="resultPageMaxIndex !== 1">
 					<ul class="pagination pagination-sm">
 						<li ng-click="changeResultPagePrev()" ng-class="{disabled: currentPageIndex <= 0}"><span>&laquo; <span class="sr-only">&laquo;</span></span></li>
 						<li ng-repeat="pageNum in resultPages" ng-class="{active: pageNum === currentPageIndex + 1}" ng-click="changeResultPageTo(pageNum - 1)"><span>{{pageNum}} <span class="sr-only">{{pageNum}}</span></span></li>
 						<li ng-click="changeResultPageNext()" ng-class="{disabled: currentPageIndex >= resultPageMaxIndex - 1}"><span>&raquo; <span class="sr-only">&raquo;</span></span></li>
 					</ul>
-				</div>
+				</div> -->
 			</div>
 		</div>
 		<div class="footer well well-sm">
