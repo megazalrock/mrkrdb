@@ -124,12 +124,12 @@
 					break;
 					case 'cookieonly':
 						filterFunction = function(item){
-							return item.isCookieOnly;
+							return isCookieOnly(item.name);
 						};
 					break;
 					case 'zun':
 						filterFunction = function(item){
-							return item.isCookieOnly && parseFloat(item.cost) <= 60;
+							return isCookieOnly(item.name) && parseFloat(item.cost) <= 60;
 						};
 					break;
 					case 'noskill':
@@ -161,6 +161,10 @@
 			}
 
 			return searchBaffer;
+		}
+
+		function isCookieOnly(name){
+			return $.inArray(name, $scope.gamedata.cookieOnlyList) !== -1;
 		}
 
 		$scope.resetSearch = function(){

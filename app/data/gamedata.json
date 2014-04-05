@@ -41,7 +41,8 @@
 		"騎士",
 		"汚物",
 		"死神",
-		"月の民"
+		"月の民",
+		"ストーカー"
 	],
 	"eventList": {
 		"妖怪の森": {
@@ -178,6 +179,32 @@
 		},
 		"紅魔館会議室": {
 			"isFinished": false
+		},
+		"ニコファーレ": {
+			"isFinished": false
 		}
-	}
+	},
+	"cookieOnlyList": [
+		"RIM姉貴",
+		"UDK姉貴",
+		"ALC姉貴",
+		"大妖精",
+		"RMA姉貴",
+		"CRNちゃん",
+		"SIK姉貴",
+		"MSTA姉貴",
+		"UTH",
+		"MIRN姉貴",
+		"KSDB姉貴",
+		"PCLY姉貴",
+		"YUK姉貴",
+		"SKY姉貴",
+		"RMLA姉貴",
+		"FLNちゃん",
+		"KNN姉貴",
+		"KMC姉貴",
+		"釣りキチおばさん",
+		"UDNG姉貴",
+		"AY姉貴"
+	]
 }
