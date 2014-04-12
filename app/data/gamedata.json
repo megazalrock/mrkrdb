@@ -178,9 +178,15 @@
 			"isFinished": false
 		},
 		"紅魔館会議室": {
-			"isFinished": false
+			"isFinished": true
 		},
 		"ニコファーレ": {
+			"isFinished": false
+		},
+		"ダーク築地市場":{
+			"isFinished": false
+		},
+		"永遠亭":{
 			"isFinished": false
 		}
 	},

@@ -26,39 +26,7 @@
         "max": "100"
       }
     ],
-    "compositionList": [],
     "notes": "味方からの攻撃が100%で0ダメージにする。\nチョコレート先輩\nとの合成でバレンタインRIMになる。\nホワイトチョコ先輩\nでは不可。"
-  },
-  {
-    "imageUrl": "",
-    "name": "UDK姉貴",
-    "hp": "85",
-    "atk": "135",
-    "def": "90",
-    "mnt": "90",
-    "cost": "60",
-    "types": [
-      "屑",
-      "魔法使い"
-    ],
-    "reach": "精神",
-    "target": "単体",
-    "skillName": "マスタースパーク",
-    "skillDescription": "HP最大時の時、与えるダメージが3倍になる。少しでもダメージを受けると忘れてしまう。",
-    "appearanceList": [
-      {
-        "placeName": "博麗神社境内2",
-        "canDrop": false
-      }
-    ],
-    "cocoaList": [
-      {
-        "min": "71",
-        "max": "100"
-      }
-    ],
-    "compositionList": [],
-    "notes": "チョコレート先輩\nとの合成でバレンタインUDKが完成。\nホワイトチョコ先輩\nではできない。"
   },
   {
     "imageUrl": "",
@@ -88,8 +56,37 @@
         "max": "100"
       }
     ],
-    "compositionList": [],
     "notes": "チョコレート先輩\nと合成することにより、バレンタインALCに変化する。\nホワイトチョコ先輩\nでは不可。"
+  },
+  {
+    "imageUrl": "",
+    "name": "UDK姉貴",
+    "hp": "85",
+    "atk": "135",
+    "def": "90",
+    "mnt": "90",
+    "cost": "60",
+    "types": [
+      "屑",
+      "魔法使い"
+    ],
+    "reach": "精神",
+    "target": "単体",
+    "skillName": "マスタースパーク",
+    "skillDescription": "HP最大時の時、与えるダメージが3倍になる。少しでもダメージを受けると忘れてしまう。",
+    "appearanceList": [
+      {
+        "placeName": "博麗神社境内2",
+        "canDrop": false
+      }
+    ],
+    "cocoaList": [
+      {
+        "min": "71",
+        "max": "100"
+      }
+    ],
+    "notes": "チョコレート先輩\nとの合成でバレンタインUDKが完成。\nホワイトチョコ先輩\nではできない。"
   },
   {
     "imageUrl": "",
@@ -130,6 +127,10 @@
       {
         "placeName": "水無川",
         "canDrop": true
+      },
+      {
+        "placeName": "永遠亭",
+        "canDrop": true
       }
     ],
     "cocoaList": [
@@ -138,8 +139,7 @@
         "max": "1"
       }
     ],
-    "compositionList": [],
-    "notes": "メ・バヂス・バ\nと並び、現時点で最速のユニット。"
+    "notes": "メ・バヂス・バ\nやOZWと並び、現時点で最速のユニット。"
   },
   {
     "imageUrl": "",
@@ -193,6 +193,10 @@
       {
         "placeName": "人間の里2",
         "canDrop": true
+      },
+      {
+        "placeName": "永遠亭",
+        "canDrop": true
       }
     ],
     "cocoaList": [
@@ -201,7 +205,6 @@
         "max": "1"
       }
     ],
-    "compositionList": [],
     "notes": "CRNちゃん\nと同時に出すと、\n全体攻撃の上に相手の全能力をダウンさせる「神の棒読み」が発動する。"
   },
   {
@@ -268,6 +271,10 @@
       {
         "placeName": "人間の里2",
         "canDrop": true
+      },
+      {
+        "placeName": "永遠亭",
+        "canDrop": true
       }
     ],
     "cocoaList": [
@@ -276,7 +283,6 @@
         "max": "1"
       }
     ],
-    "compositionList": [],
     "notes": "RMA姉貴\nと同時に出すと、\n全体攻撃の上に相手の全能力をダウンさせる「神の棒読み」が発動する。"
   },
   {
@@ -339,7 +345,6 @@
         "max": "1"
       }
     ],
-    "compositionList": [],
     "notes": "ver1.56でスキル修正。"
   },
   {
@@ -406,6 +411,10 @@
       {
         "placeName": "太陽の畑",
         "canDrop": true
+      },
+      {
+        "placeName": "永遠亭",
+        "canDrop": true
       }
     ],
     "cocoaList": [
@@ -414,7 +423,6 @@
         "max": "1"
       }
     ],
-    "compositionList": [],
     "notes": "ver1.26にてスキル追加。\n「REACHが精神」である味方のATK補正を1.5倍にする。"
   },
   {
@@ -468,6 +476,10 @@
       {
         "placeName": "アリスの家",
         "canDrop": true
+      },
+      {
+        "placeName": "永遠亭",
+        "canDrop": true
       }
     ],
     "cocoaList": [
@@ -476,7 +488,6 @@
         "max": "1"
       }
     ],
-    "compositionList": [],
     "notes": ""
   },
   {
@@ -546,6 +557,10 @@
       {
         "placeName": "アリスの家",
         "canDrop": true
+      },
+      {
+        "placeName": "永遠亭",
+        "canDrop": true
       }
     ],
     "cocoaList": [
@@ -554,7 +569,6 @@
         "max": "1"
       }
     ],
-    "compositionList": [],
     "notes": ""
   },
   {
@@ -609,6 +623,10 @@
       {
         "placeName": "人間の里2",
         "canDrop": true
+      },
+      {
+        "placeName": "永遠亭",
+        "canDrop": true
       }
     ],
     "cocoaList": [
@@ -617,8 +635,7 @@
         "max": "1"
       }
     ],
-    "compositionList": [],
-    "notes": "全体攻撃を受けると行動ゲージが大きく溜まり、次の行動で全体攻撃する。\nver1.74までは全体攻撃を受けるとゲージが最大まで溜まる仕様のためお互いにKSDB姉貴が存在するとどちらかが全滅するまで永遠にこの効果を発動し続ける(通称大場所)仕様だったが、仕様変更によりどすこいでは行動ゲージが溜まらない様になった、YUK姉貴のお返しどすこいでも同様。\nまた、ひでと合成するとデビルひでに変化する。"
+    "notes": "全体攻撃を受けると行動ゲージが大きく溜まり、次の行動で全体攻撃する。\nver1.74までは全体攻撃を受けるとゲージが最大まで溜まる仕様のためお互いにKSDB姉貴が存在するとどちらかが全滅するまで永遠にこの効果を発動し続ける(通称大場所)仕様だった。\n1.75からどすこいでは行動ゲージが溜まらない様になった。YUK姉貴のお返しどすこいでも同様。\nまた、ひでと合成するとデビルひでに変化する。"
   },
   {
     "imageUrl": "",
@@ -687,6 +704,10 @@
       {
         "placeName": "アリスの家",
         "canDrop": true
+      },
+      {
+        "placeName": "永遠亭",
+        "canDrop": true
       }
     ],
     "cocoaList": [
@@ -695,7 +716,6 @@
         "max": "1"
       }
     ],
-    "compositionList": [],
     "notes": ""
   },
   {
@@ -754,6 +774,10 @@
       {
         "placeName": "太陽の畑",
         "canDrop": true
+      },
+      {
+        "placeName": "永遠亭",
+        "canDrop": true
       }
     ],
     "cocoaList": [
@@ -762,8 +786,7 @@
         "max": "1"
       }
     ],
-    "compositionList": [],
-    "notes": "ver1.5にてスキル追加。"
+    "notes": "ver1.5にてスキル追加。\nファイナルマスタースパーク\nをお返しするとセリフがカットインをはみ出してしまう。"
   },
   {
     "imageUrl": "",
@@ -830,6 +853,10 @@
       {
         "placeName": "紅魔館会議室",
         "canDrop": true
+      },
+      {
+        "placeName": "永遠亭",
+        "canDrop": true
       }
     ],
     "cocoaList": [
@@ -838,7 +865,6 @@
         "max": "1"
       }
     ],
-    "compositionList": [],
     "notes": "攻撃と同時に攻撃相手の行動ゲージを現在の1/3に減少させる。\nまた、イワナ僧侶と合成すると釣りキチおばさんに変化する。"
   },
   {
@@ -881,6 +907,10 @@
       {
         "placeName": "紅魔館会議室",
         "canDrop": true
+      },
+      {
+        "placeName": "永遠亭",
+        "canDrop": true
       }
     ],
     "cocoaList": [
@@ -889,7 +919,6 @@
         "max": "1"
       }
     ],
-    "compositionList": [],
     "notes": "ver1.58でスキル強化（告知・説明文変更はver1.62更新時）。"
   },
   {
@@ -927,7 +956,6 @@
       }
     ],
     "cocoaList": [],
-    "compositionList": [],
     "notes": "攻撃した相手のDEF補正値を0.3倍にする。"
   },
   {
@@ -1007,7 +1035,6 @@
         "max": "10"
       }
     ],
-    "compositionList": [],
     "notes": "\n昏睡効果は偶数ターンのみ発動する。\n逝かせ隊\nと合成することでサイクロップス先輩に変化する。\n"
   },
   {
@@ -1059,7 +1086,6 @@
         "max": "20"
       }
     ],
-    "compositionList": [],
     "notes": "\n「山崎まさゆき」と合成すると「世界のトオノ」に変化する。\n"
   },
   {
@@ -1119,7 +1145,6 @@
         "max": "20"
       }
     ],
-    "compositionList": [],
     "notes": "GO\nと合成すると創造神KMRに変化する。\n虐待おじさん\nと合成すると超覚醒KMRに変化する。\n"
   },
   {
@@ -1207,7 +1232,6 @@
         "max": "50"
       }
     ],
-    "compositionList": [],
     "notes": "中野くん\nと合成することでMUR肉に変化する。\n"
   },
   {
@@ -1278,7 +1302,6 @@
         "max": "100"
       }
     ],
-    "compositionList": [],
     "notes": "KSDB姉貴\nと合成するとデビルひで、鎌田吾作と合成すると多脚ひでに変化する。\n　名前にひでとあるユニットは全てこの変化ルールが適用される。"
   },
   {
@@ -1333,8 +1356,7 @@
         "max": "30"
       }
     ],
-    "compositionList": [],
-    "notes": ""
+    "notes": "\nパーティにECZN帽子が居ると、コストが軽くなる。\nまた、攻撃後に「関西ターラッタ祭り」を発動し、行動速度上昇+全体回復を行う。\n"
   },
   {
     "imageUrl": "",
@@ -1400,7 +1422,6 @@
         "max": "20"
       }
     ],
-    "compositionList": [],
     "notes": "イワナ僧侶\n、YYK姉貴、サイクロップス先輩、メタルセミ兄貴、ポイテーロ、MMR部長、鬼畜教師KN、AKYS、TDNコスギ、MIRN姉貴等のスキルを無視できるので便利。\nなおKNN姉貴は無効化できない。\nまた、ひでのカウントを増やさない効果もある。しかし課長はカウントする。"
   },
   {
@@ -1463,8 +1484,7 @@
         "max": "50"
       }
     ],
-    "compositionList": [],
-    "notes": "味方一人のHPを回復しATK補正を1.2倍にする。"
+    "notes": "味方一人のHPを回復しATK補正を1.2倍にする。\n世界のトオノ\nのスキル対象ではない。"
   },
   {
     "imageUrl": "",
@@ -1518,8 +1538,7 @@
         "max": "20"
       }
     ],
-    "compositionList": [],
-    "notes": "Ver1.50よりスキル追加。それに伴い攻撃力が大幅に弱体化。(175→100)\n自分は恐怖状態にならない。"
+    "notes": "Ver1.50よりスキル追加。それに伴い攻撃力が大幅に弱体化。(175→100)"
   },
   {
     "imageUrl": "",
@@ -1577,6 +1596,10 @@
       {
         "placeName": "紅魔館会議室",
         "canDrop": true
+      },
+      {
+        "placeName": "永遠亭",
+        "canDrop": true
       }
     ],
     "cocoaList": [
@@ -1585,8 +1608,7 @@
         "max": "10"
       }
     ],
-    "compositionList": [],
-    "notes": "\nCOST80以上のユニットは初回行動時のみCOSTが40溜まった状態で始まる\nCOST80以上のユニット\nCOST80\nPCLY姉貴\nひで\n関西チャラ男\nTNOK\nKBSトリオ「S」\n \nメガデス怪人\nイニ義893\nヒゲクマ調教師\nGO\n一般通過爺\n \nTDNコスギ\n須藤さん\n井上カブレラ\nホリ・トオル\n観葉植物くん\n \nロマン爺\nYUK姉貴\n現場監督\nDB\nTITニング\n \nOGMM\nITI\nインパルスITKR\nRNK姉貴\nHTNこころ\n※\n \n花嫁と化した先輩\n※\nKNKBBA\n超覚醒KMR\n世界のトオノ\n関西ナース\n \n邪神GO\n※\n \n \n \n \nCOST85\nいかりやビオランテ\n \n \n \n \nCOST90\nくまさん\nビリー兄貴\nTIS姉貴\nEIRNBBA\nタナトスひで\n \nダークドレアム先輩\n根流し漁師\n神々の頂点SWK\n \n \nCOST95\nYKR姉貴\n \n \n \n \nCOST100\n中野くん\n軍畑先輩\n篤太郎\nKBTIT（漫画家）\n風神KNK\n \nかんなフェニックス\nRyu☆\n \n \n \nCOST110\nYYK姉貴\nYYKBBA\n \n \n \nCOST120\nHZR姉貴\n花嫁ピンキー\n \n \n \nCOST125\n暗黒神ラプソーン\n \n \n \n \nCOST130\n創造神KMR\n \n \n \n \nCOST250\nMUR大先輩\nハガー市長\n \n \n \nCOST360\nピンキー姉貴\n \n \n \n \n※最初にスキルで行動ゲージを消費するので実質効果なし（HTNこころは2体目以降では効果あり）\n"
+    "notes": "\nCOST80以上のユニットは初回行動時のみCOSTが40溜まった状態で始まる\nCOST80以上のユニット\nCOST80\nPCLY姉貴\nひで\n関西チャラ男\nTNOK\nKBSトリオ「S」\n \nメガデス怪人\nイニ義893\nヒゲクマ調教師\nGO\n一般通過爺\n \nTDNコスギ\n須藤さん\n井上カブレラ\nホリ・トオル\n観葉植物くん\n \nロマン爺\nYUK姉貴\n現場監督\nDB\nTITニング\n \nOGMM\nITI\nインパルスITKR\nRNK姉貴\nHTNこころ\n※\n \n花嫁と化した先輩\n※\nKNKBBA\n超覚醒KMR\n世界のトオノ\n関西ナース\n \n邪神GO\n※\nVAN様\n \n \n \nCOST85\nいかりやビオランテ\n \n \n \n \nCOST90\nくまさん\nビリー兄貴\nTIS姉貴\nEIRNBBA\nタナトスひで\n \nダークドレアム先輩\n根流し漁師\n神々の頂点SWK\n剛竜馬\nECZN帽子\n \nKGY姉貴\n \n \n \n \nCOST95\nYKR姉貴\n \n \n \n \nCOST100\n中野くん\n軍畑先輩\n篤太郎\nKBTIT（漫画家）\n風神KNK\n \nかんなフェニックス\nRyu☆\n \n \n \nCOST110\nYYK姉貴\nYYKBBA\n \n \n \nCOST120\nHZR姉貴\n花嫁ピンキー\n \n \n \nCOST125\n暗黒神ラプソーン\n \n \n \n \nCOST130\n創造神KMR\nEIRN姉貴\n \n \n \nCOST150\n邪神GO(ボス)\n \n \n \n \nCOST250\nMUR大先輩\nハガー市長\n \n \n \nCOST360\nピンキー姉貴\n池田茂美\n \n \n \n※最初にスキルで行動ゲージを消費するので実質効果なし（HTNこころは2体目以降では効果あり）\n"
   },
   {
     "imageUrl": "",
@@ -1636,7 +1658,6 @@
         "max": "30"
       }
     ],
-    "compositionList": [],
     "notes": "KBSトリオ「B」\n、KBSトリオ「S」と組ませると、最初の行動時に\n｢其為右手｣（全体攻撃）が発動する。"
   },
   {
@@ -1679,7 +1700,6 @@
         "max": "30"
       }
     ],
-    "compositionList": [],
     "notes": "KBSトリオ「K」\n、KBSトリオ「S」と組ませると、最初の行動時に\n｢其為右手｣（全体攻撃）が発動する。"
   },
   {
@@ -1726,7 +1746,6 @@
         "max": "30"
       }
     ],
-    "compositionList": [],
     "notes": "KBSトリオ「K」\n、KBSトリオ「B」と組ませると、最初の行動時に\n｢其為右手｣（全体攻撃）が発動する。"
   },
   {
@@ -1802,8 +1821,7 @@
         "max": "10"
       }
     ],
-    "compositionList": [],
-    "notes": "追加攻撃でトドメを刺しても、再度スキルが発動する。\n攻撃時の音声はKBTITが机にビールを置いた時の「バァン！」という音。\n合成関連は下記関連項目の面々でも代用できる。"
+    "notes": "追加攻撃でトドメを刺しても、再度スキルが発動する。\n攻撃時の音声はKBTITが机にビールを置いた時の「バァン！」という音。\n合成関連は下記関連項目の面々でも名前に「KBTIT」が入っていれば代用できる。"
   },
   {
     "imageUrl": "",
@@ -1881,7 +1899,6 @@
         "max": "50"
       }
     ],
-    "compositionList": [],
     "notes": "KMR\nと合成すると超覚醒KMRに変化する。\n"
   },
   {
@@ -1933,12 +1950,15 @@
         "canDrop": true
       },
       {
+        "placeName": "ダーク築地市場",
+        "canDrop": true
+      },
+      {
         "placeName": "下北沢裁判所",
         "canDrop": true
       }
     ],
     "cocoaList": [],
-    "compositionList": [],
     "notes": "デビルひで\nと合成すると暗黒神ラプソーンに変化する。\n"
   },
   {
@@ -1988,7 +2008,6 @@
         "max": "50"
       }
     ],
-    "compositionList": [],
     "notes": "「REACHが精神」である相手のATK補正を0.7倍、MNT補正を0.6倍にする。"
   },
   {
@@ -2039,6 +2058,10 @@
       {
         "placeName": "古代都市キモティカ",
         "canDrop": true
+      },
+      {
+        "placeName": "永遠亭",
+        "canDrop": true
       }
     ],
     "cocoaList": [
@@ -2047,7 +2070,6 @@
         "max": "20"
       }
     ],
-    "compositionList": [],
     "notes": ""
   },
   {
@@ -2096,7 +2118,6 @@
       }
     ],
     "cocoaList": [],
-    "compositionList": [],
     "notes": "攻撃と同時に攻撃相手の行動ゲージを現在の1/5に減少させる。"
   },
   {
@@ -2134,7 +2155,6 @@
       }
     ],
     "cocoaList": [],
-    "compositionList": [],
     "notes": "ver1.25にてスキル追加"
   },
   {
@@ -2172,7 +2192,6 @@
       }
     ],
     "cocoaList": [],
-    "compositionList": [],
     "notes": ""
   },
   {
@@ -2206,7 +2225,6 @@
         "max": "50"
       }
     ],
-    "compositionList": [],
     "notes": "パーティに超人サイバーZ 2号が居ると、1号の攻撃後、2号がランダムな敵に追撃する。\nまた、KBTITと合成することでウルトラマンタクヤに変化する。"
   },
   {
@@ -2231,7 +2249,6 @@
       }
     ],
     "cocoaList": [],
-    "compositionList": [],
     "notes": "パーティに超人サイバーZ 1号が居ると、2号の攻撃後、1号がランダムな敵に追撃する。\nまた、KBTITと合成することで破面KBTITに変化する。"
   },
   {
@@ -2262,7 +2279,6 @@
         "max": "20"
       }
     ],
-    "compositionList": [],
     "notes": "ver1.26にてスキル追加。\n攻撃と同時に攻撃相手の行動ゲージを最大で20奪う。"
   },
   {
@@ -2297,7 +2313,6 @@
         "max": "20"
       }
     ],
-    "compositionList": [],
     "notes": "ver1.26にてスキル追加。"
   },
   {
@@ -2331,7 +2346,6 @@
       }
     ],
     "cocoaList": [],
-    "compositionList": [],
     "notes": ""
   },
   {
@@ -2403,7 +2417,6 @@
         "max": "50"
       }
     ],
-    "compositionList": [],
     "notes": ""
   },
   {
@@ -2461,7 +2474,6 @@
         "max": "50"
       }
     ],
-    "compositionList": [],
     "notes": "「REACHが物理」である味方のATK補正を1.5倍にする。\n「遠野」と合成すると「世界のトオノ」に変化する。"
   },
   {
@@ -2515,7 +2527,6 @@
         "max": "50"
       }
     ],
-    "compositionList": [],
     "notes": "全体回復持ち。観葉植物くんと比べると回復量とコストで劣るが、こちらは攻撃もできる。\n回復量は精神攻撃力依存で、MSTA姉貴のスキルで上昇する。山崎まさゆきは物理攻撃力上昇なので不可。\nまた、KNN姉貴と合成することでかんなフェニックスに、MUR大先輩と合成することでMUR肉に変化する。"
   },
   {
@@ -2558,7 +2569,6 @@
         "max": "50"
       }
     ],
-    "compositionList": [],
     "notes": "ver1.7でスキル修正。"
   },
   {
@@ -2597,7 +2607,6 @@
         "max": "20"
       }
     ],
-    "compositionList": [],
     "notes": "ver1.26にてスキル追加。\n攻撃対象のTYPEの数によって与ダメージに以下の補正がかかる。\nTYPE数\nダメージ倍率\n1\n1倍\n2\n4倍\n3\n6倍\n"
   },
   {
@@ -2634,6 +2643,10 @@
         "canDrop": true
       },
       {
+        "placeName": "ダーク築地市場",
+        "canDrop": true
+      },
+      {
         "placeName": "白玉楼",
         "canDrop": true
       },
@@ -2648,7 +2661,6 @@
         "max": "50"
       }
     ],
-    "compositionList": [],
     "notes": ""
   },
   {
@@ -2678,6 +2690,10 @@
         "canDrop": true
       },
       {
+        "placeName": "ダーク築地市場",
+        "canDrop": true
+      },
+      {
         "placeName": "2014年初詣",
         "canDrop": true
       },
@@ -2692,7 +2708,6 @@
         "max": "50"
       }
     ],
-    "compositionList": [],
     "notes": ""
   },
   {
@@ -2743,7 +2758,6 @@
         "max": "100"
       }
     ],
-    "compositionList": [],
     "notes": "\n合成で創造神KMRを作る際の素材となる\n神/死神属性のユニットを5体合成すると邪神GOになる。\n"
   },
   {
@@ -2769,7 +2783,6 @@
       }
     ],
     "cocoaList": [],
-    "compositionList": [],
     "notes": "現時点では仲間にならない模様。\nコストは約160、通常攻撃は精神全体攻撃。1度だけ8回攻撃のスキル「神の裁き」を使用。\n最初のターンだけコスト30程度で行動でき、通常攻撃後は行動ゲージが半分から始まる。\nスキル「神の裁き」はGO回目の攻撃時に発動する。ただしスキル発動後は行動ゲージを全て消費する上、\n一撃あたりのダメージは通常攻撃より小さい。\n通常ユニット版の情報はこちら→邪神GO"
   },
   {
@@ -2795,7 +2808,6 @@
       }
     ],
     "cocoaList": [],
-    "compositionList": [],
     "notes": ""
   },
   {
@@ -2822,7 +2834,6 @@
       }
     ],
     "cocoaList": [],
-    "compositionList": [],
     "notes": "現時点では仲間にならない模様。HPは30で固定。"
   },
   {
@@ -2860,7 +2871,6 @@
         "max": "50"
       }
     ],
-    "compositionList": [],
     "notes": "野獣先輩\nと合成するとサイクロップス先輩に変化する。\n"
   },
   {
@@ -2903,7 +2913,6 @@
         "max": "100"
       }
     ],
-    "compositionList": [],
     "notes": "ver1.56でスキル修正。"
   },
   {
@@ -2953,7 +2962,6 @@
       }
     ],
     "cocoaList": [],
-    "compositionList": [],
     "notes": ""
   },
   {
@@ -2995,7 +3003,6 @@
       }
     ],
     "cocoaList": [],
-    "compositionList": [],
     "notes": "KNN姉貴\nの能力も無効化できる。"
   },
   {
@@ -3038,8 +3045,7 @@
         "max": "300"
       }
     ],
-    "compositionList": [],
-    "notes": "最後に生き残ったイワナ僧侶が倒された場合、「イワナの怪」は発動しない。"
+    "notes": "最後に生き残ったイワナ僧侶が倒された場合、「イワナの怪」は発動しない。\n全体攻撃で複数のイワナ僧侶が倒された場合、発動するのは1回のみ。\nちなみに、味方によって倒された場合はバッチリその味方を道連れにする。"
   },
   {
     "imageUrl": "",
@@ -3085,7 +3091,6 @@
         "max": "100"
       }
     ],
-    "compositionList": [],
     "notes": ""
   },
   {
@@ -3128,7 +3133,6 @@
         "max": "100"
       }
     ],
-    "compositionList": [],
     "notes": ""
   },
   {
@@ -3182,7 +3186,6 @@
         "max": "100"
       }
     ],
-    "compositionList": [],
     "notes": "HP1で耐えられるのは各キャラ1回までである。HPを回復させても再度耐えることはできないので注意。\nまた、既に1回耐えたポイテーロがまだ耐えてないキャラと同時に全体攻撃で致死ダメージを受けた場合、ポイテーロより上にいるキャラだけが助かる。必ず最後尾に置いておこう。"
   },
   {
@@ -3214,6 +3217,10 @@
         "canDrop": true
       },
       {
+        "placeName": "ダーク築地市場",
+        "canDrop": true
+      },
+      {
         "placeName": "岡山城",
         "canDrop": true
       },
@@ -3228,7 +3235,6 @@
         "max": "300"
       }
     ],
-    "compositionList": [],
     "notes": ""
   },
   {
@@ -3267,7 +3273,6 @@
         "max": "100"
       }
     ],
-    "compositionList": [],
     "notes": "全員の行動ゲージを30減少させる。"
   },
   {
@@ -3301,7 +3306,6 @@
         "max": "100"
       }
     ],
-    "compositionList": [],
     "notes": "スキルによるダメージは、攻撃相手のCOSTによって補正がかかる。補正の倍率は、COST50毎に約1.0ずつ上がっていくと思われる。\nCOST40～50\n　1.0倍のダメージ。（通常のダメージと同じ）\nCOST51～100\n　2.0倍のダメージ。\nCOST101～150\n　3.0倍のダメージ。\nCOST151～200\n　4.0倍のダメージ。\nCOST201～250（MUR大先輩、ハガー市長）\n　5.0倍のダメージ。\nCOST251～300\n　6.0倍のダメージ。\nCOST301～350\n　7.0倍のダメージ。\nCOST351～400（ピンキー姉貴）\n　8.0倍のダメージ。"
   },
   {
@@ -3337,7 +3341,6 @@
         "max": "300"
       }
     ],
-    "compositionList": [],
     "notes": "チョコレート先輩\nと合成すると変態糞娘に変化する。\n"
   },
   {
@@ -3388,7 +3391,6 @@
         "max": "100"
       }
     ],
-    "compositionList": [],
     "notes": "KISちゃん\nや混乱状態で能力を防げる。\n表示される画像はバケモノ。本気で怖いのでピンキーのターンが迫ってきたら画面を隠そう。\nまた、KNN姉貴と合成すると、関西ナースへと変化する。"
   },
   {
@@ -3419,6 +3421,10 @@
       {
         "placeName": "スキマワールド",
         "canDrop": true
+      },
+      {
+        "placeName": "永遠亭",
+        "canDrop": true
       }
     ],
     "cocoaList": [
@@ -3427,8 +3433,53 @@
         "max": "100"
       }
     ],
-    "compositionList": [],
     "notes": ""
+  },
+  {
+    "imageUrl": "",
+    "name": "木吉カズヤ",
+    "hp": "100",
+    "atk": "120",
+    "def": "100",
+    "mnt": "80",
+    "cost": "70",
+    "types": [
+      "妖精",
+      "レスリング"
+    ],
+    "reach": "物理",
+    "target": "単体",
+    "skillName": "カズヤダンス",
+    "skillDescription": "刹那の舞により攻撃後に仲間の精神防御力が上昇する。",
+    "appearanceList": [
+      {
+        "placeName": "新日暮里",
+        "canDrop": true
+      },
+      {
+        "placeName": "スキマワールド",
+        "canDrop": true
+      },
+      {
+        "placeName": "ニコファーレ",
+        "canDrop": true
+      },
+      {
+        "placeName": "ダーク築地市場",
+        "canDrop": true
+      },
+      {
+        "placeName": "白玉楼",
+        "canDrop": true
+      }
+    ],
+    "cocoaList": [
+      {
+        "min": "101",
+        "max": "300"
+      }
+    ],
+    "notes": "仲間のMNT補正を1.5倍にする。"
   },
   {
     "imageUrl": "",
@@ -3466,51 +3517,7 @@
         "max": "300"
       }
     ],
-    "compositionList": [],
     "notes": ""
-  },
-  {
-    "imageUrl": "",
-    "name": "木吉カズヤ",
-    "hp": "100",
-    "atk": "120",
-    "def": "100",
-    "mnt": "80",
-    "cost": "70",
-    "types": [
-      "妖精",
-      "レスリング"
-    ],
-    "reach": "物理",
-    "target": "単体",
-    "skillName": "カズヤダンス",
-    "skillDescription": "刹那の舞により攻撃後に仲間の精神防御力が上昇する。",
-    "appearanceList": [
-      {
-        "placeName": "新日暮里",
-        "canDrop": true
-      },
-      {
-        "placeName": "スキマワールド",
-        "canDrop": true
-      },
-      {
-        "placeName": "ニコファーレ",
-        "canDrop": true
-      },
-      {
-        "placeName": "白玉楼",
-        "canDrop": true
-      }
-    ],
-    "cocoaList": [
-      {
-        "min": "101",
-        "max": "300"
-      }
-    ],
-    "compositionList": [],
-    "notes": "仲間のMNT補正を1.5倍にする。"
   },
   {
     "imageUrl": "",
@@ -3534,7 +3541,15 @@
         "canDrop": true
       },
       {
+        "placeName": "ダーク築地市場",
+        "canDrop": true
+      },
+      {
         "placeName": "白玉楼",
+        "canDrop": true
+      },
+      {
+        "placeName": "永遠亭",
         "canDrop": true
       }
     ],
@@ -3544,7 +3559,6 @@
         "max": "300"
       }
     ],
-    "compositionList": [],
     "notes": ""
   },
   {
@@ -3568,10 +3582,17 @@
       {
         "placeName": "新日暮里",
         "canDrop": true
+      },
+      {
+        "placeName": "ダーク築地市場",
+        "canDrop": true
+      },
+      {
+        "placeName": "永遠亭",
+        "canDrop": true
       }
     ],
     "cocoaList": [],
-    "compositionList": [],
     "notes": ""
   },
   {
@@ -3595,6 +3616,10 @@
       {
         "placeName": "クッキーレストラン",
         "canDrop": true
+      },
+      {
+        "placeName": "ダーク築地市場",
+        "canDrop": true
       }
     ],
     "cocoaList": [
@@ -3603,7 +3628,6 @@
         "max": "300"
       }
     ],
-    "compositionList": [],
     "notes": "FLNちゃん\nと同じような能力だが、こちらは精神防御力が対象。\n攻撃した相手のMNT補正を0.3倍にする。"
   },
   {
@@ -3627,6 +3651,14 @@
       {
         "placeName": "クッキーレストラン",
         "canDrop": true
+      },
+      {
+        "placeName": "ダーク築地市場",
+        "canDrop": true
+      },
+      {
+        "placeName": "永遠亭",
+        "canDrop": true
       }
     ],
     "cocoaList": [
@@ -3635,8 +3667,7 @@
         "max": "300"
       }
     ],
-    "compositionList": [],
-    "notes": "トレーニングによる能力上昇は各1.5倍。"
+    "notes": "トレーニングによる能力上昇は各1.5倍。\nカブレラ以外のユニットが全滅、あるいは飛翔しているかKISちゃんの場合はトレーニングのかわりに攻撃を行う。"
   },
   {
     "imageUrl": "",
@@ -3658,6 +3689,10 @@
       {
         "placeName": "白玉楼",
         "canDrop": true
+      },
+      {
+        "placeName": "ダーク築地市場",
+        "canDrop": true
       }
     ],
     "cocoaList": [
@@ -3666,7 +3701,6 @@
         "max": "300"
       }
     ],
-    "compositionList": [],
     "notes": "ひで\nと合成すると多脚ひでに変化する。\n"
   },
   {
@@ -3705,7 +3739,6 @@
         "max": "100"
       }
     ],
-    "compositionList": [],
     "notes": "最初からホリ・トオル一人だけの場合でも、スキルが発動する。"
   },
   {
@@ -3741,7 +3774,6 @@
         "max": "100"
       }
     ],
-    "compositionList": [],
     "notes": "\nver1.48にて、スキル発動時のエフェクトが追加された。\n課長\nのステータスはリセットできない。こわれる前に神風が発動しても課長は強く、こわれた後は弱いまま。\nスキルが発動するとカウンター系のスキルが発動しない。井上カブレラ、イワナ僧侶、UDNG姉貴、植木鉢くん等。YUMちゃんは0ダメージ化するが反撃はしてこない。また、EIK姉貴のスキルも発動しない。\n"
   },
   {
@@ -3784,7 +3816,6 @@
         "max": "100"
       }
     ],
-    "compositionList": [],
     "notes": ""
   },
   {
@@ -3831,6 +3862,10 @@
       {
         "placeName": "紅魔館会議室",
         "canDrop": true
+      },
+      {
+        "placeName": "永遠亭",
+        "canDrop": true
       }
     ],
     "cocoaList": [
@@ -3839,7 +3874,6 @@
         "max": "100"
       }
     ],
-    "compositionList": [],
     "notes": "中野くん\nと合成するとかんなフェニックスに変化する。\nピンキー姉貴\nと合成すると関西ナースに変化する。\n"
   },
   {
@@ -3871,11 +3905,19 @@
         "canDrop": true
       },
       {
+        "placeName": "ダーク築地市場",
+        "canDrop": true
+      },
+      {
         "placeName": "白玉楼",
         "canDrop": true
       },
       {
         "placeName": "下北沢裁判所",
+        "canDrop": true
+      },
+      {
+        "placeName": "永遠亭",
         "canDrop": true
       }
     ],
@@ -3885,7 +3927,6 @@
         "max": "100"
       }
     ],
-    "compositionList": [],
     "notes": ""
   },
   {
@@ -3951,7 +3992,6 @@
         "max": "100"
       }
     ],
-    "compositionList": [],
     "notes": "「観葉植物くん×4」のパーティはランダムマッチングに登録されない(パスワード指定対戦は可能)。\n自パーティに観葉植物くん以外のキャラが居ないとき行動ゲージが満タンになると「枯れてしまった！」の表示と共に爆発する。"
   },
   {
@@ -3977,7 +4017,6 @@
       }
     ],
     "cocoaList": [],
-    "compositionList": [],
     "notes": "スローロリスくん2体（ベースユニットは黒枠）を合成すると\n淫夢くんUC\nへと変化する。"
   },
   {
@@ -4004,8 +4043,7 @@
       }
     ],
     "cocoaList": [],
-    "compositionList": [],
-    "notes": "スキルは通常版と同じ模様。\n4ターン目に8回連続攻撃。\nCOST40～55のユニット\nCOST40\n大妖精\nメ・バヂス・バ\n \n \n \nCOST45\nZUN\nAY姉貴\n虐待おじさん\nチョコレート先輩\nホワイトチョコ先輩\n \nKISちゃん\nOZW\nHTT姉貴\n \n \nCOST50\nRMA姉貴\nRMLA姉貴\nFLNちゃん\nSGW急便\n殺人鬼MNR\n \nAOK\nTNS姉貴\n \n \n \nCOST55\nMSTA姉貴\nYUMちゃん\nKMC姉貴\n多脚ひで\nサイクロップス先輩\n通常ユニット版の情報はこちら→淫夢くんUC"
+    "notes": "スキルは通常版と同じ模様。\n4ターン目に8回連続攻撃。\nCOST40～55のユニット\nCOST40\n大妖精\nメ・バヂス・バ\n \n \n \nCOST45\nZUN\nAY姉貴\n虐待おじさん\nチョコレート先輩\nホワイトチョコ先輩\n \nKISちゃん\nOZW\nHTT姉貴\nメタルセミ兄貴\n \nCOST50\nRMA姉貴\nRMLA姉貴\nFLNちゃん\nSGW急便\n殺人鬼MNR\n \nAOK\nTNS姉貴\nスカーレット田中\n \n \nCOST55\nMSTA姉貴\nYUMちゃん\nKMC姉貴\n多脚ひで\nサイクロップス先輩\n通常ユニット版の情報はこちら→淫夢くんUC"
   },
   {
     "imageUrl": "",
@@ -4042,7 +4080,6 @@
         "max": "100"
       }
     ],
-    "compositionList": [],
     "notes": "仲間のDEF補正値を1.5倍にする。"
   },
   {
@@ -4073,7 +4110,6 @@
         "max": "300"
       }
     ],
-    "compositionList": [],
     "notes": "「口マン爺」ではなく「ロマン爺」である。"
   },
   {
@@ -4102,7 +4138,6 @@
       }
     ],
     "cocoaList": [],
-    "compositionList": [],
     "notes": "\nスキマ空間にいる間はダメージ無効だが、2度攻撃を食らうと強制的に空間から引き摺り出される。\n複数のYKR姉貴がおり一体がスキマ空間にいる場合、他の姉貴はスキマ空間に逃げ込めない。\n"
   },
   {
@@ -4134,6 +4169,10 @@
         "canDrop": true
       },
       {
+        "placeName": "ダーク築地市場",
+        "canDrop": true
+      },
+      {
         "placeName": "岡山城",
         "canDrop": true
       },
@@ -4148,7 +4187,6 @@
         "max": "300"
       }
     ],
-    "compositionList": [],
     "notes": ""
   },
   {
@@ -4183,7 +4221,6 @@
         "max": "300"
       }
     ],
-    "compositionList": [],
     "notes": "\nver1.56でスキル修正。\n攻撃を与えた相手から攻撃される時、受けるダメージを半減?してカウンターする。メタル系ユニットには無効。\n釣りキチ\n状態の時はスキルが発動せず、通常どおりにダメージを与えることができるがＡＴＫがＡＴＫのため、たいしたダメージにはならない。\n"
   },
   {
@@ -4209,7 +4246,6 @@
       }
     ],
     "cocoaList": [],
-    "compositionList": [],
     "notes": "2回目の行動のダメージは0.7倍となる。"
   },
   {
@@ -4268,7 +4304,6 @@
         "max": "400"
       }
     ],
-    "compositionList": [],
     "notes": "「仲間の素の単体攻撃タイプユニットは攻撃力がアップ」の増加は1.2倍。\nKBTIT（漫画家）\nのスキルも無効化する。"
   },
   {
@@ -4310,7 +4345,6 @@
         "max": "300"
       }
     ],
-    "compositionList": [],
     "notes": ""
   },
   {
@@ -4341,7 +4375,6 @@
         "max": "400"
       }
     ],
-    "compositionList": [],
     "notes": "戦闘開始でスキルの対象になったキャラは、３回の行動をした後に『４回目』の行動順が回ってきたタイミングで即死する。\nよってダークドレアム先輩のスキル発動阻止は不可能。\nKBTIT（漫画家）\nで全体化が可能。\nまたこの効果は対象ユニットの行動を上書きする形で発動する。\nつまり内部的には自殺という形で処理されているので、たとえばMUR肉がこの効果で死亡すると味方を回復する、といったことが起こる。\nパーティ内にTDN,DB,HTNがいる時、そのうち一人でもHPが半分以下になると「元祖一転攻勢」（パーティ全員のHP回復＋攻撃力UP＋物理防御力UP＋精神防御力UP）が発動する。"
   },
   {
@@ -4368,6 +4401,10 @@
       {
         "placeName": "岡山城",
         "canDrop": true
+      },
+      {
+        "placeName": "永遠亭",
+        "canDrop": true
       }
     ],
     "cocoaList": [
@@ -4376,7 +4413,6 @@
         "max": "300"
       }
     ],
-    "compositionList": [],
     "notes": "パーティ内にTDN,DB,HTNがいる時、そのうち一人でもHPが半分以下になると「元祖一転攻勢」（パーティ全員のHP回復＋攻撃力UP＋物理防御力UP＋精神防御力UP）が発動する。"
   },
   {
@@ -4423,8 +4459,7 @@
         "max": "300"
       }
     ],
-    "compositionList": [],
-    "notes": "ステータス上昇は全能力1.6倍。\n効果範囲は以下の通り。COST40～55は淫夢くんUCを参考。\nCOST60、65のユニット\nCOST60\n遠野\nKMR\nKBSトリオ「K」\nCRNちゃん\nスローロリスくん\n \nRIM姉貴\nUDK姉貴\nALC姉貴\nUTH\nSIK姉貴\n \nSKY姉貴\n釣りキチおばさん\nHZRBBA\n変態郵便屋\nセミ兄貴\n \nSNE姉貴\n土着神SWK\nCNT姉貴\nど麺罪木\nルンバおばさん\n \nMMR部長\nKBTIT\nKBTIT（調査兵団）\n破面KBTIT\nウルトラマンタクヤ\n \nTDN\nHND△\nメガデス戦闘員\n鎌田吾作\nホモコップ\n \nSNJ\nTKNUC\n植木鉢くん\nイワナ僧侶\nMUR肉\n \nDRVS\nNSOK\nMDSN姉貴\nRNNSK兄貴\n \nCOST65\nMIRN姉貴\n平野源五郎\nKYN\n逝かせ隊\n関西クレーマー\n \nシャブラサレータ\n我修院\nデビルひで\nドラゴン田中\nKBTIT（ギタリスト）\n \nYOU THE ROCK★\n \n \n \n \n"
+    "notes": "ステータス上昇は全能力1.6倍。\n効果範囲は以下の通り。COST40～55は淫夢くんUCを参考。\nCOST60、65のユニット\nCOST60\n遠野\nKMR\nKBSトリオ「K」\nCRNちゃん\nスローロリスくん\n \nRIM姉貴\nUDK姉貴\nALC姉貴\nUTH\nSIK姉貴\n \nSKY姉貴\n釣りキチおばさん\nHZRBBA\n変態郵便屋\nセミ兄貴\n \nSNE姉貴\n土着神SWK\nCNT姉貴\nど麺罪木\nルンバおばさん\n \nMMR部長\nKBTIT\nKBTIT（調査兵団）\n破面KBTIT\nウルトラマンタクヤ\n \nTDN\nHND△\nメガデス戦闘員\n鎌田吾作\nホモコップ\n \nSNJ\nTKNUC\n植木鉢くん\nイワナ僧侶\nMUR肉\n \nDRVS\nNSOK\nMDSN姉貴\n銀閣\n金閣\n \nRNNSK兄貴\n \n \n \n \nCOST65\nMIRN姉貴\n平野源五郎\nKYN\n逝かせ隊\n関西クレーマー\n \nシャブラサレータ\n我修院\nデビルひで\nドラゴン田中\nKBTIT（ギタリスト）\n \nYOU THE ROCK★\n赤さん\n \n \n \n"
   },
   {
     "imageUrl": "",
@@ -4458,7 +4493,6 @@
         "max": "300"
       }
     ],
-    "compositionList": [],
     "notes": "正確に言うと「味方の発動した回復を伴う効果の回復量を2倍にする」である。\nそのためたとえば味方のMUR肉の死亡時スキルが発動した場合なら、敵の回復量が2倍になる\n　"
   },
   {
@@ -4494,10 +4528,13 @@
       {
         "placeName": "ニコファーレ",
         "canDrop": true
+      },
+      {
+        "placeName": "永遠亭",
+        "canDrop": true
       }
     ],
     "cocoaList": [],
-    "compositionList": [],
     "notes": ""
   },
   {
@@ -4528,6 +4565,10 @@
       {
         "placeName": "ニコファーレ",
         "canDrop": true
+      },
+      {
+        "placeName": "永遠亭",
+        "canDrop": true
       }
     ],
     "cocoaList": [
@@ -4536,7 +4577,6 @@
         "max": "400"
       }
     ],
-    "compositionList": [],
     "notes": ""
   },
   {
@@ -4576,8 +4616,7 @@
         "max": "400"
       }
     ],
-    "compositionList": [],
-    "notes": "全体攻撃化するユニットは攻撃力が60%に減少。現場監督がいると全体攻撃にはならず、攻撃力の減少もない。\nスキル対象になるユニット\n \nRIM姉貴\nCRNちゃん\nKSDB姉貴\n野獣先輩\n遠野\nKMR\nSNJ\nONDISK\nKBSトリオ「K」\nNSOK\nDRVS\n平野源五郎\nメガデス戦闘員\nホモコップ\n山崎まさゆき\nKYN\nセミ兄貴\nイワナ僧侶\nHTN\nCNT姉貴\nスローロリスくん\n我那覇くん\nシャブラサレータ\nTDN\n我修院\nSNE姉貴\n土着神SWK\n植木鉢くん\nホワイトチョコ先輩\n破面KBTIT\n釣りキチおばさん\nUDNG姉貴\nMDSN姉貴\nRNNSK兄貴\nITI\nセーター男・小森\nKBTIT（ギタリスト）\nRyu☆\n \n \nTDN\nの超スローボールは相手ユニット全体に効果が及ぶ。\nど麺罪木\nはATK100だが対象外。\n"
+    "notes": "全体攻撃化するユニットは攻撃力が60%に減少。現場監督がいると全体攻撃にはならず、攻撃力の減少もない。\nスキル対象になるユニット\n \nRIM姉貴\nCRNちゃん\nKSDB姉貴\n野獣先輩\n遠野\nKMR\nSNJ\nONDISK\nKBSトリオ「K」\nNSOK\nDRVS\n平野源五郎\nメガデス戦闘員\nホモコップ\n山崎まさゆき\nKYN\nセミ兄貴\nイワナ僧侶\nHTN\nCNT姉貴\nスローロリスくん\n我那覇くん\nシャブラサレータ\nTDN\n我修院\nSNE姉貴\n土着神SWK\n植木鉢くん\nホワイトチョコ先輩\n破面KBTIT\n釣りキチおばさん\nUDNG姉貴\nMDSN姉貴\nRNNSK兄貴\nITI\nセーター男・小森\nKBTIT（ギタリスト）\nRyu☆\n \n \nTDN\nの超スローボールとCNT姉貴の野獣の眼光は相手ユニット全体に効果が及ぶ。\nど麺罪木\nはATK100だが対象外。\nITI\nがいても、反転前のATKを参照する。\n"
   },
   {
     "imageUrl": "",
@@ -4604,6 +4643,10 @@
       {
         "placeName": "ニコファーレ",
         "canDrop": true
+      },
+      {
+        "placeName": "ダーク築地市場",
+        "canDrop": true
       }
     ],
     "cocoaList": [
@@ -4612,7 +4655,6 @@
         "max": "400"
       }
     ],
-    "compositionList": [],
     "notes": "味方の総コストが敵の総コストより多いとき、仲間にいるだけで敵ユニットの行動ゲージの増加速度が元の増加速度の3割減になる。\n淫夢くんUC\nの効果と複合すると、元の増加速度の9割減になる。"
   },
   {
@@ -4656,7 +4698,6 @@
         "max": "400"
       }
     ],
-    "compositionList": [],
     "notes": "大妖精\nと並び、現時点で最速のユニット。"
   },
   {
@@ -4682,10 +4723,13 @@
       {
         "placeName": "ニコファーレ",
         "canDrop": true
+      },
+      {
+        "placeName": "ダーク築地市場",
+        "canDrop": true
       }
     ],
     "cocoaList": [],
-    "compositionList": [],
     "notes": ""
   },
   {
@@ -4708,10 +4752,13 @@
       {
         "placeName": "山下公園",
         "canDrop": true
+      },
+      {
+        "placeName": "永遠亭",
+        "canDrop": true
       }
     ],
     "cocoaList": [],
-    "compositionList": [],
     "notes": ""
   },
   {
@@ -4737,7 +4784,6 @@
       }
     ],
     "cocoaList": [],
-    "compositionList": [],
     "notes": ""
   },
   {
@@ -4764,7 +4810,6 @@
         "max": "400"
       }
     ],
-    "compositionList": [],
     "notes": "変態郵便屋\n、セーター男・小森と組むと、全体攻撃+ゲージリセットの必殺技「おきらくリンチ」が発動する。\n「おきらくリンチ」は相手にダメージを与えられた場合のみ、追加効果が発動する。\n　　　（MMR部長などでダメージを0にされると追加効果が発動せず）"
   },
   {
@@ -4791,7 +4836,6 @@
         "max": "400"
       }
     ],
-    "compositionList": [],
     "notes": "セーター男・小森\n、インパルスITKRと組むと、全体攻撃+ゲージリセットの必殺技「おきらくリンチが発動する。\n「おきらくリンチ」は相手にダメージを与えられた場合のみ、追加効果が発動する。\n　　　（MMR部長などでダメージを0にされると追加効果が発動せず）"
   },
   {
@@ -4818,7 +4862,6 @@
         "max": "400"
       }
     ],
-    "compositionList": [],
     "notes": "\nゴミ漁りによる能力上昇は各1.2倍。\n変態郵便屋\n、インパルスITKRと組むと、全体攻撃+ゲージリセットの必殺技「おきらくリンチ」が発動する。\n他のストーカーより誰かが早く動けば、便乗で「おきらくリンチ」を発動する。\n「おきらくリンチ」は相手にダメージを与えられた場合のみ、追加効果が発動する。\n　　　（MMR部長などでダメージを0にされると追加効果が発動せず）"
   },
   {
@@ -4831,7 +4874,7 @@
     "cost": "65",
     "types": [
       "風評被害",
-      "鑑"
+      "KBTIT"
     ],
     "reach": "精神",
     "target": "単体",
@@ -4844,8 +4887,7 @@
       }
     ],
     "cocoaList": [],
-    "compositionList": [],
-    "notes": ""
+    "notes": "\nクッソ小さくて見えにくいかもしれないが、上のカード画像、胸の辺りをよくご覧頂きたい。\n　おわかりいただけただろうか?\n「全て解き放って」というのは比ゆ表現ではなく全て解除するという意味。\n"
   },
   {
     "imageUrl": "",
@@ -4867,11 +4909,18 @@
       {
         "placeName": "ニコファーレ",
         "canDrop": true
+      },
+      {
+        "placeName": "ダーク築地市場",
+        "canDrop": true
+      },
+      {
+        "placeName": "永遠亭",
+        "canDrop": true
       }
     ],
     "cocoaList": [],
-    "compositionList": [],
-    "notes": "Ryu☆\nとNRK姉貴の時のみゲージ増加量減少\n井上カブレラ\nとセーター男・小森はゲージ増加量減少の対象にならない"
+    "notes": "Ryu☆\nとNRK姉貴の時のみゲージ増加量減少\n井上カブレラ\nとセーター男・小森、KBTIT（詐欺師）によって効果が反転したKBTIT（調査兵団）はゲージ増加量減少の対象にならない"
   },
   {
     "imageUrl": "",
@@ -4892,10 +4941,13 @@
       {
         "placeName": "ニコファーレ",
         "canDrop": true
+      },
+      {
+        "placeName": "ダーク築地市場",
+        "canDrop": true
       }
     ],
     "cocoaList": [],
-    "compositionList": [],
     "notes": "相手を混乱させた上でATK補正を2倍にする。\n相手が神/死神タイプであり混乱が無効な場合、攻撃力アップも無効。"
   },
   {
@@ -4921,8 +4973,168 @@
       }
     ],
     "cocoaList": [],
-    "compositionList": [],
     "notes": "ステータス上昇はATKが1.2倍、DEFとMNTが1.15倍(ver1.74修正後)。\n世界のトオノ\nを使ってスキルを発動するとスキル名が「Im so Cookie☆」になる。セリフは「一　転　攻　勢」\n　"
+  },
+  {
+    "imageUrl": "",
+    "name": "赤さん",
+    "hp": "100",
+    "atk": "90",
+    "def": "145",
+    "mnt": "115",
+    "cost": "65",
+    "types": [
+      "妖精",
+      "レスリング"
+    ],
+    "reach": "精神",
+    "target": "単体",
+    "skillName": "どうも、赤さん",
+    "skillDescription": "戦闘開始時と攻撃後に仲間の局部に盾を展開させ受けるダメージを軽減させる。仲間にいるだけで攻撃以外のダメージを0にする。",
+    "appearanceList": [
+      {
+        "placeName": "ダーク築地市場",
+        "canDrop": true
+      },
+      {
+        "placeName": "永遠亭",
+        "canDrop": true
+      }
+    ],
+    "cocoaList": [],
+    "notes": ""
+  },
+  {
+    "imageUrl": "",
+    "name": "剛竜馬",
+    "hp": "170",
+    "atk": "160",
+    "def": "200",
+    "mnt": "100",
+    "cost": "90",
+    "types": [
+      "デブ",
+      "武器"
+    ],
+    "reach": "物理",
+    "target": "単体",
+    "skillName": "突然の変調",
+    "skillDescription": "仲間にいるだけで、味方の[デブ]ユニットのコストが多いほど味方の攻撃力が上がる。",
+    "appearanceList": [
+      {
+        "placeName": "ダーク築地市場",
+        "canDrop": true
+      }
+    ],
+    "cocoaList": [],
+    "notes": ""
+  },
+  {
+    "imageUrl": "",
+    "name": "金閣",
+    "hp": "105",
+    "atk": "100",
+    "def": "125",
+    "mnt": "70",
+    "cost": "60",
+    "types": [
+      "妖精",
+      "悪",
+      "レスリング"
+    ],
+    "reach": "物理",
+    "target": "単体",
+    "skillName": "力の金閣",
+    "skillDescription": "開始時と攻撃後におまたをこすって力をためる。次のターンまでにダメージを受けなかったら威力が3倍の攻撃を放つ。",
+    "appearanceList": [
+      {
+        "placeName": "ダーク築地市場",
+        "canDrop": true
+      }
+    ],
+    "cocoaList": [],
+    "notes": ""
+  },
+  {
+    "imageUrl": "",
+    "name": "銀閣",
+    "hp": "105",
+    "atk": "100",
+    "def": "70",
+    "mnt": "125",
+    "cost": "60",
+    "types": [
+      "妖精",
+      "悪",
+      "レスリング"
+    ],
+    "reach": "物理",
+    "target": "単体",
+    "skillName": "技の銀閣",
+    "skillDescription": "攻撃した相手から行動ゲージを奪い、銀閣以外の仲間の[悪]ユニットに分け与える。",
+    "appearanceList": [
+      {
+        "placeName": "ダーク築地市場",
+        "canDrop": true
+      }
+    ],
+    "cocoaList": [],
+    "notes": ""
+  },
+  {
+    "imageUrl": "",
+    "name": "池田茂美",
+    "hp": "500",
+    "atk": "80",
+    "def": "80",
+    "mnt": "80",
+    "cost": "360",
+    "types": [
+      "妖精",
+      "メイド"
+    ],
+    "reach": "精神",
+    "target": "単体",
+    "skillName": "茂美の誘惑",
+    "skillDescription": "仲間にいるだけで恐怖状態の相手は行動が遅くなる。自分が行動したら最後、その恐怖の笑顔で相手は全滅する。[イラスト：古霧さん]",
+    "appearanceList": [
+      {
+        "placeName": "ダーク築地市場",
+        "canDrop": true
+      },
+      {
+        "placeName": "永遠亭",
+        "canDrop": true
+      }
+    ],
+    "cocoaList": [],
+    "notes": "\n現時点ではHP種族値最大。\n"
+  },
+  {
+    "imageUrl": "",
+    "name": "VAN様",
+    "hp": "120",
+    "atk": "80",
+    "def": "190",
+    "mnt": "100",
+    "cost": "80",
+    "types": [
+      "妖精",
+      "調教",
+      "レスリング"
+    ],
+    "reach": "精神",
+    "target": "単体",
+    "skillName": "ダークおくりびと",
+    "skillDescription": "攻撃相手を真空パック(1人用)に閉じ込めて一撃で葬るが１ターン後に復活する。味方はドン引きしてゲージが0になる。",
+    "appearanceList": [
+      {
+        "placeName": "ダーク築地市場",
+        "canDrop": true
+      }
+    ],
+    "cocoaList": [],
+    "notes": "\n相手側に「ダークおくりびと」でおくられたユニットがいて、なおかつ\n　　そのユニットが「輪廻転生」によって復活、あるいは復活しようとしていなければ\n　　「ダークおくりびと」は発動できず普通の攻撃となる。\n　　よって、「輪廻転生」の前に創造神KMRの「神の創造」や\n　　EIK姉貴の「訴　訟　開　始」などによってそのユニットが復活すると、\n　　「ダークおくりびと」は発動できなくなる。\nおくられたユニットは復活時、自分のリーチの攻撃をする。\nおくられたユニットが復活前にKGY姉貴の「永夜返し」が発動するとユニットは戻ってこなくなる。\n「ダークおくりびと」は続けて発動可能。"
   },
   {
     "imageUrl": "",
@@ -4972,7 +5184,6 @@
         "max": "100"
       }
     ],
-    "compositionList": [],
     "notes": "スキル発動率は2倍になる"
   },
   {
@@ -5014,7 +5225,6 @@
         "max": "100"
       }
     ],
-    "compositionList": [],
     "notes": ""
   },
   {
@@ -5060,7 +5270,6 @@
         "max": "100"
       }
     ],
-    "compositionList": [],
     "notes": "多脚ひで\nと合成すると神々の頂点SWKへと変化する。"
   },
   {
@@ -5099,7 +5308,6 @@
         "max": "100"
       }
     ],
-    "compositionList": [],
     "notes": ""
   },
   {
@@ -5147,7 +5355,6 @@
         "max": "300"
       }
     ],
-    "compositionList": [],
     "notes": ""
   },
   {
@@ -5191,7 +5398,6 @@
         "max": "300"
       }
     ],
-    "compositionList": [],
     "notes": ""
   },
   {
@@ -5235,7 +5441,6 @@
         "max": "350"
       }
     ],
-    "compositionList": [],
     "notes": "虐待おじさん\nとAKYSを足して2で割ったようなスペック。ただしAKYSとは違い反撃対象は精神攻撃な上にコストはおじさんよりも高い代わりにやや打たれ強いのが特徴。\n"
   },
   {
@@ -5278,7 +5483,6 @@
         "max": "350"
       }
     ],
-    "compositionList": [],
     "notes": ""
   },
   {
@@ -5313,7 +5517,6 @@
         "max": "400"
       }
     ],
-    "compositionList": [],
     "notes": ""
   },
   {
@@ -5344,7 +5547,6 @@
         "max": "400"
       }
     ],
-    "compositionList": [],
     "notes": ""
   },
   {
@@ -5369,7 +5571,6 @@
       }
     ],
     "cocoaList": [],
-    "compositionList": [],
     "notes": "「REACHが物理」である相手のATK補正を0.7倍、DEF補正を0.6倍にする。"
   },
   {
@@ -5415,8 +5616,7 @@
         "max": "400"
       }
     ],
-    "compositionList": [],
-    "notes": "味方全員のATK補正を3倍にし、行動ゲージを20増やす。"
+    "notes": "倒されたときに味方全員のATK補正を3倍にし、行動ゲージを30増やす。\n味方の攻撃で倒した\n場合はATK補正は2倍、ゲージ増加量は10になる。"
   },
   {
     "imageUrl": "",
@@ -5446,7 +5646,6 @@
       }
     ],
     "cocoaList": [],
-    "compositionList": [],
     "notes": "\n死「神」ということで神に状態異常攻撃は無効となる。\nデビルひで\nと合成するとタナトスひでに変化する。\n"
   },
   {
@@ -5476,8 +5675,7 @@
       }
     ],
     "cocoaList": [],
-    "compositionList": [],
-    "notes": ""
+    "notes": "訴訟されている相手にはフェアリーアサルトなどのダメージ増加効果が乗る。\n蘇生させられると共に訴訟状態は解除される。\nまた、訴訟されているユニットは永夜返しで通常の死亡状態になる。"
   },
   {
     "imageUrl": "",
@@ -5521,7 +5719,6 @@
       }
     ],
     "cocoaList": [],
-    "compositionList": [],
     "notes": "味方からの攻撃が100%で0ダメージにする。"
   },
   {
@@ -5567,7 +5764,6 @@
       }
     ],
     "cocoaList": [],
-    "compositionList": [],
     "notes": "初めて手にした人は勘違いしやすいが、「仲間の魔法使い全員のHPが最大のとき」ではなく、\n「仲間の魔法使いだれか一人でもHPが最大のとき」にマスタースパークが発動する。"
   },
   {
@@ -5613,33 +5809,7 @@
       }
     ],
     "cocoaList": [],
-    "compositionList": [],
     "notes": ""
-  },
-  {
-    "imageUrl": "",
-    "name": "チョコレート先輩",
-    "hp": "95",
-    "atk": "95",
-    "def": "95",
-    "mnt": "95",
-    "cost": "45",
-    "types": [
-      "汚物"
-    ],
-    "reach": "物理",
-    "target": "単体",
-    "skillName": "",
-    "skillDescription": "廃 棄 処 分 確 定 [イラスト：古霧さん]",
-    "appearanceList": [],
-    "cocoaList": [
-      {
-        "min": "201",
-        "max": "300"
-      }
-    ],
-    "compositionList": [],
-    "notes": "初期メンバー3人と合成するとバレンタイン化する。\n経験値テーブルは30000と非常に高く、他ユニットと合成してレベル上げに使える。"
   },
   {
     "imageUrl": "",
@@ -5672,8 +5842,31 @@
         "max": "400"
       }
     ],
-    "compositionList": [],
     "notes": "能力の詳細についてはこちらを参照"
+  },
+  {
+    "imageUrl": "",
+    "name": "チョコレート先輩",
+    "hp": "95",
+    "atk": "95",
+    "def": "95",
+    "mnt": "95",
+    "cost": "45",
+    "types": [
+      "汚物"
+    ],
+    "reach": "物理",
+    "target": "単体",
+    "skillName": "",
+    "skillDescription": "廃 棄 処 分 確 定 [イラスト：古霧さん]",
+    "appearanceList": [],
+    "cocoaList": [
+      {
+        "min": "201",
+        "max": "300"
+      }
+    ],
+    "notes": "初期メンバー3人\nと合成するとバレンタイン化。変態糞親父との合成で変態糞娘が誕生する。\n経験値テーブルは30000と非常に高く、他ユニットと合成してレベル上げに使える。"
   },
   {
     "imageUrl": "",
@@ -5699,33 +5892,6 @@
       }
     ],
     "cocoaList": [],
-    "compositionList": [],
-    "notes": ""
-  },
-  {
-    "imageUrl": "",
-    "name": "花嫁ピンキー",
-    "hp": "200",
-    "atk": "10",
-    "def": "200",
-    "mnt": "200",
-    "cost": "120",
-    "types": [
-      "屑",
-      "妖怪"
-    ],
-    "reach": "物理",
-    "target": "単体",
-    "skillName": "心肺停止",
-    "skillDescription": "行動したら最後、その恐怖の笑顔で相手1人を絶命させる。他のピンキーがいると行動が遅くなる。",
-    "appearanceList": [
-      {
-        "placeName": "紅魔館調理室",
-        "canDrop": true
-      }
-    ],
-    "cocoaList": [],
-    "compositionList": [],
     "notes": ""
   },
   {
@@ -5752,8 +5918,32 @@
       }
     ],
     "cocoaList": [],
-    "compositionList": [],
     "notes": ""
+  },
+  {
+    "imageUrl": "",
+    "name": "花嫁ピンキー",
+    "hp": "200",
+    "atk": "10",
+    "def": "200",
+    "mnt": "200",
+    "cost": "120",
+    "types": [
+      "屑",
+      "妖怪"
+    ],
+    "reach": "物理",
+    "target": "単体",
+    "skillName": "心肺停止",
+    "skillDescription": "行動したら最後、その恐怖の笑顔で相手1人を絶命させる。他のピンキーがいると行動が遅くなる。",
+    "appearanceList": [
+      {
+        "placeName": "紅魔館調理室",
+        "canDrop": true
+      }
+    ],
+    "cocoaList": [],
+    "notes": "\n自パーティの花嫁ピンキーあるいはピンキー姉貴一人につき実質コストが20上昇する。\n現在のところ本人も数えられるので、一人だけ入れても実際はコスト140。"
   },
   {
     "imageUrl": "",
@@ -5784,11 +5974,37 @@
       {
         "placeName": "紅魔館会議室",
         "canDrop": true
+      },
+      {
+        "placeName": "永遠亭",
+        "canDrop": true
       }
     ],
     "cocoaList": [],
-    "compositionList": [],
     "notes": ""
+  },
+  {
+    "imageUrl": "",
+    "name": "ZUN",
+    "hp": "80",
+    "atk": "140",
+    "def": "80",
+    "mnt": "80",
+    "cost": "45",
+    "types": [
+      "神"
+    ],
+    "reach": "???",
+    "skillName": "酒呑み",
+    "skillDescription": "神主なので仲間のCost60以下かつ幻想郷出身の女の子ユニットのスキルは全部使える。[イラスト：babaraさん]",
+    "appearanceList": [
+      {
+        "placeName": "博麗神社境内2",
+        "canDrop": true
+      }
+    ],
+    "cocoaList": [],
+    "notes": "現在クエストでは入手不可。\n能力の詳細はこ↑こ↓\nスキル対象になるユニット\n \nREACH\n開幕\n行動効果\n追加効果\n攻撃反応\nRIM姉貴\n \n \n \n \nダメージ0(40%)\nUDK姉貴\n \n \nダメージ3倍(HPMAX)1回攻撃\n \n \nALC姉貴\n \n \n \n回復\n \nMSTA姉貴\n \n \n \n精神ATK上昇(味方)\n \nTNS姉貴\n \n〇\n \nダメージ0(味方単体･1回)\n \nYUMちゃん\n2回攻撃\n \n \n \n精神反撃(30%)\nKMC姉貴\n2回攻撃\n \n自己回復(偶数ターン)\n \n \nHTT姉貴\n2回攻撃\n〇\nCost70以下の仲間の攻撃を再現(ダメージは発生しない)\nAY姉貴\n2回攻撃\n \nゲージ上昇(味方鳥･妖怪)\n \n \nSKY姉貴\n \n \nゲージ減少\n \n \n土着神SWK\n \n \nゲージ0(30%)\n \n \nUTH\n \n \n全体攻撃(3ターン目)\n \n \nFLNちゃん\n \n \nDEF減少\n \n \nRMLA姉貴\n \n \nダメージ吸収\n \n \nSIK姉貴\n \n \n状態異常(昏睡)\n \n \n釣りキチおばさん\n \n \n状態異常(釣りキチ)\n \n \n詳細テキスト内にあるとおり特殊な攻撃属性の為、物理（or精神）カウンターを受けないメリットの他、物理（or精神）攻撃力上昇、相手側への物理（or精神）防御力減少などの効果を受けることが出来ないデメリットを併せ持つ。\nNRK姉貴\nのスキル等で得られる（物理とも精神とも表示されない）攻撃力上昇なら効果がある。\nver1.74でマスタースパークの1回攻撃化が追加。YUMと合わせた攻撃力３倍の二回攻撃（通称ダブルスパーク）が使えなくなった。"
   },
   {
     "imageUrl": "",
@@ -5817,32 +6033,7 @@
         "max": "350"
       }
     ],
-    "compositionList": [],
     "notes": "何らかのベースユニットと合成すると、ベースユニットが個体値MAX（黒枠化）になる。\n野獣先輩\n(チョコレート先輩除く)との合成で花嫁と化した先輩\nKBTIT\n一族のいずれかとの合成でKBTIT（花嫁）\nピンキー姉貴\nとの合成で花嫁ピンキーが出来上がってしまう。"
-  },
-  {
-    "imageUrl": "",
-    "name": "ZUN",
-    "hp": "80",
-    "atk": "140",
-    "def": "80",
-    "mnt": "80",
-    "cost": "45",
-    "types": [
-      "神"
-    ],
-    "reach": "???",
-    "skillName": "酒呑み",
-    "skillDescription": "神主なので仲間のCost60以下かつ幻想郷出身の女の子ユニットのスキルは全部使える。[イラスト：babaraさん]",
-    "appearanceList": [
-      {
-        "placeName": "博麗神社境内2",
-        "canDrop": true
-      }
-    ],
-    "cocoaList": [],
-    "compositionList": [],
-    "notes": "現在クエストでは入手不可。\n能力の詳細はこ↑こ↓\nスキル対象になるユニット\n \nREACH\n開幕\n行動効果\n追加効果\n攻撃反応\nRIM姉貴\n \n \n \n \nダメージ0(40%)\nUDK姉貴\n \n \nダメージ3倍(HPMAX)1回攻撃\n \n \nALC姉貴\n \n \n \n回復\n \nMSTA姉貴\n \n \n \n精神ATK上昇(味方)\n \nTNS姉貴\n \n〇\n \nダメージ0(味方単体･1回)\n \nYUMちゃん\n2回攻撃\n \n \n \n精神反撃(30%)\nKMC姉貴\n2回攻撃\n \n自己回復(偶数ターン)\n \n \nHTT姉貴\n2回攻撃\n〇\nCost70以下の仲間の攻撃を再現(ダメージは発生しない)\nAY姉貴\n2回攻撃\n \nゲージ上昇(味方鳥･妖怪)\n \n \nSKY姉貴\n \n \nゲージ減少\n \n \n土着神SWK\n \n \nゲージ0(30%)\n \n \nUTH\n \n \n全体攻撃(3ターン目)\n \n \nFLNちゃん\n \n \nDEF減少\n \n \nRMLA姉貴\n \n \nダメージ吸収\n \n \nSIK姉貴\n \n \n状態異常(昏睡)\n \n \n釣りキチおばさん\n \n \n状態異常(釣りキチ)\n \n \n詳細テキスト内にあるとおり特殊な攻撃属性の為、物理（or精神）カウンターを受けないメリットの他、物理（or精神）攻撃力上昇、相手側への物理（or精神）防御力減少などの効果を受けることが出来ないデメリットを併せ持つ。\nNRK姉貴\nのスキル等で得られる（物理とも精神とも表示されない）攻撃力上昇なら効果がある。\nver1.74でマスタースパークの1回攻撃化が追加。YUMと合わせた攻撃力３倍の二回攻撃（通称ダブルスパーク）が使えなくなった。"
   },
   {
     "imageUrl": "",
@@ -5865,10 +6056,13 @@
       {
         "placeName": "ババアポカリプス",
         "canDrop": true
+      },
+      {
+        "placeName": "永遠亭",
+        "canDrop": true
       }
     ],
     "cocoaList": [],
-    "compositionList": [],
     "notes": "\nHPは3で固定。なお、スキル効果はカウンターには無効。\nYYKBBA\nと合成することでHPを5にすることが可能。\n復活時の攻撃は単体攻撃。また、KNN姉貴と同じように、TKNUCで復活をキャンセルできる。\n動きがかなりややこしいユニットだが、2ターン経過すると敵一体をターゲットに自爆攻撃→次のターンにHPを2回復させて復活(回復量は固定なのでYYKBBAでHPを2増やしても回復量は2のまま)するメタル属性ユニットと考えるといい。自動復活する上にメタルなので邪神GOやサイクロップス先輩と相性がいい。\nなお、自爆時の攻撃がYUK姉貴に当たるとYUK姉貴が自爆攻撃する。\n"
   },
   {
@@ -5893,7 +6087,6 @@
       }
     ],
     "cocoaList": [],
-    "compositionList": [],
     "notes": "合成したユニットの背景は緑に染まり、HPが強化される。\nATKを強化したい方はDEFを強化したい方はMNTを強化したい方は"
   },
   {
@@ -5918,7 +6111,6 @@
       }
     ],
     "cocoaList": [],
-    "compositionList": [],
     "notes": "合成したユニットの背景は赤く染まり、ATKが強化される。\nHP を強化したい方はDEFを強化したい方はMNTを強化したい方は"
   },
   {
@@ -5943,7 +6135,6 @@
       }
     ],
     "cocoaList": [],
-    "compositionList": [],
     "notes": "合成したユニットの背景は黄色く染まり、DEFが強化される。\nHP を強化したい方はATKを強化したい方はMNTを強化したい方は"
   },
   {
@@ -5968,7 +6159,6 @@
       }
     ],
     "cocoaList": [],
-    "compositionList": [],
     "notes": "合成したユニットの背景は青く染まり、MNTが強化される。\nHP を強化したい方はATKを強化したい方はDEFを強化したい方は"
   },
   {
@@ -5995,8 +6185,105 @@
       }
     ],
     "cocoaList": [],
-    "compositionList": [],
     "notes": ""
+  },
+  {
+    "imageUrl": "",
+    "name": "TW姉貴",
+    "hp": "120",
+    "atk": "80",
+    "def": "110",
+    "mnt": "70",
+    "cost": "50",
+    "types": [
+      "妖怪",
+      "屑"
+    ],
+    "reach": "物理",
+    "target": "単体",
+    "skillName": "離反工作",
+    "skillDescription": "1回だけ必殺技を使ってきた相手をだまして敵側に攻撃させる。[イラスト：アミーゴ内藤さん]",
+    "appearanceList": [
+      {
+        "placeName": "永遠亭",
+        "canDrop": true
+      }
+    ],
+    "cocoaList": [],
+    "notes": "\ntwitterで先行公開された時は名前がTEI姉貴だった。ソートは変わらず「た」から。\n複数のTW姉貴が居ても、離反は1回のみ。離反させられる攻撃はTKNUCでキャンセルできる技のうち攻撃性のもの。\n"
+  },
+  {
+    "imageUrl": "",
+    "name": "EIRN姉貴",
+    "hp": "240",
+    "atk": "100",
+    "def": "160",
+    "mnt": "140",
+    "cost": "130",
+    "types": [
+      "月の民"
+    ],
+    "reach": "精神",
+    "target": "2回",
+    "skillName": "蓬莱の秘薬",
+    "skillDescription": "攻撃後に仲間全員のHPを回復させる。戦闘不能者もひん死で復活する。[イラスト：古霧さん]",
+    "appearanceList": [
+      {
+        "placeName": "永遠亭",
+        "canDrop": true
+      }
+    ],
+    "cocoaList": [],
+    "notes": "\nスキル発動はEIRN姉貴が何人いても一回のバトルで一度のみ。\n"
+  },
+  {
+    "imageUrl": "",
+    "name": "ECZN帽子",
+    "hp": "190",
+    "atk": "150",
+    "def": "190",
+    "mnt": "160",
+    "cost": "90",
+    "types": [
+      "ホモ",
+      "鑑"
+    ],
+    "reach": "物理",
+    "target": "単体",
+    "skillName": "",
+    "skillDescription": "関西出身のチャラそうな男と一緒にいると何かが起こる可能性が微粒子レベルで存在している・・・？",
+    "appearanceList": [
+      {
+        "placeName": "永遠亭",
+        "canDrop": true
+      }
+    ],
+    "cocoaList": [],
+    "notes": "\nパーティに関西チャラ男が居ると、コストが軽くなる。\nまた、攻撃後に「関西ターラッタ祭り」を発動し、攻撃力と行動速度が上昇する。\n"
+  },
+  {
+    "imageUrl": "",
+    "name": "KGY姉貴",
+    "hp": "145",
+    "atk": "120",
+    "def": "150",
+    "mnt": "135",
+    "cost": "90",
+    "types": [
+      "月の民"
+    ],
+    "reach": "精神",
+    "target": "全体",
+    "skillName": "永夜返し",
+    "skillDescription": "全員の攻撃が終わると、そのバトルをリセットして最初から戦う。HPだけ引き継がれる。[イラスト：古霧さん]",
+    "appearanceList": [
+      {
+        "placeName": "永遠亭",
+        "canDrop": true
+      }
+    ],
+    "cocoaList": [],
+    "notes": "戦闘不能ユニット、および訴訟状態のユニットはすでに行動したものと数える。"
   },
   {
     "imageUrl": "",
@@ -6029,7 +6316,6 @@
       }
     ],
     "cocoaList": [],
-    "compositionList": [],
     "notes": "くまさん\nと合成することで暗黒神ラプソーンに変化する。\nKMC姉貴\nと合成することでタナトスひでに変化する。\n"
   },
   {
@@ -6064,7 +6350,6 @@
       }
     ],
     "cocoaList": [],
-    "compositionList": [],
     "notes": "スキル「ひでしね」は相手のATK補正を2倍にする。\n世界のトオノ\nの効果の対象となる。\nひで\n系統と鎌田吾作の合成で作ることができる。\nまた、土着神SWKと合成すると神々の頂点SWKへと変化する。"
   },
   {
@@ -6090,37 +6375,6 @@
       }
     ],
     "cocoaList": [],
-    "compositionList": [],
-    "notes": ""
-  },
-  {
-    "imageUrl": "",
-    "name": "破面KBTIT",
-    "hp": "150",
-    "atk": "100",
-    "def": "75",
-    "mnt": "75",
-    "cost": "60",
-    "types": [
-      "マゾ",
-      "筋肉"
-    ],
-    "reach": "精神",
-    "target": "単体",
-    "skillName": "変態マゾ筋肉",
-    "skillDescription": "攻撃を受けると30%の確率でよがり狂い、受けるダメージ分HPが回復する。味方からの攻撃は確実に回復する。",
-    "appearanceList": [
-      {
-        "placeName": "王者の聖域",
-        "canDrop": true
-      },
-      {
-        "placeName": "2014年初詣",
-        "canDrop": true
-      }
-    ],
-    "cocoaList": [],
-    "compositionList": [],
     "notes": ""
   },
   {
@@ -6162,7 +6416,35 @@
       }
     ],
     "cocoaList": [],
-    "compositionList": [],
+    "notes": ""
+  },
+  {
+    "imageUrl": "",
+    "name": "破面KBTIT",
+    "hp": "150",
+    "atk": "100",
+    "def": "75",
+    "mnt": "75",
+    "cost": "60",
+    "types": [
+      "マゾ",
+      "筋肉"
+    ],
+    "reach": "精神",
+    "target": "単体",
+    "skillName": "変態マゾ筋肉",
+    "skillDescription": "攻撃を受けると30%の確率でよがり狂い、受けるダメージ分HPが回復する。味方からの攻撃は確実に回復する。",
+    "appearanceList": [
+      {
+        "placeName": "王者の聖域",
+        "canDrop": true
+      },
+      {
+        "placeName": "2014年初詣",
+        "canDrop": true
+      }
+    ],
+    "cocoaList": [],
     "notes": ""
   },
   {
@@ -6197,7 +6479,6 @@
       }
     ],
     "cocoaList": [],
-    "compositionList": [],
     "notes": ""
   },
   {
@@ -6223,34 +6504,16 @@
         "canDrop": false
       },
       {
+        "placeName": "ダーク築地市場",
+        "canDrop": false
+      },
+      {
         "placeName": "太陽の畑",
         "canDrop": false
       }
     ],
     "cocoaList": [],
-    "compositionList": [],
     "notes": ""
-  },
-  {
-    "imageUrl": "",
-    "name": "淫夢くんUC",
-    "hp": "120",
-    "atk": "150",
-    "def": "115",
-    "mnt": "115",
-    "cost": "70",
-    "types": [
-      "聖獣",
-      "鑑"
-    ],
-    "reach": "物理",
-    "target": "単体",
-    "skillName": "王者の右手",
-    "skillDescription": "仲間にいるだけで相手COST60未満の敵ユニットは行動が遅くなる[イラスト　古霧さん]",
-    "appearanceList": [],
-    "cocoaList": [],
-    "compositionList": [],
-    "notes": "仲間にいるだけで相手COST60未満の敵ユニットは行動ゲージの増加速度が元の増加速度の6割減になる。\nTITニング\nの効果と複合すると、元の増加速度の9割減になる。\nなお、王者の聖域に出てくるものは別ユニット扱いである。\nCOST40～55のユニット\nCOST40\n大妖精\nメ・バヂス・バ\n \n \n \nCOST45\nZUN\nAY姉貴\n虐待おじさん\nチョコレート先輩\nホワイトチョコ先輩\n \nKISちゃん\nOZW\nHTT姉貴\n \n \nCOST50\nRMA姉貴\nRMLA姉貴\nFLNちゃん\nSGW急便\n殺人鬼MNR\n \nAOK\nスカーレット田中\nTNS姉貴\n \n \nCOST55\nMSTA姉貴\nYUMちゃん\nKMC姉貴\n多脚ひで\nサイクロップス先輩\n"
   },
   {
     "imageUrl": "",
@@ -6284,8 +6547,27 @@
       }
     ],
     "cocoaList": [],
-    "compositionList": [],
-    "notes": ""
+    "notes": "対象になるユニット\n多脚ひで\nRyu☆\n我那覇くん\n木吉カズヤ\nMSTA姉貴\n山崎まさゆき\n \n \n \n \nRyu☆以外は元の発動セリフの下に「アッー（世界）」が追加される。\nRyu☆はスキル名自体が「I'm so cookie☆」に、セリフも「一　転　攻　勢」に変化する。"
+  },
+  {
+    "imageUrl": "",
+    "name": "淫夢くんUC",
+    "hp": "120",
+    "atk": "150",
+    "def": "115",
+    "mnt": "115",
+    "cost": "70",
+    "types": [
+      "聖獣",
+      "鑑"
+    ],
+    "reach": "物理",
+    "target": "単体",
+    "skillName": "王者の右手",
+    "skillDescription": "仲間にいるだけで相手COST60未満の敵ユニットは行動が遅くなる[イラスト　古霧さん]",
+    "appearanceList": [],
+    "cocoaList": [],
+    "notes": "仲間にいるだけで相手COST60未満の敵ユニットは行動ゲージの増加速度が元の増加速度の6割減になる。\nTITニング\nの効果と複合すると、元の増加速度の9割減になる。\nなお、王者の聖域に出てくるものは別ユニット扱いである。\nCOST40～55のユニット\nCOST40\n大妖精\nメ・バヂス・バ\n \n \n \nCOST45\nZUN\nAY姉貴\n虐待おじさん\nチョコレート先輩\nホワイトチョコ先輩\n \nKISちゃん\nOZW\nHTT姉貴\nメタルセミ兄貴\n \nCOST50\nRMA姉貴\nRMLA姉貴\nFLNちゃん\nSGW急便\n殺人鬼MNR\n \nAOK\nスカーレット田中\nTNS姉貴\nTW姉貴\n \nCOST55\nMSTA姉貴\nYUMちゃん\nKMC姉貴\n多脚ひで\nサイクロップス先輩\n"
   },
   {
     "imageUrl": "",
@@ -6306,7 +6588,6 @@
     "skillDescription": "味方を巻き込む全体攻撃だが、味方の[糞]ユニットは逆に攻撃力がアップする。[イラスト：古霧さん]",
     "appearanceList": [],
     "cocoaList": [],
-    "compositionList": [],
     "notes": "スキルにより「糞」ユニットのATK補正を1.2倍に上昇させる。"
   },
   {
@@ -6333,7 +6614,6 @@
       }
     ],
     "cocoaList": [],
-    "compositionList": [],
     "notes": "サイクロップス先輩\nと合成することでダークドレアム先輩に変化する。"
   },
   {
@@ -6366,7 +6646,6 @@
       }
     ],
     "cocoaList": [],
-    "compositionList": [],
     "notes": "\nHPは5で固定。なお、スキル効果はカウンターには無効。\nYYKBBA\nと合成することでHPを8にすることが可能。\n暗黒神ラプソーン\nと合成することでダークドレアム先輩に変化する。\n「0ダメージ＋効果を与える攻撃」でも1ダメージ受ける。鎌田吾作、CNT姉貴、TDN、UDNG姉貴、OZW等が該当する。\n"
   },
   {
@@ -6387,7 +6666,6 @@
     "skillDescription": "3ターン目に仲間の行動ゲージを全部使って全体攻撃を放つ。",
     "appearanceList": [],
     "cocoaList": [],
-    "compositionList": [],
     "notes": "マダンテの威力はおそらく自身の攻撃力と味方全員の行動ゲージの量に依存、相手のDEFやスキルによる影響を受ける。\n簡易マダンテ威力参考\n（対戦モード・黒枠ダークドレアム先輩・相手は黒枠DEF100のキャラ・ババアポカリプス強化はなし）\n先輩のみ→380ダメージ\nピンキー姉貴\n一人と組んだ場合→505ダメージ\nピンキー姉貴二人と組んだ場合→831ダメージ\nピンキー姉貴三人と組んだ場合→1115ダメージ\n先輩のみでATKをババアポカリプス強化→465ダメージ\n"
   },
   {
@@ -6410,10 +6688,13 @@
       {
         "placeName": "ババアポカリプス",
         "canDrop": true
+      },
+      {
+        "placeName": "永遠亭",
+        "canDrop": true
       }
     ],
     "cocoaList": [],
-    "compositionList": [],
     "notes": "ZUN\nの対象になる。\n釣りキチ状態は、Type[神]、Type[死神]にもなる。\n自分は釣りキチ状態にならない。"
   },
   {
@@ -6440,7 +6721,6 @@
       }
     ],
     "cocoaList": [],
-    "compositionList": [],
     "notes": ""
   },
   {
@@ -6467,7 +6747,6 @@
       }
     ],
     "cocoaList": [],
-    "compositionList": [],
     "notes": ""
   },
   {
@@ -6489,7 +6768,6 @@
     "skillDescription": "戦闘不能になっても1ターン後に復活する。復活ついでに味方のスキル無しユニットも復活する。",
     "appearanceList": [],
     "cocoaList": [],
-    "compositionList": [],
     "notes": ""
   },
   {
@@ -6510,7 +6788,6 @@
     "skillDescription": "戦闘開始時に味方に即死級のダメージを与える屑。こんなものを崇めてはいけない（戒め）",
     "appearanceList": [],
     "cocoaList": [],
-    "compositionList": [],
     "notes": "5回目の行動時に「神の裁き」が発動する。威力半分の単体攻撃を8回ランダムに与える。\nMMR部長\n、ポイテーロ、ラヴォイル校長、サイクロップス先輩等のダメージを軽減するスキルで即死を回避できる。植木鉢くんを自力で破壊できる(破壊してしまう)ので対戦など連戦を重視しなければ瞬間火力は高い。\nKSDB姉貴\nは不可。"
   },
   {
@@ -6535,7 +6812,6 @@
       }
     ],
     "cocoaList": [],
-    "compositionList": [],
     "notes": "\n回復を返した際の攻撃は、相手の防御力やサイクロップス先輩などのメタル系スキルを無視する。\nKNN姉貴\n系は実質復活できない。\n"
   },
   {
@@ -6555,7 +6831,6 @@
     "skillDescription": "1-4回ランダムにバカバカ連呼しながら攻撃する。http://www.nicovideo.jp/watch/sm22763702",
     "appearanceList": [],
     "cocoaList": [],
-    "compositionList": [],
     "notes": "現場監督\nがいても複数回攻撃ができ、攻撃力上昇も効く。\nATKが100だがKBTIT（漫画家）の影響は受けない。\n仲間にSNE姉貴がいると3-4回ランダムに攻撃する。"
   },
   {
@@ -6582,10 +6857,13 @@
       {
         "placeName": "博麗神社境内2",
         "canDrop": true
+      },
+      {
+        "placeName": "永遠亭",
+        "canDrop": false
       }
     ],
     "cocoaList": [],
-    "compositionList": [],
     "notes": ""
   },
   {
@@ -6615,7 +6893,6 @@
       }
     ],
     "cocoaList": [],
-    "compositionList": [],
     "notes": ""
   },
   {
@@ -6641,7 +6918,6 @@
       }
     ],
     "cocoaList": [],
-    "compositionList": [],
     "notes": "パーティに複数のHZR姉貴がいても、COSTダウン効果は重複しない。"
   },
   {
@@ -6661,29 +6937,7 @@
     "skillDescription": "仲間にいるだけで味方で攻撃したりされたりすると敵が毒状態になる。[イラスト:あずみはるひとさん]",
     "appearanceList": [],
     "cocoaList": [],
-    "compositionList": [],
     "notes": "自分は毒状態にならない。"
-  },
-  {
-    "imageUrl": "",
-    "name": "TNS姉貴",
-    "hp": "70",
-    "atk": "90",
-    "def": "115",
-    "mnt": "115",
-    "cost": "50",
-    "types": [
-      "武器",
-      "マゾ"
-    ],
-    "reach": "精神",
-    "target": "単体",
-    "skillName": "キレテナーイ",
-    "skillDescription": "戦闘開始時と攻撃後にTNS以外の味方に桃を振舞い、体が丈夫になって受けるダメージが0になる。[イラスト:あずみはるひとさん]",
-    "appearanceList": [],
-    "cocoaList": [],
-    "compositionList": [],
-    "notes": "勘違いしやすいが、１ターンで「全員に」桃を振舞うわけではなく、下記のルールに従って一人に与えられる。\nスキルをTNS姉貴が発動した場合、桃で強化されていない味方の中から、次の優先順位にしたがって桃を振舞う相手を選ぶ。（同順位内はランダム）\nRNNSK兄貴\nRNNSK兄貴\n、TNS姉貴、KISちゃん、飛翔中のメ・バヂス・バ、以外のユニット\n自分以外のTNS姉貴、KISちゃん、飛翔中のメ・バヂス・バ\n自分に対しては決して桃を振舞わない。\nスキルをZUNが発動した場合、桃で強化されていない味方の中から、次の優先順位にしたがって桃を振舞う相手を選ぶ。（同順位内はランダム）\nRNNSK兄貴\nRNNSK兄貴\n、TNS姉貴、KISちゃん、飛翔中のメ・バヂス・バ、以外のユニット\nTNS姉貴\n、KISちゃん、飛翔中のメ・バヂス・バ\n自分に対しても普通に桃を振舞う。"
   },
   {
     "imageUrl": "",
@@ -6703,8 +6957,27 @@
     "skillDescription": "戦闘開始時にCost70以下の仲間の攻撃を念写して再現する。念写なのでダメージは0。[イラスト:あずみはるひとさん]",
     "appearanceList": [],
     "cocoaList": [],
-    "compositionList": [],
-    "notes": "仲間の行動ゲージをMAXにすることで最速で行動を起こさせる。\n（メ・バヂス・バが仲間に居た場合、開幕で飛翔する）\nこの効果では便乗は発動しない。\n効果範囲は以下の通り。\nCOST40～55は淫夢くんUCを参考。\nCOST60、65はNRK姉貴を参考。\nCOST70のユニット\nCOST70\nバレンタインRIM\nバレンタインUDK\nバレンタインALC\nKSDB姉貴\nEIK姉貴\n \n変態糞親父\n変態糞娘\nAKYS\n山崎まさゆき\n課長\n \nポイテーロ\n金泰均\n鬼畜教師KN\nHTN\n我那覇くん\n \nKNN姉貴\nKBTIT（詐欺師）\nOGRSYN\nセーター男・小森\nSTR姉貴\n \n超人サイバーZ 1号\n超人サイバーZ 2号\n木吉カズヤ\n淫夢くんUC\nKBTIT（花嫁）\n \nUDNG姉貴\n野獣先輩\n医師TRN\nONDISK\nKBSトリオ「B」\n \n貴乃信\n \n \n \n \n"
+    "notes": "仲間の行動ゲージをMAXにすることで最速で行動を起こさせる。\n（メ・バヂス・バが仲間に居た場合、開幕で飛翔する）\nこの効果では便乗は発動しない。\n効果範囲は以下の通り。\nCOST40～55は淫夢くんUCを参考。\nCOST60、65はNRK姉貴を参考。\nCOST70のユニット\nCOST70\nバレンタインRIM\nバレンタインUDK\nバレンタインALC\nKSDB姉貴\nEIK姉貴\n \n変態糞親父\n変態糞娘\nAKYS\n山崎まさゆき\n課長\n \nポイテーロ\n金泰均\n鬼畜教師KN\nHTN\n我那覇くん\n \nKNN姉貴\nKBTIT（詐欺師）\nOGRSYN\nセーター男・小森\nSTR姉貴\n \n超人サイバーZ 1号\n超人サイバーZ 2号\n木吉カズヤ\n淫夢くんUC\nKBTIT（花嫁）\n \nUDNG姉貴\n野獣先輩\n医師TRN\nONDISK\nKBSトリオ「B」\n \n貴乃信\n淫夢くんUC(ボス)\n \n \n \n"
+  },
+  {
+    "imageUrl": "",
+    "name": "TNS姉貴",
+    "hp": "70",
+    "atk": "90",
+    "def": "115",
+    "mnt": "115",
+    "cost": "50",
+    "types": [
+      "武器",
+      "マゾ"
+    ],
+    "reach": "精神",
+    "target": "単体",
+    "skillName": "キレテナーイ",
+    "skillDescription": "戦闘開始時と攻撃後にTNS以外の味方に桃を振舞い、体が丈夫になって受けるダメージが0になる。[イラスト:あずみはるひとさん]",
+    "appearanceList": [],
+    "cocoaList": [],
+    "notes": "勘違いしやすいが、１ターンで「全員に」桃を振舞うわけではなく、下記のルールに従って一人に与えられる。\nスキルをTNS姉貴が発動した場合、桃で強化されていない味方の中から、次の優先順位にしたがって桃を振舞う相手を選ぶ。（同順位内はランダム）\nRNNSK兄貴\nRNNSK兄貴\n、TNS姉貴、KISちゃん、飛翔中のメ・バヂス・バ、以外のユニット\n自分以外のTNS姉貴、KISちゃん、飛翔中のメ・バヂス・バ\n自分に対しては決して桃を振舞わない。\nスキルをZUNが発動した場合、桃で強化されていない味方の中から、次の優先順位にしたがって桃を振舞う相手を選ぶ。（同順位内はランダム）\nRNNSK兄貴\nRNNSK兄貴\n、TNS姉貴、KISちゃん、飛翔中のメ・バヂス・バ、以外のユニット\nTNS姉貴\n、KISちゃん、飛翔中のメ・バヂス・バ\n自分に対しても普通に桃を振舞う。"
   },
   {
     "imageUrl": "",
@@ -6720,10 +6993,9 @@
     "reach": "物理",
     "target": "単体",
     "skillName": "スポンジ（仮）",
-    "skillDescription": "ふんどし姿で味方の前に飛び出す性質上、真っ先に敵から攻撃される。\n[イラスト:たけのこlv9さん]",
+    "skillDescription": "ふんどし姿で味方の前に飛び出す性質上、真っ先に敵から攻撃される。[イラスト:たけのこlv9さん]",
     "appearanceList": [],
     "cocoaList": [],
-    "compositionList": [],
     "notes": ""
   }
 ]
