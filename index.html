@@ -345,7 +345,7 @@
 								<h4><span class="glyphicon glyphicon-map-marker"></span>出現クエスト</h4>
 								<ul class="appearance list-group">
 									<li class="list-group-item" ng-repeat="place in item.appearanceList" ng-class="{isFinished: isEventFinished(place.placeName), cantDrop: !place.canDrop}">
-										<span class="placeName" >{{place.placeName}}<a class="wikiLink" href="{{wikiUrl}}{{place.placeName}}" target="_blank"><span class="glyphicon glyphicon-new-window"></span></a></span>
+										<span class="placeName" >{{place.placeName}}<span ng-if="!!place.subPlaceName">（{{place.subPlaceName}}）</span><a class="wikiLink" href="{{wikiUrl}}{{place.placeName}}" target="_blank"><span class="glyphicon glyphicon-new-window"></span></a></span>
 										<div>
 											<span ng-if="!place.canDrop" class="cantDropLabel label label-default">ドロップなし</span>
 											<span ng-if="isEventFinished(place.placeName)" class="isFinishedLabel label label-default">配信終了</span>
@@ -368,10 +368,11 @@
 								</ul>
 							</div> -->
 							<div class="cocoaBox box col-xs-12 col-sm-4 col-sm-offset-8">
-								<h4><span class="glyphicon glyphicon-certificate"></span>必要クォクォア</h4>
+								<h4><span class="glyphicon glyphicon-certificate"></span>新規雇用</h4>
 								<ul class="cocoaList list-group">
-									<li class="list-group-item" ng-repeat="cocoa in item.cocoaList">{{cocoa.min}}〜{{cocoa.max}}</li>
-									<li class="list-group-item" ng-if="item.cocoaList.length <= 0">新規採用不可</li>
+									<li class="list-group-item" ng-repeat="cocoa in item.cocoaList">クォクォア{{cocoa.min}}〜{{cocoa.max}}個</li>
+									<li class="list-group-item" ng-if="item.isSuwaFes">すわフェス</li>
+									<li class="list-group-item" ng-if="item.cocoaList.length <= 0 && !item.isSuwaFes">不可</li>
 								</ul>
 							</div>
 						</div>

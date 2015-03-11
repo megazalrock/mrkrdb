@@ -129,7 +129,7 @@
 					break;
 					case 'zun':
 						filterFunction = function(item){
-							return isCookieOnly(item.name) && parseFloat(item.cost) <= 60;
+							return isZun(item.name);
 						};
 					break;
 					case 'noskill':
@@ -165,6 +165,10 @@
 
 		function isCookieOnly(name){
 			return $.inArray(name, $scope.gamedata.cookieOnlyList) !== -1;
+		}
+
+		function isZun(name){
+			return $.inArray(name, $scope.gamedata.zunList) !== -1;
 		}
 
 		$scope.resetSearch = function(){
