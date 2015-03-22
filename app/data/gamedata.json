@@ -42,7 +42,11 @@
 		"汚物",
 		"死神",
 		"月の民",
-		"ストーカー"
+		"ストーカー",
+		"僧",
+		"UNEI",
+		"教師",
+		"まりな"
 	],
 	"eventList": {
 		"妖怪の森": {
@@ -120,6 +124,36 @@
 		"古代都市キモティカ": {
 			"isFinished": false
 		},
+		"山下公園": {
+			"isFinished": false
+		},
+		"ニコファーレ": {
+			"isFinished": false
+		},
+		"ダーク築地市場": {
+			"isFinished": false
+		},
+		"ガンボリア宮殿": {
+			"isFinished": false
+		},
+		"ニコニコ本社(クエスト)": {
+			"isFinished": false
+		},
+		"アリスの館": {
+			"isFinished": false
+		},
+		"アリスの館～第1階層～": {
+			"isFinished": false
+		},
+		"アリスの館～第2階層～": {
+			"isFinished": false
+		},
+		"アリスの館～第3階層～": {
+			"isFinished": false
+		},
+		"アリスの部屋": {
+			"isFinished": false
+		},
 		"紅魔館地下室": {
 			"isFinished": false
 		},
@@ -129,23 +163,17 @@
 		"セミ兄貴の森": {
 			"isFinished": false
 		},
-		"岡山城": {
-			"isFinished": false
-		},
-		"白玉楼": {
-			"isFinished": false
-		},
-		"下北沢裁判所": {
-			"isFinished": false
-		},
-		"ババアポカリプス": {
-			"isFinished": false
-		},
 		"2014年初詣": {
 			"isFinished": true
 		},
 		"地霊殿": {
 			"isFinished": true
+		},
+		"白玉楼": {
+			"isFinished": true
+		},
+		"岡山城": {
+			"isFinished": false
 		},
 		"博麗神社": {
 			"isFinished": true
@@ -157,6 +185,9 @@
 			"isFinished": true
 		},
 		"博麗神社境内": {
+			"isFinished": true
+		},
+		"下北沢裁判所": {
 			"isFinished": true
 		},
 		"ひで祭り会場": {
@@ -174,19 +205,43 @@
 		"博麗神社境内2": {
 			"isFinished": true
 		},
-		"山下公園": {
+		"ババアポカリプス": {
 			"isFinished": false
 		},
 		"紅魔館会議室": {
 			"isFinished": true
 		},
-		"ニコファーレ": {
+		"永遠亭": {
+			"isFinished": true
+		},
+		"GW神社1日目": {
+			"isFinished": true
+		},
+		"GW神社2日目": {
+			"isFinished": true
+		},
+		"GW神社3日目": {
+			"isFinished": true
+		},
+		"GW神社4日目": {
+			"isFinished": true
+		},
+		"GW神社5日目": {
+			"isFinished": true
+		},
+		"黄金のりんご": {
+			"isFinished": true
+		},
+		"博麗神社例大祭": {
+			"isFinished": true
+		},
+		"かんなの湯": {
 			"isFinished": false
 		},
-		"ダーク築地市場":{
+		"博麗事務所": {
 			"isFinished": false
 		},
-		"永遠亭":{
+		"ボスラッシュ企画": {
 			"isFinished": false
 		}
 	},
@@ -212,5 +267,24 @@
 		"釣りキチおばさん",
 		"UDNG姉貴",
 		"AY姉貴"
+	],
+	"zunList": [
+		"RIM姉貴",
+		"UDK姉貴",
+		"ALC姉貴",
+		"MSTA姉貴",
+		"TNS姉貴",
+		"YUMちゃん",
+		"KMC姉貴",
+		"HTT姉貴",
+		"AY姉貴",
+		"SKY姉貴",
+		"土着神SWK",
+		"UTH",
+		"FLNちゃん",
+		"RMLA姉貴",
+		"SIK姉貴",
+		"釣りキチおばさん",
+		"MMJ姉貴"
 	]
 }

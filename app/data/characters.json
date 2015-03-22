@@ -20,43 +20,13 @@
         "canDrop": false
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "71",
         "max": "100"
       }
-    ],
-    "notes": "味方からの攻撃が100%で0ダメージにする。\nチョコレート先輩\nとの合成でバレンタインRIMになる。\nホワイトチョコ先輩\nでは不可。"
-  },
-  {
-    "imageUrl": "",
-    "name": "ALC姉貴",
-    "hp": "100",
-    "atk": "60",
-    "def": "120",
-    "mnt": "120",
-    "cost": "60",
-    "types": [
-      "鑑",
-      "魔法使い"
-    ],
-    "reach": "物理",
-    "target": "単体",
-    "skillName": "ブラウニー",
-    "skillDescription": "攻撃後にALC姉貴のしっとりしていてベタつかないブラウニーを誰かに食べさせて味方のHPを回復",
-    "appearanceList": [
-      {
-        "placeName": "博麗神社境内2",
-        "canDrop": false
-      }
-    ],
-    "cocoaList": [
-      {
-        "min": "71",
-        "max": "100"
-      }
-    ],
-    "notes": "チョコレート先輩\nと合成することにより、バレンタインALCに変化する。\nホワイトチョコ先輩\nでは不可。"
+    ]
   },
   {
     "imageUrl": "",
@@ -78,15 +48,49 @@
       {
         "placeName": "博麗神社境内2",
         "canDrop": false
+      },
+      {
+        "placeName": "ボスラッシュ企画",
+        "canDrop": false
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "71",
         "max": "100"
       }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "name": "ALC姉貴",
+    "hp": "100",
+    "atk": "60",
+    "def": "120",
+    "mnt": "120",
+    "cost": "60",
+    "types": [
+      "鑑",
+      "魔法使い"
     ],
-    "notes": "チョコレート先輩\nとの合成でバレンタインUDKが完成。\nホワイトチョコ先輩\nではできない。"
+    "reach": "物理",
+    "target": "単体",
+    "skillName": "ブラウニー",
+    "skillDescription": "攻撃後にALC姉貴の作ったしっとりしていてベタつかないブラウニーを誰かに食べさせて味方のHPを回復",
+    "appearanceList": [
+      {
+        "placeName": "博麗神社境内2",
+        "canDrop": false
+      }
+    ],
+    "isSuwaFes": false,
+    "cocoaList": [
+      {
+        "min": "71",
+        "max": "100"
+      }
+    ]
   },
   {
     "imageUrl": "",
@@ -129,17 +133,43 @@
         "canDrop": true
       },
       {
+        "placeName": "アリスの部屋",
+        "canDrop": true
+      },
+      {
+        "placeName": "紅魔館地下室",
+        "canDrop": true
+      },
+      {
+        "placeName": "地霊殿",
+        "canDrop": true
+      },
+      {
+        "placeName": "博麗神社",
+        "canDrop": true
+      },
+      {
+        "placeName": "霧雨屋",
+        "canDrop": true
+      },
+      {
         "placeName": "永遠亭",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "博麗神社例大祭",
+        "subPlaceName": "表",
         "canDrop": true
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "0",
         "max": "1"
       }
-    ],
-    "notes": "メ・バヂス・バ\nやOZWと並び、現時点で最速のユニット。"
+    ]
   },
   {
     "imageUrl": "",
@@ -179,7 +209,23 @@
         "canDrop": true
       },
       {
+        "placeName": "水無川",
+        "canDrop": true
+      },
+      {
+        "placeName": "工事現場",
+        "canDrop": true
+      },
+      {
         "placeName": "クッキーレストラン",
+        "canDrop": true
+      },
+      {
+        "placeName": "アリスの館",
+        "canDrop": true
+      },
+      {
+        "placeName": "アリスの部屋",
         "canDrop": true
       },
       {
@@ -187,8 +233,16 @@
         "canDrop": true
       },
       {
+        "placeName": "2014年初詣",
+        "canDrop": true
+      },
+      {
         "placeName": "霧雨屋",
         "canDrop": true
+      },
+      {
+        "placeName": "博麗神社境内",
+        "canDrop": false
       },
       {
         "placeName": "人間の里2",
@@ -196,16 +250,17 @@
       },
       {
         "placeName": "永遠亭",
+        "subPlaceName": "表",
         "canDrop": true
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "0",
         "max": "1"
       }
-    ],
-    "notes": "CRNちゃん\nと同時に出すと、\n全体攻撃の上に相手の全能力をダウンさせる「神の棒読み」が発動する。"
+    ]
   },
   {
     "imageUrl": "",
@@ -249,11 +304,19 @@
         "canDrop": true
       },
       {
-        "placeName": "2014年初詣",
+        "placeName": "アリスの館",
+        "canDrop": true
+      },
+      {
+        "placeName": "アリスの部屋",
         "canDrop": true
       },
       {
         "placeName": "紅魔館地下室",
+        "canDrop": true
+      },
+      {
+        "placeName": "2014年初詣",
         "canDrop": true
       },
       {
@@ -266,7 +329,7 @@
       },
       {
         "placeName": "博麗神社境内",
-        "canDrop": true
+        "canDrop": false
       },
       {
         "placeName": "人間の里2",
@@ -274,16 +337,17 @@
       },
       {
         "placeName": "永遠亭",
+        "subPlaceName": "表",
         "canDrop": true
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "0",
         "max": "1"
       }
-    ],
-    "notes": "RMA姉貴\nと同時に出すと、\n全体攻撃の上に相手の全能力をダウンさせる「神の棒読み」が発動する。"
+    ]
   },
   {
     "imageUrl": "",
@@ -319,15 +383,27 @@
         "canDrop": true
       },
       {
-        "placeName": "紅魔館地下室",
-        "canDrop": true
-      },
-      {
         "placeName": "異界の扉",
         "canDrop": true
       },
       {
         "placeName": "水無川",
+        "canDrop": true
+      },
+      {
+        "placeName": "王者の聖域",
+        "canDrop": true
+      },
+      {
+        "placeName": "ガンボリア宮殿",
+        "canDrop": true
+      },
+      {
+        "placeName": "紅魔館地下室",
+        "canDrop": true
+      },
+      {
+        "placeName": "2014年初詣",
         "canDrop": true
       },
       {
@@ -337,15 +413,29 @@
       {
         "placeName": "白玉楼",
         "canDrop": true
+      },
+      {
+        "placeName": "GW神社1日目",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社1日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "ボスラッシュ企画",
+        "canDrop": false
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "0",
         "max": "1"
       }
-    ],
-    "notes": "ver1.56でスキル修正。"
+    ]
   },
   {
     "imageUrl": "",
@@ -397,16 +487,16 @@
         "canDrop": true
       },
       {
-        "placeName": "下北沢裁判所",
-        "canDrop": false
-      },
-      {
         "placeName": "博麗神社",
         "canDrop": true
       },
       {
         "placeName": "博麗神社境内",
-        "canDrop": true
+        "canDrop": false
+      },
+      {
+        "placeName": "下北沢裁判所",
+        "canDrop": false
       },
       {
         "placeName": "太陽の畑",
@@ -414,16 +504,27 @@
       },
       {
         "placeName": "永遠亭",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社3日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社4日目",
+        "subPlaceName": "表",
         "canDrop": true
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "0",
         "max": "1"
       }
-    ],
-    "notes": "ver1.26にてスキル追加。\n「REACHが精神」である味方のATK補正を1.5倍にする。"
+    ]
   },
   {
     "imageUrl": "",
@@ -454,19 +555,15 @@
         "canDrop": true
       },
       {
+        "placeName": "異界の扉",
+        "canDrop": true
+      },
+      {
         "placeName": "紅魔館地下室",
         "canDrop": true
       },
       {
         "placeName": "地霊殿",
-        "canDrop": true
-      },
-      {
-        "placeName": "下北沢裁判所",
-        "canDrop": false
-      },
-      {
-        "placeName": "博麗神社",
         "canDrop": true
       },
       {
@@ -478,17 +575,26 @@
         "canDrop": true
       },
       {
+        "placeName": "下北沢裁判所",
+        "canDrop": false
+      },
+      {
         "placeName": "永遠亭",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "博麗事務所",
         "canDrop": true
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "0",
         "max": "1"
       }
-    ],
-    "notes": ""
+    ]
   },
   {
     "imageUrl": "",
@@ -499,7 +605,8 @@
     "mnt": "85",
     "cost": "65",
     "types": [
-      "妖怪"
+      "妖怪",
+      "ドラゴン"
     ],
     "reach": "物理",
     "target": "単体",
@@ -508,7 +615,7 @@
     "appearanceList": [
       {
         "placeName": "紅魔館前広場",
-        "canDrop": true
+        "canDrop": false
       },
       {
         "placeName": "紅魔館図書館",
@@ -560,16 +667,22 @@
       },
       {
         "placeName": "永遠亭",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "博麗神社例大祭",
+        "subPlaceName": "表",
         "canDrop": true
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "1",
         "max": "1"
       }
-    ],
-    "notes": ""
+    ]
   },
   {
     "imageUrl": "",
@@ -586,7 +699,7 @@
     "reach": "精神",
     "target": "単体",
     "skillName": "私を巻き込まないで下さい！",
-    "skillDescription": "全体攻撃によるダメージを自分だけ大幅に減らす。次の攻撃でどすこいしながら全体攻撃する。",
+    "skillDescription": "相手からの全体攻撃によるダメージを自分だけ大幅に減らす。次の攻撃でどすこいしながら全体攻撃する。",
     "appearanceList": [
       {
         "placeName": "紅魔館図書館",
@@ -609,6 +722,14 @@
         "canDrop": true
       },
       {
+        "placeName": "ガンボリア宮殿",
+        "canDrop": true
+      },
+      {
+        "placeName": "アリスの部屋",
+        "canDrop": true
+      },
+      {
         "placeName": "紅魔館地下室",
         "canDrop": true
       },
@@ -626,16 +747,17 @@
       },
       {
         "placeName": "永遠亭",
+        "subPlaceName": "表",
         "canDrop": true
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "0",
         "max": "1"
       }
-    ],
-    "notes": "全体攻撃を受けると行動ゲージが大きく溜まり、次の行動で全体攻撃する。\nver1.74までは全体攻撃を受けるとゲージが最大まで溜まる仕様のためお互いにKSDB姉貴が存在するとどちらかが全滅するまで永遠にこの効果を発動し続ける(通称大場所)仕様だった。\n1.75からどすこいでは行動ゲージが溜まらない様になった。YUK姉貴のお返しどすこいでも同様。\nまた、ひでと合成するとデビルひでに変化する。"
+    ]
   },
   {
     "imageUrl": "",
@@ -655,7 +777,7 @@
     "appearanceList": [
       {
         "placeName": "紅魔館図書館",
-        "canDrop": true
+        "canDrop": false
       },
       {
         "placeName": "紅魔館主の間",
@@ -667,6 +789,10 @@
       },
       {
         "placeName": "異界の扉",
+        "canDrop": true
+      },
+      {
+        "placeName": "水無川",
         "canDrop": true
       },
       {
@@ -682,6 +808,10 @@
         "canDrop": true
       },
       {
+        "placeName": "山下公園",
+        "canDrop": true
+      },
+      {
         "placeName": "紅魔館地下室",
         "canDrop": true
       },
@@ -690,11 +820,11 @@
         "canDrop": true
       },
       {
-        "placeName": "白玉楼",
+        "placeName": "地霊殿",
         "canDrop": true
       },
       {
-        "placeName": "地霊殿",
+        "placeName": "白玉楼",
         "canDrop": true
       },
       {
@@ -706,17 +836,41 @@
         "canDrop": true
       },
       {
+        "placeName": "博麗神社境内",
+        "canDrop": false
+      },
+      {
         "placeName": "永遠亭",
+        "subPlaceName": "表",
         "canDrop": true
+      },
+      {
+        "placeName": "GW神社1日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社2日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "博麗神社例大祭",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "かんなの湯",
+        "canDrop": false
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "1",
         "max": "1"
       }
-    ],
-    "notes": ""
+    ]
   },
   {
     "imageUrl": "",
@@ -760,7 +914,15 @@
         "canDrop": true
       },
       {
+        "placeName": "アリスの部屋",
+        "canDrop": true
+      },
+      {
         "placeName": "紅魔館地下室",
+        "canDrop": true
+      },
+      {
+        "placeName": "アリスの家",
         "canDrop": true
       },
       {
@@ -768,25 +930,36 @@
         "canDrop": false
       },
       {
-        "placeName": "アリスの家",
-        "canDrop": true
-      },
-      {
         "placeName": "太陽の畑",
         "canDrop": true
       },
       {
         "placeName": "永遠亭",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "永遠亭",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "博麗神社例大祭",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "博麗事務所",
         "canDrop": true
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "0",
         "max": "1"
       }
-    ],
-    "notes": "ver1.5にてスキル追加。\nファイナルマスタースパーク\nをお返しするとセリフがカットインをはみ出してしまう。"
+    ]
   },
   {
     "imageUrl": "",
@@ -808,7 +981,7 @@
     "appearanceList": [
       {
         "placeName": "紅魔館主の間",
-        "canDrop": true
+        "canDrop": false
       },
       {
         "placeName": "紅魔館",
@@ -831,11 +1004,11 @@
         "canDrop": true
       },
       {
-        "placeName": "白玉楼",
+        "placeName": "地霊殿",
         "canDrop": true
       },
       {
-        "placeName": "地霊殿",
+        "placeName": "白玉楼",
         "canDrop": true
       },
       {
@@ -856,16 +1029,22 @@
       },
       {
         "placeName": "永遠亭",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社1日目",
+        "subPlaceName": "表",
         "canDrop": true
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "1",
         "max": "1"
       }
-    ],
-    "notes": "攻撃と同時に攻撃相手の行動ゲージを現在の1/3に減少させる。\nまた、イワナ僧侶と合成すると釣りキチおばさんに変化する。"
+    ]
   },
   {
     "imageUrl": "",
@@ -889,6 +1068,10 @@
         "canDrop": true
       },
       {
+        "placeName": "アリスの部屋",
+        "canDrop": true
+      },
+      {
         "placeName": "2014年初詣",
         "canDrop": true
       },
@@ -910,16 +1093,32 @@
       },
       {
         "placeName": "永遠亭",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社1日目",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社1日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "博麗神社例大祭",
+        "subPlaceName": "表",
         "canDrop": true
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "1",
         "max": "1"
       }
-    ],
-    "notes": "ver1.58でスキル強化（告知・説明文変更はver1.62更新時）。"
+    ]
   },
   {
     "imageUrl": "",
@@ -939,6 +1138,10 @@
     "skillDescription": "攻撃した相手の守備力を下げる。",
     "appearanceList": [
       {
+        "placeName": "アリスの部屋",
+        "canDrop": true
+      },
+      {
         "placeName": "紅魔館地下室",
         "canDrop": true
       },
@@ -953,10 +1156,38 @@
       {
         "placeName": "紅魔館調理室",
         "canDrop": true
+      },
+      {
+        "placeName": "GW神社1日目",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社1日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社5日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "黄金のりんご",
+        "canDrop": false
+      },
+      {
+        "placeName": "博麗神社例大祭",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "ボスラッシュ企画",
+        "canDrop": false
       }
     ],
-    "cocoaList": [],
-    "notes": "攻撃した相手のDEF補正値を0.3倍にする。"
+    "isSuwaFes": false,
+    "cocoaList": []
   },
   {
     "imageUrl": "",
@@ -974,7 +1205,7 @@
     "reach": "物理",
     "target": "単体",
     "skillName": "ホモの紅茶",
-    "skillDescription": "攻撃した相手を昏睡状態にする。（昏睡状態のユニットはしばらく行動出来ない）昏睡状態の相手にはダメージ2倍。",
+    "skillDescription": "攻撃した相手を昏睡状態にする。(昏睡状態のユニットはしばらく行動出来ない)昏睡状態の相手にはダメージ2倍。",
     "appearanceList": [
       {
         "placeName": "異界の扉",
@@ -1013,11 +1244,15 @@
         "canDrop": true
       },
       {
-        "placeName": "2014年初詣",
+        "placeName": "ガンボリア宮殿",
         "canDrop": true
       },
       {
-        "placeName": "白玉楼",
+        "placeName": "アリスの部屋",
+        "canDrop": true
+      },
+      {
+        "placeName": "2014年初詣",
         "canDrop": true
       },
       {
@@ -1025,17 +1260,35 @@
         "canDrop": true
       },
       {
+        "placeName": "白玉楼",
+        "canDrop": true
+      },
+      {
         "placeName": "紅魔館会議室",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社2日目",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社2日目",
+        "subPlaceName": "裏",
         "canDrop": true
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "2",
         "max": "10"
+      },
+      {
+        "min": "21",
+        "max": "50"
       }
-    ],
-    "notes": "\n昏睡効果は偶数ターンのみ発動する。\n逝かせ隊\nと合成することでサイクロップス先輩に変化する。\n"
+    ]
   },
   {
     "imageUrl": "",
@@ -1078,15 +1331,20 @@
       {
         "placeName": "紅魔館会議室",
         "canDrop": true
+      },
+      {
+        "placeName": "GW神社2日目",
+        "subPlaceName": "表",
+        "canDrop": true
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "2",
         "max": "20"
       }
-    ],
-    "notes": "\n「山崎まさゆき」と合成すると「世界のトオノ」に変化する。\n"
+    ]
   },
   {
     "imageUrl": "",
@@ -1139,13 +1397,13 @@
         "canDrop": true
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "2",
         "max": "20"
       }
-    ],
-    "notes": "GO\nと合成すると創造神KMRに変化する。\n虐待おじさん\nと合成すると超覚醒KMRに変化する。\n"
+    ]
   },
   {
     "imageUrl": "",
@@ -1163,15 +1421,19 @@
     "reach": "物理",
     "target": "単体",
     "skillName": "便乗",
-    "skillDescription": "味方の誰かが攻撃すると便乗して追撃する。（攻撃後に追加効果の無いユニットの攻撃にのみ反応する。MURが複数居ても1人だけ。）",
+    "skillDescription": "味方の誰かが攻撃すると便乗して追撃する。(攻撃後に追加効果の無いユニットの攻撃にのみ反応する。MURが複数人居ても1人だけ。)",
     "appearanceList": [
       {
         "placeName": "異界の扉",
         "canDrop": false
       },
       {
+        "placeName": "人間の里",
+        "canDrop": false
+      },
+      {
         "placeName": "新宿調教センター",
-        "canDrop": true
+        "canDrop": false
       },
       {
         "placeName": "SMバーひらの",
@@ -1179,7 +1441,7 @@
       },
       {
         "placeName": "迫真空手道場",
-        "canDrop": true
+        "canDrop": false
       },
       {
         "placeName": "ヒゲクマの館",
@@ -1210,6 +1472,14 @@
         "canDrop": true
       },
       {
+        "placeName": "ガンボリア宮殿",
+        "canDrop": true
+      },
+      {
+        "placeName": "ニコニコ本社(クエスト)",
+        "canDrop": true
+      },
+      {
         "placeName": "2014年初詣",
         "canDrop": true
       },
@@ -1224,15 +1494,24 @@
       {
         "placeName": "紅魔館会議室",
         "canDrop": true
+      },
+      {
+        "placeName": "GW神社4日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "ボスラッシュ企画",
+        "canDrop": false
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "21",
         "max": "50"
       }
-    ],
-    "notes": "中野くん\nと合成することでMUR肉に変化する。\n"
+    ]
   },
   {
     "imageUrl": "",
@@ -1296,13 +1575,13 @@
         "canDrop": true
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "2",
         "max": "100"
       }
-    ],
-    "notes": "KSDB姉貴\nと合成するとデビルひで、鎌田吾作と合成すると多脚ひでに変化する。\n　名前にひでとあるユニットは全てこの変化ルールが適用される。"
+    ]
   },
   {
     "imageUrl": "",
@@ -1311,7 +1590,7 @@
     "atk": "170",
     "def": "160",
     "mnt": "160",
-    "cost": "80",
+    "cost": "90",
     "types": [
       "ホモ",
       "鑑"
@@ -1346,17 +1625,39 @@
         "canDrop": true
       },
       {
+        "placeName": "ガンボリア宮殿",
+        "canDrop": true
+      },
+      {
+        "placeName": "アリスの館～第2階層～",
+        "canDrop": true
+      },
+      {
         "placeName": "岡山城",
         "canDrop": true
+      },
+      {
+        "placeName": "GW神社2日目",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "博麗神社例大祭",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "かんなの湯",
+        "canDrop": false
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "2",
         "max": "30"
       }
-    ],
-    "notes": "\nパーティにECZN帽子が居ると、コストが軽くなる。\nまた、攻撃後に「関西ターラッタ祭り」を発動し、行動速度上昇+全体回復を行う。\n"
+    ]
   },
   {
     "imageUrl": "",
@@ -1414,15 +1715,19 @@
       {
         "placeName": "2014年初詣",
         "canDrop": true
+      },
+      {
+        "placeName": "黄金のりんご",
+        "canDrop": false
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "2",
         "max": "20"
       }
-    ],
-    "notes": "イワナ僧侶\n、YYK姉貴、サイクロップス先輩、メタルセミ兄貴、ポイテーロ、MMR部長、鬼畜教師KN、AKYS、TDNコスギ、MIRN姉貴等のスキルを無視できるので便利。\nなおKNN姉貴は無効化できない。\nまた、ひでのカウントを増やさない効果もある。しかし課長はカウントする。"
+    ]
   },
   {
     "imageUrl": "",
@@ -1478,13 +1783,13 @@
         "canDrop": true
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "2",
         "max": "50"
       }
-    ],
-    "notes": "味方一人のHPを回復しATK補正を1.2倍にする。\n世界のトオノ\nのスキル対象ではない。"
+    ]
   },
   {
     "imageUrl": "",
@@ -1524,21 +1829,29 @@
         "canDrop": true
       },
       {
+        "placeName": "聖バビロン大学病院",
+        "canDrop": true
+      },
+      {
         "placeName": "スキマワールド",
         "canDrop": true
       },
       {
         "placeName": "工事現場",
+        "canDrop": false
+      },
+      {
+        "placeName": "2014年初詣",
         "canDrop": true
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "2",
         "max": "20"
       }
-    ],
-    "notes": "Ver1.50よりスキル追加。それに伴い攻撃力が大幅に弱体化。(175→100)"
+    ]
   },
   {
     "imageUrl": "",
@@ -1559,7 +1872,7 @@
     "appearanceList": [
       {
         "placeName": "人間の里",
-        "canDrop": true
+        "canDrop": false
       },
       {
         "placeName": "邪神の塔",
@@ -1571,7 +1884,7 @@
       },
       {
         "placeName": "工事現場",
-        "canDrop": true
+        "canDrop": false
       },
       {
         "placeName": "山下公園",
@@ -1579,6 +1892,18 @@
       },
       {
         "placeName": "ニコファーレ",
+        "canDrop": true
+      },
+      {
+        "placeName": "ガンボリア宮殿",
+        "canDrop": true
+      },
+      {
+        "placeName": "アリスの館～第3階層～",
+        "canDrop": true
+      },
+      {
+        "placeName": "アリスの部屋",
         "canDrop": true
       },
       {
@@ -1599,16 +1924,31 @@
       },
       {
         "placeName": "永遠亭",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社2日目",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社5日目",
+        "subPlaceName": "表",
         "canDrop": true
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "2",
         "max": "10"
+      },
+      {
+        "min": "21",
+        "max": "50"
       }
-    ],
-    "notes": "\nCOST80以上のユニットは初回行動時のみCOSTが40溜まった状態で始まる\nCOST80以上のユニット\nCOST80\nPCLY姉貴\nひで\n関西チャラ男\nTNOK\nKBSトリオ「S」\n \nメガデス怪人\nイニ義893\nヒゲクマ調教師\nGO\n一般通過爺\n \nTDNコスギ\n須藤さん\n井上カブレラ\nホリ・トオル\n観葉植物くん\n \nロマン爺\nYUK姉貴\n現場監督\nDB\nTITニング\n \nOGMM\nITI\nインパルスITKR\nRNK姉貴\nHTNこころ\n※\n \n花嫁と化した先輩\n※\nKNKBBA\n超覚醒KMR\n世界のトオノ\n関西ナース\n \n邪神GO\n※\nVAN様\n \n \n \nCOST85\nいかりやビオランテ\n \n \n \n \nCOST90\nくまさん\nビリー兄貴\nTIS姉貴\nEIRNBBA\nタナトスひで\n \nダークドレアム先輩\n根流し漁師\n神々の頂点SWK\n剛竜馬\nECZN帽子\n \nKGY姉貴\n \n \n \n \nCOST95\nYKR姉貴\n \n \n \n \nCOST100\n中野くん\n軍畑先輩\n篤太郎\nKBTIT（漫画家）\n風神KNK\n \nかんなフェニックス\nRyu☆\n \n \n \nCOST110\nYYK姉貴\nYYKBBA\n \n \n \nCOST120\nHZR姉貴\n花嫁ピンキー\n \n \n \nCOST125\n暗黒神ラプソーン\n \n \n \n \nCOST130\n創造神KMR\nEIRN姉貴\n \n \n \nCOST150\n邪神GO(ボス)\n \n \n \n \nCOST250\nMUR大先輩\nハガー市長\n \n \n \nCOST360\nピンキー姉貴\n池田茂美\n \n \n \n※最初にスキルで行動ゲージを消費するので実質効果なし（HTNこころは2体目以降では効果あり）\n"
+    ]
   },
   {
     "imageUrl": "",
@@ -1625,7 +1965,7 @@
     "reach": "物理",
     "target": "単体",
     "skillName": "",
-    "skillDescription": "KBSトリオが3人そろうと何かが起きる可能性が微粒子レベルで存在している…？",
+    "skillDescription": "KBSトリオが3人揃うと何かが起きる可能性が微粒子レベルで存在している・・・？",
     "appearanceList": [
       {
         "placeName": "新宿調教センター",
@@ -1650,15 +1990,25 @@
       {
         "placeName": "地霊殿",
         "canDrop": true
+      },
+      {
+        "placeName": "GW神社3日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "博麗神社例大祭",
+        "subPlaceName": "裏",
+        "canDrop": true
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "2",
         "max": "30"
       }
-    ],
-    "notes": "KBSトリオ「B」\n、KBSトリオ「S」と組ませると、最初の行動時に\n｢其為右手｣（全体攻撃）が発動する。"
+    ]
   },
   {
     "imageUrl": "",
@@ -1675,7 +2025,7 @@
     "reach": "物理",
     "target": "単体",
     "skillName": "",
-    "skillDescription": "KBSトリオが3人そろうと何かが起きる可能性が微粒子レベルで存在している…？",
+    "skillDescription": "KBSトリオが3人揃うと何かが起きる可能性が微粒子レベルで存在している・・・？",
     "appearanceList": [
       {
         "placeName": "SMバーひらの",
@@ -1692,15 +2042,25 @@
       {
         "placeName": "地霊殿",
         "canDrop": true
+      },
+      {
+        "placeName": "GW神社3日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "博麗神社例大祭",
+        "subPlaceName": "裏",
+        "canDrop": true
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "2",
         "max": "30"
       }
-    ],
-    "notes": "KBSトリオ「K」\n、KBSトリオ「S」と組ませると、最初の行動時に\n｢其為右手｣（全体攻撃）が発動する。"
+    ]
   },
   {
     "imageUrl": "",
@@ -1717,7 +2077,7 @@
     "reach": "物理",
     "target": "単体",
     "skillName": "",
-    "skillDescription": "KBSトリオが3人そろうと何かが起きる可能性が微粒子レベルで存在している…？",
+    "skillDescription": "KBSトリオが3人揃うと何かが起きる可能性が微粒子レベルで存在している・・・？",
     "appearanceList": [
       {
         "placeName": "迫真空手道場",
@@ -1738,15 +2098,25 @@
       {
         "placeName": "地霊殿",
         "canDrop": true
+      },
+      {
+        "placeName": "GW神社3日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "博麗神社例大祭",
+        "subPlaceName": "裏",
+        "canDrop": true
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "2",
         "max": "30"
       }
-    ],
-    "notes": "KBSトリオ「K」\n、KBSトリオ「B」と組ませると、最初の行動時に\n｢其為右手｣（全体攻撃）が発動する。"
+    ]
   },
   {
     "imageUrl": "",
@@ -1764,19 +2134,19 @@
     "reach": "物理",
     "target": "単体",
     "skillName": "二撃決殺",
-    "skillDescription": "敵にトドメを刺すと攻撃力がアップし、追加攻撃する。",
+    "skillDescription": "敵にトドメを刺すと攻撃力がアップし,追加攻撃する。",
     "appearanceList": [
       {
         "placeName": "新宿調教センター",
-        "canDrop": true
+        "canDrop": false
       },
       {
         "placeName": "OK牧場",
-        "canDrop": true
+        "canDrop": false
       },
       {
         "placeName": "SMバーひらの",
-        "canDrop": true
+        "canDrop": false
       },
       {
         "placeName": "邪神の塔",
@@ -1803,6 +2173,10 @@
         "canDrop": true
       },
       {
+        "placeName": "アリスの部屋",
+        "canDrop": true
+      },
+      {
         "placeName": "2014年初詣",
         "canDrop": true
       },
@@ -1813,15 +2187,28 @@
       {
         "placeName": "紅魔館会議室",
         "canDrop": true
+      },
+      {
+        "placeName": "GW神社5日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "黄金のりんご",
+        "canDrop": false
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "2",
         "max": "10"
+      },
+      {
+        "min": "21",
+        "max": "50"
       }
-    ],
-    "notes": "追加攻撃でトドメを刺しても、再度スキルが発動する。\n攻撃時の音声はKBTITが机にビールを置いた時の「バァン！」という音。\n合成関連は下記関連項目の面々でも名前に「KBTIT」が入っていれば代用できる。"
+    ]
   },
   {
     "imageUrl": "",
@@ -1842,11 +2229,11 @@
     "appearanceList": [
       {
         "placeName": "OK牧場",
-        "canDrop": true
+        "canDrop": false
       },
       {
         "placeName": "SMバーひらの",
-        "canDrop": true
+        "canDrop": false
       },
       {
         "placeName": "邪神の塔",
@@ -1877,7 +2264,11 @@
         "canDrop": true
       },
       {
-        "placeName": "岡山城",
+        "placeName": "ニコニコ本社(クエスト)",
+        "canDrop": true
+      },
+      {
+        "placeName": "アリスの部屋",
         "canDrop": true
       },
       {
@@ -1889,17 +2280,25 @@
         "canDrop": true
       },
       {
+        "placeName": "岡山城",
+        "canDrop": true
+      },
+      {
         "placeName": "太陽の畑",
         "canDrop": true
+      },
+      {
+        "placeName": "ボスラッシュ企画",
+        "canDrop": false
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "11",
         "max": "50"
       }
-    ],
-    "notes": "KMR\nと合成すると超覚醒KMRに変化する。\n"
+    ]
   },
   {
     "imageUrl": "",
@@ -1954,12 +2353,16 @@
         "canDrop": true
       },
       {
+        "placeName": "ガンボリア宮殿",
+        "canDrop": true
+      },
+      {
         "placeName": "下北沢裁判所",
         "canDrop": true
       }
     ],
-    "cocoaList": [],
-    "notes": "デビルひで\nと合成すると暗黒神ラプソーンに変化する。\n"
+    "isSuwaFes": false,
+    "cocoaList": []
   },
   {
     "imageUrl": "",
@@ -1998,17 +2401,39 @@
         "canDrop": true
       },
       {
+        "placeName": "アリスの館",
+        "canDrop": true
+      },
+      {
+        "placeName": "アリスの部屋",
+        "canDrop": true
+      },
+      {
         "placeName": "2014年初詣",
         "canDrop": true
+      },
+      {
+        "placeName": "GW神社2日目",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社2日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "かんなの湯",
+        "canDrop": false
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "2",
         "max": "50"
       }
-    ],
-    "notes": "「REACHが精神」である相手のATK補正を0.7倍、MNT補正を0.6倍にする。"
+    ]
   },
   {
     "imageUrl": "",
@@ -2029,7 +2454,7 @@
     "appearanceList": [
       {
         "placeName": "SMバーひらの",
-        "canDrop": true
+        "canDrop": false
       },
       {
         "placeName": "邪神の塔",
@@ -2061,16 +2486,22 @@
       },
       {
         "placeName": "永遠亭",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社4日目",
+        "subPlaceName": "表",
         "canDrop": true
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "11",
-        "max": "20"
+        "max": "50"
       }
-    ],
-    "notes": ""
+    ]
   },
   {
     "imageUrl": "",
@@ -2090,7 +2521,7 @@
     "appearanceList": [
       {
         "placeName": "メガデス秘密基地",
-        "canDrop": true
+        "canDrop": false
       },
       {
         "placeName": "迫真空手道場",
@@ -2117,8 +2548,13 @@
         "canDrop": true
       }
     ],
-    "cocoaList": [],
-    "notes": "攻撃と同時に攻撃相手の行動ゲージを現在の1/5に減少させる。"
+    "isSuwaFes": false,
+    "cocoaList": [
+      {
+        "min": "2",
+        "max": "50"
+      }
+    ]
   },
   {
     "imageUrl": "",
@@ -2146,16 +2582,33 @@
         "canDrop": true
       },
       {
+        "placeName": "工事現場",
+        "canDrop": false
+      },
+      {
         "placeName": "クッキーレストラン",
+        "canDrop": true
+      },
+      {
+        "placeName": "ダーク築地市場",
         "canDrop": true
       },
       {
         "placeName": "メガデス秘密基地2",
         "canDrop": true
+      },
+      {
+        "placeName": "博麗神社例大祭",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "ボスラッシュ企画",
+        "canDrop": false
       }
     ],
-    "cocoaList": [],
-    "notes": "ver1.25にてスキル追加"
+    "isSuwaFes": false,
+    "cocoaList": []
   },
   {
     "imageUrl": "",
@@ -2179,20 +2632,29 @@
         "canDrop": true
       },
       {
+        "placeName": "新日暮里",
+        "canDrop": true
+      },
+      {
         "placeName": "王者の聖域",
         "canDrop": true
       },
       {
-        "placeName": "新日暮里",
+        "placeName": "アリスの館～第3階層～",
         "canDrop": true
       },
       {
         "placeName": "メガデス秘密基地2",
         "canDrop": true
+      },
+      {
+        "placeName": "博麗神社例大祭",
+        "subPlaceName": "裏",
+        "canDrop": true
       }
     ],
-    "cocoaList": [],
-    "notes": ""
+    "isSuwaFes": false,
+    "cocoaList": []
   },
   {
     "imageUrl": "",
@@ -2217,15 +2679,29 @@
       {
         "placeName": "邪神の塔",
         "canDrop": true
+      },
+      {
+        "placeName": "アリスの部屋",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社4日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "博麗神社例大祭",
+        "subPlaceName": "裏",
+        "canDrop": true
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "11",
         "max": "50"
       }
-    ],
-    "notes": "パーティに超人サイバーZ 2号が居ると、1号の攻撃後、2号がランダムな敵に追撃する。\nまた、KBTITと合成することでウルトラマンタクヤに変化する。"
+    ]
   },
   {
     "imageUrl": "",
@@ -2246,10 +2722,20 @@
       {
         "placeName": "メガデス秘密基地2",
         "canDrop": true
+      },
+      {
+        "placeName": "GW神社4日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "博麗神社例大祭",
+        "subPlaceName": "裏",
+        "canDrop": true
       }
     ],
-    "cocoaList": [],
-    "notes": "パーティに超人サイバーZ 1号が居ると、2号の攻撃後、1号がランダムな敵に追撃する。\nまた、KBTITと合成することで破面KBTITに変化する。"
+    "isSuwaFes": false,
+    "cocoaList": []
   },
   {
     "imageUrl": "",
@@ -2271,15 +2757,23 @@
       {
         "placeName": "迫真空手道場",
         "canDrop": true
+      },
+      {
+        "placeName": "黄金のりんご",
+        "canDrop": false
+      },
+      {
+        "placeName": "ボスラッシュ企画",
+        "canDrop": false
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "2",
         "max": "20"
       }
-    ],
-    "notes": "ver1.26にてスキル追加。\n攻撃と同時に攻撃相手の行動ゲージを最大で20奪う。"
+    ]
   },
   {
     "imageUrl": "",
@@ -2307,13 +2801,13 @@
         "canDrop": true
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "2",
         "max": "20"
       }
-    ],
-    "notes": "ver1.26にてスキル追加。"
+    ]
   },
   {
     "imageUrl": "",
@@ -2345,8 +2839,8 @@
         "canDrop": true
       }
     ],
-    "cocoaList": [],
-    "notes": ""
+    "isSuwaFes": false,
+    "cocoaList": []
   },
   {
     "imageUrl": "",
@@ -2368,7 +2862,7 @@
     "appearanceList": [
       {
         "placeName": "迫真空手道場",
-        "canDrop": true
+        "canDrop": false
       },
       {
         "placeName": "邪神の塔",
@@ -2395,6 +2889,22 @@
         "canDrop": true
       },
       {
+        "placeName": "ガンボリア宮殿",
+        "canDrop": true
+      },
+      {
+        "placeName": "ニコニコ本社(クエスト)",
+        "canDrop": true
+      },
+      {
+        "placeName": "アリスの館～第1階層～",
+        "canDrop": true
+      },
+      {
+        "placeName": "アリスの部屋",
+        "canDrop": true
+      },
+      {
         "placeName": "2014年初詣",
         "canDrop": true
       },
@@ -2409,15 +2919,24 @@
       {
         "placeName": "紅魔館会議室",
         "canDrop": true
+      },
+      {
+        "placeName": "GW神社4日目",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "かんなの湯",
+        "canDrop": false
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "21",
         "max": "50"
       }
-    ],
-    "notes": ""
+    ]
   },
   {
     "imageUrl": "",
@@ -2456,6 +2975,10 @@
         "canDrop": true
       },
       {
+        "placeName": "アリスの部屋",
+        "canDrop": true
+      },
+      {
         "placeName": "白玉楼",
         "canDrop": true
       },
@@ -2466,15 +2989,20 @@
       {
         "placeName": "紅魔館会議室",
         "canDrop": true
+      },
+      {
+        "placeName": "博麗神社例大祭",
+        "subPlaceName": "裏",
+        "canDrop": true
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "11",
         "max": "50"
       }
-    ],
-    "notes": "「REACHが物理」である味方のATK補正を1.5倍にする。\n「遠野」と合成すると「世界のトオノ」に変化する。"
+    ]
   },
   {
     "imageUrl": "",
@@ -2513,21 +3041,25 @@
         "canDrop": true
       },
       {
-        "placeName": "岡山城",
+        "placeName": "ガンボリア宮殿",
         "canDrop": true
       },
       {
         "placeName": "白玉楼",
         "canDrop": true
+      },
+      {
+        "placeName": "岡山城",
+        "canDrop": true
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "11",
         "max": "50"
       }
-    ],
-    "notes": "全体回復持ち。観葉植物くんと比べると回復量とコストで劣るが、こちらは攻撃もできる。\n回復量は精神攻撃力依存で、MSTA姉貴のスキルで上昇する。山崎まさゆきは物理攻撃力上昇なので不可。\nまた、KNN姉貴と合成することでかんなフェニックスに、MUR大先輩と合成することでMUR肉に変化する。"
+    ]
   },
   {
     "imageUrl": "",
@@ -2561,15 +3093,29 @@
       {
         "placeName": "立教帝国",
         "canDrop": true
+      },
+      {
+        "placeName": "ニコニコ本社(クエスト)",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社5日目",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社5日目",
+        "subPlaceName": "裏",
+        "canDrop": true
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "11",
         "max": "50"
       }
-    ],
-    "notes": "ver1.7でスキル修正。"
+    ]
   },
   {
     "imageUrl": "",
@@ -2590,7 +3136,7 @@
     "appearanceList": [
       {
         "placeName": "ヒゲクマの館",
-        "canDrop": true
+        "canDrop": false
       },
       {
         "placeName": "邪神の塔",
@@ -2599,15 +3145,20 @@
       {
         "placeName": "下北沢裁判所",
         "canDrop": true
+      },
+      {
+        "placeName": "GW神社2日目",
+        "subPlaceName": "裏",
+        "canDrop": true
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "2",
         "max": "20"
       }
-    ],
-    "notes": "ver1.26にてスキル追加。\n攻撃対象のTYPEの数によって与ダメージに以下の補正がかかる。\nTYPE数\nダメージ倍率\n1\n1倍\n2\n4倍\n3\n6倍\n"
+    ]
   },
   {
     "imageUrl": "",
@@ -2628,7 +3179,7 @@
     "appearanceList": [
       {
         "placeName": "ヒゲクマの館",
-        "canDrop": true
+        "canDrop": false
       },
       {
         "placeName": "邪神の塔",
@@ -2636,10 +3187,6 @@
       },
       {
         "placeName": "新日暮里",
-        "canDrop": true
-      },
-      {
-        "placeName": "岡山城",
         "canDrop": true
       },
       {
@@ -2651,17 +3198,21 @@
         "canDrop": true
       },
       {
+        "placeName": "岡山城",
+        "canDrop": true
+      },
+      {
         "placeName": "下北沢裁判所",
         "canDrop": true
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "21",
         "max": "50"
       }
-    ],
-    "notes": ""
+    ]
   },
   {
     "imageUrl": "",
@@ -2690,25 +3241,25 @@
         "canDrop": true
       },
       {
+        "placeName": "山下公園",
+        "canDrop": true
+      },
+      {
         "placeName": "ダーク築地市場",
         "canDrop": true
       },
       {
         "placeName": "2014年初詣",
         "canDrop": true
-      },
-      {
-        "placeName": "山下公園",
-        "canDrop": true
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "31",
         "max": "50"
       }
-    ],
-    "notes": ""
+    ]
   },
   {
     "imageUrl": "",
@@ -2725,7 +3276,7 @@
     "reach": "精神",
     "target": "全体",
     "skillName": "神の裁き",
-    "skillDescription": "屑なので攻撃に味方を巻き込む（神に状態異常攻撃は無効となる）",
+    "skillDescription": "屑なので攻撃に味方を巻き込む(神に状態異常攻撃は無効となる)",
     "appearanceList": [
       {
         "placeName": "邪神の塔",
@@ -2744,6 +3295,14 @@
         "canDrop": true
       },
       {
+        "placeName": "ガンボリア宮殿",
+        "canDrop": true
+      },
+      {
+        "placeName": "アリスの部屋",
+        "canDrop": true
+      },
+      {
         "placeName": "白玉楼",
         "canDrop": true
       },
@@ -2752,13 +3311,13 @@
         "canDrop": true
       }
     ],
+    "isSuwaFes": true,
     "cocoaList": [
       {
         "min": "31",
         "max": "100"
       }
-    ],
-    "notes": "\n合成で創造神KMRを作る際の素材となる\n神/死神属性のユニットを5体合成すると邪神GOになる。\n"
+    ]
   },
   {
     "imageUrl": "",
@@ -2774,16 +3333,20 @@
     ],
     "reach": "精神",
     "target": "全体",
-    "skillName": "GO is GOD",
+    "skillName": "GO is GOD.",
     "skillDescription": "5ターン目に8回連続攻撃。通常攻撃後はコスト半分で攻撃可能。(神に状態異常攻撃は無効となる)",
     "appearanceList": [
       {
         "placeName": "邪神の塔",
-        "canDrop": true
+        "canDrop": false
+      },
+      {
+        "placeName": "ボスラッシュ企画",
+        "canDrop": false
       }
     ],
-    "cocoaList": [],
-    "notes": "現時点では仲間にならない模様。\nコストは約160、通常攻撃は精神全体攻撃。1度だけ8回攻撃のスキル「神の裁き」を使用。\n最初のターンだけコスト30程度で行動でき、通常攻撃後は行動ゲージが半分から始まる。\nスキル「神の裁き」はGO回目の攻撃時に発動する。ただしスキル発動後は行動ゲージを全て消費する上、\n一撃あたりのダメージは通常攻撃より小さい。\n通常ユニット版の情報はこちら→邪神GO"
+    "isSuwaFes": false,
+    "cocoaList": []
   },
   {
     "imageUrl": "",
@@ -2800,15 +3363,15 @@
     "reach": "物理",
     "target": "単体",
     "skillName": "下北沢の名脇役",
-    "skillDescription": "下北沢にしか生息しない珍しいセミなので攻撃する者は無意識に手を緩めてしまい、受けるダメージが70%になる。",
+    "skillDescription": "下北沢にしか生息しない珍しいセミなので攻撃する物は無意識に手を緩めてしまい、受けるダメージが70%になる。",
     "appearanceList": [
       {
         "placeName": "セミ兄貴の森",
         "canDrop": true
       }
     ],
-    "cocoaList": [],
-    "notes": ""
+    "isSuwaFes": false,
+    "cocoaList": []
   },
   {
     "imageUrl": "",
@@ -2826,15 +3389,15 @@
     "reach": "物理",
     "target": "単体",
     "skillName": "メタリックな彼",
-    "skillDescription": "下北沢にしか生息しない珍しいセミなので攻撃する者は無意識に手を緩めてしまい、受けるダメージが1になる。",
+    "skillDescription": "下北沢にしか生息しない珍しいセミなので攻撃する物は無意識に手を緩めてしまい、受けるダメージが1になる。",
     "appearanceList": [
       {
         "placeName": "セミ兄貴の森",
         "canDrop": false
       }
     ],
-    "cocoaList": [],
-    "notes": "現時点では仲間にならない模様。HPは30で固定。"
+    "isSuwaFes": false,
+    "cocoaList": []
   },
   {
     "imageUrl": "",
@@ -2845,12 +3408,13 @@
     "mnt": "120",
     "cost": "65",
     "types": [
-      "ホモ"
+      "ホモ",
+      "調教"
     ],
     "reach": "精神",
     "target": "単体",
     "skillName": "畏怖の象徴",
-    "skillDescription": "攻撃対象を恐怖状態にする。恐怖状態の敵相手にはダメージが2倍になる。",
+    "skillDescription": "攻撃対象を恐怖状態にする。恐怖状態の相手にはダメージが3倍になる。",
     "appearanceList": [
       {
         "placeName": "水無川",
@@ -2865,13 +3429,13 @@
         "canDrop": true
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "11",
         "max": "50"
       }
-    ],
-    "notes": "野獣先輩\nと合成するとサイクロップス先輩に変化する。\n"
+    ]
   },
   {
     "imageUrl": "",
@@ -2895,6 +3459,10 @@
         "canDrop": true
       },
       {
+        "placeName": "新日暮里",
+        "canDrop": true
+      },
+      {
         "placeName": "王者の聖域",
         "canDrop": true
       },
@@ -2903,17 +3471,35 @@
         "canDrop": true
       },
       {
+        "placeName": "ニコニコ本社(クエスト)",
+        "canDrop": true
+      },
+      {
+        "placeName": "アリスの館～第3階層～",
+        "canDrop": true
+      },
+      {
         "placeName": "地霊殿",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社3日目",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "博麗神社例大祭",
+        "subPlaceName": "裏",
         "canDrop": true
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "51",
         "max": "100"
       }
-    ],
-    "notes": "ver1.56でスキル修正。"
+    ]
   },
   {
     "imageUrl": "",
@@ -2930,7 +3516,7 @@
     "reach": "物理",
     "target": "単体",
     "skillName": "優しき心",
-    "skillDescription": "老人特有の労わりの心により、仲間にいるだけでスキルのないユニットは受けるダメージが30%ダウン。",
+    "skillDescription": "老人特有の労わりの心により、仲間にいるだけでスキルのないユニットは受けるダメージが50%ダウン。",
     "appearanceList": [
       {
         "placeName": "水無川",
@@ -2953,16 +3539,20 @@
         "canDrop": true
       },
       {
-        "placeName": "岡山城",
+        "placeName": "地霊殿",
         "canDrop": true
       },
       {
         "placeName": "白玉楼",
         "canDrop": true
+      },
+      {
+        "placeName": "岡山城",
+        "canDrop": true
       }
     ],
-    "cocoaList": [],
-    "notes": ""
+    "isSuwaFes": false,
+    "cocoaList": []
   },
   {
     "imageUrl": "",
@@ -2998,12 +3588,43 @@
         "canDrop": true
       },
       {
+        "placeName": "スキマワールド",
+        "canDrop": true
+      },
+      {
+        "placeName": "工事現場",
+        "canDrop": true
+      },
+      {
         "placeName": "山下公園",
+        "canDrop": true
+      },
+      {
+        "placeName": "アリスの部屋",
+        "canDrop": true
+      },
+      {
+        "placeName": "2014年初詣",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社4日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社5日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "博麗神社例大祭",
+        "subPlaceName": "裏",
         "canDrop": true
       }
     ],
-    "cocoaList": [],
-    "notes": "KNN姉貴\nの能力も無効化できる。"
+    "isSuwaFes": false,
+    "cocoaList": []
   },
   {
     "imageUrl": "",
@@ -3031,21 +3652,30 @@
         "canDrop": true
       },
       {
+        "placeName": "アリスの館",
+        "canDrop": true
+      },
+      {
         "placeName": "地霊殿",
         "canDrop": true
       },
       {
         "placeName": "紅魔館会議室",
         "canDrop": true
+      },
+      {
+        "placeName": "GW神社5日目",
+        "subPlaceName": "裏",
+        "canDrop": true
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "51",
         "max": "300"
       }
-    ],
-    "notes": "最後に生き残ったイワナ僧侶が倒された場合、「イワナの怪」は発動しない。\n全体攻撃で複数のイワナ僧侶が倒された場合、発動するのは1回のみ。\nちなみに、味方によって倒された場合はバッチリその味方を道連れにする。"
+    ]
   },
   {
     "imageUrl": "",
@@ -3077,21 +3707,43 @@
         "canDrop": true
       },
       {
+        "placeName": "ニコニコ本社(クエスト)",
+        "canDrop": true
+      },
+      {
+        "placeName": "アリスの館～第1階層～",
+        "canDrop": true
+      },
+      {
         "placeName": "地霊殿",
         "canDrop": true
       },
       {
         "placeName": "人間の里2",
         "canDrop": true
+      },
+      {
+        "placeName": "GW神社2日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社4日目",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "かんなの湯",
+        "canDrop": false
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "51",
         "max": "100"
       }
-    ],
-    "notes": ""
+    ]
   },
   {
     "imageUrl": "",
@@ -3125,15 +3777,23 @@
       {
         "placeName": "クッキーレストラン",
         "canDrop": true
+      },
+      {
+        "placeName": "ガンボリア宮殿",
+        "canDrop": true
+      },
+      {
+        "placeName": "かんなの湯",
+        "canDrop": false
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "51",
         "max": "100"
       }
-    ],
-    "notes": ""
+    ]
   },
   {
     "imageUrl": "",
@@ -3178,15 +3838,25 @@
       {
         "placeName": "白玉楼",
         "canDrop": true
+      },
+      {
+        "placeName": "GW神社4日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "博麗神社例大祭",
+        "subPlaceName": "裏",
+        "canDrop": true
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "51",
         "max": "100"
       }
-    ],
-    "notes": "HP1で耐えられるのは各キャラ1回までである。HPを回復させても再度耐えることはできないので注意。\nまた、既に1回耐えたポイテーロがまだ耐えてないキャラと同時に全体攻撃で致死ダメージを受けた場合、ポイテーロより上にいるキャラだけが助かる。必ず最後尾に置いておこう。"
+    ]
   },
   {
     "imageUrl": "",
@@ -3209,6 +3879,14 @@
         "canDrop": true
       },
       {
+        "placeName": "王者の聖域",
+        "canDrop": true
+      },
+      {
+        "placeName": "工事現場",
+        "canDrop": true
+      },
+      {
         "placeName": "クッキーレストラン",
         "canDrop": true
       },
@@ -3221,21 +3899,44 @@
         "canDrop": true
       },
       {
+        "placeName": "アリスの館～第1階層～",
+        "canDrop": true
+      },
+      {
+        "placeName": "白玉楼",
+        "canDrop": true
+      },
+      {
         "placeName": "岡山城",
         "canDrop": true
       },
       {
         "placeName": "紅魔館会議室",
         "canDrop": true
+      },
+      {
+        "placeName": "GW神社3日目",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社5日目",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "博麗神社例大祭",
+        "subPlaceName": "裏",
+        "canDrop": true
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "51",
         "max": "300"
       }
-    ],
-    "notes": ""
+    ]
   },
   {
     "imageUrl": "",
@@ -3243,8 +3944,8 @@
     "hp": "120",
     "atk": "90",
     "def": "120",
-    "mnt": "120",
-    "cost": "70",
+    "mnt": "70",
+    "cost": "60",
     "types": [
       "ホモ",
       "鑑"
@@ -3267,13 +3968,13 @@
         "canDrop": true
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "51",
         "max": "100"
       }
-    ],
-    "notes": "全員の行動ゲージを30減少させる。"
+    ]
   },
   {
     "imageUrl": "",
@@ -3296,17 +3997,21 @@
         "canDrop": true
       },
       {
+        "placeName": "新日暮里",
+        "canDrop": true
+      },
+      {
         "placeName": "工事現場",
         "canDrop": true
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "51",
         "max": "100"
       }
-    ],
-    "notes": "スキルによるダメージは、攻撃相手のCOSTによって補正がかかる。補正の倍率は、COST50毎に約1.0ずつ上がっていくと思われる。\nCOST40～50\n　1.0倍のダメージ。（通常のダメージと同じ）\nCOST51～100\n　2.0倍のダメージ。\nCOST101～150\n　3.0倍のダメージ。\nCOST151～200\n　4.0倍のダメージ。\nCOST201～250（MUR大先輩、ハガー市長）\n　5.0倍のダメージ。\nCOST251～300\n　6.0倍のダメージ。\nCOST301～350\n　7.0倍のダメージ。\nCOST351～400（ピンキー姉貴）\n　8.0倍のダメージ。"
+    ]
   },
   {
     "imageUrl": "",
@@ -3333,15 +4038,24 @@
       {
         "placeName": "クッキーレストラン",
         "canDrop": true
+      },
+      {
+        "placeName": "ニコニコ本社(クエスト)",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社3日目",
+        "subPlaceName": "裏",
+        "canDrop": true
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "51",
         "max": "300"
       }
-    ],
-    "notes": "チョコレート先輩\nと合成すると変態糞娘に変化する。\n"
+    ]
   },
   {
     "imageUrl": "",
@@ -3362,7 +4076,7 @@
     "appearanceList": [
       {
         "placeName": "聖バビロン大学病院",
-        "canDrop": true
+        "canDrop": false
       },
       {
         "placeName": "スキマワールド",
@@ -3373,25 +4087,38 @@
         "canDrop": true
       },
       {
-        "placeName": "白玉楼",
+        "placeName": "ガンボリア宮殿",
+        "canDrop": true
+      },
+      {
+        "placeName": "アリスの部屋",
         "canDrop": true
       },
       {
         "placeName": "地霊殿",
+        "canDrop": false
+      },
+      {
+        "placeName": "白玉楼",
         "canDrop": true
       },
       {
         "placeName": "紅魔館会議室",
         "canDrop": true
+      },
+      {
+        "placeName": "GW神社3日目",
+        "subPlaceName": "表",
+        "canDrop": true
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "51",
         "max": "100"
       }
-    ],
-    "notes": "KISちゃん\nや混乱状態で能力を防げる。\n表示される画像はバケモノ。本気で怖いのでピンキーのターンが迫ってきたら画面を隠そう。\nまた、KNN姉貴と合成すると、関西ナースへと変化する。"
+    ]
   },
   {
     "imageUrl": "",
@@ -3423,17 +4150,22 @@
         "canDrop": true
       },
       {
+        "placeName": "アリスの館～第1階層～",
+        "canDrop": true
+      },
+      {
         "placeName": "永遠亭",
+        "subPlaceName": "裏",
         "canDrop": true
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "71",
         "max": "100"
       }
-    ],
-    "notes": ""
+    ]
   },
   {
     "imageUrl": "",
@@ -3469,17 +4201,26 @@
         "canDrop": true
       },
       {
+        "placeName": "ニコニコ本社(クエスト)",
+        "canDrop": true
+      },
+      {
         "placeName": "白玉楼",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社3日目",
+        "subPlaceName": "表",
         "canDrop": true
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "101",
         "max": "300"
       }
-    ],
-    "notes": "仲間のMNT補正を1.5倍にする。"
+    ]
   },
   {
     "imageUrl": "",
@@ -3511,13 +4252,13 @@
         "canDrop": true
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "101",
         "max": "300"
       }
-    ],
-    "notes": ""
+    ]
   },
   {
     "imageUrl": "",
@@ -3550,16 +4291,17 @@
       },
       {
         "placeName": "永遠亭",
+        "subPlaceName": "裏",
         "canDrop": true
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "101",
         "max": "300"
       }
-    ],
-    "notes": ""
+    ]
   },
   {
     "imageUrl": "",
@@ -3588,12 +4330,26 @@
         "canDrop": true
       },
       {
+        "placeName": "ニコニコ本社(クエスト)",
+        "canDrop": true
+      },
+      {
+        "placeName": "アリスの部屋",
+        "canDrop": true
+      },
+      {
         "placeName": "永遠亭",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社3日目",
+        "subPlaceName": "表",
         "canDrop": true
       }
     ],
-    "cocoaList": [],
-    "notes": ""
+    "isSuwaFes": false,
+    "cocoaList": []
   },
   {
     "imageUrl": "",
@@ -3622,13 +4378,13 @@
         "canDrop": true
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "201",
         "max": "300"
       }
-    ],
-    "notes": "FLNちゃん\nと同じような能力だが、こちらは精神防御力が対象。\n攻撃した相手のMNT補正を0.3倍にする。"
+    ]
   },
   {
     "imageUrl": "",
@@ -3657,17 +4413,31 @@
         "canDrop": true
       },
       {
+        "placeName": "アリスの館～第2階層～",
+        "canDrop": true
+      },
+      {
+        "placeName": "アリスの部屋",
+        "canDrop": true
+      },
+      {
         "placeName": "永遠亭",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社3日目",
+        "subPlaceName": "表",
         "canDrop": true
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "201",
         "max": "300"
       }
-    ],
-    "notes": "トレーニングによる能力上昇は各1.5倍。\nカブレラ以外のユニットが全滅、あるいは飛翔しているかKISちゃんの場合はトレーニングのかわりに攻撃を行う。"
+    ]
   },
   {
     "imageUrl": "",
@@ -3687,21 +4457,34 @@
     "skillDescription": "戦闘開始時に奇怪なポーズで相手1人を混乱させる",
     "appearanceList": [
       {
+        "placeName": "ダーク築地市場",
+        "canDrop": true
+      },
+      {
+        "placeName": "アリスの館",
+        "canDrop": true
+      },
+      {
         "placeName": "白玉楼",
         "canDrop": true
       },
       {
-        "placeName": "ダーク築地市場",
+        "placeName": "岡山城",
+        "canDrop": true
+      },
+      {
+        "placeName": "博麗神社例大祭",
+        "subPlaceName": "裏",
         "canDrop": true
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "101",
         "max": "300"
       }
-    ],
-    "notes": "ひで\nと合成すると多脚ひでに変化する。\n"
+    ]
   },
   {
     "imageUrl": "",
@@ -3729,17 +4512,21 @@
         "canDrop": true
       },
       {
+        "placeName": "ニコニコ本社(クエスト)",
+        "canDrop": true
+      },
+      {
         "placeName": "白玉楼",
         "canDrop": true
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "51",
         "max": "100"
       }
-    ],
-    "notes": "最初からホリ・トオル一人だけの場合でも、スキルが発動する。"
+    ]
   },
   {
     "imageUrl": "",
@@ -3766,15 +4553,24 @@
       {
         "placeName": "立教帝国",
         "canDrop": true
+      },
+      {
+        "placeName": "アリスの部屋",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社4日目",
+        "subPlaceName": "表",
+        "canDrop": true
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "71",
         "max": "100"
       }
-    ],
-    "notes": "\nver1.48にて、スキル発動時のエフェクトが追加された。\n課長\nのステータスはリセットできない。こわれる前に神風が発動しても課長は強く、こわれた後は弱いまま。\nスキルが発動するとカウンター系のスキルが発動しない。井上カブレラ、イワナ僧侶、UDNG姉貴、植木鉢くん等。YUMちゃんは0ダメージ化するが反撃はしてこない。また、EIK姉貴のスキルも発動しない。\n"
+    ]
   },
   {
     "imageUrl": "",
@@ -3798,6 +4594,10 @@
         "canDrop": true
       },
       {
+        "placeName": "地霊殿",
+        "canDrop": true
+      },
+      {
         "placeName": "白玉楼",
         "canDrop": true
       },
@@ -3806,17 +4606,17 @@
         "canDrop": true
       },
       {
-        "placeName": "地霊殿",
-        "canDrop": true
+        "placeName": "かんなの湯",
+        "canDrop": false
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "71",
         "max": "100"
       }
-    ],
-    "notes": ""
+    ]
   },
   {
     "imageUrl": "",
@@ -3844,6 +4644,10 @@
         "canDrop": true
       },
       {
+        "placeName": "クッキーレストラン",
+        "canDrop": true
+      },
+      {
         "placeName": "博麗神社境内",
         "canDrop": true
       },
@@ -3865,16 +4669,36 @@
       },
       {
         "placeName": "永遠亭",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社1日目",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社1日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社4日目",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "かんなの湯",
         "canDrop": true
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "71",
         "max": "100"
       }
-    ],
-    "notes": "中野くん\nと合成するとかんなフェニックスに変化する。\nピンキー姉貴\nと合成すると関西ナースに変化する。\n"
+    ]
   },
   {
     "imageUrl": "",
@@ -3890,7 +4714,7 @@
     "reach": "精神",
     "target": "単体",
     "skillName": "ラヴォイル",
-    "skillDescription": "体に良い薬を仲間に振舞う事により、まだ攻撃していない仲間は受けるダメージが30%ダウン。",
+    "skillDescription": "体に良い薬を仲間に振舞う事により、まだ攻撃していない仲間は受けるダメージが30%にダウン。",
     "appearanceList": [
       {
         "placeName": "王者の聖域",
@@ -3918,16 +4742,22 @@
       },
       {
         "placeName": "永遠亭",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社3日目",
+        "subPlaceName": "表",
         "canDrop": true
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "71",
         "max": "100"
       }
-    ],
-    "notes": ""
+    ]
   },
   {
     "imageUrl": "",
@@ -3935,7 +4765,7 @@
     "hp": "180",
     "atk": "100",
     "def": "180",
-    "mnt": "100",
+    "mnt": "180",
     "cost": "80",
     "types": [
       "鑑"
@@ -3947,7 +4777,7 @@
     "appearanceList": [
       {
         "placeName": "王者の聖域",
-        "canDrop": true
+        "canDrop": false
       },
       {
         "placeName": "スキマワールド",
@@ -3966,12 +4796,20 @@
         "canDrop": true
       },
       {
+        "placeName": "ニコニコ本社(クエスト)",
+        "canDrop": true
+      },
+      {
+        "placeName": "アリスの館～第2階層～",
+        "canDrop": true
+      },
+      {
         "placeName": "白玉楼",
         "canDrop": true
       },
       {
         "placeName": "下北沢裁判所",
-        "canDrop": true
+        "canDrop": false
       },
       {
         "placeName": "ひで祭り会場",
@@ -3984,15 +4822,20 @@
       {
         "placeName": "紅魔館会議室",
         "canDrop": true
+      },
+      {
+        "placeName": "GW神社5日目",
+        "subPlaceName": "表",
+        "canDrop": true
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "71",
         "max": "100"
       }
-    ],
-    "notes": "「観葉植物くん×4」のパーティはランダムマッチングに登録されない(パスワード指定対戦は可能)。\n自パーティに観葉植物くん以外のキャラが居ないとき行動ゲージが満タンになると「枯れてしまった！」の表示と共に爆発する。"
+    ]
   },
   {
     "imageUrl": "",
@@ -4016,8 +4859,8 @@
         "canDrop": true
       }
     ],
-    "cocoaList": [],
-    "notes": "スローロリスくん2体（ベースユニットは黒枠）を合成すると\n淫夢くんUC\nへと変化する。"
+    "isSuwaFes": false,
+    "cocoaList": []
   },
   {
     "imageUrl": "",
@@ -4035,15 +4878,19 @@
     "reach": "精神",
     "target": "全体",
     "skillName": "王者の右手",
-    "skillDescription": "仲間にいるだけで相手COST60未満のユニットは行動が遅くなる",
+    "skillDescription": "誰が解析していいっつったオラァ！",
     "appearanceList": [
       {
         "placeName": "王者の聖域",
-        "canDrop": true
+        "canDrop": false
+      },
+      {
+        "placeName": "ボスラッシュ企画",
+        "canDrop": false
       }
     ],
-    "cocoaList": [],
-    "notes": "スキルは通常版と同じ模様。\n4ターン目に8回連続攻撃。\nCOST40～55のユニット\nCOST40\n大妖精\nメ・バヂス・バ\n \n \n \nCOST45\nZUN\nAY姉貴\n虐待おじさん\nチョコレート先輩\nホワイトチョコ先輩\n \nKISちゃん\nOZW\nHTT姉貴\nメタルセミ兄貴\n \nCOST50\nRMA姉貴\nRMLA姉貴\nFLNちゃん\nSGW急便\n殺人鬼MNR\n \nAOK\nTNS姉貴\nスカーレット田中\n \n \nCOST55\nMSTA姉貴\nYUMちゃん\nKMC姉貴\n多脚ひで\nサイクロップス先輩\n通常ユニット版の情報はこちら→淫夢くんUC"
+    "isSuwaFes": false,
+    "cocoaList": []
   },
   {
     "imageUrl": "",
@@ -4058,7 +4905,7 @@
     ],
     "reach": "物理",
     "target": "単体",
-    "skillName": "shiny smiLe",
+    "skillName": "shiny smile",
     "skillDescription": "攻撃後に何故か踊りだすが、おかげで仲間全員の物理守備力がアップ",
     "appearanceList": [
       {
@@ -4066,21 +4913,29 @@
         "canDrop": true
       },
       {
-        "placeName": "下北沢裁判所",
+        "placeName": "クッキーレストラン",
         "canDrop": true
       },
       {
         "placeName": "ニコファーレ",
         "canDrop": true
+      },
+      {
+        "placeName": "ニコニコ本社(クエスト)",
+        "canDrop": true
+      },
+      {
+        "placeName": "下北沢裁判所",
+        "canDrop": true
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "51",
         "max": "100"
       }
-    ],
-    "notes": "仲間のDEF補正値を1.5倍にする。"
+    ]
   },
   {
     "imageUrl": "",
@@ -4102,15 +4957,32 @@
       {
         "placeName": "スキマワールド",
         "canDrop": true
+      },
+      {
+        "placeName": "工事現場",
+        "canDrop": true
+      },
+      {
+        "placeName": "クッキーレストラン",
+        "canDrop": true
+      },
+      {
+        "placeName": "岡山城",
+        "canDrop": true
+      },
+      {
+        "placeName": "博麗神社例大祭",
+        "subPlaceName": "裏",
+        "canDrop": true
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "101",
         "max": "300"
       }
-    ],
-    "notes": "「口マン爺」ではなく「ロマン爺」である。"
+    ]
   },
   {
     "imageUrl": "",
@@ -4126,7 +4998,7 @@
     "reach": "精神",
     "target": "単体",
     "skillName": "スキマ空間",
-    "skillDescription": "攻撃されるとスキマ空間に逃げ込む。ターンが回ってくると全体攻撃しながらまた出現する。[イラスト：古霧さん]",
+    "skillDescription": "攻撃されるとスキマ空間に逃げ込む。ターンが回ってくると全体攻撃しながらまた出現する。[イラスト:古霧さん]",
     "appearanceList": [
       {
         "placeName": "スキマワールド",
@@ -4135,10 +5007,33 @@
       {
         "placeName": "紅魔館会議室",
         "canDrop": true
+      },
+      {
+        "placeName": "GW神社3日目",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社3日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "黄金のりんご",
+        "canDrop": false
+      },
+      {
+        "placeName": "博麗神社例大祭",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "博麗事務所",
+        "canDrop": true
       }
     ],
-    "cocoaList": [],
-    "notes": "\nスキマ空間にいる間はダメージ無効だが、2度攻撃を食らうと強制的に空間から引き摺り出される。\n複数のYKR姉貴がおり一体がスキマ空間にいる場合、他の姉貴はスキマ空間に逃げ込めない。\n"
+    "isSuwaFes": false,
+    "cocoaList": []
   },
   {
     "imageUrl": "",
@@ -4173,21 +5068,43 @@
         "canDrop": true
       },
       {
+        "placeName": "アリスの館～第1階層～",
+        "canDrop": true
+      },
+      {
+        "placeName": "アリスの館～第3階層～",
+        "canDrop": true
+      },
+      {
         "placeName": "岡山城",
         "canDrop": true
       },
       {
         "placeName": "下北沢裁判所",
         "canDrop": true
+      },
+      {
+        "placeName": "GW神社3日目",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社4日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "黄金のりんご",
+        "canDrop": false
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "101",
         "max": "300"
       }
-    ],
-    "notes": ""
+    ]
   },
   {
     "imageUrl": "",
@@ -4213,15 +5130,24 @@
       {
         "placeName": "クッキーレストラン",
         "canDrop": true
+      },
+      {
+        "placeName": "アリスの館",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社3日目",
+        "subPlaceName": "表",
+        "canDrop": true
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "101",
         "max": "300"
       }
-    ],
-    "notes": "\nver1.56でスキル修正。\n攻撃を与えた相手から攻撃される時、受けるダメージを半減?してカウンターする。メタル系ユニットには無効。\n釣りキチ\n状態の時はスキルが発動せず、通常どおりにダメージを与えることができるがＡＴＫがＡＴＫのため、たいしたダメージにはならない。\n"
+    ]
   },
   {
     "imageUrl": "",
@@ -4238,15 +5164,24 @@
     "reach": "物理",
     "target": "単体",
     "skillName": "剣聖",
-    "skillDescription": "仲間にいるだけで[武器]ユニットは50％の確率で1ターンに2回行動できるようになる。2回行動は疲れるので攻撃力は少し下がる。",
+    "skillDescription": "仲間にいるだけで[武器]ユニットは50%の確率で1ターンに2回行動できるようになる。2回行動は疲れるので攻撃力は少し下がる。",
     "appearanceList": [
       {
         "placeName": "岡山城",
         "canDrop": true
+      },
+      {
+        "placeName": "GW神社5日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "ボスラッシュ企画",
+        "canDrop": false
       }
     ],
-    "cocoaList": [],
-    "notes": "2回目の行動のダメージは0.7倍となる。"
+    "isSuwaFes": false,
+    "cocoaList": []
   },
   {
     "imageUrl": "",
@@ -4296,15 +5231,30 @@
       {
         "placeName": "紅魔館会議室",
         "canDrop": true
+      },
+      {
+        "placeName": "GW神社3日目",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社3日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "博麗神社例大祭",
+        "subPlaceName": "裏",
+        "canDrop": true
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "101",
         "max": "400"
       }
-    ],
-    "notes": "「仲間の素の単体攻撃タイプユニットは攻撃力がアップ」の増加は1.2倍。\nKBTIT（漫画家）\nのスキルも無効化する。"
+    ]
   },
   {
     "imageUrl": "",
@@ -4320,7 +5270,7 @@
     "reach": "物理",
     "target": "単体",
     "skillName": "ああああああああ！",
-    "skillDescription": "情緒不安定なので勝手に混乱する。",
+    "skillDescription": "情緒不安定なので攻撃後に勝手に混乱する。",
     "appearanceList": [
       {
         "placeName": "立教帝国",
@@ -4331,21 +5281,35 @@
         "canDrop": true
       },
       {
+        "placeName": "アリスの館～第3階層～",
+        "canDrop": true
+      },
+      {
         "placeName": "岡山城",
         "canDrop": true
       },
       {
         "placeName": "下北沢裁判所",
         "canDrop": true
+      },
+      {
+        "placeName": "GW神社4日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "博麗神社例大祭",
+        "subPlaceName": "裏",
+        "canDrop": true
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "101",
         "max": "300"
       }
-    ],
-    "notes": ""
+    ]
   },
   {
     "imageUrl": "",
@@ -4367,15 +5331,37 @@
       {
         "placeName": "立教帝国",
         "canDrop": true
+      },
+      {
+        "placeName": "ニコニコ本社(クエスト)",
+        "canDrop": true
+      },
+      {
+        "placeName": "アリスの館",
+        "canDrop": true
+      },
+      {
+        "placeName": "アリスの部屋",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社4日目",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社4日目",
+        "subPlaceName": "裏",
+        "canDrop": true
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "101",
         "max": "400"
       }
-    ],
-    "notes": "戦闘開始でスキルの対象になったキャラは、３回の行動をした後に『４回目』の行動順が回ってきたタイミングで即死する。\nよってダークドレアム先輩のスキル発動阻止は不可能。\nKBTIT（漫画家）\nで全体化が可能。\nまたこの効果は対象ユニットの行動を上書きする形で発動する。\nつまり内部的には自殺という形で処理されているので、たとえばMUR肉がこの効果で死亡すると味方を回復する、といったことが起こる。\nパーティ内にTDN,DB,HTNがいる時、そのうち一人でもHPが半分以下になると「元祖一転攻勢」（パーティ全員のHP回復＋攻撃力UP＋物理防御力UP＋精神防御力UP）が発動する。"
+    ]
   },
   {
     "imageUrl": "",
@@ -4399,21 +5385,31 @@
         "canDrop": true
       },
       {
+        "placeName": "アリスの部屋",
+        "canDrop": true
+      },
+      {
         "placeName": "岡山城",
         "canDrop": true
       },
       {
         "placeName": "永遠亭",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社4日目",
+        "subPlaceName": "表",
         "canDrop": true
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "101",
         "max": "300"
       }
-    ],
-    "notes": "パーティ内にTDN,DB,HTNがいる時、そのうち一人でもHPが半分以下になると「元祖一転攻勢」（パーティ全員のHP回復＋攻撃力UP＋物理防御力UP＋精神防御力UP）が発動する。"
+    ]
   },
   {
     "imageUrl": "",
@@ -4430,7 +5426,7 @@
     "reach": "精神",
     "target": "単体",
     "skillName": "風王結界",
-    "skillDescription": "戦闘開始時に味方のCost70未満のユニットは全ステータスが上昇。仲間にいるだけで味方のCost70未満のユニットは行動が遅くなる。",
+    "skillDescription": "戦闘開始時に味方のCost70未満のユニットは全ステータスが上昇。仲間にいるだけで味方のCost70未満のユニットは行動が遅くなる。[イラスト:古霧さん]",
     "appearanceList": [
       {
         "placeName": "クッキーレストラン",
@@ -4451,15 +5447,20 @@
       {
         "placeName": "紅魔館会議室",
         "canDrop": true
+      },
+      {
+        "placeName": "GW神社5日目",
+        "subPlaceName": "裏",
+        "canDrop": true
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "201",
         "max": "300"
       }
-    ],
-    "notes": "ステータス上昇は全能力1.6倍。\n効果範囲は以下の通り。COST40～55は淫夢くんUCを参考。\nCOST60、65のユニット\nCOST60\n遠野\nKMR\nKBSトリオ「K」\nCRNちゃん\nスローロリスくん\n \nRIM姉貴\nUDK姉貴\nALC姉貴\nUTH\nSIK姉貴\n \nSKY姉貴\n釣りキチおばさん\nHZRBBA\n変態郵便屋\nセミ兄貴\n \nSNE姉貴\n土着神SWK\nCNT姉貴\nど麺罪木\nルンバおばさん\n \nMMR部長\nKBTIT\nKBTIT（調査兵団）\n破面KBTIT\nウルトラマンタクヤ\n \nTDN\nHND△\nメガデス戦闘員\n鎌田吾作\nホモコップ\n \nSNJ\nTKNUC\n植木鉢くん\nイワナ僧侶\nMUR肉\n \nDRVS\nNSOK\nMDSN姉貴\n銀閣\n金閣\n \nRNNSK兄貴\n \n \n \n \nCOST65\nMIRN姉貴\n平野源五郎\nKYN\n逝かせ隊\n関西クレーマー\n \nシャブラサレータ\n我修院\nデビルひで\nドラゴン田中\nKBTIT（ギタリスト）\n \nYOU THE ROCK★\n赤さん\n \n \n \n"
+    ]
   },
   {
     "imageUrl": "",
@@ -4485,15 +5486,28 @@
       {
         "placeName": "古代都市キモティカ",
         "canDrop": true
+      },
+      {
+        "placeName": "ガンボリア宮殿",
+        "canDrop": true
+      },
+      {
+        "placeName": "ニコニコ本社(クエスト)",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社3日目",
+        "subPlaceName": "裏",
+        "canDrop": true
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "201",
         "max": "300"
       }
-    ],
-    "notes": "正確に言うと「味方の発動した回復を伴う効果の回復量を2倍にする」である。\nそのためたとえば味方のMUR肉の死亡時スキルが発動した場合なら、敵の回復量が2倍になる\n　"
+    ]
   },
   {
     "imageUrl": "",
@@ -4522,20 +5536,30 @@
         "canDrop": true
       },
       {
-        "placeName": "ひで祭り会場",
-        "canDrop": true
-      },
-      {
         "placeName": "ニコファーレ",
         "canDrop": true
       },
       {
+        "placeName": "アリスの部屋",
+        "canDrop": true
+      },
+      {
+        "placeName": "ひで祭り会場",
+        "canDrop": true
+      },
+      {
         "placeName": "永遠亭",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社5日目",
+        "subPlaceName": "裏",
         "canDrop": true
       }
     ],
-    "cocoaList": [],
-    "notes": ""
+    "isSuwaFes": false,
+    "cocoaList": []
   },
   {
     "imageUrl": "",
@@ -4567,17 +5591,27 @@
         "canDrop": true
       },
       {
+        "placeName": "アリスの部屋",
+        "canDrop": true
+      },
+      {
         "placeName": "永遠亭",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社5日目",
+        "subPlaceName": "裏",
         "canDrop": true
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "301",
         "max": "400"
       }
-    ],
-    "notes": ""
+    ]
   },
   {
     "imageUrl": "",
@@ -4602,21 +5636,58 @@
         "canDrop": true
       },
       {
+        "placeName": "ニコニコ本社(クエスト)",
+        "canDrop": true
+      },
+      {
+        "placeName": "アリスの部屋",
+        "canDrop": true
+      },
+      {
         "placeName": "下北沢裁判所",
         "canDrop": true
       },
       {
         "placeName": "紅魔館会議室",
         "canDrop": true
+      },
+      {
+        "placeName": "GW神社2日目",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社2日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社4日目",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社4日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "博麗神社例大祭",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "かんなの湯",
+        "canDrop": true
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "301",
         "max": "400"
       }
-    ],
-    "notes": "全体攻撃化するユニットは攻撃力が60%に減少。現場監督がいると全体攻撃にはならず、攻撃力の減少もない。\nスキル対象になるユニット\n \nRIM姉貴\nCRNちゃん\nKSDB姉貴\n野獣先輩\n遠野\nKMR\nSNJ\nONDISK\nKBSトリオ「K」\nNSOK\nDRVS\n平野源五郎\nメガデス戦闘員\nホモコップ\n山崎まさゆき\nKYN\nセミ兄貴\nイワナ僧侶\nHTN\nCNT姉貴\nスローロリスくん\n我那覇くん\nシャブラサレータ\nTDN\n我修院\nSNE姉貴\n土着神SWK\n植木鉢くん\nホワイトチョコ先輩\n破面KBTIT\n釣りキチおばさん\nUDNG姉貴\nMDSN姉貴\nRNNSK兄貴\nITI\nセーター男・小森\nKBTIT（ギタリスト）\nRyu☆\n \n \nTDN\nの超スローボールとCNT姉貴の野獣の眼光は相手ユニット全体に効果が及ぶ。\nど麺罪木\nはATK100だが対象外。\nITI\nがいても、反転前のATKを参照する。\n"
+    ]
   },
   {
     "imageUrl": "",
@@ -4634,7 +5705,7 @@
     "reach": "物理",
     "target": "2回",
     "skillName": "ゲシュタルトドライブ",
-    "skillDescription": "重力を自在に操る事により味方の総コストが敵のコストより多いとき仲間にいるだけで相手の行動が遅くなる。",
+    "skillDescription": "重力を自在に操る事により味方の総コストが敵の総コストより多いとき、仲間にいるだけで相手の行動が遅くなる。",
     "appearanceList": [
       {
         "placeName": "古代都市キモティカ",
@@ -4647,15 +5718,36 @@
       {
         "placeName": "ダーク築地市場",
         "canDrop": true
+      },
+      {
+        "placeName": "ガンボリア宮殿",
+        "canDrop": true
+      },
+      {
+        "placeName": "アリスの館～第2階層～",
+        "canDrop": true
+      },
+      {
+        "placeName": "アリスの部屋",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社5日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "ボスラッシュ企画",
+        "canDrop": false
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "301",
         "max": "400"
       }
-    ],
-    "notes": "味方の総コストが敵の総コストより多いとき、仲間にいるだけで敵ユニットの行動ゲージの増加速度が元の増加速度の3割減になる。\n淫夢くんUC\nの効果と複合すると、元の増加速度の9割減になる。"
+    ]
   },
   {
     "imageUrl": "",
@@ -4684,21 +5776,34 @@
         "canDrop": true
       },
       {
+        "placeName": "ニコニコ本社(クエスト)",
+        "canDrop": true
+      },
+      {
+        "placeName": "アリスの部屋",
+        "canDrop": true
+      },
+      {
         "placeName": "下北沢裁判所",
         "canDrop": true
       },
       {
         "placeName": "ひで祭り会場",
         "canDrop": true
+      },
+      {
+        "placeName": "GW神社5日目",
+        "subPlaceName": "表",
+        "canDrop": true
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "301",
         "max": "400"
       }
-    ],
-    "notes": "大妖精\nと並び、現時点で最速のユニット。"
+    ]
   },
   {
     "imageUrl": "",
@@ -4714,7 +5819,7 @@
     "reach": "物理",
     "target": "単体",
     "skillName": "24で～す",
-    "skillDescription": "自己紹介で異彩を放ち、戦闘開始時と攻撃終了時にOGRSYN以外のCost60以上のユニット一人の行動ゲージを少し加算する。",
+    "skillDescription": "自己紹介で異彩を放ち、戦闘開始時と攻撃終了時にOGRSYN以外のCost60以上のユニット1人の行動ゲージを少し加算する。",
     "appearanceList": [
       {
         "placeName": "山下公園",
@@ -4727,10 +5832,20 @@
       {
         "placeName": "ダーク築地市場",
         "canDrop": true
+      },
+      {
+        "placeName": "GW神社5日目",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "博麗神社例大祭",
+        "subPlaceName": "裏",
+        "canDrop": true
       }
     ],
-    "cocoaList": [],
-    "notes": ""
+    "isSuwaFes": false,
+    "cocoaList": []
   },
   {
     "imageUrl": "",
@@ -4747,19 +5862,29 @@
     "reach": "物理",
     "target": "単体",
     "skillName": "おやじ七変化",
-    "skillDescription": "スキル無しユニットの攻撃を七変化させ、ダメージ軽減効果を無視するようになる。威力も20%アップ。",
+    "skillDescription": "スキル無しユニットの攻撃を七変化させ、ダメージ軽減効果を無視するようにする。威力も20%アップ。",
     "appearanceList": [
       {
         "placeName": "山下公園",
         "canDrop": true
       },
       {
+        "placeName": "ガンボリア宮殿",
+        "canDrop": true
+      },
+      {
         "placeName": "永遠亭",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "博麗神社例大祭",
+        "subPlaceName": "裏",
         "canDrop": true
       }
     ],
-    "cocoaList": [],
-    "notes": ""
+    "isSuwaFes": false,
+    "cocoaList": []
   },
   {
     "imageUrl": "",
@@ -4768,7 +5893,7 @@
     "atk": "100",
     "def": "190",
     "mnt": "160",
-    "cost": "80",
+    "cost": "90",
     "types": [
       "ホモ",
       "鑑"
@@ -4781,10 +5906,27 @@
       {
         "placeName": "山下公園",
         "canDrop": true
+      },
+      {
+        "placeName": "ニコニコ本社(クエスト)",
+        "canDrop": true
+      },
+      {
+        "placeName": "アリスの館～第2階層～",
+        "canDrop": true
+      },
+      {
+        "placeName": "アリスの部屋",
+        "canDrop": true
       }
     ],
-    "cocoaList": [],
-    "notes": ""
+    "isSuwaFes": false,
+    "cocoaList": [
+      {
+        "min": "401",
+        "max": "1000"
+      }
+    ]
   },
   {
     "imageUrl": "",
@@ -4804,13 +5946,13 @@
     "skillName": "",
     "skillDescription": "ストーカーが3人集まると何か起きる可能性が微粒子レベルで存在する・・・？",
     "appearanceList": [],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "351",
         "max": "400"
       }
-    ],
-    "notes": "変態郵便屋\n、セーター男・小森と組むと、全体攻撃+ゲージリセットの必殺技「おきらくリンチ」が発動する。\n「おきらくリンチ」は相手にダメージを与えられた場合のみ、追加効果が発動する。\n　　　（MMR部長などでダメージを0にされると追加効果が発動せず）"
+    ]
   },
   {
     "imageUrl": "",
@@ -4830,13 +5972,13 @@
     "skillName": "",
     "skillDescription": "ストーカーが3人集まると何か起きる可能性が微粒子レベルで存在する・・・？",
     "appearanceList": [],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "351",
         "max": "400"
       }
-    ],
-    "notes": "セーター男・小森\n、インパルスITKRと組むと、全体攻撃+ゲージリセットの必殺技「おきらくリンチが発動する。\n「おきらくリンチ」は相手にダメージを与えられた場合のみ、追加効果が発動する。\n　　　（MMR部長などでダメージを0にされると追加効果が発動せず）"
+    ]
   },
   {
     "imageUrl": "",
@@ -4856,13 +5998,13 @@
     "skillName": "ゴミ漁りの達人",
     "skillDescription": "攻撃はせず、何かの臭いをかいで自分の能力を上げる。誰かが攻撃すると便乗して追撃する。",
     "appearanceList": [],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "351",
         "max": "400"
       }
-    ],
-    "notes": "\nゴミ漁りによる能力上昇は各1.2倍。\n変態郵便屋\n、インパルスITKRと組むと、全体攻撃+ゲージリセットの必殺技「おきらくリンチ」が発動する。\n他のストーカーより誰かが早く動けば、便乗で「おきらくリンチ」を発動する。\n「おきらくリンチ」は相手にダメージを与えられた場合のみ、追加効果が発動する。\n　　　（MMR部長などでダメージを0にされると追加効果が発動せず）"
+    ]
   },
   {
     "imageUrl": "",
@@ -4886,8 +6028,13 @@
         "canDrop": true
       }
     ],
-    "cocoaList": [],
-    "notes": "\nクッソ小さくて見えにくいかもしれないが、上のカード画像、胸の辺りをよくご覧頂きたい。\n　おわかりいただけただろうか?\n「全て解き放って」というのは比ゆ表現ではなく全て解除するという意味。\n"
+    "isSuwaFes": false,
+    "cocoaList": [
+      {
+        "min": "401",
+        "max": "1000"
+      }
+    ]
   },
   {
     "imageUrl": "",
@@ -4915,12 +6062,45 @@
         "canDrop": true
       },
       {
+        "placeName": "ニコニコ本社(クエスト)",
+        "canDrop": true
+      },
+      {
+        "placeName": "アリスの館～第2階層～",
+        "canDrop": true
+      },
+      {
+        "placeName": "アリスの部屋",
+        "canDrop": true
+      },
+      {
         "placeName": "永遠亭",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社3日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社4日目",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社5日目",
+        "subPlaceName": "裏",
         "canDrop": true
       }
     ],
-    "cocoaList": [],
-    "notes": "Ryu☆\nとNRK姉貴の時のみゲージ増加量減少\n井上カブレラ\nとセーター男・小森、KBTIT（詐欺師）によって効果が反転したKBTIT（調査兵団）はゲージ増加量減少の対象にならない"
+    "isSuwaFes": false,
+    "cocoaList": [
+      {
+        "min": "401",
+        "max": "1000"
+      }
+    ]
   },
   {
     "imageUrl": "",
@@ -4945,10 +6125,29 @@
       {
         "placeName": "ダーク築地市場",
         "canDrop": true
+      },
+      {
+        "placeName": "アリスの館～第3階層～",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社4日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "博麗神社例大祭",
+        "subPlaceName": "表",
+        "canDrop": true
       }
     ],
-    "cocoaList": [],
-    "notes": "相手を混乱させた上でATK補正を2倍にする。\n相手が神/死神タイプであり混乱が無効な場合、攻撃力アップも無効。"
+    "isSuwaFes": false,
+    "cocoaList": [
+      {
+        "min": "401",
+        "max": "1000"
+      }
+    ]
   },
   {
     "imageUrl": "",
@@ -4970,10 +6169,32 @@
       {
         "placeName": "ニコファーレ",
         "canDrop": true
+      },
+      {
+        "placeName": "ニコニコ本社(クエスト)",
+        "canDrop": true
+      },
+      {
+        "placeName": "アリスの館～第2階層～",
+        "canDrop": true
+      },
+      {
+        "placeName": "アリスの部屋",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社4日目",
+        "subPlaceName": "表",
+        "canDrop": true
       }
     ],
-    "cocoaList": [],
-    "notes": "ステータス上昇はATKが1.2倍、DEFとMNTが1.15倍(ver1.74修正後)。\n世界のトオノ\nを使ってスキルを発動するとスキル名が「Im so Cookie☆」になる。セリフは「一　転　攻　勢」\n　"
+    "isSuwaFes": false,
+    "cocoaList": [
+      {
+        "min": "401",
+        "max": "1000"
+      }
+    ]
   },
   {
     "imageUrl": "",
@@ -4997,12 +6218,39 @@
         "canDrop": true
       },
       {
+        "placeName": "ニコニコ本社(クエスト)",
+        "canDrop": true
+      },
+      {
+        "placeName": "アリスの館～第1階層～",
+        "canDrop": true
+      },
+      {
+        "placeName": "アリスの館～第3階層～",
+        "canDrop": true
+      },
+      {
+        "placeName": "アリスの部屋",
+        "canDrop": true
+      },
+      {
         "placeName": "永遠亭",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社5日目",
+        "subPlaceName": "表",
         "canDrop": true
       }
     ],
-    "cocoaList": [],
-    "notes": ""
+    "isSuwaFes": false,
+    "cocoaList": [
+      {
+        "min": "401",
+        "max": "1000"
+      }
+    ]
   },
   {
     "imageUrl": "",
@@ -5018,16 +6266,30 @@
     ],
     "reach": "物理",
     "target": "単体",
-    "skillName": "突然の変調",
+    "skillName": "突然の転調",
     "skillDescription": "仲間にいるだけで、味方の[デブ]ユニットのコストが多いほど味方の攻撃力が上がる。",
     "appearanceList": [
       {
         "placeName": "ダーク築地市場",
         "canDrop": true
+      },
+      {
+        "placeName": "ガンボリア宮殿",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社4日目",
+        "subPlaceName": "裏",
+        "canDrop": true
       }
     ],
-    "cocoaList": [],
-    "notes": ""
+    "isSuwaFes": false,
+    "cocoaList": [
+      {
+        "min": "401",
+        "max": "1000"
+      }
+    ]
   },
   {
     "imageUrl": "",
@@ -5052,8 +6314,13 @@
         "canDrop": true
       }
     ],
-    "cocoaList": [],
-    "notes": ""
+    "isSuwaFes": false,
+    "cocoaList": [
+      {
+        "min": "401",
+        "max": "1000"
+      }
+    ]
   },
   {
     "imageUrl": "",
@@ -5078,8 +6345,13 @@
         "canDrop": true
       }
     ],
-    "cocoaList": [],
-    "notes": ""
+    "isSuwaFes": false,
+    "cocoaList": [
+      {
+        "min": "401",
+        "max": "1000"
+      }
+    ]
   },
   {
     "imageUrl": "",
@@ -5096,19 +6368,38 @@
     "reach": "精神",
     "target": "単体",
     "skillName": "茂美の誘惑",
-    "skillDescription": "仲間にいるだけで恐怖状態の相手は行動が遅くなる。自分が行動したら最後、その恐怖の笑顔で相手は全滅する。[イラスト：古霧さん]",
+    "skillDescription": "仲間にいるだけで恐怖状態の相手は行動が遅くなる。自分が行動したら最後、その恐怖の笑顔で相手は全滅する。[イラスト:古霧さん]",
     "appearanceList": [
       {
         "placeName": "ダーク築地市場",
         "canDrop": true
       },
       {
-        "placeName": "永遠亭",
+        "placeName": "アリスの館～第1階層～",
         "canDrop": true
+      },
+      {
+        "placeName": "永遠亭",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社4日目",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "ボスラッシュ企画",
+        "canDrop": false
       }
     ],
-    "cocoaList": [],
-    "notes": "\n現時点ではHP種族値最大。\n"
+    "isSuwaFes": false,
+    "cocoaList": [
+      {
+        "min": "401",
+        "max": "1000"
+      }
+    ]
   },
   {
     "imageUrl": "",
@@ -5131,10 +6422,581 @@
       {
         "placeName": "ダーク築地市場",
         "canDrop": true
+      },
+      {
+        "placeName": "ニコニコ本社(クエスト)",
+        "canDrop": true
+      },
+      {
+        "placeName": "アリスの部屋",
+        "canDrop": true
       }
     ],
-    "cocoaList": [],
-    "notes": "\n相手側に「ダークおくりびと」でおくられたユニットがいて、なおかつ\n　　そのユニットが「輪廻転生」によって復活、あるいは復活しようとしていなければ\n　　「ダークおくりびと」は発動できず普通の攻撃となる。\n　　よって、「輪廻転生」の前に創造神KMRの「神の創造」や\n　　EIK姉貴の「訴　訟　開　始」などによってそのユニットが復活すると、\n　　「ダークおくりびと」は発動できなくなる。\nおくられたユニットは復活時、自分のリーチの攻撃をする。\nおくられたユニットが復活前にKGY姉貴の「永夜返し」が発動するとユニットは戻ってこなくなる。\n「ダークおくりびと」は続けて発動可能。"
+    "isSuwaFes": false,
+    "cocoaList": [
+      {
+        "min": "401",
+        "max": "1000"
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "name": "キモオタ平野",
+    "hp": "100",
+    "atk": "150",
+    "def": "80",
+    "mnt": "120",
+    "cost": "50",
+    "types": [
+      "ホモ",
+      "屑"
+    ],
+    "reach": "精神",
+    "target": "単体",
+    "skillName": "お菓子だからね",
+    "skillDescription": "攻撃後に相手に睡眠薬入りジュースを振舞う。HPが回復してしまうが昏睡する。",
+    "appearanceList": [
+      {
+        "placeName": "ガンボリア宮殿",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社5日目",
+        "subPlaceName": "表",
+        "canDrop": true
+      }
+    ],
+    "isSuwaFes": false,
+    "cocoaList": [
+      {
+        "min": "401",
+        "max": "1000"
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "name": "SIY",
+    "hp": "130",
+    "atk": "70",
+    "def": "120",
+    "mnt": "180",
+    "cost": "70",
+    "types": [
+      "鑑"
+    ],
+    "reach": "精神",
+    "target": "単体",
+    "skillName": "神の試練",
+    "skillDescription": "[神]ユニットから攻撃されると豪教に目覚めて攻撃力がアップする。",
+    "appearanceList": [
+      {
+        "placeName": "ガンボリア宮殿",
+        "canDrop": true
+      },
+      {
+        "placeName": "アリスの部屋",
+        "canDrop": true
+      }
+    ],
+    "isSuwaFes": true,
+    "cocoaList": [
+      {
+        "min": "401",
+        "max": "1000"
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "name": "宮永通世",
+    "hp": "130",
+    "atk": "150",
+    "def": "160",
+    "mnt": "110",
+    "cost": "75",
+    "types": [
+      "僧",
+      "屑"
+    ],
+    "reach": "精神",
+    "target": "単体",
+    "skillName": "僧だよ",
+    "skillDescription": "神聖なお経のパワーにより仲間にいるだけでCost100以上のユニットは攻撃される度に行動ゲージが増える。",
+    "appearanceList": [
+      {
+        "placeName": "ガンボリア宮殿",
+        "canDrop": true
+      },
+      {
+        "placeName": "アリスの館～第1階層～",
+        "canDrop": true
+      },
+      {
+        "placeName": "アリスの部屋",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社3日目",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社3日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "ボスラッシュ企画",
+        "canDrop": false
+      }
+    ],
+    "isSuwaFes": false,
+    "cocoaList": [
+      {
+        "min": "401",
+        "max": "1000"
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "name": "バットマン",
+    "hp": "170",
+    "atk": "100",
+    "def": "80",
+    "mnt": "150",
+    "cost": "70",
+    "types": [
+      "ホモ"
+    ],
+    "reach": "精神",
+    "target": "単体",
+    "skillName": "インタビュー",
+    "skillDescription": "攻撃相手に質問する。質問された相手は即答するが、ただの通常攻撃しかできない。",
+    "appearanceList": [
+      {
+        "placeName": "ガンボリア宮殿",
+        "canDrop": true
+      },
+      {
+        "placeName": "アリスの部屋",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社4日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "博麗神社例大祭",
+        "subPlaceName": "裏",
+        "canDrop": true
+      }
+    ],
+    "isSuwaFes": false,
+    "cocoaList": [
+      {
+        "min": "401",
+        "max": "1000"
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "name": "タカダキミヒコ",
+    "hp": "120",
+    "atk": "110",
+    "def": "120",
+    "mnt": "150",
+    "cost": "70",
+    "types": [
+      "棒読み",
+      "893"
+    ],
+    "reach": "物理",
+    "target": "単体",
+    "skillName": "超絶棒読み",
+    "skillDescription": "恐るべき棒読みにより仲間にいるだけで攻撃した相手の能力をどれかランダムに下げる。",
+    "appearanceList": [
+      {
+        "placeName": "ニコニコ本社(クエスト)",
+        "canDrop": true
+      },
+      {
+        "placeName": "アリスの館",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社5日目",
+        "subPlaceName": "表",
+        "canDrop": true
+      }
+    ],
+    "isSuwaFes": false,
+    "cocoaList": [
+      {
+        "min": "501",
+        "max": "1000"
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "name": "ドッキリSNJ",
+    "hp": "80",
+    "atk": "140",
+    "def": "140",
+    "mnt": "140",
+    "cost": "70",
+    "types": [
+      "鑑"
+    ],
+    "reach": "物理",
+    "target": "単体",
+    "skillName": "イマジネーション",
+    "skillDescription": "イマジネーションにより1ターンに一回だけ自分が受けるダメージを回復へと変える。",
+    "appearanceList": [
+      {
+        "placeName": "ニコニコ本社(クエスト)",
+        "canDrop": true
+      }
+    ],
+    "isSuwaFes": false,
+    "cocoaList": [
+      {
+        "min": "501",
+        "max": "1000"
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "name": "UNEI",
+    "hp": "100",
+    "atk": "100",
+    "def": "100",
+    "mnt": "100",
+    "cost": "65",
+    "types": [
+      "UNEI",
+      "屑"
+    ],
+    "reach": "物理",
+    "target": "単体",
+    "skillName": "ホモコースト",
+    "skillDescription": "攻撃相手を削除状態にする。（削除状態になると攻守スピードダウン、いるだけで系効果無効、神にも効果あり）",
+    "appearanceList": [
+      {
+        "placeName": "ニコニコ本社(クエスト)",
+        "canDrop": true
+      },
+      {
+        "placeName": "アリスの部屋",
+        "canDrop": true
+      },
+      {
+        "placeName": "ボスラッシュ企画",
+        "canDrop": false
+      }
+    ],
+    "isSuwaFes": false,
+    "cocoaList": [
+      {
+        "min": "751",
+        "max": "1000"
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "name": "ニワンゴ",
+    "hp": "150",
+    "atk": "110",
+    "def": "100",
+    "mnt": "140",
+    "cost": "75",
+    "types": [
+      "UNEI",
+      "屑",
+      "鳥"
+    ],
+    "reach": "精神",
+    "target": "単体",
+    "skillName": "ホモコースト",
+    "skillDescription": "カウンターで相手を削除状態にする。仲間にいるだけで削除状態が長くなる。",
+    "appearanceList": [
+      {
+        "placeName": "ニコニコ本社(クエスト)",
+        "canDrop": true
+      },
+      {
+        "placeName": "アリスの部屋",
+        "canDrop": true
+      },
+      {
+        "placeName": "ボスラッシュ企画",
+        "canDrop": false
+      }
+    ],
+    "isSuwaFes": false,
+    "cocoaList": [
+      {
+        "min": "751",
+        "max": "1000"
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "name": "ニコニコ本社",
+    "hp": "300",
+    "atk": "120",
+    "def": "250",
+    "mnt": "250",
+    "cost": "100",
+    "types": [
+      "UNEI",
+      "屑"
+    ],
+    "reach": "精神",
+    "target": "全体",
+    "skillName": "ホモコースト",
+    "skillDescription": "カウンターと通常攻撃で30%の確率で相手を削除状態にする。戦闘不能になると爆発して味方を巻き込む。",
+    "appearanceList": [
+      {
+        "placeName": "ニコニコ本社(クエスト)",
+        "canDrop": false
+      },
+      {
+        "placeName": "アリスの部屋",
+        "canDrop": true
+      },
+      {
+        "placeName": "ボスラッシュ企画",
+        "canDrop": false
+      }
+    ],
+    "isSuwaFes": false,
+    "cocoaList": []
+  },
+  {
+    "imageUrl": "",
+    "name": "ニコニコ超会金(ボス)",
+    "hp": "800",
+    "atk": "500",
+    "def": "400",
+    "mnt": "400",
+    "cost": "60",
+    "types": [
+      "UNEI",
+      "屑",
+      "神"
+    ],
+    "reach": "物理",
+    "target": "全体",
+    "skillName": "",
+    "skillDescription": "",
+    "appearanceList": [
+      {
+        "placeName": "ニコニコ本社(クエスト)",
+        "canDrop": false
+      },
+      {
+        "placeName": "ボスラッシュ企画",
+        "canDrop": false
+      }
+    ],
+    "isSuwaFes": false,
+    "cocoaList": []
+  },
+  {
+    "imageUrl": "",
+    "name": "石ALC",
+    "hp": "100",
+    "atk": "60",
+    "def": "120",
+    "mnt": "120",
+    "cost": "70",
+    "types": [
+      "魔法使い"
+    ],
+    "reach": "精神",
+    "target": "単体",
+    "skillName": "石",
+    "skillDescription": "開幕時に相手全員の口に石を詰め込み、HPを20%減らす。複数人いたら一人だけ開幕時に行動できる。",
+    "appearanceList": [
+      {
+        "placeName": "アリスの館",
+        "canDrop": false
+      },
+      {
+        "placeName": "アリスの部屋",
+        "canDrop": false
+      }
+    ],
+    "isSuwaFes": false,
+    "cocoaList": [
+      {
+        "min": "751",
+        "max": "1000"
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "name": "マッチョALC",
+    "hp": "180",
+    "atk": "100",
+    "def": "170",
+    "mnt": "150",
+    "cost": "80",
+    "types": [
+      "魔法使い",
+      "空手"
+    ],
+    "reach": "物理",
+    "target": "単体",
+    "skillName": "ギガンティックミーティア",
+    "skillDescription": "攻撃相手の150以上の能力値一つにつき攻撃力がアップする",
+    "appearanceList": [
+      {
+        "placeName": "アリスの館～第1階層～",
+        "canDrop": false
+      },
+      {
+        "placeName": "アリスの部屋",
+        "canDrop": true
+      }
+    ],
+    "isSuwaFes": false,
+    "cocoaList": [
+      {
+        "min": "751",
+        "max": "1000"
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "name": "偵察機と化したALC",
+    "hp": "-3",
+    "atk": "140",
+    "def": "1",
+    "mnt": "1",
+    "cost": "60",
+    "types": [
+      "魔法使い",
+      "メタル"
+    ],
+    "reach": "物理",
+    "target": "単体",
+    "skillName": "AT-ST",
+    "skillDescription": "偵察機なので大体の攻撃は1ダメージしか受けない。仲間にいるだけで必殺技の威力を1にしてしまう。",
+    "appearanceList": [
+      {
+        "placeName": "アリスの館～第2階層～",
+        "canDrop": false
+      },
+      {
+        "placeName": "アリスの部屋",
+        "canDrop": true
+      }
+    ],
+    "isSuwaFes": false,
+    "cocoaList": [
+      {
+        "min": "751",
+        "max": "1000"
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "name": "最後の良心ALC",
+    "hp": "90",
+    "atk": "100",
+    "def": "70",
+    "mnt": "70",
+    "cost": "60",
+    "types": [
+      "魔法使い",
+      "鑑"
+    ],
+    "reach": "精神",
+    "target": "単体",
+    "skillName": "恋する乙女のパワー",
+    "skillDescription": "HPが0の時にターンが来ると味方1人のHPを回復+被ダメ0化する。全体攻撃や多段攻撃が当たると、そこで攻撃を終了させる。",
+    "appearanceList": [
+      {
+        "placeName": "アリスの館～第3階層～",
+        "canDrop": false
+      },
+      {
+        "placeName": "アリスの部屋",
+        "canDrop": true
+      }
+    ],
+    "isSuwaFes": false,
+    "cocoaList": [
+      {
+        "min": "751",
+        "max": "1000"
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "name": "怒りの日の奏者ALC(ボス)",
+    "hp": "500",
+    "atk": "350",
+    "def": "350",
+    "mnt": "350",
+    "cost": "40",
+    "types": [
+      "神"
+    ],
+    "reach": "???",
+    "skillName": "",
+    "skillDescription": "だから解析すんじゃねぇよ",
+    "appearanceList": [
+      {
+        "placeName": "アリスの部屋",
+        "canDrop": false
+      },
+      {
+        "placeName": "ボスラッシュ企画",
+        "canDrop": false
+      }
+    ],
+    "isSuwaFes": false,
+    "cocoaList": []
+  },
+  {
+    "imageUrl": "",
+    "name": "MRKM先生",
+    "hp": "150",
+    "atk": "160",
+    "def": "120",
+    "mnt": "170",
+    "cost": "85",
+    "types": [
+      "教師",
+      "鑑"
+    ],
+    "reach": "精神",
+    "target": "単体",
+    "skillName": "生活指導",
+    "skillDescription": "攻撃後に仲間1人のHPを最大値にする。回復じゃなくて「最大値にする」",
+    "appearanceList": [],
+    "isSuwaFes": false,
+    "cocoaList": [
+      {
+        "min": "501",
+        "max": "750"
+      }
+    ]
   },
   {
     "imageUrl": "",
@@ -5159,7 +7021,7 @@
       },
       {
         "placeName": "白玉楼",
-        "canDrop": true
+        "canDrop": false
       },
       {
         "placeName": "博麗神社",
@@ -5176,15 +7038,29 @@
       {
         "placeName": "人間の里2",
         "canDrop": true
+      },
+      {
+        "placeName": "GW神社1日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "博麗神社例大祭",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "博麗事務所",
+        "canDrop": true
       }
     ],
+    "isSuwaFes": true,
     "cocoaList": [
       {
         "min": "71",
         "max": "100"
       }
-    ],
-    "notes": "スキル発動率は2倍になる"
+    ]
   },
   {
     "imageUrl": "",
@@ -5217,15 +7093,29 @@
       {
         "placeName": "博麗神社境内2",
         "canDrop": true
+      },
+      {
+        "placeName": "GW神社2日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "博麗神社例大祭",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "博麗事務所",
+        "canDrop": true
       }
     ],
+    "isSuwaFes": true,
     "cocoaList": [
       {
         "min": "71",
         "max": "100"
       }
-    ],
-    "notes": ""
+    ]
   },
   {
     "imageUrl": "",
@@ -5249,7 +7139,7 @@
       },
       {
         "placeName": "白玉楼",
-        "canDrop": true
+        "canDrop": false
       },
       {
         "placeName": "博麗神社",
@@ -5262,15 +7152,24 @@
       {
         "placeName": "太陽の畑",
         "canDrop": true
+      },
+      {
+        "placeName": "博麗神社例大祭",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "博麗事務所",
+        "canDrop": true
       }
     ],
+    "isSuwaFes": true,
     "cocoaList": [
       {
         "min": "71",
         "max": "100"
       }
-    ],
-    "notes": "多脚ひで\nと合成すると神々の頂点SWKへと変化する。"
+    ]
   },
   {
     "imageUrl": "",
@@ -5287,28 +7186,33 @@
     "reach": "精神",
     "target": "単体",
     "skillName": "便乗",
-    "skillDescription": "味方の誰かが攻撃すると便乗して追撃する。（攻撃後に追加効果の無いユニットの攻撃にのみ反応する）　[イラスト：古霧さん]",
+    "skillDescription": "味方の誰かが攻撃すると便乗して追撃する。(攻撃後に追加効果の無いユニットの攻撃にのみ反応する)　[イラスト:古霧さん]",
     "appearanceList": [
       {
         "placeName": "ニコファーレ",
         "canDrop": true
       },
       {
+        "placeName": "地霊殿",
+        "canDrop": false
+      },
+      {
         "placeName": "白玉楼",
         "canDrop": true
       },
       {
-        "placeName": "地霊殿",
+        "placeName": "GW神社5日目",
+        "subPlaceName": "表",
         "canDrop": true
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "51",
         "max": "100"
       }
-    ],
-    "notes": ""
+    ]
   },
   {
     "imageUrl": "",
@@ -5326,7 +7230,7 @@
     "reach": "精神",
     "target": "単体",
     "skillName": "心を読む程度の能力",
-    "skillDescription": "読心能力により相手の「仲間にいるだけで～」系のスキルを全て無効にする。[イラスト：あずみはるひとさん]",
+    "skillDescription": "読心能力により相手の「仲間にいるだけで～」系のスキルを全て無効にする。[イラスト：あずみはるひとさん@例大祭ね02a]",
     "appearanceList": [
       {
         "placeName": "地霊殿",
@@ -5347,15 +7251,47 @@
       {
         "placeName": "博麗神社境内2",
         "canDrop": true
+      },
+      {
+        "placeName": "GW神社1日目",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社1日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社2日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "黄金のりんご",
+        "canDrop": false
+      },
+      {
+        "placeName": "博麗神社例大祭",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "博麗事務所",
+        "canDrop": true
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
+      {
+        "min": "1",
+        "max": "1"
+      },
       {
         "min": "251",
         "max": "300"
       }
-    ],
-    "notes": ""
+    ]
   },
   {
     "imageUrl": "",
@@ -5373,7 +7309,7 @@
     "reach": "精神",
     "target": "単体",
     "skillName": "無意識",
-    "skillDescription": "最後の1人になるまで攻撃や補助の対象にならない。カウンターもされない。[イラスト：あずみはるひとさん]",
+    "skillDescription": "最後の1人になるまで攻撃や補助の対象にならない。カウンターもされない。[イラスト：あずみはるひとさん@例大祭ね02a]",
     "appearanceList": [
       {
         "placeName": "地霊殿",
@@ -5390,15 +7326,52 @@
       {
         "placeName": "博麗神社境内2",
         "canDrop": true
+      },
+      {
+        "placeName": "GW神社2日目",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社2日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社4日目",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社4日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "黄金のりんご",
+        "canDrop": false
+      },
+      {
+        "placeName": "博麗神社例大祭",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "かんなの湯",
+        "canDrop": false
+      },
+      {
+        "placeName": "博麗事務所",
+        "canDrop": true
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "251",
         "max": "300"
       }
-    ],
-    "notes": ""
+    ]
   },
   {
     "imageUrl": "",
@@ -5416,7 +7389,7 @@
     "reach": "物理",
     "target": "2回",
     "skillName": "後の先",
-    "skillDescription": "精神攻撃を30%の確率で無効化し、反撃する。[イラスト　あずみはるひとさん]",
+    "skillDescription": "精神攻撃を30%の確率で無効化し、反撃する。[イラスト　あずみはるひとさん@例大祭ね02a]",
     "appearanceList": [
       {
         "placeName": "白玉楼",
@@ -5433,15 +7406,47 @@
       {
         "placeName": "紅魔館調理室",
         "canDrop": true
+      },
+      {
+        "placeName": "GW神社1日目",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社1日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社5日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "黄金のりんご",
+        "canDrop": false
+      },
+      {
+        "placeName": "博麗神社例大祭",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "博麗事務所",
+        "canDrop": true
+      },
+      {
+        "placeName": "ボスラッシュ企画",
+        "canDrop": false
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "251",
         "max": "350"
       }
-    ],
-    "notes": "虐待おじさん\nとAKYSを足して2で割ったようなスペック。ただしAKYSとは違い反撃対象は精神攻撃な上にコストはおじさんよりも高い代わりにやや打たれ強いのが特徴。\n"
+    ]
   },
   {
     "imageUrl": "",
@@ -5458,7 +7463,7 @@
     "reach": "精神",
     "target": "全体",
     "skillName": "ポルターガイストくん",
-    "skillDescription": "亡霊なので戦闘不能の状態でも攻撃できる。[イラスト　あずみはるひとさん]",
+    "skillDescription": "亡霊なので戦闘不能の状態でも攻撃できる。[イラスト　あずみはるひとさん@例大祭ね02a]",
     "appearanceList": [
       {
         "placeName": "白玉楼",
@@ -5475,15 +7480,34 @@
       {
         "placeName": "博麗神社境内2",
         "canDrop": true
+      },
+      {
+        "placeName": "GW神社3日目",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社3日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "博麗神社例大祭",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "博麗事務所",
+        "canDrop": true
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "251",
         "max": "350"
       }
-    ],
-    "notes": ""
+    ]
   },
   {
     "imageUrl": "",
@@ -5503,21 +7527,38 @@
     "skillDescription": "愛する市民を守るため、味方の[デブ]ユニットが攻撃されると反撃する。",
     "appearanceList": [
       {
+        "placeName": "山下公園",
+        "canDrop": true
+      },
+      {
+        "placeName": "ガンボリア宮殿",
+        "canDrop": true
+      },
+      {
+        "placeName": "ニコニコ本社(クエスト)",
+        "canDrop": true
+      },
+      {
         "placeName": "下北沢裁判所",
         "canDrop": true
       },
       {
-        "placeName": "山下公園",
+        "placeName": "GW神社4日目",
+        "subPlaceName": "裏",
         "canDrop": true
+      },
+      {
+        "placeName": "ボスラッシュ企画",
+        "canDrop": false
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "301",
         "max": "400"
       }
-    ],
-    "notes": ""
+    ]
   },
   {
     "imageUrl": "",
@@ -5537,17 +7578,35 @@
     "skillDescription": "攻撃した相手を昏睡状態にする。攻撃後、味方1人も昏睡状態にさせてしまう。",
     "appearanceList": [
       {
+        "placeName": "ガンボリア宮殿",
+        "canDrop": true
+      },
+      {
         "placeName": "下北沢裁判所",
         "canDrop": true
+      },
+      {
+        "placeName": "GW神社4日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "博麗神社例大祭",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "かんなの湯",
+        "canDrop": false
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "301",
         "max": "400"
       }
-    ],
-    "notes": ""
+    ]
   },
   {
     "imageUrl": "",
@@ -5566,12 +7625,34 @@
     "skillDescription": "棒読みしながらの攻撃なので、相手はやる気を無くして物理攻撃力と防御力が下がってしまう。",
     "appearanceList": [
       {
+        "placeName": "アリスの館",
+        "canDrop": true
+      },
+      {
+        "placeName": "アリスの部屋",
+        "canDrop": true
+      },
+      {
         "placeName": "下北沢裁判所",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社2日目",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社2日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "かんなの湯",
         "canDrop": true
       }
     ],
-    "cocoaList": [],
-    "notes": "「REACHが物理」である相手のATK補正を0.7倍、DEF補正を0.6倍にする。"
+    "isSuwaFes": false,
+    "cocoaList": []
   },
   {
     "imageUrl": "",
@@ -5587,8 +7668,16 @@
     "reach": "物理",
     "target": "単体",
     "skillName": "無残な姿",
-    "skillDescription": "破壊されると仲間ユニットは怒り狂い攻撃力がアップする。行動ゲージも少し追加。[イラスト：古霧さん]",
+    "skillDescription": "破壊されると仲間ユニットは怒り狂い攻撃力がアップする。行動ゲージも少し追加。[イラスト:古霧さん]",
     "appearanceList": [
+      {
+        "placeName": "山下公園",
+        "canDrop": true
+      },
+      {
+        "placeName": "ガンボリア宮殿",
+        "canDrop": true
+      },
       {
         "placeName": "下北沢裁判所",
         "canDrop": true
@@ -5602,21 +7691,30 @@
         "canDrop": true
       },
       {
-        "placeName": "山下公園",
+        "placeName": "紅魔館会議室",
         "canDrop": true
       },
       {
-        "placeName": "紅魔館会議室",
+        "placeName": "GW神社5日目",
+        "subPlaceName": "表",
         "canDrop": true
+      },
+      {
+        "placeName": "黄金のりんご",
+        "canDrop": false
+      },
+      {
+        "placeName": "ボスラッシュ企画",
+        "canDrop": false
       }
     ],
+    "isSuwaFes": false,
     "cocoaList": [
       {
         "min": "301",
         "max": "400"
       }
-    ],
-    "notes": "倒されたときに味方全員のATK補正を3倍にし、行動ゲージを30増やす。\n味方の攻撃で倒した\n場合はATK補正は2倍、ゲージ増加量は10になる。"
+    ]
   },
   {
     "imageUrl": "",
@@ -5634,7 +7732,7 @@
     "reach": "物理",
     "target": "2回",
     "skillName": "居眠り",
-    "skillDescription": "怠け癖が染み付いているので2ターンに一回の頻度で居眠りする。寝るとHPが回復[イラスト：あずみはるひとさん]",
+    "skillDescription": "怠け癖が染み付いているので2ターンに一回の頻度で居眠りする。寝るとHPが回復[イラスト:あずみはるひとさん@例大祭ね02a]",
     "appearanceList": [
       {
         "placeName": "下北沢裁判所",
@@ -5643,10 +7741,24 @@
       {
         "placeName": "太陽の畑",
         "canDrop": true
+      },
+      {
+        "placeName": "GW神社2日目",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社2日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "博麗事務所",
+        "canDrop": true
       }
     ],
-    "cocoaList": [],
-    "notes": "\n死「神」ということで神に状態異常攻撃は無効となる。\nデビルひで\nと合成するとタナトスひでに変化する。\n"
+    "isSuwaFes": true,
+    "cocoaList": []
   },
   {
     "imageUrl": "",
@@ -5663,7 +7775,7 @@
     "reach": "物理",
     "target": "単体",
     "skillName": "訴訟確定",
-    "skillDescription": "相手が戦闘不能になると罰としてその敵は味方を攻撃し続ける羽目になる。[イラスト：あずみはるひとさん]",
+    "skillDescription": "相手が戦闘不能になると罰としてその敵は味方を攻撃し続ける羽目になる。[イラスト:あずみはるひとさん@例大祭ね02a]",
     "appearanceList": [
       {
         "placeName": "下北沢裁判所",
@@ -5672,10 +7784,34 @@
       {
         "placeName": "博麗神社境内2",
         "canDrop": true
+      },
+      {
+        "placeName": "GW神社4日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社5日目",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "博麗神社例大祭",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "博麗神社例大祭",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "博麗事務所",
+        "canDrop": true
       }
     ],
-    "cocoaList": [],
-    "notes": "訴訟されている相手にはフェアリーアサルトなどのダメージ増加効果が乗る。\n蘇生させられると共に訴訟状態は解除される。\nまた、訴訟されているユニットは永夜返しで通常の死亡状態になる。"
+    "isSuwaFes": true,
+    "cocoaList": []
   },
   {
     "imageUrl": "",
@@ -5691,7 +7827,7 @@
     "reach": "精神",
     "target": "単体",
     "skillName": "博麗結界",
-    "skillDescription": "仲間にいるだけで仲間全員の受けるダメージが20%の確率で0になる。無効化すると一回だけ攻撃力アップ。[イラスト：あずみはるひとさん]",
+    "skillDescription": "仲間にいるだけで仲間全員の受けるダメージが20%の確率で0になる。無効化すると一回だけ攻撃力アップ。[イラスト:あずみはるひとさん@例大祭ね02a]",
     "appearanceList": [
       {
         "placeName": "博麗神社",
@@ -5716,10 +7852,29 @@
       {
         "placeName": "紅魔館会議室",
         "canDrop": true
+      },
+      {
+        "placeName": "GW神社1日目",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社1日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "博麗神社例大祭",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "かんなの湯",
+        "canDrop": false
       }
     ],
-    "cocoaList": [],
-    "notes": "味方からの攻撃が100%で0ダメージにする。"
+    "isSuwaFes": false,
+    "cocoaList": []
   },
   {
     "imageUrl": "",
@@ -5736,7 +7891,7 @@
     "reach": "精神",
     "target": "単体",
     "skillName": "マスタースパーク",
-    "skillDescription": "仲間の[魔法使い]ユニットのHPが最大の時、与えるダメージが3倍＋相手のダメージ軽減スキルも無視する。[イラスト：あずみはるひとさん]",
+    "skillDescription": "仲間の[魔法使い]ユニットのHPが最大の時、自分の与えるダメージが3倍+相手のダメージ軽減スキルも無視する。[イラスト:あずみはるひとさん@例大祭ね02a]",
     "appearanceList": [
       {
         "placeName": "霧雨屋",
@@ -5761,10 +7916,39 @@
       {
         "placeName": "紅魔館会議室",
         "canDrop": true
+      },
+      {
+        "placeName": "GW神社2日目",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社2日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社3日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "博麗神社例大祭",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "博麗神社例大祭",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "かんなの湯",
+        "canDrop": false
       }
     ],
-    "cocoaList": [],
-    "notes": "初めて手にした人は勘違いしやすいが、「仲間の魔法使い全員のHPが最大のとき」ではなく、\n「仲間の魔法使いだれか一人でもHPが最大のとき」にマスタースパークが発動する。"
+    "isSuwaFes": false,
+    "cocoaList": []
   },
   {
     "imageUrl": "",
@@ -5781,7 +7965,7 @@
     "reach": "物理",
     "target": "単体",
     "skillName": "ブラウニー",
-    "skillDescription": "攻撃後の仲間全員のHPを少し回復。状態異常や減った能力も元に戻る。[イラスト：あずみはるひとさん]",
+    "skillDescription": "攻撃後の仲間全員のHPを少し回復。状態異常や減った能力も元に戻る。[イラスト:あずみはるひとさん@例大祭ね02a]",
     "appearanceList": [
       {
         "placeName": "アリスの家",
@@ -5806,10 +7990,29 @@
       {
         "placeName": "紅魔館会議室",
         "canDrop": true
+      },
+      {
+        "placeName": "GW神社2日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社3日目",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "博麗神社例大祭",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "かんなの湯",
+        "canDrop": false
       }
     ],
-    "cocoaList": [],
-    "notes": ""
+    "isSuwaFes": false,
+    "cocoaList": []
   },
   {
     "imageUrl": "",
@@ -5825,7 +8028,7 @@
     "reach": "精神",
     "target": "単体",
     "skillName": "こころのルーレット",
-    "skillDescription": "戦闘開始時と攻撃終了時に感情がランダムで変化する。感情によって行動パターンが変わる。[イラスト：古霧さん]",
+    "skillDescription": "戦闘開始時と攻撃終了時に感情がランダムで変化する。感情によって行動パターンが変わる。[イラスト:古霧さん]",
     "appearanceList": [
       {
         "placeName": "博麗神社境内",
@@ -5834,15 +8037,23 @@
       {
         "placeName": "博麗神社境内2",
         "canDrop": true
+      },
+      {
+        "placeName": "黄金のりんご",
+        "canDrop": true
+      },
+      {
+        "placeName": "ボスラッシュ企画",
+        "canDrop": false
       }
     ],
+    "isSuwaFes": true,
     "cocoaList": [
       {
         "min": "351",
         "max": "400"
       }
-    ],
-    "notes": "能力の詳細についてはこちらを参照"
+    ]
   },
   {
     "imageUrl": "",
@@ -5858,15 +8069,26 @@
     "reach": "物理",
     "target": "単体",
     "skillName": "",
-    "skillDescription": "廃 棄 処 分 確 定 [イラスト：古霧さん]",
-    "appearanceList": [],
+    "skillDescription": "廃　棄　処　分　確　定[イラスト:古霧さん]",
+    "appearanceList": [
+      {
+        "placeName": "GW神社1日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社2日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      }
+    ],
+    "isSuwaFes": true,
     "cocoaList": [
       {
         "min": "201",
         "max": "300"
       }
-    ],
-    "notes": "初期メンバー3人\nと合成するとバレンタイン化。変態糞親父との合成で変態糞娘が誕生する。\n経験値テーブルは30000と非常に高く、他ユニットと合成してレベル上げに使える。"
+    ]
   },
   {
     "imageUrl": "",
@@ -5889,10 +8111,25 @@
       {
         "placeName": "人間の里2",
         "canDrop": true
+      },
+      {
+        "placeName": "GW神社2日目",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社2日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "博麗神社例大祭",
+        "subPlaceName": "裏",
+        "canDrop": true
       }
     ],
-    "cocoaList": [],
-    "notes": ""
+    "isSuwaFes": false,
+    "cocoaList": []
   },
   {
     "imageUrl": "",
@@ -5910,15 +8147,25 @@
     "reach": "物理",
     "target": "単体",
     "skillName": "優しい暴力",
-    "skillDescription": "敵をHP半分まで追い詰めると全体攻撃で追い打ちする。（トドメはさせない）[イラスト：たけのこLv9さん]",
+    "skillDescription": "敵をHP半分まで追い詰めると全体攻撃で追い打ちする。(トドメはさせない)[イラスト：たけのこLv9さん]",
     "appearanceList": [
       {
         "placeName": "太陽の畑",
         "canDrop": true
+      },
+      {
+        "placeName": "GW神社3日目",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "博麗神社例大祭",
+        "subPlaceName": "裏",
+        "canDrop": true
       }
     ],
-    "cocoaList": [],
-    "notes": ""
+    "isSuwaFes": false,
+    "cocoaList": []
   },
   {
     "imageUrl": "",
@@ -5935,15 +8182,25 @@
     "reach": "物理",
     "target": "単体",
     "skillName": "心肺停止",
-    "skillDescription": "行動したら最後、その恐怖の笑顔で相手1人を絶命させる。他のピンキーがいると行動が遅くなる。",
+    "skillDescription": "行動したら最後、その恐怖の笑顔で相手1人を絶命させる。他のピンキーがいると行動が遅くなる。[イラスト：たけのこLv9さん]",
     "appearanceList": [
       {
         "placeName": "紅魔館調理室",
         "canDrop": true
+      },
+      {
+        "placeName": "GW神社3日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "博麗神社例大祭",
+        "subPlaceName": "裏",
+        "canDrop": true
       }
     ],
-    "cocoaList": [],
-    "notes": "\n自パーティの花嫁ピンキーあるいはピンキー姉貴一人につき実質コストが20上昇する。\n現在のところ本人も数えられるので、一人だけ入れても実際はコスト140。"
+    "isSuwaFes": false,
+    "cocoaList": []
   },
   {
     "imageUrl": "",
@@ -5961,8 +8218,12 @@
     "reach": "精神",
     "target": "全体",
     "skillName": "よっちゃんイカ",
-    "skillDescription": "仲間に[魔法使い]ユニットがいる間は受けるダメージが0になる。その後味方に八つ当たりする。",
+    "skillDescription": "仲間に[魔法使い]ユニットがいる間は受けるダメージが0になる。その後味方に八つ当たりする。[イラスト:古霧さん]",
     "appearanceList": [
+      {
+        "placeName": "アリスの館",
+        "canDrop": true
+      },
       {
         "placeName": "博麗神社境内2",
         "canDrop": true
@@ -5977,11 +8238,36 @@
       },
       {
         "placeName": "永遠亭",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社2日目",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社2日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社3日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "博麗神社例大祭",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "かんなの湯",
         "canDrop": true
       }
     ],
-    "cocoaList": [],
-    "notes": ""
+    "isSuwaFes": false,
+    "cocoaList": []
   },
   {
     "imageUrl": "",
@@ -6001,10 +8287,18 @@
       {
         "placeName": "博麗神社境内2",
         "canDrop": true
+      },
+      {
+        "placeName": "黄金のりんご",
+        "canDrop": true
+      },
+      {
+        "placeName": "ボスラッシュ企画",
+        "canDrop": false
       }
     ],
-    "cocoaList": [],
-    "notes": "現在クエストでは入手不可。\n能力の詳細はこ↑こ↓\nスキル対象になるユニット\n \nREACH\n開幕\n行動効果\n追加効果\n攻撃反応\nRIM姉貴\n \n \n \n \nダメージ0(40%)\nUDK姉貴\n \n \nダメージ3倍(HPMAX)1回攻撃\n \n \nALC姉貴\n \n \n \n回復\n \nMSTA姉貴\n \n \n \n精神ATK上昇(味方)\n \nTNS姉貴\n \n〇\n \nダメージ0(味方単体･1回)\n \nYUMちゃん\n2回攻撃\n \n \n \n精神反撃(30%)\nKMC姉貴\n2回攻撃\n \n自己回復(偶数ターン)\n \n \nHTT姉貴\n2回攻撃\n〇\nCost70以下の仲間の攻撃を再現(ダメージは発生しない)\nAY姉貴\n2回攻撃\n \nゲージ上昇(味方鳥･妖怪)\n \n \nSKY姉貴\n \n \nゲージ減少\n \n \n土着神SWK\n \n \nゲージ0(30%)\n \n \nUTH\n \n \n全体攻撃(3ターン目)\n \n \nFLNちゃん\n \n \nDEF減少\n \n \nRMLA姉貴\n \n \nダメージ吸収\n \n \nSIK姉貴\n \n \n状態異常(昏睡)\n \n \n釣りキチおばさん\n \n \n状態異常(釣りキチ)\n \n \n詳細テキスト内にあるとおり特殊な攻撃属性の為、物理（or精神）カウンターを受けないメリットの他、物理（or精神）攻撃力上昇、相手側への物理（or精神）防御力減少などの効果を受けることが出来ないデメリットを併せ持つ。\nNRK姉貴\nのスキル等で得られる（物理とも精神とも表示されない）攻撃力上昇なら効果がある。\nver1.74でマスタースパークの1回攻撃化が追加。YUMと合わせた攻撃力３倍の二回攻撃（通称ダブルスパーク）が使えなくなった。"
+    "isSuwaFes": true,
+    "cocoaList": []
   },
   {
     "imageUrl": "",
@@ -6027,13 +8321,13 @@
         "canDrop": true
       }
     ],
+    "isSuwaFes": true,
     "cocoaList": [
       {
         "min": "301",
         "max": "350"
       }
-    ],
-    "notes": "何らかのベースユニットと合成すると、ベースユニットが個体値MAX（黒枠化）になる。\n野獣先輩\n(チョコレート先輩除く)との合成で花嫁と化した先輩\nKBTIT\n一族のいずれかとの合成でKBTIT（花嫁）\nピンキー姉貴\nとの合成で花嫁ピンキーが出来上がってしまう。"
+    ]
   },
   {
     "imageUrl": "",
@@ -6050,7 +8344,7 @@
     ],
     "reach": "物理",
     "target": "単体",
-    "skillName": "一人で片付け",
+    "skillName": "1人で片付け",
     "skillDescription": "機械なので1ダメージしか受けないが、2ターンすると充電が切れて戦闘不能になる。1ターン後にまた充電されて復活する。",
     "appearanceList": [
       {
@@ -6059,11 +8353,22 @@
       },
       {
         "placeName": "永遠亭",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社1日目",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社1日目",
+        "subPlaceName": "裏",
         "canDrop": true
       }
     ],
-    "cocoaList": [],
-    "notes": "\nHPは3で固定。なお、スキル効果はカウンターには無効。\nYYKBBA\nと合成することでHPを5にすることが可能。\n復活時の攻撃は単体攻撃。また、KNN姉貴と同じように、TKNUCで復活をキャンセルできる。\n動きがかなりややこしいユニットだが、2ターン経過すると敵一体をターゲットに自爆攻撃→次のターンにHPを2回復させて復活(回復量は固定なのでYYKBBAでHPを2増やしても回復量は2のまま)するメタル属性ユニットと考えるといい。自動復活する上にメタルなので邪神GOやサイクロップス先輩と相性がいい。\nなお、自爆時の攻撃がYUK姉貴に当たるとYUK姉貴が自爆攻撃する。\n"
+    "isSuwaFes": false,
+    "cocoaList": []
   },
   {
     "imageUrl": "",
@@ -6086,8 +8391,8 @@
         "canDrop": true
       }
     ],
-    "cocoaList": [],
-    "notes": "合成したユニットの背景は緑に染まり、HPが強化される。\nATKを強化したい方はDEFを強化したい方はMNTを強化したい方は"
+    "isSuwaFes": true,
+    "cocoaList": []
   },
   {
     "imageUrl": "",
@@ -6110,8 +8415,8 @@
         "canDrop": true
       }
     ],
-    "cocoaList": [],
-    "notes": "合成したユニットの背景は赤く染まり、ATKが強化される。\nHP を強化したい方はDEFを強化したい方はMNTを強化したい方は"
+    "isSuwaFes": true,
+    "cocoaList": []
   },
   {
     "imageUrl": "",
@@ -6134,8 +8439,8 @@
         "canDrop": true
       }
     ],
-    "cocoaList": [],
-    "notes": "合成したユニットの背景は黄色く染まり、DEFが強化される。\nHP を強化したい方はATKを強化したい方はMNTを強化したい方は"
+    "isSuwaFes": true,
+    "cocoaList": []
   },
   {
     "imageUrl": "",
@@ -6158,34 +8463,8 @@
         "canDrop": true
       }
     ],
-    "cocoaList": [],
-    "notes": "合成したユニットの背景は青く染まり、MNTが強化される。\nHP を強化したい方はATKを強化したい方はDEFを強化したい方は"
-  },
-  {
-    "imageUrl": "",
-    "name": "スカーレット田中",
-    "hp": "75",
-    "atk": "120",
-    "def": "100",
-    "mnt": "100",
-    "cost": "50",
-    "types": [
-      "吸血鬼",
-      "ドラゴン",
-      "武器"
-    ],
-    "reach": "物理",
-    "target": "単体",
-    "skillName": "野田内閣",
-    "skillDescription": "攻撃した相手を毒状態にする。毒状態の敵から攻撃されるとHPが回復する。[イラスト：古霧さん]",
-    "appearanceList": [
-      {
-        "placeName": "紅魔館会議室",
-        "canDrop": true
-      }
-    ],
-    "cocoaList": [],
-    "notes": ""
+    "isSuwaFes": true,
+    "cocoaList": []
   },
   {
     "imageUrl": "",
@@ -6202,15 +8481,45 @@
     "reach": "物理",
     "target": "単体",
     "skillName": "離反工作",
-    "skillDescription": "1回だけ必殺技を使ってきた相手をだまして敵側に攻撃させる。[イラスト：アミーゴ内藤さん]",
+    "skillDescription": "1回だけ必殺技を放ってきた相手をだまして敵側に攻撃させる。[イラスト:アミーゴ内藤さん@例大祭D21b]",
     "appearanceList": [
       {
         "placeName": "永遠亭",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "永遠亭",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社1日目",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社1日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "博麗神社例大祭",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "博麗事務所",
         "canDrop": true
       }
     ],
-    "cocoaList": [],
-    "notes": "\ntwitterで先行公開された時は名前がTEI姉貴だった。ソートは変わらず「た」から。\n複数のTW姉貴が居ても、離反は1回のみ。離反させられる攻撃はTKNUCでキャンセルできる技のうち攻撃性のもの。\n"
+    "isSuwaFes": false,
+    "cocoaList": [
+      {
+        "min": "501",
+        "max": "750"
+      }
+    ]
   },
   {
     "imageUrl": "",
@@ -6226,15 +8535,50 @@
     "reach": "精神",
     "target": "2回",
     "skillName": "蓬莱の秘薬",
-    "skillDescription": "攻撃後に仲間全員のHPを回復させる。戦闘不能者もひん死で復活する。[イラスト：古霧さん]",
+    "skillDescription": "攻撃後に仲間全員のHPを回復させる。戦闘不能者もひん死で復活する。[イラスト:古霧さん]",
     "appearanceList": [
       {
         "placeName": "永遠亭",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "永遠亭",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社3日目",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社3日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社5日目",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社5日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "博麗事務所",
         "canDrop": true
       }
     ],
-    "cocoaList": [],
-    "notes": "\nスキル発動はEIRN姉貴が何人いても一回のバトルで一度のみ。\n"
+    "isSuwaFes": false,
+    "cocoaList": [
+      {
+        "min": "501",
+        "max": "1000"
+      }
+    ]
   },
   {
     "imageUrl": "",
@@ -6254,12 +8598,36 @@
     "skillDescription": "関西出身のチャラそうな男と一緒にいると何かが起こる可能性が微粒子レベルで存在している・・・？",
     "appearanceList": [
       {
+        "placeName": "ガンボリア宮殿",
+        "canDrop": true
+      },
+      {
+        "placeName": "アリスの館～第2階層～",
+        "canDrop": true
+      },
+      {
         "placeName": "永遠亭",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社2日目",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "博麗神社例大祭",
+        "subPlaceName": "裏",
         "canDrop": true
       }
     ],
-    "cocoaList": [],
-    "notes": "\nパーティに関西チャラ男が居ると、コストが軽くなる。\nまた、攻撃後に「関西ターラッタ祭り」を発動し、攻撃力と行動速度が上昇する。\n"
+    "isSuwaFes": false,
+    "cocoaList": [
+      {
+        "min": "401",
+        "max": "1000"
+      }
+    ]
   },
   {
     "imageUrl": "",
@@ -6275,15 +8643,660 @@
     "reach": "精神",
     "target": "全体",
     "skillName": "永夜返し",
-    "skillDescription": "全員の攻撃が終わると、そのバトルをリセットして最初から戦う。HPだけ引き継がれる。[イラスト：古霧さん]",
+    "skillDescription": "全員の攻撃が終わると、そのバトルをリセットして最初から戦う。HPだけ引き継がれる。[イラスト:古霧さん]",
     "appearanceList": [
       {
         "placeName": "永遠亭",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社5日目",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社5日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "博麗事務所",
         "canDrop": true
       }
     ],
-    "cocoaList": [],
-    "notes": "戦闘不能ユニット、および訴訟状態のユニットはすでに行動したものと数える。"
+    "isSuwaFes": false,
+    "cocoaList": [
+      {
+        "min": "501",
+        "max": "1000"
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "name": "YKRBBA",
+    "hp": "90",
+    "atk": "160",
+    "def": "80",
+    "mnt": "70",
+    "cost": "60",
+    "types": [
+      "妖怪"
+    ],
+    "reach": "物理",
+    "target": "単体",
+    "skillName": "ババアポカリプス",
+    "skillDescription": "戦闘不能でもゲージがたまる。この状態で行動すると相手1人を即死させる。[イラスト:古霧さん]",
+    "appearanceList": [
+      {
+        "placeName": "GW神社1日目",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社1日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "かんなの湯",
+        "canDrop": true
+      }
+    ],
+    "isSuwaFes": true,
+    "cocoaList": []
+  },
+  {
+    "imageUrl": "",
+    "name": "野獣＆遠野",
+    "hp": "150",
+    "atk": "115",
+    "def": "165",
+    "mnt": "130",
+    "cost": "60",
+    "types": [
+      "ホモ",
+      "空手",
+      "水泳"
+    ],
+    "reach": "物理",
+    "target": "2回",
+    "skillName": "幸せなキス",
+    "skillDescription": "あまりの汚さに戦闘開始時に既に削除されている。",
+    "appearanceList": [
+      {
+        "placeName": "GW神社2日目",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社2日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "かんなの湯",
+        "canDrop": true
+      }
+    ],
+    "isSuwaFes": true,
+    "cocoaList": []
+  },
+  {
+    "imageUrl": "",
+    "name": "SNNN姉貴",
+    "hp": "120",
+    "atk": "130",
+    "def": "100",
+    "mnt": "150",
+    "cost": "70",
+    "types": [
+      "巫女",
+      "魔法使い"
+    ],
+    "reach": "精神",
+    "target": "単体",
+    "skillName": "アイドルンバももか",
+    "skillDescription": "アイドルのものまねをして1ターンに一回だけ相手の精神攻撃を自分に引きつけ、その後反撃する。[イラスト:たけのこLv9さん]",
+    "appearanceList": [
+      {
+        "placeName": "GW神社3日目",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社3日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "かんなの湯",
+        "canDrop": true
+      }
+    ],
+    "isSuwaFes": true,
+    "cocoaList": []
+  },
+  {
+    "imageUrl": "",
+    "name": "ノンケスレイヤー",
+    "hp": "120",
+    "atk": "105",
+    "def": "120",
+    "mnt": "130",
+    "cost": "70",
+    "types": [
+      "ホモ",
+      "空手",
+      "屑"
+    ],
+    "reach": "精神",
+    "target": "2回",
+    "skillName": "コンスイ・ジツ",
+    "skillDescription": "イクサ前に絶対の礼儀であるアイサツをする。Cost60以下のサンシタは敵味方関係なくしめやかに失禁し、混乱する。[イラスト:babaraさん]",
+    "appearanceList": [
+      {
+        "placeName": "GW神社4日目",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社4日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "黄金のりんご",
+        "canDrop": false
+      },
+      {
+        "placeName": "かんなの湯",
+        "canDrop": true
+      }
+    ],
+    "isSuwaFes": true,
+    "cocoaList": []
+  },
+  {
+    "imageUrl": "",
+    "name": "Y.AOI",
+    "hp": "100",
+    "atk": "90",
+    "def": "80",
+    "mnt": "120",
+    "cost": "55",
+    "types": [
+      "風評被害",
+      "ドラゴン"
+    ],
+    "reach": "物理",
+    "target": "単体",
+    "skillName": "竜我那覇くん",
+    "skillDescription": "攻撃後に味方の[ドラゴン]ユニットの攻撃力とゲージ（自分以外）を上昇させる。HP全快の[ドラゴン]はダメージ軽減+追加効果無効。[イラスト:アミーゴ内藤さん@例大祭D21b]",
+    "appearanceList": [
+      {
+        "placeName": "GW神社5日目",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社5日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "かんなの湯",
+        "canDrop": true
+      }
+    ],
+    "isSuwaFes": true,
+    "cocoaList": []
+  },
+  {
+    "imageUrl": "",
+    "name": "りんご",
+    "hp": "100",
+    "atk": "100",
+    "def": "100",
+    "mnt": "100",
+    "cost": "60",
+    "types": [
+      "汚物"
+    ],
+    "reach": "物理",
+    "target": "単体",
+    "skillName": "",
+    "skillDescription": "合成するとりんごのLv分だけLvが増えるけど、たぶん嫌われますよ",
+    "appearanceList": [
+      {
+        "placeName": "黄金のりんご",
+        "canDrop": true
+      },
+      {
+        "placeName": "かんなの湯",
+        "canDrop": true
+      }
+    ],
+    "isSuwaFes": false,
+    "cocoaList": []
+  },
+  {
+    "imageUrl": "",
+    "name": "淫夢之一太刀SIK",
+    "hp": "150",
+    "atk": "130",
+    "def": "100",
+    "mnt": "120",
+    "cost": "70",
+    "types": [
+      "鬼",
+      "武器"
+    ],
+    "reach": "物理",
+    "target": "単体",
+    "skillName": "邪剣・夜逝魔衝音",
+    "skillDescription": "Cost60以下の味方[ホモ]ユニットの攻撃時の効果を全て使える。[ホモ]の数だけ開幕コストが削減+攻撃力アップ（2回攻撃）。[イラスト:あずみはるひとさん@例大祭ね02a]",
+    "appearanceList": [
+      {
+        "placeName": "黄金のりんご",
+        "canDrop": true
+      },
+      {
+        "placeName": "ボスラッシュ企画",
+        "canDrop": false
+      }
+    ],
+    "isSuwaFes": true,
+    "cocoaList": []
+  },
+  {
+    "imageUrl": "",
+    "name": "MMJ姉貴",
+    "hp": "80",
+    "atk": "140",
+    "def": "90",
+    "mnt": "90",
+    "cost": "60",
+    "types": [
+      "武器",
+      "妖怪"
+    ],
+    "reach": "物理",
+    "target": "単体",
+    "skillName": "最後の方に出てくる犬",
+    "skillDescription": "攻撃を受けると、そのReachの攻撃を自分のターンまで0にする。違う攻撃を受けると無効化できるタイプが変わる。無効化する度威力アップ。[イラスト:アミーゴ内藤さん]",
+    "appearanceList": [
+      {
+        "placeName": "アリスの館",
+        "canDrop": true
+      },
+      {
+        "placeName": "博麗神社例大祭",
+        "subPlaceName": "表",
+        "canDrop": true
+      }
+    ],
+    "isSuwaFes": false,
+    "cocoaList": [
+      {
+        "min": "501",
+        "max": "750"
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "name": "ALISON兄貴",
+    "hp": "100",
+    "atk": "100",
+    "def": "100",
+    "mnt": "100",
+    "cost": "60",
+    "types": [
+      "神"
+    ],
+    "reach": "物理",
+    "target": "単体",
+    "skillName": "ダメ、ゼッタイ",
+    "skillDescription": "戦闘開始時に仲間全員にくすりを振舞う。くすりのパワーで能力が強化+追加効果無効を得るが効果が切れると弱体化+混乱する。",
+    "appearanceList": [
+      {
+        "placeName": "博麗神社例大祭",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "博麗神社例大祭",
+        "subPlaceName": "裏",
+        "canDrop": true
+      }
+    ],
+    "isSuwaFes": true,
+    "cocoaList": []
+  },
+  {
+    "imageUrl": "",
+    "name": "スライムナイトESK",
+    "hp": "100",
+    "atk": "150",
+    "def": "160",
+    "mnt": "90",
+    "cost": "75",
+    "types": [
+      "武器",
+      "鳥",
+      "騎士"
+    ],
+    "reach": "物理",
+    "target": "2回",
+    "skillName": "大坊御",
+    "skillDescription": "騎士特有のフォーメーションにより、仲間にいるだけでHPが一番低い仲間は受けるダメージが激減する。",
+    "appearanceList": [
+      {
+        "placeName": "アリスの館",
+        "canDrop": true
+      },
+      {
+        "placeName": "アリスの部屋",
+        "canDrop": true
+      },
+      {
+        "placeName": "かんなの湯",
+        "canDrop": true
+      }
+    ],
+    "isSuwaFes": false,
+    "cocoaList": [
+      {
+        "min": "501",
+        "max": "750"
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "name": "BNKRG姉貴",
+    "hp": "130",
+    "atk": "40",
+    "def": "80",
+    "mnt": "150",
+    "cost": "60",
+    "types": [
+      "巫女"
+    ],
+    "reach": "精神",
+    "target": "単体",
+    "skillName": "猫鍋",
+    "skillDescription": "自分のHPが最大の時は機嫌がいいので仲間の[巫女]全員に鍋を振舞って状態異常完治+攻撃力UP+HPを最大値にする。回復じゃなくて最大値に「する」。",
+    "appearanceList": [
+      {
+        "placeName": "アリスの館",
+        "canDrop": true
+      },
+      {
+        "placeName": "アリスの館～第3階層～",
+        "canDrop": true
+      },
+      {
+        "placeName": "かんなの湯",
+        "canDrop": true
+      }
+    ],
+    "isSuwaFes": false,
+    "cocoaList": [
+      {
+        "min": "501",
+        "max": "750"
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "name": "MZ姉貴",
+    "hp": "100",
+    "atk": "150",
+    "def": "150",
+    "mnt": "100",
+    "cost": "70",
+    "types": [
+      "妖怪",
+      "ドラゴン"
+    ],
+    "reach": "物理",
+    "target": "単体",
+    "skillName": "ガバガバ門番",
+    "skillDescription": "門番なので1ターンに一回だけ相手の物理攻撃を自分に引きつけ、その後反撃する。[イラスト:古霧さん]",
+    "appearanceList": [
+      {
+        "placeName": "アリスの館",
+        "canDrop": true
+      },
+      {
+        "placeName": "かんなの湯",
+        "canDrop": true
+      }
+    ],
+    "isSuwaFes": false,
+    "cocoaList": [
+      {
+        "min": "501",
+        "max": "750"
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "name": "ミミックおばさん",
+    "hp": "65",
+    "atk": "200",
+    "def": "235",
+    "mnt": "200",
+    "cost": "100",
+    "types": [
+      "巫女",
+      "屑"
+    ],
+    "reach": "物理",
+    "target": "単体",
+    "skillName": "どん欲者",
+    "skillDescription": "トドメを刺されると攻撃してきた相手を箱に閉じ込めて道連れにする。宝箱なので1ターン後に復活し、中身も吐き出す。",
+    "appearanceList": [
+      {
+        "placeName": "アリスの館",
+        "canDrop": true
+      },
+      {
+        "placeName": "かんなの湯",
+        "canDrop": true
+      }
+    ],
+    "isSuwaFes": false,
+    "cocoaList": [
+      {
+        "min": "501",
+        "max": "750"
+      }
+    ]
+  },
+  {
+    "imageUrl": "",
+    "name": "復讐を誓ったKNN",
+    "hp": "100",
+    "atk": "230",
+    "def": "70",
+    "mnt": "100",
+    "cost": "150",
+    "types": [
+      "巫女",
+      "神",
+      "屑"
+    ],
+    "reach": "物理",
+    "target": "単体",
+    "skillName": "邪影闘気殺炎",
+    "skillDescription": "KNN姉貴特有の自己再生時に防御スキル無視攻撃が6回ランダムに降り注ぐ。そっとしておいて差し上げろ。",
+    "appearanceList": [
+      {
+        "placeName": "かんなの湯",
+        "canDrop": true
+      },
+      {
+        "placeName": "ボスラッシュ企画",
+        "canDrop": true
+      }
+    ],
+    "isSuwaFes": false,
+    "cocoaList": []
+  },
+  {
+    "imageUrl": "",
+    "name": "借金取りBNKRG",
+    "hp": "100",
+    "atk": "100",
+    "def": "100",
+    "mnt": "100",
+    "cost": "60",
+    "types": [
+      "巫女",
+      "893"
+    ],
+    "reach": "精神",
+    "target": "単体",
+    "skillName": "Glory BNKRG",
+    "skillDescription": "攻撃時に仲間の[893]ユニットが受けたダメージを全て加えて攻撃する。",
+    "appearanceList": [
+      {
+        "placeName": "博麗事務所",
+        "canDrop": true
+      }
+    ],
+    "isSuwaFes": false,
+    "cocoaList": []
+  },
+  {
+    "imageUrl": "",
+    "name": "借金取りKNN",
+    "hp": "100",
+    "atk": "100",
+    "def": "100",
+    "mnt": "100",
+    "cost": "80",
+    "types": [
+      "巫女",
+      "893"
+    ],
+    "reach": "物理",
+    "target": "単体",
+    "skillName": "Glory KNN",
+    "skillDescription": "戦闘不能になっても借金取りなので1ターン後に復活する。自分がやられた時のダメージを相手に与えて自分は回復する。",
+    "appearanceList": [
+      {
+        "placeName": "博麗事務所",
+        "canDrop": true
+      }
+    ],
+    "isSuwaFes": false,
+    "cocoaList": []
+  },
+  {
+    "imageUrl": "",
+    "name": "借金取りRU",
+    "hp": "150",
+    "atk": "150",
+    "def": "150",
+    "mnt": "150",
+    "cost": "80",
+    "types": [
+      "巫女",
+      "893"
+    ],
+    "reach": "物理",
+    "target": "単体",
+    "skillName": "Glory RU",
+    "skillDescription": "仲間にいるだけで[巫女]ユニットがダメージをうけると、次のターンまでそのダメージ以上の攻撃は無効にする。",
+    "appearanceList": [
+      {
+        "placeName": "博麗事務所",
+        "canDrop": true
+      }
+    ],
+    "isSuwaFes": false,
+    "cocoaList": []
+  },
+  {
+    "imageUrl": "",
+    "name": "借金取りSNNN",
+    "hp": "150",
+    "atk": "150",
+    "def": "150",
+    "mnt": "150",
+    "cost": "80",
+    "types": [
+      "巫女",
+      "893"
+    ],
+    "reach": "精神",
+    "target": "単体",
+    "skillName": "Glory SNNN",
+    "skillDescription": "仲間にいるだけで開幕時に敵全員にゲージを40貸し付ける。それ以降は相手の行動が遅くなる。",
+    "appearanceList": [
+      {
+        "placeName": "博麗事務所",
+        "canDrop": true
+      }
+    ],
+    "isSuwaFes": false,
+    "cocoaList": []
+  },
+  {
+    "imageUrl": "",
+    "name": "朗読兄貴",
+    "hp": "120",
+    "atk": "150",
+    "def": "100",
+    "mnt": "130",
+    "cost": "50",
+    "types": [
+      "まりな"
+    ],
+    "reach": "精神",
+    "target": "単体",
+    "skillName": "イワナ",
+    "skillDescription": "味方にUDK姉貴がいると全体攻撃できる。攻撃後に味方のUDKを攻撃する。UDKがいない場合は味方に大ダメージを与える。",
+    "appearanceList": [
+      {
+        "placeName": "ボスラッシュ企画",
+        "canDrop": true
+      }
+    ],
+    "isSuwaFes": false,
+    "cocoaList": []
+  },
+  {
+    "imageUrl": "",
+    "name": "ネオエクスデス先輩",
+    "hp": "200",
+    "atk": "200",
+    "def": "200",
+    "mnt": "200",
+    "cost": "150",
+    "types": [
+      "神",
+      "汚物"
+    ],
+    "reach": "物理",
+    "target": "全体",
+    "skillName": "グランドクロス",
+    "skillDescription": "戦闘開始時と攻撃時に敵全員をランダムで状態異常にする",
+    "appearanceList": [
+      {
+        "placeName": "ボスラッシュ企画",
+        "canDrop": true
+      }
+    ],
+    "isSuwaFes": false,
+    "cocoaList": []
   },
   {
     "imageUrl": "",
@@ -6308,15 +9321,23 @@
       },
       {
         "placeName": "クッキーレストラン",
+        "canDrop": false
+      },
+      {
+        "placeName": "ニコニコ本社(クエスト)",
         "canDrop": true
       },
       {
         "placeName": "ひで祭り会場",
         "canDrop": true
+      },
+      {
+        "placeName": "黄金のりんご",
+        "canDrop": false
       }
     ],
-    "cocoaList": [],
-    "notes": "くまさん\nと合成することで暗黒神ラプソーンに変化する。\nKMC姉貴\nと合成することでタナトスひでに変化する。\n"
+    "isSuwaFes": false,
+    "cocoaList": []
   },
   {
     "imageUrl": "",
@@ -6334,23 +9355,33 @@
     "reach": "物理",
     "target": "全体",
     "skillName": "ひでしね",
-    "skillDescription": "見てるだけでイライラするので、攻撃後に敵全体の攻撃力が上がってしまう。",
+    "skillDescription": "見てるだけでイライラするので、攻撃後に敵全員の攻撃力が上がってしまう。",
     "appearanceList": [
       {
         "placeName": "山下公園",
-        "canDrop": true
+        "canDrop": false
       },
       {
         "placeName": "ニコファーレ",
-        "canDrop": true
+        "canDrop": false
       },
       {
         "placeName": "ひで祭り会場",
         "canDrop": true
+      },
+      {
+        "placeName": "GW神社4日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社5日目",
+        "subPlaceName": "裏",
+        "canDrop": true
       }
     ],
-    "cocoaList": [],
-    "notes": "スキル「ひでしね」は相手のATK補正を2倍にする。\n世界のトオノ\nの効果の対象となる。\nひで\n系統と鎌田吾作の合成で作ることができる。\nまた、土着神SWKと合成すると神々の頂点SWKへと変化する。"
+    "isSuwaFes": false,
+    "cocoaList": []
   },
   {
     "imageUrl": "",
@@ -6372,10 +9403,24 @@
       {
         "placeName": "ひで祭り会場",
         "canDrop": true
+      },
+      {
+        "placeName": "GW神社4日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "黄金のりんご",
+        "canDrop": false
+      },
+      {
+        "placeName": "博麗神社例大祭",
+        "subPlaceName": "裏",
+        "canDrop": true
       }
     ],
-    "cocoaList": [],
-    "notes": ""
+    "isSuwaFes": true,
+    "cocoaList": []
   },
   {
     "imageUrl": "",
@@ -6392,31 +9437,35 @@
     "reach": "精神",
     "target": "単体",
     "skillName": "ヒーロー拷問",
-    "skillDescription": "ウルトラマンだって死にそうなときゎ、自爆して全員に大ダメージを与えるんだよ",
+    "skillDescription": "ウルトラマンだって死にそうな時ゎ、自爆して全員に大ダメージを与えるんだよ",
     "appearanceList": [
       {
         "placeName": "日本ペイント",
-        "canDrop": true
+        "canDrop": false
       },
       {
         "placeName": "聖バビロン大学病院",
-        "canDrop": true
+        "canDrop": false
       },
       {
         "placeName": "王者の聖域",
-        "canDrop": true
+        "canDrop": false
+      },
+      {
+        "placeName": "スキマワールド",
+        "canDrop": false
       },
       {
         "placeName": "2014年初詣",
-        "canDrop": true
+        "canDrop": false
       },
       {
         "placeName": "白玉楼",
-        "canDrop": true
+        "canDrop": false
       }
     ],
-    "cocoaList": [],
-    "notes": ""
+    "isSuwaFes": false,
+    "cocoaList": []
   },
   {
     "imageUrl": "",
@@ -6437,15 +9486,19 @@
     "appearanceList": [
       {
         "placeName": "王者の聖域",
-        "canDrop": true
+        "canDrop": false
+      },
+      {
+        "placeName": "ニコニコ本社(クエスト)",
+        "canDrop": false
       },
       {
         "placeName": "2014年初詣",
-        "canDrop": true
+        "canDrop": false
       }
     ],
-    "cocoaList": [],
-    "notes": ""
+    "isSuwaFes": false,
+    "cocoaList": []
   },
   {
     "imageUrl": "",
@@ -6476,10 +9529,19 @@
       {
         "placeName": "クッキーレストラン",
         "canDrop": false
+      },
+      {
+        "placeName": "ガンボリア宮殿",
+        "canDrop": false
+      },
+      {
+        "placeName": "GW神社3日目",
+        "subPlaceName": "裏",
+        "canDrop": true
       }
     ],
-    "cocoaList": [],
-    "notes": ""
+    "isSuwaFes": true,
+    "cocoaList": []
   },
   {
     "imageUrl": "",
@@ -6512,8 +9574,97 @@
         "canDrop": false
       }
     ],
-    "cocoaList": [],
-    "notes": ""
+    "isSuwaFes": false,
+    "cocoaList": []
+  },
+  {
+    "imageUrl": "",
+    "name": "フェアリー田中",
+    "hp": "75",
+    "atk": "130",
+    "def": "75",
+    "mnt": "120",
+    "cost": "60",
+    "types": [
+      "ドラゴン",
+      "妖精"
+    ],
+    "reach": "物理",
+    "target": "単体",
+    "skillName": "狂った野獣たち",
+    "skillDescription": "相手の中に毒状態の敵がいたら2回攻撃になる。攻撃相手が毒状態なら与えるダメージが2倍になる。",
+    "appearanceList": [
+      {
+        "placeName": "アリスの館～第3階層～",
+        "canDrop": false
+      },
+      {
+        "placeName": "ボスラッシュ企画",
+        "canDrop": false
+      }
+    ],
+    "isSuwaFes": false,
+    "cocoaList": []
+  },
+  {
+    "imageUrl": "",
+    "name": "スカーレット田中",
+    "hp": "75",
+    "atk": "120",
+    "def": "100",
+    "mnt": "100",
+    "cost": "50",
+    "types": [
+      "吸血鬼",
+      "ドラゴン",
+      "武器"
+    ],
+    "reach": "物理",
+    "target": "単体",
+    "skillName": "野田内閣",
+    "skillDescription": "攻撃した相手を毒状態にする。毒状態の敵から攻撃されるとHPが回復する。[イラスト:古霧さん]",
+    "appearanceList": [
+      {
+        "placeName": "紅魔館会議室",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社5日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "かんなの湯",
+        "canDrop": false
+      }
+    ],
+    "isSuwaFes": false,
+    "cocoaList": []
+  },
+  {
+    "imageUrl": "",
+    "name": "淫夢くんUC",
+    "hp": "120",
+    "atk": "150",
+    "def": "115",
+    "mnt": "115",
+    "cost": "70",
+    "types": [
+      "聖獣",
+      "鑑"
+    ],
+    "reach": "物理",
+    "target": "単体",
+    "skillName": "王者の右手",
+    "skillDescription": "仲間にいるだけで相手COST60未満の敵ユニットは行動が遅くなる[イラスト　古霧さん]",
+    "appearanceList": [
+      {
+        "placeName": "アリスの部屋",
+        "canDrop": true
+      }
+    ],
+    "isSuwaFes": false,
+    "cocoaList": []
   },
   {
     "imageUrl": "",
@@ -6544,30 +9695,37 @@
       {
         "placeName": "ニコファーレ",
         "canDrop": false
+      },
+      {
+        "placeName": "ニコニコ本社(クエスト)",
+        "canDrop": false
+      },
+      {
+        "placeName": "アリスの館～第2階層～",
+        "canDrop": true
+      },
+      {
+        "placeName": "アリスの部屋",
+        "canDrop": false
+      },
+      {
+        "placeName": "GW神社4日目",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社5日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "博麗神社例大祭",
+        "subPlaceName": "裏",
+        "canDrop": true
       }
     ],
-    "cocoaList": [],
-    "notes": "対象になるユニット\n多脚ひで\nRyu☆\n我那覇くん\n木吉カズヤ\nMSTA姉貴\n山崎まさゆき\n \n \n \n \nRyu☆以外は元の発動セリフの下に「アッー（世界）」が追加される。\nRyu☆はスキル名自体が「I'm so cookie☆」に、セリフも「一　転　攻　勢」に変化する。"
-  },
-  {
-    "imageUrl": "",
-    "name": "淫夢くんUC",
-    "hp": "120",
-    "atk": "150",
-    "def": "115",
-    "mnt": "115",
-    "cost": "70",
-    "types": [
-      "聖獣",
-      "鑑"
-    ],
-    "reach": "物理",
-    "target": "単体",
-    "skillName": "王者の右手",
-    "skillDescription": "仲間にいるだけで相手COST60未満の敵ユニットは行動が遅くなる[イラスト　古霧さん]",
-    "appearanceList": [],
-    "cocoaList": [],
-    "notes": "仲間にいるだけで相手COST60未満の敵ユニットは行動ゲージの増加速度が元の増加速度の6割減になる。\nTITニング\nの効果と複合すると、元の増加速度の9割減になる。\nなお、王者の聖域に出てくるものは別ユニット扱いである。\nCOST40～55のユニット\nCOST40\n大妖精\nメ・バヂス・バ\n \n \n \nCOST45\nZUN\nAY姉貴\n虐待おじさん\nチョコレート先輩\nホワイトチョコ先輩\n \nKISちゃん\nOZW\nHTT姉貴\nメタルセミ兄貴\n \nCOST50\nRMA姉貴\nRMLA姉貴\nFLNちゃん\nSGW急便\n殺人鬼MNR\n \nAOK\nスカーレット田中\nTNS姉貴\nTW姉貴\n \nCOST55\nMSTA姉貴\nYUMちゃん\nKMC姉貴\n多脚ひで\nサイクロップス先輩\n"
+    "isSuwaFes": false,
+    "cocoaList": []
   },
   {
     "imageUrl": "",
@@ -6585,10 +9743,61 @@
     "reach": "物理",
     "target": "全体",
     "skillName": "やったわ",
-    "skillDescription": "味方を巻き込む全体攻撃だが、味方の[糞]ユニットは逆に攻撃力がアップする。[イラスト：古霧さん]",
-    "appearanceList": [],
-    "cocoaList": [],
-    "notes": "スキルにより「糞」ユニットのATK補正を1.2倍に上昇させる。"
+    "skillDescription": "味方を巻き込む全体攻撃だが、味方の[糞]ユニットは逆に攻撃力がアップする。[イラスト:古霧さん]",
+    "appearanceList": [
+      {
+        "placeName": "ニコニコ本社(クエスト)",
+        "canDrop": false
+      },
+      {
+        "placeName": "GW神社3日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      }
+    ],
+    "isSuwaFes": false,
+    "cocoaList": []
+  },
+  {
+    "imageUrl": "",
+    "name": "サイクロップス先輩",
+    "hp": "-1",
+    "atk": "180",
+    "def": "1",
+    "mnt": "1",
+    "cost": "55",
+    "types": [
+      "メタル"
+    ],
+    "reach": "物理",
+    "target": "単体",
+    "skillName": "メタリックな彼",
+    "skillDescription": "どんな攻撃も1ダメージしか受けない",
+    "appearanceList": [
+      {
+        "placeName": "邪神の塔",
+        "canDrop": false
+      },
+      {
+        "placeName": "立教帝国",
+        "canDrop": false
+      },
+      {
+        "placeName": "アリスの館～第2階層～",
+        "canDrop": false
+      },
+      {
+        "placeName": "2014年初詣",
+        "canDrop": false
+      },
+      {
+        "placeName": "GW神社2日目",
+        "subPlaceName": "表",
+        "canDrop": true
+      }
+    ],
+    "isSuwaFes": false,
+    "cocoaList": []
   },
   {
     "imageUrl": "",
@@ -6613,40 +9822,8 @@
         "canDrop": false
       }
     ],
-    "cocoaList": [],
-    "notes": "サイクロップス先輩\nと合成することでダークドレアム先輩に変化する。"
-  },
-  {
-    "imageUrl": "",
-    "name": "サイクロップス先輩",
-    "hp": "-1",
-    "atk": "180",
-    "def": "1",
-    "mnt": "1",
-    "cost": "55",
-    "types": [
-      "メタル"
-    ],
-    "reach": "物理",
-    "target": "単体",
-    "skillName": "メタリックな彼",
-    "skillDescription": "どんな攻撃も1ダメージしか受けない",
-    "appearanceList": [
-      {
-        "placeName": "邪神の塔",
-        "canDrop": true
-      },
-      {
-        "placeName": "立教帝国",
-        "canDrop": true
-      },
-      {
-        "placeName": "2014年初詣",
-        "canDrop": true
-      }
-    ],
-    "cocoaList": [],
-    "notes": "\nHPは5で固定。なお、スキル効果はカウンターには無効。\nYYKBBA\nと合成することでHPを8にすることが可能。\n暗黒神ラプソーン\nと合成することでダークドレアム先輩に変化する。\n「0ダメージ＋効果を与える攻撃」でも1ダメージ受ける。鎌田吾作、CNT姉貴、TDN、UDNG姉貴、OZW等が該当する。\n"
+    "isSuwaFes": true,
+    "cocoaList": []
   },
   {
     "imageUrl": "",
@@ -6664,9 +9841,15 @@
     "target": "2回",
     "skillName": "マダンテ",
     "skillDescription": "3ターン目に仲間の行動ゲージを全部使って全体攻撃を放つ。",
-    "appearanceList": [],
-    "cocoaList": [],
-    "notes": "マダンテの威力はおそらく自身の攻撃力と味方全員の行動ゲージの量に依存、相手のDEFやスキルによる影響を受ける。\n簡易マダンテ威力参考\n（対戦モード・黒枠ダークドレアム先輩・相手は黒枠DEF100のキャラ・ババアポカリプス強化はなし）\n先輩のみ→380ダメージ\nピンキー姉貴\n一人と組んだ場合→505ダメージ\nピンキー姉貴二人と組んだ場合→831ダメージ\nピンキー姉貴三人と組んだ場合→1115ダメージ\n先輩のみでATKをババアポカリプス強化→465ダメージ\n"
+    "appearanceList": [
+      {
+        "placeName": "GW神社4日目",
+        "subPlaceName": "表",
+        "canDrop": true
+      }
+    ],
+    "isSuwaFes": true,
+    "cocoaList": []
   },
   {
     "imageUrl": "",
@@ -6686,16 +9869,45 @@
     "skillDescription": "攻撃相手が釣りキチ化する。釣りキチ状態になると攻撃時の追加効果や攻撃力アップは無効になる。",
     "appearanceList": [
       {
+        "placeName": "アリスの館",
+        "canDrop": true
+      },
+      {
         "placeName": "ババアポカリプス",
         "canDrop": true
       },
       {
         "placeName": "永遠亭",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社1日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社2日目",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社2日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "博麗神社例大祭",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "かんなの湯",
         "canDrop": true
       }
     ],
-    "cocoaList": [],
-    "notes": "ZUN\nの対象になる。\n釣りキチ状態は、Type[神]、Type[死神]にもなる。\n自分は釣りキチ状態にならない。"
+    "isSuwaFes": true,
+    "cocoaList": []
   },
   {
     "imageUrl": "",
@@ -6718,10 +9930,26 @@
       {
         "placeName": "山下公園",
         "canDrop": true
+      },
+      {
+        "placeName": "ガンボリア宮殿",
+        "canDrop": false
+      },
+      {
+        "placeName": "アリスの館～第1階層～",
+        "canDrop": true
+      },
+      {
+        "placeName": "アリスの部屋",
+        "canDrop": true
+      },
+      {
+        "placeName": "黄金のりんご",
+        "canDrop": false
       }
     ],
-    "cocoaList": [],
-    "notes": ""
+    "isSuwaFes": false,
+    "cocoaList": []
   },
   {
     "imageUrl": "",
@@ -6742,12 +9970,21 @@
     "skillDescription": "戦闘不能になっても1ターン後に全体攻撃をまき散らしながら復活する。1回だけ味方の[鳥]ユニットも復活する。",
     "appearanceList": [
       {
+        "placeName": "アリスの館～第3階層～",
+        "canDrop": true
+      },
+      {
         "placeName": "下北沢裁判所",
+        "canDrop": false
+      },
+      {
+        "placeName": "GW神社4日目",
+        "subPlaceName": "表",
         "canDrop": true
       }
     ],
-    "cocoaList": [],
-    "notes": ""
+    "isSuwaFes": false,
+    "cocoaList": []
   },
   {
     "imageUrl": "",
@@ -6765,10 +10002,49 @@
     "reach": "物理",
     "target": "単体",
     "skillName": "生き返るわぁ～",
-    "skillDescription": "戦闘不能になっても1ターン後に復活する。復活ついでに味方のスキル無しユニットも復活する。",
-    "appearanceList": [],
-    "cocoaList": [],
-    "notes": ""
+    "skillDescription": "戦闘不能になっても１ターン後に復活する。復活ついでに味方のスキル無しユニットも復活する。",
+    "appearanceList": [
+      {
+        "placeName": "GW神社4日目",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "かんなの湯",
+        "canDrop": false
+      }
+    ],
+    "isSuwaFes": false,
+    "cocoaList": []
+  },
+  {
+    "imageUrl": "",
+    "name": "千手KNN",
+    "hp": "50",
+    "atk": "100",
+    "def": "60",
+    "mnt": "60",
+    "cost": "60",
+    "types": [
+      "巫女",
+      "屑"
+    ],
+    "reach": "物理",
+    "target": "単体",
+    "skillName": "輪廻転生",
+    "skillDescription": "戦闘不能になっても千手観音なのでHP半分で復活する。生き返る度に攻撃回数が増える。",
+    "appearanceList": [
+      {
+        "placeName": "アリスの館～第1階層～",
+        "canDrop": false
+      },
+      {
+        "placeName": "かんなの湯",
+        "canDrop": false
+      }
+    ],
+    "isSuwaFes": false,
+    "cocoaList": []
   },
   {
     "imageUrl": "",
@@ -6785,10 +10061,15 @@
     "reach": "精神",
     "target": "全体",
     "skillName": "GO is GOD.",
-    "skillDescription": "戦闘開始時に味方に即死級のダメージを与える屑。こんなものを崇めてはいけない（戒め）",
-    "appearanceList": [],
-    "cocoaList": [],
-    "notes": "5回目の行動時に「神の裁き」が発動する。威力半分の単体攻撃を8回ランダムに与える。\nMMR部長\n、ポイテーロ、ラヴォイル校長、サイクロップス先輩等のダメージを軽減するスキルで即死を回避できる。植木鉢くんを自力で破壊できる(破壊してしまう)ので対戦など連戦を重視しなければ瞬間火力は高い。\nKSDB姉貴\nは不可。"
+    "skillDescription": "戦闘開始時に味方に即死級ダメージを与える屑。こんなものを崇めてはいけない（戒め）",
+    "appearanceList": [
+      {
+        "placeName": "かんなの湯",
+        "canDrop": false
+      }
+    ],
+    "isSuwaFes": false,
+    "cocoaList": []
   },
   {
     "imageUrl": "",
@@ -6807,12 +10088,150 @@
     "skillDescription": "戦闘中に使う回復アイテムが全部カエルの肉になってしまい、回復をダメージにしてしまう。",
     "appearanceList": [
       {
+        "placeName": "ニコニコ本社(クエスト)",
+        "canDrop": false
+      },
+      {
+        "placeName": "アリスの館～第1階層～",
+        "canDrop": true
+      },
+      {
         "placeName": "博麗神社境内2",
+        "canDrop": false
+      },
+      {
+        "placeName": "GW神社5日目",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "黄金のりんご",
         "canDrop": false
       }
     ],
-    "cocoaList": [],
-    "notes": "\n回復を返した際の攻撃は、相手の防御力やサイクロップス先輩などのメタル系スキルを無視する。\nKNN姉貴\n系は実質復活できない。\n"
+    "isSuwaFes": true,
+    "cocoaList": []
+  },
+  {
+    "imageUrl": "",
+    "name": "ポジ子",
+    "hp": "150",
+    "atk": "115",
+    "def": "160",
+    "mnt": "145",
+    "cost": "80",
+    "types": [
+      "デブ",
+      "悪魔"
+    ],
+    "reach": "精神",
+    "target": "単体",
+    "skillName": "聴くラー油",
+    "skillDescription": "脂っこい歌のおかげで仲間にいるだけで開始時と攻撃時、全ユニットのタイプが[デブ]になる。うるせぇ！",
+    "appearanceList": [
+      {
+        "placeName": "ニコニコ本社(クエスト)",
+        "canDrop": false
+      },
+      {
+        "placeName": "アリスの館～第3階層～",
+        "canDrop": false
+      },
+      {
+        "placeName": "GW神社4日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "ボスラッシュ企画",
+        "canDrop": false
+      }
+    ],
+    "isSuwaFes": false,
+    "cocoaList": []
+  },
+  {
+    "imageUrl": "",
+    "name": "ニコニコ超会金",
+    "hp": "250",
+    "atk": "170",
+    "def": "300",
+    "mnt": "300",
+    "cost": "90",
+    "types": [
+      "UNEI",
+      "屑"
+    ],
+    "reach": "物理",
+    "target": "全体",
+    "skillName": "ホモコースト",
+    "skillDescription": "仲間にいるだけで他の味方ユニットはゲージが増えなくなる。30%の確率で相手を削除状態にする。",
+    "appearanceList": [],
+    "isSuwaFes": false,
+    "cocoaList": []
+  },
+  {
+    "imageUrl": "",
+    "name": "ピン鬼",
+    "hp": "-1",
+    "atk": "1",
+    "def": "1",
+    "mnt": "1",
+    "cost": "90",
+    "types": [
+      "鬼",
+      "妖怪"
+    ],
+    "reach": "物理",
+    "target": "単体",
+    "skillName": "桃鬼",
+    "skillDescription": "通常時はゲージが溜まらず、攻撃された時だけゲージが増える。行動したら最後、相手1人を捕食して一撃で倒す。",
+    "appearanceList": [
+      {
+        "placeName": "アリスの館～第2階層～",
+        "canDrop": true
+      }
+    ],
+    "isSuwaFes": false,
+    "cocoaList": []
+  },
+  {
+    "imageUrl": "",
+    "name": "怒りの日の奏者ALC",
+    "hp": "120",
+    "atk": "160",
+    "def": "110",
+    "mnt": "135",
+    "cost": "60",
+    "types": [
+      "魔法使い"
+    ],
+    "reach": "???",
+    "skillName": "アインファースト・フィナーレ",
+    "skillDescription": "奏者ALC以外の全ユニットは攻撃されるまで動けなくなる。動けないユニットは連携技にも参加できない。[イラスト：古霧さん]",
+    "appearanceList": [],
+    "isSuwaFes": false,
+    "cocoaList": []
+  },
+  {
+    "imageUrl": "",
+    "name": "メガカイロSIK",
+    "hp": "90",
+    "atk": "140",
+    "def": "125",
+    "mnt": "145",
+    "cost": "70",
+    "types": [
+      "鬼",
+      "虫"
+    ],
+    "reach": "精神",
+    "target": "単体",
+    "skillName": "おんがえし",
+    "skillDescription": "仲間にいるだけで[虫]ユニットがHPを回復すると攻撃力とゲージがアップする。",
+    "appearanceList": [],
+    "isSuwaFes": false,
+    "cocoaList": []
   },
   {
     "imageUrl": "",
@@ -6830,8 +10249,8 @@
     "skillName": "クッソ！ファック！",
     "skillDescription": "1-4回ランダムにバカバカ連呼しながら攻撃する。http://www.nicovideo.jp/watch/sm22763702",
     "appearanceList": [],
-    "cocoaList": [],
-    "notes": "現場監督\nがいても複数回攻撃ができ、攻撃力上昇も効く。\nATKが100だがKBTIT（漫画家）の影響は受けない。\n仲間にSNE姉貴がいると3-4回ランダムに攻撃する。"
+    "isSuwaFes": false,
+    "cocoaList": []
   },
   {
     "imageUrl": "",
@@ -6848,8 +10267,12 @@
     "reach": "精神",
     "target": "単体",
     "skillName": "狂気の眼光",
-    "skillDescription": "攻撃されるとカウンターし、相手を混乱状態にする。[イラスト：古霧さん]",
+    "skillDescription": "攻撃されるとカウンターし、相手を混乱状態にする。[イラスト:古霧さん]",
     "appearanceList": [
+      {
+        "placeName": "博麗神社境内",
+        "canDrop": true
+      },
       {
         "placeName": "人間の里2",
         "canDrop": true
@@ -6860,11 +10283,22 @@
       },
       {
         "placeName": "永遠亭",
+        "subPlaceName": "表",
         "canDrop": false
+      },
+      {
+        "placeName": "GW神社1日目",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社1日目",
+        "subPlaceName": "裏",
+        "canDrop": true
       }
     ],
-    "cocoaList": [],
-    "notes": ""
+    "isSuwaFes": false,
+    "cocoaList": []
   },
   {
     "imageUrl": "",
@@ -6881,8 +10315,12 @@
     "reach": "精神",
     "target": "2回",
     "skillName": "風評少女",
-    "skillDescription": "攻撃後にAY姉貴以外の味方の[妖怪]or[鳥]ユニットの行動ゲージを上昇させる。[イラスト：古霧さん]",
+    "skillDescription": "攻撃後にAY姉貴以外の味方の[妖怪]or[鳥]ユニットの行動ゲージを上昇させる。[イラスト:古霧さん]",
     "appearanceList": [
+      {
+        "placeName": "博麗神社境内",
+        "canDrop": true
+      },
       {
         "placeName": "太陽の畑",
         "canDrop": true
@@ -6890,10 +10328,25 @@
       {
         "placeName": "博麗神社境内2",
         "canDrop": true
+      },
+      {
+        "placeName": "GW神社1日目",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社1日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社3日目",
+        "subPlaceName": "裏",
+        "canDrop": true
       }
     ],
-    "cocoaList": [],
-    "notes": ""
+    "isSuwaFes": false,
+    "cocoaList": []
   },
   {
     "imageUrl": "",
@@ -6910,15 +10363,29 @@
     "reach": "精神",
     "target": "全体",
     "skillName": "ガンガン僧侶",
-    "skillDescription": "HPが最大の時、仲間にいるだけで[魔法使い]ユニットはCOSTが20ダウンする。[イラスト：古霧さん]",
+    "skillDescription": "HPが最大の時、仲間にいるだけで[魔法使い]ユニットはCOSTが20ダウンする。[イラスト:古霧さん]",
     "appearanceList": [
+      {
+        "placeName": "博麗神社境内",
+        "canDrop": true
+      },
       {
         "placeName": "博麗神社境内2",
         "canDrop": true
+      },
+      {
+        "placeName": "GW神社3日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社5日目",
+        "subPlaceName": "表",
+        "canDrop": true
       }
     ],
-    "cocoaList": [],
-    "notes": "パーティに複数のHZR姉貴がいても、COSTダウン効果は重複しない。"
+    "isSuwaFes": false,
+    "cocoaList": []
   },
   {
     "imageUrl": "",
@@ -6934,10 +10401,25 @@
     "reach": "精神",
     "target": "単体",
     "skillName": "毒を操る程度の能力",
-    "skillDescription": "仲間にいるだけで味方で攻撃したりされたりすると敵が毒状態になる。[イラスト:あずみはるひとさん]",
-    "appearanceList": [],
-    "cocoaList": [],
-    "notes": "自分は毒状態にならない。"
+    "skillDescription": "仲間にいるだけで味方が攻撃したりされたりすると敵が毒状態になる。[イラスト:あずみはるひとさん@例大祭ね02a]",
+    "appearanceList": [
+      {
+        "placeName": "GW神社2日目",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社2日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "黄金のりんご",
+        "canDrop": false
+      }
+    ],
+    "isSuwaFes": false,
+    "cocoaList": []
   },
   {
     "imageUrl": "",
@@ -6954,10 +10436,16 @@
     "reach": "物理",
     "target": "2回",
     "skillName": "バッコイ殺人事件",
-    "skillDescription": "戦闘開始時にCost70以下の仲間の攻撃を念写して再現する。念写なのでダメージは0。[イラスト:あずみはるひとさん]",
-    "appearanceList": [],
-    "cocoaList": [],
-    "notes": "仲間の行動ゲージをMAXにすることで最速で行動を起こさせる。\n（メ・バヂス・バが仲間に居た場合、開幕で飛翔する）\nこの効果では便乗は発動しない。\n効果範囲は以下の通り。\nCOST40～55は淫夢くんUCを参考。\nCOST60、65はNRK姉貴を参考。\nCOST70のユニット\nCOST70\nバレンタインRIM\nバレンタインUDK\nバレンタインALC\nKSDB姉貴\nEIK姉貴\n \n変態糞親父\n変態糞娘\nAKYS\n山崎まさゆき\n課長\n \nポイテーロ\n金泰均\n鬼畜教師KN\nHTN\n我那覇くん\n \nKNN姉貴\nKBTIT（詐欺師）\nOGRSYN\nセーター男・小森\nSTR姉貴\n \n超人サイバーZ 1号\n超人サイバーZ 2号\n木吉カズヤ\n淫夢くんUC\nKBTIT（花嫁）\n \nUDNG姉貴\n野獣先輩\n医師TRN\nONDISK\nKBSトリオ「B」\n \n貴乃信\n淫夢くんUC(ボス)\n \n \n \n"
+    "skillDescription": "戦闘開始時にCost70以下の仲間の攻撃を念写して再現する。念写なのでダメージは0。[イラスト:あずみはるひとさん@例大祭ね02a]",
+    "appearanceList": [
+      {
+        "placeName": "GW神社2日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      }
+    ],
+    "isSuwaFes": false,
+    "cocoaList": []
   },
   {
     "imageUrl": "",
@@ -6974,10 +10462,25 @@
     "reach": "精神",
     "target": "単体",
     "skillName": "キレテナーイ",
-    "skillDescription": "戦闘開始時と攻撃後にTNS以外の味方に桃を振舞い、体が丈夫になって受けるダメージが0になる。[イラスト:あずみはるひとさん]",
-    "appearanceList": [],
-    "cocoaList": [],
-    "notes": "勘違いしやすいが、１ターンで「全員に」桃を振舞うわけではなく、下記のルールに従って一人に与えられる。\nスキルをTNS姉貴が発動した場合、桃で強化されていない味方の中から、次の優先順位にしたがって桃を振舞う相手を選ぶ。（同順位内はランダム）\nRNNSK兄貴\nRNNSK兄貴\n、TNS姉貴、KISちゃん、飛翔中のメ・バヂス・バ、以外のユニット\n自分以外のTNS姉貴、KISちゃん、飛翔中のメ・バヂス・バ\n自分に対しては決して桃を振舞わない。\nスキルをZUNが発動した場合、桃で強化されていない味方の中から、次の優先順位にしたがって桃を振舞う相手を選ぶ。（同順位内はランダム）\nRNNSK兄貴\nRNNSK兄貴\n、TNS姉貴、KISちゃん、飛翔中のメ・バヂス・バ、以外のユニット\nTNS姉貴\n、KISちゃん、飛翔中のメ・バヂス・バ\n自分に対しても普通に桃を振舞う。"
+    "skillDescription": "戦闘開始時と攻撃後にTNS以外の味方に桃を振舞い、体が丈夫になって受けるダメージが0になる。[イラスト:あずみはるひとさん@例大祭ね02a]",
+    "appearanceList": [
+      {
+        "placeName": "GW神社5日目",
+        "subPlaceName": "表",
+        "canDrop": true
+      },
+      {
+        "placeName": "GW神社5日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "黄金のりんご",
+        "canDrop": false
+      }
+    ],
+    "isSuwaFes": false,
+    "cocoaList": []
   },
   {
     "imageUrl": "",
@@ -6993,9 +10496,23 @@
     "reach": "物理",
     "target": "単体",
     "skillName": "スポンジ（仮）",
-    "skillDescription": "ふんどし姿で味方の前に飛び出す性質上、真っ先に敵から攻撃される。[イラスト:たけのこlv9さん]",
-    "appearanceList": [],
-    "cocoaList": [],
-    "notes": ""
+    "skillDescription": "ふんどし姿で味方の前に飛び出す性質上、真っ先に敵から攻撃される。[イラスト:たけのこLv9さん]",
+    "appearanceList": [
+      {
+        "placeName": "GW神社5日目",
+        "subPlaceName": "裏",
+        "canDrop": true
+      },
+      {
+        "placeName": "黄金のりんご",
+        "canDrop": false
+      },
+      {
+        "placeName": "ボスラッシュ企画",
+        "canDrop": false
+      }
+    ],
+    "isSuwaFes": false,
+    "cocoaList": []
   }
 ]
